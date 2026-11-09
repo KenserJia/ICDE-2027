@@ -1,0 +1,182 @@
+[
+  {
+    "allocation": "fixed",
+    "n": 3,
+    "p99_9_ms": 4.789875042000007,
+    "tail_paired_ratio": 1.0,
+    "throughput": 158542.525966314,
+    "throughput_paired_ratio": 1.0,
+    "variant": "sync",
+    "workload": "critical"
+  },
+  {
+    "allocation": "fixed",
+    "n": 3,
+    "p99_9_ms": 18.31492100100082,
+    "tail_paired_ratio": 3.8010907508884957,
+    "throughput": 97352.16905411208,
+    "throughput_paired_ratio": 0.6147866424971772,
+    "variant": "original",
+    "workload": "critical"
+  },
+  {
+    "allocation": "fixed",
+    "n": 3,
+    "p99_9_ms": 16.221866834005546,
+    "tail_paired_ratio": 3.3951455570069338,
+    "throughput": 111087.00112266348,
+    "throughput_paired_ratio": 0.7006763670856769,
+    "variant": "optimized",
+    "workload": "critical"
+  },
+  {
+    "allocation": "dynamic",
+    "n": 3,
+    "p99_9_ms": 5.117917083000014,
+    "tail_paired_ratio": 1.0,
+    "throughput": 148319.81094825498,
+    "throughput_paired_ratio": 1.0,
+    "variant": "sync",
+    "workload": "critical"
+  },
+  {
+    "allocation": "dynamic",
+    "n": 3,
+    "p99_9_ms": 19.16538212500117,
+    "tail_paired_ratio": 3.69628276032754,
+    "throughput": 91692.70825502355,
+    "throughput_paired_ratio": 0.6257882540063389,
+    "variant": "original",
+    "workload": "critical"
+  },
+  {
+    "allocation": "dynamic",
+    "n": 3,
+    "p99_9_ms": 16.092053375002028,
+    "tail_paired_ratio": 3.106712559475266,
+    "throughput": 106759.51089819074,
+    "throughput_paired_ratio": 0.7166658673328168,
+    "variant": "optimized",
+    "workload": "critical"
+  },
+  {
+    "allocation": "fixed",
+    "n": 3,
+    "p99_9_ms": 3.5808340820000133,
+    "tail_paired_ratio": 1.0,
+    "throughput": 208719.76205693829,
+    "throughput_paired_ratio": 1.0,
+    "variant": "sync",
+    "workload": "dynamic_dominant"
+  },
+  {
+    "allocation": "fixed",
+    "n": 3,
+    "p99_9_ms": 15.459345792002098,
+    "tail_paired_ratio": 4.24488638784056,
+    "throughput": 121125.93338534396,
+    "throughput_paired_ratio": 0.5869313188676856,
+    "variant": "original",
+    "workload": "dynamic_dominant"
+  },
+  {
+    "allocation": "fixed",
+    "n": 3,
+    "p99_9_ms": 13.80905829100267,
+    "tail_paired_ratio": 3.8563803780849453,
+    "throughput": 129700.71462832358,
+    "throughput_paired_ratio": 0.6201537421579527,
+    "variant": "optimized",
+    "workload": "dynamic_dominant"
+  },
+  {
+    "allocation": "dynamic",
+    "n": 3,
+    "p99_9_ms": 5.465125166000027,
+    "tail_paired_ratio": 1.0,
+    "throughput": 152907.9381897671,
+    "throughput_paired_ratio": 1.0,
+    "variant": "sync",
+    "workload": "dynamic_dominant"
+  },
+  {
+    "allocation": "dynamic",
+    "n": 3,
+    "p99_9_ms": 17.772292250000042,
+    "tail_paired_ratio": 3.251946059820573,
+    "throughput": 99212.25880180526,
+    "throughput_paired_ratio": 0.6464287000489132,
+    "variant": "original",
+    "workload": "dynamic_dominant"
+  },
+  {
+    "allocation": "dynamic",
+    "n": 3,
+    "p99_9_ms": 16.307382666007978,
+    "tail_paired_ratio": 2.9816616943953296,
+    "throughput": 106792.20255766585,
+    "throughput_paired_ratio": 0.6984084922074543,
+    "variant": "optimized",
+    "workload": "dynamic_dominant"
+  },
+  {
+    "allocation": "fixed",
+    "n": 3,
+    "p99_9_ms": 5.894792083000014,
+    "tail_paired_ratio": 1.0,
+    "throughput": 129768.51648768074,
+    "throughput_paired_ratio": 1.0,
+    "variant": "sync",
+    "workload": "stable"
+  },
+  {
+    "allocation": "fixed",
+    "n": 3,
+    "p99_9_ms": 19.844534875005717,
+    "tail_paired_ratio": 3.347362067765828,
+    "throughput": 88526.93863141886,
+    "throughput_paired_ratio": 0.6852307950605935,
+    "variant": "original",
+    "workload": "stable"
+  },
+  {
+    "allocation": "fixed",
+    "n": 3,
+    "p99_9_ms": 18.273842125001494,
+    "tail_paired_ratio": 3.066231053890988,
+    "throughput": 95562.01482868787,
+    "throughput_paired_ratio": 0.7336987332998606,
+    "variant": "optimized",
+    "workload": "stable"
+  },
+  {
+    "allocation": "dynamic",
+    "n": 3,
+    "p99_9_ms": 6.1285421250000205,
+    "tail_paired_ratio": 1.0,
+    "throughput": 124135.43868923702,
+    "throughput_paired_ratio": 1.0,
+    "variant": "sync",
+    "workload": "stable"
+  },
+  {
+    "allocation": "dynamic",
+    "n": 3,
+    "p99_9_ms": 20.692112875011617,
+    "tail_paired_ratio": 3.3763515780698903,
+    "throughput": 84571.44013225946,
+    "throughput_paired_ratio": 0.6812836126835399,
+    "variant": "original",
+    "workload": "stable"
+  },
+  {
+    "allocation": "dynamic",
+    "n": 3,
+    "p99_9_ms": 18.453716291001196,
+    "tail_paired_ratio": 3.011233664414657,
+    "throughput": 91513.14455924873,
+    "throughput_paired_ratio": 0.7384019977351021,
+    "variant": "optimized",
+    "workload": "stable"
+  }
+]

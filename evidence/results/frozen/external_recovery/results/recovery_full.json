@@ -1,0 +1,3127 @@
+{
+  "concurrency": {
+    "commits": 1000,
+    "elapsed_s": 0.714343291008845,
+    "errors": [],
+    "last_generations": [
+      1000,
+      1000,
+      1000,
+      1000
+    ],
+    "read_counts": [
+      1830,
+      2004,
+      1876,
+      1943
+    ],
+    "readers": 4
+  },
+  "corruption_matrix": [
+    {
+      "corruption_detected": true,
+      "mode": "truncate_header",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "truncated envelope",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-truncate_header/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "truncate_payload",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-truncate_payload/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "truncate_trailer",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-truncate_trailer/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "flip_magic",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-flip_magic/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "flip_header",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-flip_header/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "flip_payload",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-flip_payload/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "flip_trailer",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-flip_trailer/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "all_corrupt_rejected": true,
+      "error": "no valid checkpoint slot",
+      "mode": "both_slots_corrupt"
+    }
+  ],
+  "crash_matrix": [
+    {
+      "elapsed_ms": 19.414041,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 0,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.677208,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 1,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.810375,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 2,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.097083,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 3,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.779584,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 4,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.085625,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 5,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.281167,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 6,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 18.986,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 7,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.297583,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 8,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.5775,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 9,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 18.857042,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 10,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 18.961667,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 11,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.013083,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 12,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.307084,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 13,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.128334,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 14,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.602791,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 15,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.8785,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 16,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.256458,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 17,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.1165,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 18,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.511,
+      "failpoint": "after_partial_write",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 19,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.968916,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 0,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.520667,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 1,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.1115,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 2,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.166083,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 3,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.957791,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 4,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.037,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 5,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.6295,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 6,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.66575,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 7,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.814083,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 8,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.266417,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 9,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.033583,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 10,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.263708,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 11,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.56175,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 12,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.859291,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 13,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.503084,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 14,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.919,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 15,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.788417,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 16,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.186875,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 17,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.850875,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 18,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.210708,
+      "failpoint": "before_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 19,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.181291,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 0,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.750334,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 1,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.417958,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 2,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.650708,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 3,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.788833,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 4,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.771,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 5,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.460542,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 6,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.699416,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 7,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.432792,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 8,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.57025,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 9,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.433417,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 10,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.991792,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 11,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.788167,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 12,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.629042,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 13,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.273333,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 14,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.18675,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 15,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.518291,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 16,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 22.006167,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 17,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.444167,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 18,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.877708,
+      "failpoint": "after_file_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 19,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 1,
+        "payload_bytes": 9366,
+        "slot": 1
+      },
+      "resume_generation": 1,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.538542,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 0,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.474625,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 1,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.0125,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 2,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.732833,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 3,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.509916,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 4,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 22.071875,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 5,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.978958,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 6,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.809042,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 7,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.733125,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 8,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.269625,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 9,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.824541,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 10,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.036958,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 11,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.439333,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 12,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.62775,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 13,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.537209,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 14,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.101542,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 15,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.2455,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 16,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.08875,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 17,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.0295,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 18,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.419416,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 19,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.280958,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 0,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.5525,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 1,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.790292,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 2,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.455583,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 3,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.858541,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 4,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.542875,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 5,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.288167,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 6,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.279166,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 7,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.830042,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 8,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.504709,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 9,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.836208,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 10,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.850708,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 11,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.094625,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 12,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.072708,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 13,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 21.306291,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 14,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.552042,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 15,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.439375,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 16,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.217041,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 17,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.593042,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 18,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.208459,
+      "failpoint": "after_dir_fsync",
+      "pending_files_after_resume": [],
+      "pending_files_before_resume": [],
+      "recovered_generation": 1,
+      "rep": 19,
+      "resume_commit": {
+        "envelope_bytes": 9454,
+        "generation": 2,
+        "payload_bytes": 9366,
+        "slot": 0
+      },
+      "resume_generation": 2,
+      "resume_valid_engine": true,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    }
+  ],
+  "expected": [
+    {
+      "fact_version": 257,
+      "generation": 0,
+      "nobs": 256,
+      "query_mean": 0.4748144964687526,
+      "query_status": "EXACT"
+    },
+    {
+      "fact_version": 265,
+      "generation": 1,
+      "nobs": 264,
+      "query_mean": -0.05298570543527603,
+      "query_status": "EXACT"
+    }
+  ],
+  "latency": {
+    "commit_ms": {
+      "max": 0.411541,
+      "mean": 0.28393749999999995,
+      "p50": 0.270292,
+      "p95": 0.3486649,
+      "p99": 0.3918647500000001
+    },
+    "disk_bytes": 18908,
+    "files": {
+      "state.0.chk": 9454,
+      "state.1.chk": 9454,
+      "state.lock": 0
+    },
+    "last_commit": {
+      "envelope_bytes": 9454,
+      "generation": 99,
+      "payload_bytes": 9366,
+      "slot": 1
+    },
+    "payload_bytes": 9366,
+    "recover_ms": {
+      "max": 0.121416,
+      "mean": 0.08169502,
+      "p50": 0.076375,
+      "p95": 0.10485624999999998,
+      "p99": 0.11180607000000005
+    }
+  },
+  "multiprocess_concurrency": {
+    "commits": 500,
+    "elapsed_s": 0.8187064580852166,
+    "errors": [],
+    "reader_exitcodes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "reader_results": [
+      {
+        "errors": [],
+        "last_generation": 500,
+        "reader": 3,
+        "reads": 4256,
+        "timed_out": false
+      },
+      {
+        "errors": [],
+        "last_generation": 500,
+        "reader": 2,
+        "reads": 4165,
+        "timed_out": false
+      },
+      {
+        "errors": [],
+        "last_generation": 500,
+        "reader": 0,
+        "reads": 4267,
+        "timed_out": false
+      },
+      {
+        "errors": [],
+        "last_generation": 500,
+        "reader": 1,
+        "reads": 4131,
+        "timed_out": false
+      }
+    ],
+    "readers": 4,
+    "writer_exitcode": 0
+  },
+  "payload_bytes": [
+    8865,
+    9366
+  ],
+  "payload_sha256": [
+    "eb94b7c12ff831c555c18406f9b02697abee8dd192a5d90c4a9706305182a130",
+    "efd1509133d45b05d5b4c779878c4fdf2ae5429fa2cb106379caa4974c322054"
+  ],
+  "platform": "darwin",
+  "protocol": "Round 7.4 strong recovery"
+}

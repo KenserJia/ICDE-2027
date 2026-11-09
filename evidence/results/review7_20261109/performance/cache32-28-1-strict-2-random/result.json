@@ -1,0 +1,64 @@
+{
+  "method": "cache32",
+  "mix": 28,
+  "clients": 1,
+  "mode": "strict",
+  "rep": 2,
+  "locality": "random",
+  "requests": 100000,
+  "seconds": 1.4969989579403773,
+  "throughput_rps": 66800.31370067448,
+  "latencies": {
+    "query": {
+      "n": 27875,
+      "p50_ms": 0.02225,
+      "p95_ms": 0.030958,
+      "p99_ms": 0.040834,
+      "p999_ms": 0.046010458000000316,
+      "max_ms": 1.120333
+    },
+    "observe": {
+      "n": 57807,
+      "p50_ms": 0.004791,
+      "p95_ms": 0.005667,
+      "p99_ms": 0.014542,
+      "p999_ms": 0.32739320400000366,
+      "max_ms": 0.913833
+    },
+    "fact": {
+      "n": 14318,
+      "p50_ms": 0.002417,
+      "p95_ms": 0.002875,
+      "p99_ms": 0.003542,
+      "p999_ms": 0.32402318900000054,
+      "max_ms": 0.55725
+    }
+  },
+  "max_gap": 500,
+  "final_gap": 0,
+  "mutations": 72125,
+  "checkpoints": 145,
+  "checkpoint_bytes": 2830064,
+  "query_certificate_checks": 316,
+  "restored_all_arrays": true,
+  "ledger": {
+    "array_bytes": 18340,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 8192,
+    "resident_reservation_bytes": 34724,
+    "envelope_reservation_bytes": 26620,
+    "workspace_bytes": 8192,
+    "charged_bytes": 122776,
+    "budget_bytes": 131072,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 19432,
+    "snapshot_metadata_bytes": 1092,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 19520
+  },
+  "rss_start_bytes": 40189952,
+  "rss_peak_bytes": 54149120,
+  "harness_raw_buffer_bytes": 1795072,
+  "rss_scope": "whole Python process including instrumentation, raw oracle log, executor, allocator and bounded service; sampled every5ms; not a hard bound"
+}

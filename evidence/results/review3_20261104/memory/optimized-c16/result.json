@@ -1,0 +1,166 @@
+{
+  "allocation": "dynamic",
+  "durability": "strict",
+  "verify_capture": false,
+  "diagnostic": false,
+  "seed": 20261104,
+  "clients": 16,
+  "operations": 100000,
+  "active_seconds": 4.590883540920913,
+  "drain_seconds": 0.003768750000745058,
+  "throughput_ops_s": 21782.299443810414,
+  "latency_ms": {
+    "count": 100000,
+    "p50": 0.006625,
+    "p95": 1.999417,
+    "p99": 19.766672829999997,
+    "p99_9": 45.926233500000414,
+    "maximum": 107.108292
+  },
+  "by_operation": {
+    "observe": {
+      "count": 57974,
+      "p50": 0.006292,
+      "p95": 2.5632255499999936,
+      "p99": 22.077643089999977,
+      "p99_9": 48.036154750001366,
+      "maximum": 107.108292
+    },
+    "history_query": {
+      "count": 28095,
+      "p50": 0.071083,
+      "p95": 0.2589293,
+      "p99": 0.30304106000000003,
+      "p99_9": 0.5555426040001602,
+      "maximum": 17.651291
+    },
+    "put": {
+      "count": 9991,
+      "p50": 0.006291,
+      "p95": 2.5880835,
+      "p99": 21.75475360000001,
+      "p99_9": 51.003695090000065,
+      "maximum": 104.982917
+    },
+    "delete": {
+      "count": 1997,
+      "p50": 0.005917,
+      "p95": 5.9153915999999995,
+      "p99": 24.51309667999998,
+      "p99_9": 75.31138700000017,
+      "maximum": 105.215584
+    },
+    "fact_read": {
+      "count": 1943,
+      "p50": 0.002958,
+      "p95": 0.003917,
+      "p99": 0.004417,
+      "p99_9": 0.4976068140015123,
+      "maximum": 7.965958
+    }
+  },
+  "maximum_gap": 500,
+  "restored_prefix": 84962,
+  "final_prefix": 84962,
+  "fact_roundtrip": true,
+  "history_roundtrip": true,
+  "account": {
+    "history_physical_array_bytes": 10148,
+    "history_metadata_bytes": 4096,
+    "fact_catalog_bytes": 6400,
+    "service_control_reserved_bytes": 4096,
+    "resident_reserved_bytes": 24740,
+    "workspace_bytes": 4096,
+    "budget_bytes": 131072,
+    "active_overlay_capacity": 16,
+    "physical_overlay_capacity": 16,
+    "snapshot_payload_bytes": 13392,
+    "snapshot_envelope_bytes": 13480,
+    "two_slot_steady_bytes": 26960,
+    "transient_three_envelope_bytes": 40440,
+    "disk_two_slot_bytes": 26960,
+    "pending_envelope_reservation_bytes": 13480,
+    "resident_plus_pending_workspace_bytes": 42316,
+    "ledger_is_physical_ram_bound": false,
+    "complete_transient_bound_bytes": 69276,
+    "within_budget": true
+  },
+  "rss_start_bytes": 42827776,
+  "rss_peak_bytes": 50380800,
+  "rss_end_bytes": 58753024,
+  "request_generation_array_bytes": 3200000,
+  "measurement_array_bytes": 900000,
+  "checkpoint_records_retained": 140,
+  "errors": [],
+  "checkpoint_phases_ms": {
+    "capture_ms": {
+      "count": 140,
+      "p50": 3.0724585,
+      "p95": 3.4609378499999983,
+      "p99": 4.238593249999998,
+      "p99_9": 4.886174963000013,
+      "maximum": 4.983
+    },
+    "validation_ms": {
+      "count": 140,
+      "p50": 0.0005,
+      "p95": 0.000625,
+      "p99": 0.0007086099999999999,
+      "p99_9": 0.0007443010000000008,
+      "maximum": 0.00075
+    },
+    "persist_ms": {
+      "count": 140,
+      "p50": 2.257021,
+      "p95": 3.5622350999999974,
+      "p99": 4.120296239999999,
+      "p99_9": 4.5603838890000095,
+      "maximum": 4.627208
+    },
+    "total_ms": {
+      "count": 140,
+      "p50": 5.3895415,
+      "p95": 6.885971499999999,
+      "p99": 7.577915129999992,
+      "p99_9": 8.042009463000005,
+      "maximum": 8.084833
+    }
+  },
+  "checkpoint_bytes_per_measured_mutation": 26.974629084360082,
+  "variant": "optimized",
+  "diagnostic_memory": true,
+  "trace_current_bytes": 1940427,
+  "trace_peak_bytes": 8243898,
+  "ru_maxrss_bytes": 59785216,
+  "phase_observations": {
+    "before_capture": {
+      "samples": 140,
+      "max_traced_current_bytes": 5418916,
+      "max_traced_peak_bytes": 5906799,
+      "max_rss_bytes": 50380800
+    },
+    "after_capture": {
+      "samples": 140,
+      "max_traced_current_bytes": 5433064,
+      "max_traced_peak_bytes": 5906799,
+      "max_rss_bytes": 50380800
+    },
+    "before_commit": {
+      "samples": 140,
+      "max_traced_current_bytes": 5419421,
+      "max_traced_peak_bytes": 5906799,
+      "max_rss_bytes": 50380800
+    },
+    "after_commit": {
+      "samples": 140,
+      "max_traced_current_bytes": 5419877,
+      "max_traced_peak_bytes": 5906799,
+      "max_rss_bytes": 50380800
+    }
+  },
+  "largest_measured_payload_bytes": 13740,
+  "observed_measured_checkpoints": 140,
+  "rss_sampling_interval_ms": 1,
+  "trace_start": "after imports, data load; before service allocation; peak reset after warmup",
+  "timing_use": "excluded from primary performance comparisons"
+}

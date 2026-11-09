@@ -1,0 +1,562 @@
+[
+  {
+    "policy": "async",
+    "interval": 100,
+    "clients": 1,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 173547.81840296157,
+    "throughput_bootstrap95": [
+      169926.2411697234,
+      175134.11909493158
+    ],
+    "p99_median_ms": 0.03166601,
+    "p99_bootstrap95": [
+      0.031167830000000018,
+      0.03295925000000003
+    ],
+    "p99_9_median_ms": 0.05937508400000017,
+    "p99_9_bootstrap95": [
+      0.05779225000000051,
+      0.06066708300000016
+    ],
+    "maximum_gap_observed": 8480,
+    "checkpoint_p50_median_ms": 30.809603999999997,
+    "write_bytes_per_mutation_median": 2.9540146864090526,
+    "complete_transient_bound_max": 71049,
+    "all_within_budget": true
+  },
+  {
+    "policy": "async",
+    "interval": 100,
+    "clients": 8,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 178159.94277862814,
+    "throughput_bootstrap95": [
+      171834.22286143218,
+      181848.3769077858
+    ],
+    "p99_median_ms": 0.035467590000000215,
+    "p99_bootstrap95": [
+      0.033834,
+      0.05479142000000001
+    ],
+    "p99_9_median_ms": 5.705706251000081,
+    "p99_9_bootstrap95": [
+      0.06275025000000051,
+      9.245008458000017
+    ],
+    "maximum_gap_observed": 8480,
+    "checkpoint_p50_median_ms": 22.174583000000002,
+    "write_bytes_per_mutation_median": 3.259817297425555,
+    "complete_transient_bound_max": 73410,
+    "all_within_budget": true
+  },
+  {
+    "policy": "async",
+    "interval": 500,
+    "clients": 1,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 172170.2340572941,
+    "throughput_bootstrap95": [
+      169079.57302713,
+      173904.01060203044
+    ],
+    "p99_median_ms": 0.031625,
+    "p99_bootstrap95": [
+      0.03120925000000003,
+      0.032
+    ],
+    "p99_9_median_ms": 0.05937516600000033,
+    "p99_9_bootstrap95": [
+      0.058042,
+      0.06062566600000135
+    ],
+    "maximum_gap_observed": 8480,
+    "checkpoint_p50_median_ms": 27.9207915,
+    "write_bytes_per_mutation_median": 3.017924528301887,
+    "complete_transient_bound_max": 71049,
+    "all_within_budget": true
+  },
+  {
+    "policy": "async",
+    "interval": 500,
+    "clients": 8,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 180420.38041895375,
+    "throughput_bootstrap95": [
+      175332.11047723662,
+      186383.0357859564
+    ],
+    "p99_median_ms": 0.03370941000000001,
+    "p99_bootstrap95": [
+      0.03312583000000002,
+      0.043144580000000425
+    ],
+    "p99_9_median_ms": 0.14528512400065965,
+    "p99_9_bootstrap95": [
+      0.06037550000000101,
+      5.739626958000004
+    ],
+    "maximum_gap_observed": 8480,
+    "checkpoint_p50_median_ms": 10.550584,
+    "write_bytes_per_mutation_median": 3.427350427350427,
+    "complete_transient_bound_max": 72783,
+    "all_within_budget": true
+  },
+  {
+    "policy": "async",
+    "interval": 2000,
+    "clients": 1,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 175015.55771456508,
+    "throughput_bootstrap95": [
+      171306.10712467675,
+      175808.61171885853
+    ],
+    "p99_median_ms": 0.031125,
+    "p99_bootstrap95": [
+      0.03095925000000003,
+      0.031377090000000045
+    ],
+    "p99_9_median_ms": 0.057333001,
+    "p99_9_bootstrap95": [
+      0.056542,
+      0.05770916600000034
+    ],
+    "maximum_gap_observed": 8480,
+    "checkpoint_p50_median_ms": 18.7370205,
+    "write_bytes_per_mutation_median": 3.2069047336576104,
+    "complete_transient_bound_max": 71049,
+    "all_within_budget": true
+  },
+  {
+    "policy": "async",
+    "interval": 2000,
+    "clients": 8,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 180425.91988325564,
+    "throughput_bootstrap95": [
+      176361.4436846239,
+      180676.29412339797
+    ],
+    "p99_median_ms": 0.03602125000000046,
+    "p99_bootstrap95": [
+      0.03125375000000008,
+      0.054419910000000064
+    ],
+    "p99_9_median_ms": 6.543251500000003,
+    "p99_9_bootstrap95": [
+      0.06133304200000008,
+      9.388757833000016
+    ],
+    "maximum_gap_observed": 8480,
+    "checkpoint_p50_median_ms": 14.170375499999999,
+    "write_bytes_per_mutation_median": 3.3714556886937954,
+    "complete_transient_bound_max": 73260,
+    "all_within_budget": true
+  },
+  {
+    "policy": "none",
+    "interval": 0,
+    "clients": 1,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 193226.47187730373,
+    "throughput_bootstrap95": [
+      188843.29518399196,
+      196399.21008733686
+    ],
+    "p99_median_ms": 0.030750420000000007,
+    "p99_bootstrap95": [
+      0.030294910000000064,
+      0.031045750000000084
+    ],
+    "p99_9_median_ms": 0.056500125000000255,
+    "p99_9_bootstrap95": [
+      0.05470804200000008,
+      0.05925016700000033
+    ],
+    "maximum_gap_observed": null,
+    "checkpoint_p50_median_ms": null,
+    "write_bytes_per_mutation_median": 0.0,
+    "complete_transient_bound_max": 71049,
+    "all_within_budget": true
+  },
+  {
+    "policy": "none",
+    "interval": 0,
+    "clients": 8,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 203878.5066148814,
+    "throughput_bootstrap95": [
+      197471.13508933675,
+      204741.6182099869
+    ],
+    "p99_median_ms": 0.030667,
+    "p99_bootstrap95": [
+      0.029292420000000007,
+      0.031250840000000016
+    ],
+    "p99_9_median_ms": 0.056583126000000254,
+    "p99_9_bootstrap95": [
+      0.05575,
+      0.06012529100000059
+    ],
+    "maximum_gap_observed": null,
+    "checkpoint_p50_median_ms": null,
+    "write_bytes_per_mutation_median": 0.0,
+    "complete_transient_bound_max": 72987,
+    "all_within_budget": true
+  },
+  {
+    "policy": "strict",
+    "interval": 100,
+    "clients": 1,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 51372.44702916028,
+    "throughput_bootstrap95": [
+      50248.09114113407,
+      51726.70197263764
+    ],
+    "p99_median_ms": 0.05808342000000001,
+    "p99_bootstrap95": [
+      0.05791741000000001,
+      0.058375830000000024
+    ],
+    "p99_9_median_ms": 2.160559001000036,
+    "p99_9_bootstrap95": [
+      2.107419793000008,
+      2.2030266660000537
+    ],
+    "maximum_gap_observed": 100,
+    "checkpoint_p50_median_ms": 1.949792,
+    "write_bytes_per_mutation_median": 124.99952482775007,
+    "complete_transient_bound_max": 71049,
+    "all_within_budget": true
+  },
+  {
+    "policy": "strict",
+    "interval": 100,
+    "clients": 8,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 30920.78550831722,
+    "throughput_bootstrap95": [
+      30257.405422293912,
+      31963.941184776613
+    ],
+    "p99_median_ms": 0.06116783000000002,
+    "p99_bootstrap95": [
+      0.060209,
+      0.061708
+    ],
+    "p99_9_median_ms": 62.17569091600822,
+    "p99_9_bootstrap95": [
+      55.90409458400323,
+      69.04593041700011
+    ],
+    "maximum_gap_observed": 100,
+    "checkpoint_p50_median_ms": 3.669417,
+    "write_bytes_per_mutation_median": 128.3918614307747,
+    "complete_transient_bound_max": 72552,
+    "all_within_budget": true
+  },
+  {
+    "policy": "strict",
+    "interval": 500,
+    "clients": 1,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 121717.74162974737,
+    "throughput_bootstrap95": [
+      118315.58129921315,
+      121806.23418695953
+    ],
+    "p99_median_ms": 0.03438542000000023,
+    "p99_bootstrap95": [
+      0.03408607000000005,
+      0.03546509000000016
+    ],
+    "p99_9_median_ms": 1.8533238330001494,
+    "p99_9_bootstrap95": [
+      1.8145565410000295,
+      1.9882621670000247
+    ],
+    "maximum_gap_observed": 500,
+    "checkpoint_p50_median_ms": 2.013751,
+    "write_bytes_per_mutation_median": 25.317087561954214,
+    "complete_transient_bound_max": 71049,
+    "all_within_budget": true
+  },
+  {
+    "policy": "strict",
+    "interval": 500,
+    "clients": 8,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 95413.113932595,
+    "throughput_bootstrap95": [
+      94481.52397255487,
+      97289.04797663302
+    ],
+    "p99_median_ms": 0.04251583000000035,
+    "p99_bootstrap95": [
+      0.04113916000000031,
+      0.046922670000000145
+    ],
+    "p99_9_median_ms": 17.72121179100776,
+    "p99_9_bootstrap95": [
+      11.264456083001429,
+      26.841766125000287
+    ],
+    "maximum_gap_observed": 500,
+    "checkpoint_p50_median_ms": 3.659084,
+    "write_bytes_per_mutation_median": 26.123264918732946,
+    "complete_transient_bound_max": 72615,
+    "all_within_budget": true
+  },
+  {
+    "policy": "strict",
+    "interval": 2000,
+    "clients": 1,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 161403.85428950356,
+    "throughput_bootstrap95": [
+      156613.4941684526,
+      162020.66784572756
+    ],
+    "p99_median_ms": 0.03200333000000007,
+    "p99_bootstrap95": [
+      0.03087625000000003,
+      0.03383649000000006
+    ],
+    "p99_9_median_ms": 0.058083042000000085,
+    "p99_9_bootstrap95": [
+      0.057667,
+      0.05916712500000025
+    ],
+    "maximum_gap_observed": 2000,
+    "checkpoint_p50_median_ms": 2.129375,
+    "write_bytes_per_mutation_median": 7.828462817771442,
+    "complete_transient_bound_max": 71049,
+    "all_within_budget": true
+  },
+  {
+    "policy": "strict",
+    "interval": 2000,
+    "clients": 8,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 152078.1633418721,
+    "throughput_bootstrap95": [
+      149658.04821682777,
+      155958.76106675636
+    ],
+    "p99_median_ms": 0.032958,
+    "p99_bootstrap95": [
+      0.03225292000000007,
+      0.03555033000000018
+    ],
+    "p99_9_median_ms": 2.3962531670019462,
+    "p99_9_bootstrap95": [
+      1.4168264580025152,
+      3.033772458000551
+    ],
+    "maximum_gap_observed": 2000,
+    "checkpoint_p50_median_ms": 2.871167,
+    "write_bytes_per_mutation_median": 8.144452363981943,
+    "complete_transient_bound_max": 72996,
+    "all_within_budget": true
+  },
+  {
+    "policy": "sync",
+    "interval": 100,
+    "clients": 1,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 66227.02371400448,
+    "throughput_bootstrap95": [
+      65279.59638754529,
+      66787.00684808588
+    ],
+    "p99_median_ms": 0.05725209000000005,
+    "p99_bootstrap95": [
+      0.05658342000000001,
+      0.05762541000000001
+    ],
+    "p99_9_median_ms": 1.526336959000008,
+    "p99_9_bootstrap95": [
+      1.476381417000013,
+      1.5852944160000049
+    ],
+    "maximum_gap_observed": 99,
+    "checkpoint_p50_median_ms": 1.363459,
+    "write_bytes_per_mutation_median": 124.99619862200048,
+    "complete_transient_bound_max": 71049,
+    "all_within_budget": true
+  },
+  {
+    "policy": "sync",
+    "interval": 100,
+    "clients": 8,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 63599.29624880807,
+    "throughput_bootstrap95": [
+      63085.85766386972,
+      64301.41623419325
+    ],
+    "p99_median_ms": 2.3430557400000005,
+    "p99_bootstrap95": [
+      2.29295842,
+      2.37091908
+    ],
+    "p99_9_median_ms": 2.6042172920000186,
+    "p99_9_bootstrap95": [
+      2.516215791000014,
+      2.64046275000001
+    ],
+    "maximum_gap_observed": 99,
+    "checkpoint_p50_median_ms": 1.4242085000000002,
+    "write_bytes_per_mutation_median": 128.58838203848896,
+    "complete_transient_bound_max": 72318,
+    "all_within_budget": true
+  },
+  {
+    "policy": "sync",
+    "interval": 500,
+    "clients": 1,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 138010.01905741685,
+    "throughput_bootstrap95": [
+      134812.71567035376,
+      138757.13067259098
+    ],
+    "p99_median_ms": 0.034166010000000004,
+    "p99_bootstrap95": [
+      0.03163250000000017,
+      0.03641991000000006
+    ],
+    "p99_9_median_ms": 1.2982077920000825,
+    "p99_9_bootstrap95": [
+      1.2701310000000972,
+      1.309256959000014
+    ],
+    "maximum_gap_observed": 499,
+    "checkpoint_p50_median_ms": 1.371916,
+    "write_bytes_per_mutation_median": 25.317323578003304,
+    "complete_transient_bound_max": 71049,
+    "all_within_budget": true
+  },
+  {
+    "policy": "sync",
+    "interval": 500,
+    "clients": 8,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 137046.2059069271,
+    "throughput_bootstrap95": [
+      133347.34660239227,
+      140145.98529475645
+    ],
+    "p99_median_ms": 0.057792830000000024,
+    "p99_bootstrap95": [
+      0.05600125000000003,
+      0.06188125000000014
+    ],
+    "p99_9_median_ms": 5.54300979200002,
+    "p99_9_bootstrap95": [
+      5.387852000000038,
+      5.651929667000026
+    ],
+    "maximum_gap_observed": 499,
+    "checkpoint_p50_median_ms": 1.437458,
+    "write_bytes_per_mutation_median": 26.273224043715846,
+    "complete_transient_bound_max": 72687,
+    "all_within_budget": true
+  },
+  {
+    "policy": "sync",
+    "interval": 2000,
+    "clients": 1,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 170977.61799354287,
+    "throughput_bootstrap95": [
+      167334.8438399558,
+      173167.2548784353
+    ],
+    "p99_median_ms": 0.031466490000000166,
+    "p99_bootstrap95": [
+      0.03125042000000001,
+      0.03316783000000002
+    ],
+    "p99_9_median_ms": 0.05729229100000059,
+    "p99_9_bootstrap95": [
+      0.056709500000003035,
+      0.06033320900000042
+    ],
+    "maximum_gap_observed": 1999,
+    "checkpoint_p50_median_ms": 1.483708,
+    "write_bytes_per_mutation_median": 7.827868852459017,
+    "complete_transient_bound_max": 71049,
+    "all_within_budget": true
+  },
+  {
+    "policy": "sync",
+    "interval": 2000,
+    "clients": 8,
+    "runs": 5,
+    "all_completed": true,
+    "all_error_free": true,
+    "throughput_median_ops_s": 174360.10543020823,
+    "throughput_bootstrap95": [
+      166173.2431638982,
+      176132.03151724557
+    ],
+    "p99_median_ms": 0.05333425000000003,
+    "p99_bootstrap95": [
+      0.05007033000000062,
+      0.054500410000000006
+    ],
+    "p99_9_median_ms": 7.594962083000091,
+    "p99_9_bootstrap95": [
+      6.692005041000093,
+      7.7080479160000115
+    ],
+    "maximum_gap_observed": 1999,
+    "checkpoint_p50_median_ms": 1.656042,
+    "write_bytes_per_mutation_median": 8.149128010440148,
+    "complete_transient_bound_max": 73329,
+    "all_within_budget": true
+  }
+]

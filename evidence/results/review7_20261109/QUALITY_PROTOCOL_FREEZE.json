@@ -1,0 +1,2562 @@
+{
+  "hashes": {
+    "repro/review7_20261109/quality.py": "0a5817b108169a6871665c93363fbdfb9aac95bdf80167f32f5c4116ee38866c",
+    "repro/review7_20261109/exact.py": "df7f1269a55c29e981df8dc9b435535eca873eb77df447db92eb653c5c34849c",
+    "src/mtmemory_icde/core/joint_history.py": "90b4e4b33c208711b1451cfcbc61c1fe350d784eccd5cba4f157d849135a1c82",
+    "src/mtmemory_icde/core/service.py": "1f15df1fb2fff4d71b40bf80aa35b381255a42b4912db0f5a8e88d1f1d42df5a",
+    "src/mtmemory_icde/core/baselines.py": "a3c87dc666879e58b3cc4fa20e552d3b04f20e6f6fed038fcafc5f599225b300",
+    "src/mtmemory_icde/core/rpo.py": "2912abfc8958a90fa946693d3b749fb5606866eee724c6f60a26d2b6a62e945e",
+    "src/mtmemory_icde/core/checkpoint.py": "753661bb9865f384322f566e41fb20eda36e9c57934f8f68e5f92e5467037c34",
+    "src/mtmemory_icde/core/histogram.py": "9badabd6d42379fda6f0e85168d831efd06d9e5fe78bbae517fcb204959d099b",
+    "src/mtmemory_icde/core/__init__.py": "adb834d6143b5cf3d07ada8edc5adcd234dcae1b777f5f50e42ac451e53e164d",
+    "src/mtmemory_icde/core/replay.py": "6264e12cac4b6433b0587c9b7a13834a90685ef3035d6c683f0c696f43e6033c",
+    "src/mtmemory_icde/core/certified.py": "dbfdb9cac4ad84d8d4613b10e5a956cfe236ad38d27fea83b126dca71c23d202",
+    "src/mtmemory_icde/core/joint.py": "1b6e5eb7e82c997f699bd54e4b005379d5396e76b60ddb29ba336e5225f15def",
+    "src/mtmemory_icde/core/numerics.py": "14cfe301a799fd29beb20f31bb7014ffff7693aeeb8f29ebcf81106e9f1c19f3",
+    "src/mtmemory_icde/core/history.py": "57a42c6370250e4b8acf726a0d0432de3ce9e6df81cdcfad139976180f873794",
+    "data/real/bike.npz": "b0461c73abcf4c8451bc8d81087ea63e1154e78d133c42bd2b25e9ee4b240030",
+    "data/real/beijing.npz": "2aefc9178bbc33b391ab47d89705808c4d3bb5cd49199b8a6282d49e47d77d85"
+  },
+  "grids": {
+    "131072/4096": [
+      {
+        "id": "n-b64-f4-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 4,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 19332,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27524,
+          "envelope_reservation_bytes": 27612,
+          "workspace_bytes": 8192,
+          "charged_bytes": 118552,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f8-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 18532,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 26724,
+          "envelope_reservation_bytes": 26812,
+          "workspace_bytes": 8192,
+          "charged_bytes": 115352,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f8-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29988,
+          "envelope_reservation_bytes": 30076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 128408,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 18132,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 26324,
+          "envelope_reservation_bytes": 26412,
+          "workspace_bytes": 8192,
+          "charged_bytes": 113752,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 19796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27988,
+          "envelope_reservation_bytes": 28076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120408,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21460,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29652,
+          "envelope_reservation_bytes": 29740,
+          "workspace_bytes": 8192,
+          "charged_bytes": 127064,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b64-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 64,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 16708,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 24900,
+          "envelope_reservation_bytes": 24988,
+          "workspace_bytes": 8192,
+          "charged_bytes": 108056,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f4-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 4,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 17476,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 25668,
+          "envelope_reservation_bytes": 25756,
+          "workspace_bytes": 8192,
+          "charged_bytes": 111128,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f8-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15876,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 24068,
+          "envelope_reservation_bytes": 24156,
+          "workspace_bytes": 8192,
+          "charged_bytes": 104728,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f8-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15076,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 23268,
+          "envelope_reservation_bytes": 23356,
+          "workspace_bytes": 8192,
+          "charged_bytes": 101528,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 18340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 26532,
+          "envelope_reservation_bytes": 26620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 114584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21604,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29796,
+          "envelope_reservation_bytes": 29884,
+          "workspace_bytes": 8192,
+          "charged_bytes": 127640,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b128-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b128-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f4-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 4,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 18948,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27140,
+          "envelope_reservation_bytes": 27228,
+          "workspace_bytes": 8192,
+          "charged_bytes": 117016,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f8-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15748,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 23940,
+          "envelope_reservation_bytes": 24028,
+          "workspace_bytes": 8192,
+          "charged_bytes": 104216,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 14148,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22340,
+          "envelope_reservation_bytes": 22428,
+          "workspace_bytes": 8192,
+          "charged_bytes": 97816,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 20612,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 28804,
+          "envelope_reservation_bytes": 28892,
+          "workspace_bytes": 8192,
+          "charged_bytes": 123672,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b256-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 14596,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22788,
+          "envelope_reservation_bytes": 22876,
+          "workspace_bytes": 8192,
+          "charged_bytes": 99608,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      }
+    ],
+    "131072/16384": [
+      {
+        "id": "n-b256-f8-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 20932,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29124,
+          "envelope_reservation_bytes": 29212,
+          "workspace_bytes": 8192,
+          "charged_bytes": 124952,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 19332,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27524,
+          "envelope_reservation_bytes": 27612,
+          "workspace_bytes": 8192,
+          "charged_bytes": 118552,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b256-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 19780,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27972,
+          "envelope_reservation_bytes": 28060,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120344,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      }
+    ],
+    "262144/4096": [
+      {
+        "id": "n-b64-f4-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 4,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 19332,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27524,
+          "envelope_reservation_bytes": 27612,
+          "workspace_bytes": 8192,
+          "charged_bytes": 118552,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f4-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 4,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 25796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 33988,
+          "envelope_reservation_bytes": 34076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 144408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f4-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 4,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 32260,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 40452,
+          "envelope_reservation_bytes": 40540,
+          "workspace_bytes": 8192,
+          "charged_bytes": 170264,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f4-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 4,
+          "overlay_capacity": 16,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 45188,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 53380,
+          "envelope_reservation_bytes": 53468,
+          "workspace_bytes": 8192,
+          "charged_bytes": 221976,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f8-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 18532,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 26724,
+          "envelope_reservation_bytes": 26812,
+          "workspace_bytes": 8192,
+          "charged_bytes": 115352,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f8-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29988,
+          "envelope_reservation_bytes": 30076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 128408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f8-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 25060,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 33252,
+          "envelope_reservation_bytes": 33340,
+          "workspace_bytes": 8192,
+          "charged_bytes": 141464,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f8-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 31588,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 39780,
+          "envelope_reservation_bytes": 39868,
+          "workspace_bytes": 8192,
+          "charged_bytes": 167576,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 18132,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 26324,
+          "envelope_reservation_bytes": 26412,
+          "workspace_bytes": 8192,
+          "charged_bytes": 113752,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 19796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27988,
+          "envelope_reservation_bytes": 28076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21460,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29652,
+          "envelope_reservation_bytes": 29740,
+          "workspace_bytes": 8192,
+          "charged_bytes": 127064,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 24788,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 32980,
+          "envelope_reservation_bytes": 33068,
+          "workspace_bytes": 8192,
+          "charged_bytes": 140376,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b64-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 64,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 16708,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 24900,
+          "envelope_reservation_bytes": 24988,
+          "workspace_bytes": 8192,
+          "charged_bytes": 108056,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b64-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 64,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 25552,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 33744,
+          "envelope_reservation_bytes": 33832,
+          "workspace_bytes": 13140,
+          "charged_bytes": 148380,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b64-q4",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 64,
+          "bins": 4,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 38952,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 47144,
+          "envelope_reservation_bytes": 47232,
+          "workspace_bytes": 14700,
+          "charged_bytes": 203540,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f4-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 4,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 17476,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 25668,
+          "envelope_reservation_bytes": 25756,
+          "workspace_bytes": 8192,
+          "charged_bytes": 111128,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f4-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 4,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 30340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 38532,
+          "envelope_reservation_bytes": 38620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 162584,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f4-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 4,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 43204,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 51396,
+          "envelope_reservation_bytes": 51484,
+          "workspace_bytes": 8192,
+          "charged_bytes": 214040,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f8-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15876,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 24068,
+          "envelope_reservation_bytes": 24156,
+          "workspace_bytes": 8192,
+          "charged_bytes": 104728,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f8-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f8-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 28804,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36996,
+          "envelope_reservation_bytes": 37084,
+          "workspace_bytes": 8192,
+          "charged_bytes": 156440,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f8-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 41732,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 49924,
+          "envelope_reservation_bytes": 50012,
+          "workspace_bytes": 8192,
+          "charged_bytes": 208152,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15076,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 23268,
+          "envelope_reservation_bytes": 23356,
+          "workspace_bytes": 8192,
+          "charged_bytes": 101528,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 18340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 26532,
+          "envelope_reservation_bytes": 26620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 114584,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21604,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29796,
+          "envelope_reservation_bytes": 29884,
+          "workspace_bytes": 8192,
+          "charged_bytes": 127640,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 28132,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36324,
+          "envelope_reservation_bytes": 36412,
+          "workspace_bytes": 8192,
+          "charged_bytes": 153752,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b128-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b128-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b128-q4",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 4,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 25896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 34088,
+          "envelope_reservation_bytes": 34176,
+          "workspace_bytes": 25196,
+          "charged_bytes": 161812,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b128-q8",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 8,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 39896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 48088,
+          "envelope_reservation_bytes": 48176,
+          "workspace_bytes": 31388,
+          "charged_bytes": 224004,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f4-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 4,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 18948,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27140,
+          "envelope_reservation_bytes": 27228,
+          "workspace_bytes": 8192,
+          "charged_bytes": 117016,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f4-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 4,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 44612,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 52804,
+          "envelope_reservation_bytes": 52892,
+          "workspace_bytes": 8192,
+          "charged_bytes": 219672,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f8-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15748,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 23940,
+          "envelope_reservation_bytes": 24028,
+          "workspace_bytes": 8192,
+          "charged_bytes": 104216,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f8-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 28612,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36804,
+          "envelope_reservation_bytes": 36892,
+          "workspace_bytes": 8192,
+          "charged_bytes": 155672,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f8-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 41476,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 49668,
+          "envelope_reservation_bytes": 49756,
+          "workspace_bytes": 8192,
+          "charged_bytes": 207128,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 14148,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22340,
+          "envelope_reservation_bytes": 22428,
+          "workspace_bytes": 8192,
+          "charged_bytes": 97816,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 20612,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 28804,
+          "envelope_reservation_bytes": 28892,
+          "workspace_bytes": 8192,
+          "charged_bytes": 123672,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 27076,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 35268,
+          "envelope_reservation_bytes": 35356,
+          "workspace_bytes": 8192,
+          "charged_bytes": 149528,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 40004,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 48196,
+          "envelope_reservation_bytes": 48284,
+          "workspace_bytes": 8192,
+          "charged_bytes": 201240,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b256-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 14596,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22788,
+          "envelope_reservation_bytes": 22876,
+          "workspace_bytes": 8192,
+          "charged_bytes": 99608,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b256-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 17104,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 25296,
+          "envelope_reservation_bytes": 25384,
+          "workspace_bytes": 40020,
+          "charged_bytes": 141468,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b256-q4",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 20904,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29096,
+          "envelope_reservation_bytes": 29184,
+          "workspace_bytes": 46188,
+          "charged_bytes": 162836,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b256-q8",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 8,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 28504,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36696,
+          "envelope_reservation_bytes": 36784,
+          "workspace_bytes": 58524,
+          "charged_bytes": 205572,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      }
+    ],
+    "262144/16384": [
+      {
+        "id": "n-b64-f4-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 4,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 40068,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 48260,
+          "envelope_reservation_bytes": 48348,
+          "workspace_bytes": 8192,
+          "charged_bytes": 201496,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f4-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 4,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 46532,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 54724,
+          "envelope_reservation_bytes": 54812,
+          "workspace_bytes": 8192,
+          "charged_bytes": 227352,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f4-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 4,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52996,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 61188,
+          "envelope_reservation_bytes": 61276,
+          "workspace_bytes": 8192,
+          "charged_bytes": 253208,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f8-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 39268,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 47460,
+          "envelope_reservation_bytes": 47548,
+          "workspace_bytes": 8192,
+          "charged_bytes": 198296,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f8-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 42532,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50724,
+          "envelope_reservation_bytes": 50812,
+          "workspace_bytes": 8192,
+          "charged_bytes": 211352,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f8-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 45796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 53988,
+          "envelope_reservation_bytes": 54076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 224408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f8-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52324,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60516,
+          "envelope_reservation_bytes": 60604,
+          "workspace_bytes": 8192,
+          "charged_bytes": 250520,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 38868,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 47060,
+          "envelope_reservation_bytes": 47148,
+          "workspace_bytes": 8192,
+          "charged_bytes": 196696,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 40532,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 48724,
+          "envelope_reservation_bytes": 48812,
+          "workspace_bytes": 8192,
+          "charged_bytes": 203352,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 42196,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50388,
+          "envelope_reservation_bytes": 50476,
+          "workspace_bytes": 8192,
+          "charged_bytes": 210008,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b64-f16-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 45524,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 53716,
+          "envelope_reservation_bytes": 53804,
+          "workspace_bytes": 8192,
+          "charged_bytes": 223320,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b64-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 64,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 37444,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 45636,
+          "envelope_reservation_bytes": 45724,
+          "workspace_bytes": 8192,
+          "charged_bytes": 191000,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f4-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 4,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 27844,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36036,
+          "envelope_reservation_bytes": 36124,
+          "workspace_bytes": 8192,
+          "charged_bytes": 152600,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f4-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 4,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 40708,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 48900,
+          "envelope_reservation_bytes": 48988,
+          "workspace_bytes": 8192,
+          "charged_bytes": 204056,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f4-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 4,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 53572,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 61764,
+          "envelope_reservation_bytes": 61852,
+          "workspace_bytes": 8192,
+          "charged_bytes": 255512,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f8-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 26244,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 34436,
+          "envelope_reservation_bytes": 34524,
+          "workspace_bytes": 8192,
+          "charged_bytes": 146200,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f8-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 32708,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 40900,
+          "envelope_reservation_bytes": 40988,
+          "workspace_bytes": 8192,
+          "charged_bytes": 172056,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f8-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 39172,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 47364,
+          "envelope_reservation_bytes": 47452,
+          "workspace_bytes": 8192,
+          "charged_bytes": 197912,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f8-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52100,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60292,
+          "envelope_reservation_bytes": 60380,
+          "workspace_bytes": 8192,
+          "charged_bytes": 249624,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 25444,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 33636,
+          "envelope_reservation_bytes": 33724,
+          "workspace_bytes": 8192,
+          "charged_bytes": 143000,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 28708,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36900,
+          "envelope_reservation_bytes": 36988,
+          "workspace_bytes": 8192,
+          "charged_bytes": 156056,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 31972,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 40164,
+          "envelope_reservation_bytes": 40252,
+          "workspace_bytes": 8192,
+          "charged_bytes": 169112,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b128-f16-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 38500,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 46692,
+          "envelope_reservation_bytes": 46780,
+          "workspace_bytes": 8192,
+          "charged_bytes": 195224,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b128-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 24644,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 32836,
+          "envelope_reservation_bytes": 32924,
+          "workspace_bytes": 8192,
+          "charged_bytes": 139800,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b128-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 22100,
+          "charged_bytes": 222876,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f4-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 4,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 24132,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 32324,
+          "envelope_reservation_bytes": 32412,
+          "workspace_bytes": 8192,
+          "charged_bytes": 137752,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f4-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 4,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 49796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 57988,
+          "envelope_reservation_bytes": 58076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 240408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f8-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 20932,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29124,
+          "envelope_reservation_bytes": 29212,
+          "workspace_bytes": 8192,
+          "charged_bytes": 124952,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f8-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 33796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 41988,
+          "envelope_reservation_bytes": 42076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 176408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f8-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 46660,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 54852,
+          "envelope_reservation_bytes": 54940,
+          "workspace_bytes": 8192,
+          "charged_bytes": 227864,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 19332,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27524,
+          "envelope_reservation_bytes": 27612,
+          "workspace_bytes": 8192,
+          "charged_bytes": 118552,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 25796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 33988,
+          "envelope_reservation_bytes": 34076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 144408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 32260,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 40452,
+          "envelope_reservation_bytes": 40540,
+          "workspace_bytes": 8192,
+          "charged_bytes": 170264,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "n-b256-f16-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 45188,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 53380,
+          "envelope_reservation_bytes": 53468,
+          "workspace_bytes": 8192,
+          "charged_bytes": 221976,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b256-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 19780,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27972,
+          "envelope_reservation_bytes": 28060,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120344,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b256-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 28624,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36816,
+          "envelope_reservation_bytes": 36904,
+          "workspace_bytes": 40020,
+          "charged_bytes": 187548,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      {
+        "id": "h-b256-q4",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      }
+    ]
+  },
+  "scope": "validation-only independently selected joint service; same facts/reach/codec/admission/certificate; no full DigitHist claim"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "r0-q70-rate100000-strict",
+  "rep": 0,
+  "q": 0.7,
+  "rate": 100000,
+  "clients": 8,
+  "mode": "strict",
+  "operations": 200000,
+  "queries": 139913,
+  "completed_ops_s": 77930.18722603182,
+  "elapsed_from_first_arrival_seconds": 2.566399583,
+  "query_latency_from_scheduled_ms": {
+    "n": 139913,
+    "p50": 286.194,
+    "p95": 539.1002500000001,
+    "p99": 558.81640804,
+    "p99_9": 566.512247304,
+    "mean": 286.7991216092643,
+    "max": 567.350917
+  },
+  "query_service_ms": {
+    "n": 139913,
+    "p50": 0.009084,
+    "p95": 0.029208,
+    "p99": 0.032417,
+    "p99_9": 0.22492599999997764,
+    "mean": 0.014296925053426057,
+    "max": 10.498041
+  },
+  "query_dispatch_lateness_ms": {
+    "n": 139913,
+    "p50": 275.924458,
+    "p95": 529.8135169999999,
+    "p99": 551.577262,
+    "p99_9": 557.633149,
+    "mean": 277.30540269606826,
+    "max": 558.108583
+  },
+  "query_queue_wait_ms": {
+    "n": 139913,
+    "p50": 10.073917,
+    "p95": 13.906708,
+    "p99": 14.708418040000002,
+    "p99_9": 17.117286303999904,
+    "mean": 9.479421988142633,
+    "max": 17.881042
+  },
+  "query_service_lock_wait_ms": {
+    "n": 139913,
+    "p50": 8.3e-05,
+    "p95": 8.4e-05,
+    "p99": 8.4e-05,
+    "p99_9": 0.000208,
+    "mean": 0.0009105020262591755,
+    "max": 7.9165
+  },
+  "maximum_gap": 500,
+  "captures": 120,
+  "queue_capacity": 1024,
+  "arrival_batch_ms": 1,
+  "restored_prefix_equal": true,
+  "scope": "single-process Python bounded-queue paced diagnostic; planned-to-completion includes producer scheduling/backpressure, not network; no requests dropped"
+}

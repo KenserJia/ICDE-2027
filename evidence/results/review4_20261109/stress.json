@@ -1,0 +1,42 @@
+[
+  {
+    "signal": "noise",
+    "queries": 1205,
+    "mae": 0.04237458691990549,
+    "mean_bound": 1.2820321595335153,
+    "median_utilization": 0.05396865141771644,
+    "violations": 0
+  },
+  {
+    "signal": "trend",
+    "queries": 1205,
+    "mae": 0.006530936309204227,
+    "mean_bound": 0.030043506440454136,
+    "median_utilization": 0.19382177535636452,
+    "violations": 0
+  },
+  {
+    "signal": "step",
+    "queries": 1205,
+    "mae": 0.0,
+    "mean_bound": 0.0,
+    "median_utilization": 0.0,
+    "violations": 0
+  },
+  {
+    "signal": "spike",
+    "queries": 1205,
+    "mae": 0.34950684976618585,
+    "mean_bound": 23.670943654086805,
+    "median_utilization": 0.0,
+    "violations": 0
+  },
+  {
+    "signal": "heavy_tail",
+    "queries": 1205,
+    "mae": 0.12394605918774308,
+    "mean_bound": 7.616320083482626,
+    "median_utilization": 0.05125689364939582,
+    "violations": 0
+  }
+]

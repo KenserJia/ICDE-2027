@@ -1,0 +1,1952 @@
+[
+  {
+    "unit": 0,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.08319250076724191,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 0,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.014384651861984106,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 0,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.017162127746212154,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 0,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.002497046883950038,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 0,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.017162127746212154,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 0,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.1680719167797495,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 0,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.04178828105566975,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 0,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.07459048289791485,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 0,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.014200148276029612,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 0,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.041312775226548276,
+    "config": {
+      "width": 32,
+      "degree": 0,
+      "charge": 250604
+    }
+  },
+  {
+    "unit": 1,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.09642666350232208,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 1,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.005167699232586734,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 1,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.006186641621717282,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 1,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0007556207365047417,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 1,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.006186641621717282,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 1,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.21722576664465784,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 1,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.05121701550414936,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 1,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.08706251649467399,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 1,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.004957157766643627,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 1,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.02450798649025762,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 2,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.06917663770099725,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 2,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.003399387026477421,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 2,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.004520487352053238,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 2,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0006818496139231635,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 2,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.004520487352053238,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 2,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.20540523011042292,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 2,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.053102693206278584,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 2,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.07613856725219857,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 2,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.003549943281349314,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 2,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.023340827656290013,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 3,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.07755546726922201,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 3,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.003215890704837697,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 3,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.00397543446111927,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 3,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0005893688969530805,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 3,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.00397543446111927,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 3,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.2070980659287948,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 3,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.05035604472091023,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 3,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.07767476972387355,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 3,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.003801177557981554,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 3,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.021634212789362353,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 4,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.09212574574365018,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 4,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.003980531596309307,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 4,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.0049153662442237575,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 4,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0006311614897141457,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 4,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.0049153662442237575,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 4,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.23369667315627674,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 4,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.0574477762502719,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 4,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.08871590694876237,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 4,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.004142618506747119,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 4,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.025201074919953725,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 5,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.09731710443308682,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 5,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.00439857031822381,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 5,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.005554661149156555,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 5,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0007025056405232866,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 5,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.005554661149156555,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 5,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.24968179653667602,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 5,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.06308012490455003,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 5,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.0894437433495859,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 5,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.004594719990120055,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 5,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.02704851028833809,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 6,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.09609216490563295,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 6,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0053135866723273495,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 6,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.005858601923142209,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 6,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0006325224296323496,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 6,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.005858601923142209,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 6,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.23169249776077128,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 6,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.054304010495197175,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 6,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.09266368672820076,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 6,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.005693109962404672,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 6,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.02965013640168046,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 7,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.07863795291576102,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 7,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.004139066995885187,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 7,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.004801090825742299,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 7,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0007836680665043632,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 7,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.004801090825742299,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 7,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.19825729024887775,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 7,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.057566009993336435,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 7,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.07910046086287266,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 7,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.004184651360805757,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 7,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.023097900899813357,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 8,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.06801672184042121,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 8,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0032999099248305786,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 8,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.00416567118433757,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 8,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0006494931206057794,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 8,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.00416567118433757,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 8,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.21489476754174688,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 8,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.06352996382760988,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 8,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.07875969498056397,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 8,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.0036308960210235963,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 8,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.022653966957939684,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 9,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.09650628596710935,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 9,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0030754893179252723,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 9,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.00427036946184134,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 9,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0006604994546358469,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 9,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.00427036946184134,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 9,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.23360225483990127,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 9,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.05335658679998301,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 9,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.08816423465235095,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 9,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.0035914396878402905,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 9,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.024930522518712177,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 10,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0836248759763714,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 10,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.003482913279199492,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 10,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.0044554000240648725,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 10,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.000654197393530859,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 10,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.0044554000240648725,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 10,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.22662257793526788,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 10,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.05874161340354559,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 10,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.08671654252740492,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 10,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.0034490669597910958,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 10,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.02272592163099306,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 11,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.07464959933723227,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 11,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0034761894996422744,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 11,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.004894084895938066,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 11,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.000540544215568932,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 11,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.004894084895938066,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 11,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.18921678304454334,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 11,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.04700510413630266,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 11,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.07384403980305088,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 11,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.003423143977655829,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 11,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.022574841817901287,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  },
+  {
+    "unit": 12,
+    "B": 65536,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.08834683601430852,
+    "config": {
+      "B": 65536,
+      "R": 4096,
+      "b": 64,
+      "h": 16,
+      "k": 0,
+      "charge": 61820,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 12,
+    "B": 131072,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0038141444638364625,
+    "config": {
+      "B": 131072,
+      "R": 4096,
+      "b": 256,
+      "h": 16,
+      "k": 16,
+      "charge": 127436,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 12,
+    "B": 131072,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.005028346045418534,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 12,
+    "B": 262144,
+    "R": 4096,
+    "method": "certified",
+    "validation_mse": 0.0007830523963107951,
+    "config": {
+      "B": 262144,
+      "R": 4096,
+      "b": 128,
+      "h": 8,
+      "k": 33,
+      "charge": 215036,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 12,
+    "B": 262144,
+    "R": 4096,
+    "method": "polynomial",
+    "validation_mse": 0.005028346045418534,
+    "config": {
+      "width": 32,
+      "degree": 1,
+      "charge": 101900
+    }
+  },
+  {
+    "unit": 12,
+    "B": 65536,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.23470255770415635,
+    "config": {
+      "B": 65536,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 0,
+      "charge": 65420,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 12,
+    "B": 131072,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.05265356308789684,
+    "config": {
+      "B": 131072,
+      "R": 16384,
+      "b": 128,
+      "h": 16,
+      "k": 19,
+      "charge": 130268,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 12,
+    "B": 131072,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.08897452749005041,
+    "config": {
+      "width": 128,
+      "degree": 1,
+      "charge": 123916
+    }
+  },
+  {
+    "unit": 12,
+    "B": 262144,
+    "R": 16384,
+    "method": "certified",
+    "validation_mse": 0.0049525883324144536,
+    "config": {
+      "B": 262144,
+      "R": 16384,
+      "b": 256,
+      "h": 16,
+      "k": 40,
+      "charge": 259340,
+      "cert": true,
+      "reserve": 0
+    }
+  },
+  {
+    "unit": 12,
+    "B": 262144,
+    "R": 16384,
+    "method": "polynomial",
+    "validation_mse": 0.028378123888358184,
+    "config": {
+      "width": 64,
+      "degree": 1,
+      "charge": 174604
+    }
+  }
+]

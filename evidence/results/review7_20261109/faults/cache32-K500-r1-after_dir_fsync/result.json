@@ -1,0 +1,31 @@
+{
+  "variant": "cache32",
+  "K": 500,
+  "rep": 1,
+  "mode": "after_dir_fsync",
+  "caller_ack": 500,
+  "recovered_ack": 500,
+  "recovered_unacknowledged": 0,
+  "loss": 0,
+  "bound_claimed": true,
+  "certificate_checks": 7,
+  "continued_checkpoint": true,
+  "ledger": {
+    "array_bytes": 18340,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 8192,
+    "resident_reservation_bytes": 34724,
+    "envelope_reservation_bytes": 26620,
+    "workspace_bytes": 8192,
+    "charged_bytes": 122776,
+    "budget_bytes": 131072,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 19420,
+    "snapshot_metadata_bytes": 1080,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 19508
+  },
+  "returncode": -9,
+  "seconds": 0.085996542009525
+}

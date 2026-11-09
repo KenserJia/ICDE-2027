@@ -1,0 +1,36 @@
+{
+  "signature": "49a63945e92b7f066efaf0b93cf753a03d15e7e648692af55c08f5649b32a8a5",
+  "hashes": {
+    "repro/rq3_symmetric_20261107/run.py": "051bb0f0ac69088615d29af75c969a008e4218775eba8ef2aca7718b6eb5a155",
+    "repro/rq3_symmetric_20261107/PROTOCOL.txt": "b4fdfae0c267027e90226bdc845c7e8199b939e7c38b58ef44f9cc2173dbe2e3",
+    "src/mtmemory_icde/core/history.py": "9e9484d38bb80bb3367d81a1ec91785d6c8c058555ddb593349a03db4f6c6b0b",
+    "src/mtmemory_icde/core/service.py": "1f15df1fb2fff4d71b40bf80aa35b381255a42b4912db0f5a8e88d1f1d42df5a",
+    "repro/round78_rq_closure/run.py": "80892c3a4dddea225913b09c56e5308b2e3ab066f2c7be7ca302044c6e94e160",
+    "data/real/bike.npz": "b0461c73abcf4c8451bc8d81087ea63e1154e78d133c42bd2b25e9ee4b240030",
+    "data/real/beijing.npz": "2aefc9178bbc33b391ab47d89705808c4d3bb5cd49199b8a6282d49e47d77d85",
+    "results/review_revision_20261104/strong_fixed_raw.json": "a110fb94a31459beb833749554822c744775fe77b24556fe83de42977f7b9369",
+    "results/review_revision_20261104/fixed_selection.json": "ff33aaabd42ae9b4dd6e1d0d00572cbeef23eca4b22cd893a93c7eadddb56867"
+  },
+  "profiles": {
+    "legacy44780": {
+      "cap": 44780,
+      "metadata": 4096,
+      "verified": false
+    },
+    "verified50924": {
+      "cap": 50924,
+      "metadata": 6144,
+      "verified": true
+    },
+    "verified44780": {
+      "cap": 44780,
+      "metadata": 6144,
+      "verified": true
+    }
+  },
+  "python": "3.14.5 (v3.14.5:5607950ef23, May 10 2026, 07:38:09) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.5.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "timestamp_utc": "2026-11-07T09:14:43.428773+00:00"
+}

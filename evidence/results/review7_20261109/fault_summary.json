@@ -1,0 +1,112 @@
+[
+  {
+    "mode": "after_dir_fsync",
+    "n": 27,
+    "explicit_failures": {
+      "none": 27
+    },
+    "loss_min": 0,
+    "loss_max": 0,
+    "all_claimed_bounds_hold": true,
+    "certificate_checks": 189
+  },
+  {
+    "mode": "after_file_fsync",
+    "n": 27,
+    "explicit_failures": {
+      "none": 27
+    },
+    "loss_min": 100,
+    "loss_max": 2000,
+    "all_claimed_bounds_hold": true,
+    "certificate_checks": 189
+  },
+  {
+    "mode": "after_partial_write",
+    "n": 27,
+    "explicit_failures": {
+      "none": 27
+    },
+    "loss_min": 100,
+    "loss_max": 2000,
+    "all_claimed_bounds_hold": true,
+    "certificate_checks": 189
+  },
+  {
+    "mode": "after_replace_before_dir_fsync",
+    "n": 27,
+    "explicit_failures": {
+      "none": 27
+    },
+    "loss_min": 0,
+    "loss_max": 0,
+    "all_claimed_bounds_hold": true,
+    "certificate_checks": 189
+  },
+  {
+    "mode": "before_file_fsync",
+    "n": 27,
+    "explicit_failures": {
+      "none": 27
+    },
+    "loss_min": 100,
+    "loss_max": 2000,
+    "all_claimed_bounds_hold": true,
+    "certificate_checks": 189
+  },
+  {
+    "mode": "both_corrupt",
+    "n": 9,
+    "explicit_failures": {
+      "FileNotFoundError": 9
+    },
+    "loss_min": null,
+    "loss_max": null,
+    "all_claimed_bounds_hold": true,
+    "certificate_checks": 0
+  },
+  {
+    "mode": "boundary",
+    "n": 27,
+    "explicit_failures": {
+      "none": 27
+    },
+    "loss_min": 100,
+    "loss_max": 2000,
+    "all_claimed_bounds_hold": true,
+    "certificate_checks": 189
+  },
+  {
+    "mode": "newest_corrupt",
+    "n": 9,
+    "explicit_failures": {
+      "none": 9
+    },
+    "loss_min": 199,
+    "loss_max": 199,
+    "all_claimed_bounds_hold": true,
+    "certificate_checks": 63
+  },
+  {
+    "mode": "random",
+    "n": 27,
+    "explicit_failures": {
+      "none": 27
+    },
+    "loss_min": 7,
+    "loss_max": 13,
+    "all_claimed_bounds_hold": true,
+    "certificate_checks": 189
+  },
+  {
+    "mode": "semantic_invalid",
+    "n": 9,
+    "explicit_failures": {
+      "ValueError": 9
+    },
+    "loss_min": null,
+    "loss_max": null,
+    "all_claimed_bounds_hold": true,
+    "certificate_checks": 0
+  }
+]

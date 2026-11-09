@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "package": "Round7.1 strong baselines and contract + Round7.2 real load and full service",
+  "core_training_updates": 0,
+  "scientific_success_thresholds": [],
+  "query_contract": {
+    "fact_scope": "exact only for admitted resident keys; miss/deleted/stale are explicit",
+    "history_scope": "registered maximum reach of 2314 events; no arbitrary unbounded-history claim",
+    "statuses": ["EXACT", "APPROX", "UNKNOWN"],
+    "required_fields": ["status", "reason", "fact_version", "prefix", "lo", "hi", "coverage", "representation", "value"]
+  },
+  "batch1": {
+    "budgets": [65536, 131072],
+    "history_methods": ["exact_tail", "fixed_fine32", "fixed_coarse64", "fixed_multires", "eh_sum", "base_only", "online_overlay"],
+    "conditions": ["aligned", "shifted"],
+    "profiles": ["stable_near", "near_far_near", "burst", "multi_shift"],
+    "validation_seeds": [711001, 711002, 711003],
+    "confirmation_seeds": [711101, 711102, 711103, 711104, 711105],
+    "fact_policies": ["lru", "lfu", "tinylfu"],
+    "fact_workloads": ["uniform", "zipf", "hotspot_move", "scan_pollution"],
+    "fact_capacities": [64, 128],
+    "fact_seeds": [711201, 711202, 711203]
+  },
+  "batch2": {
+    "observation_sources": ["local frozen Bike Sharing", "local frozen Beijing multi-site", "TelemetryBench-v1 controlled reproducible generator"],
+    "request_scope": "causally generated controlled query workload; not a production request log",
+    "active_sessions": [8, 64, 512],
+    "methods": ["exact_tail", "fixed_multires", "online_overlay"],
+    "steady_state_requests_per_run": 100000,
+    "queue_capacity": 64,
+    "service_modes": ["blocking_backpressure", "nonblocking_drop"],
+    "shared_model_scope": "MT/GRU/EMA retained as previously frozen references; not forced into 64/128 KiB complete-budget Pareto"
+  },
+  "selection": "validation only; confirmation streams and real-test requests generated after method/config freeze",
+  "preflight_required": true,
+  "independent_units": "confirmation stream seed for synthetic quality; real entity or controlled virtual-session seed for service quality; requests are dependent technical observations"
+}

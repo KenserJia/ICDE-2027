@@ -1,0 +1,986 @@
+{
+  "source_sha256": "b4aee2f4ab18ff60f6e7c2bfdb57be94a6926d31db767e7cfd35ae01a750e21c",
+  "supported_checks": 120,
+  "cases": [
+    {
+      "b": 3,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 3,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 1,
+      "hi": 2,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 3,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 1,
+      "hi": 2,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 3,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 1,
+      "hi": 2,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 3,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 1,
+      "hi": 2,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 3,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 1,
+      "hi": 2,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 3,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 1,
+      "hi": 2,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 3,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 1,
+      "hi": 2,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 3,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 3,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 1,
+      "hi": 2,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 16,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 5,
+      "hi": 15,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 16,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 5,
+      "hi": 15,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 16,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 5,
+      "hi": 15,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 16,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 5,
+      "hi": 15,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 16,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 5,
+      "hi": 15,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 16,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 5,
+      "hi": 15,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 16,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 5,
+      "hi": 15,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 16,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 16,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 5,
+      "hi": 15,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 64,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 21,
+      "hi": 63,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 64,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 21,
+      "hi": 63,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 64,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 21,
+      "hi": 63,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 64,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 21,
+      "hi": 63,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 64,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 21,
+      "hi": 63,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 64,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 21,
+      "hi": 63,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 64,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 21,
+      "hi": 63,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 64,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 64,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 21,
+      "hi": 63,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 128,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 42,
+      "hi": 127,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 128,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 42,
+      "hi": 127,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 128,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 42,
+      "hi": 127,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 128,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 42,
+      "hi": 127,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 128,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 42,
+      "hi": 127,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 128,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 42,
+      "hi": 127,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 128,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 42,
+      "hi": 127,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 128,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 128,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 42,
+      "hi": 127,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 256,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "normal",
+      "kernel": "sequential",
+      "lo": 85,
+      "hi": 255,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 256,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "normal",
+      "kernel": "numpy_binary64",
+      "lo": 85,
+      "hi": 255,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 256,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "cancellation",
+      "kernel": "sequential",
+      "lo": 85,
+      "hi": 255,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 256,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "cancellation",
+      "kernel": "numpy_binary64",
+      "lo": 85,
+      "hi": 255,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 256,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "subnormal",
+      "kernel": "sequential",
+      "lo": 85,
+      "hi": 255,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 256,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "subnormal",
+      "kernel": "numpy_binary64",
+      "lo": 85,
+      "hi": 255,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 256,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "large",
+      "kernel": "sequential",
+      "lo": 85,
+      "hi": 255,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 256,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 0,
+      "hi": 1,
+      "contained": true
+    },
+    {
+      "b": 256,
+      "shape": "large",
+      "kernel": "numpy_binary64",
+      "lo": 85,
+      "hi": 255,
+      "contained": true
+    }
+  ],
+  "negative_control": {
+    "description": "unsupported binary32 cell-sum accumulator reused with binary64 allowance",
+    "true_mean": 0.3333333333333333,
+    "prediction": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wrong_binary64_allowance": [
+      1.4901161193847696e-08,
+      1.4901161193847696e-08,
+      1.4901161193847696e-08,
+      1.4901161193847696e-08
+    ],
+    "violates_misapplied_allowance": true,
+    "binary32_unit_roundoff_shadow_allowance": 8.000003814699092,
+    "shadow_contains": true,
+    "production_supported": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "layout": [
+    128,
+    8,
+    8
+  ],
+  "workload": "mixed95_optional25_hot",
+  "variant": "cache32_on_demand",
+  "rep": 5,
+  "operations": 10000,
+  "queries": 9506,
+  "updates": 494,
+  "requested_certificate_queries": 2275,
+  "returned_certificate_queries": 2275,
+  "query_us": {
+    "n": 9506,
+    "p50": 1.167,
+    "p95": 21.6145,
+    "p99": 37.375,
+    "p99_9": 41.85004000000063,
+    "mean": 5.899654323585104,
+    "max": 90.917
+  },
+  "update_us": {
+    "n": 494,
+    "p50": 4.2295,
+    "p95": 5.20835,
+    "p99": 11.709499999999947,
+    "p99_9": 35.32591900000003,
+    "mean": 4.520623481781377,
+    "max": 37.75
+  },
+  "mixed_ops_per_second": 168935.32733331365,
+  "checksum": -3073.9302897973857,
+  "cache_hits": 5572,
+  "cache_misses": 3934,
+  "serialize_ms": 0.267416,
+  "ledger": {
+    "array_bytes": 20356,
+    "metadata_per_image": 8192,
+    "workspace": 8192,
+    "cache_payload_reserve": 8192,
+    "charged": 102028,
+    "cap": 131072,
+    "image_bytes": 26902,
+    "physical_RAM_bound": false
+  }
+}

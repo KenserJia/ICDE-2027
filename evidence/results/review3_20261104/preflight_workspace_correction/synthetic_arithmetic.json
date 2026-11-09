@@ -1,0 +1,202 @@
+{
+  "attained_example": {
+    "bound": 5,
+    "estimate": 5,
+    "query": [
+      0,
+      2
+    ],
+    "truth": 0,
+    "values": [
+      0,
+      0,
+      10,
+      10
+    ]
+  },
+  "oracle": "Python Fraction exact rational of stored float32 values; no absolute tolerance",
+  "signals": [
+    {
+      "methods": {
+        "native": {
+          "cases": 166,
+          "max_arithmetic_allowance": 6.916689443414863e-14,
+          "max_error": 0.0,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        },
+        "plato0": {
+          "cases": 166,
+          "max_arithmetic_allowance": 1.3180567748351559e-12,
+          "max_error": 0.0,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        },
+        "plato1": {
+          "cases": 166,
+          "max_arithmetic_allowance": 1.3180567748351559e-12,
+          "max_error": 0.0,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        }
+      },
+      "signal": "flat"
+    },
+    {
+      "methods": {
+        "native": {
+          "cases": 166,
+          "max_arithmetic_allowance": 1.7134507919148848e-13,
+          "max_error": 0.23413616747368032,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 1
+        },
+        "plato0": {
+          "cases": 166,
+          "max_arithmetic_allowance": 3.778151752629098e-12,
+          "max_error": 0.9117647111415863,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        },
+        "plato1": {
+          "cases": 166,
+          "max_arithmetic_allowance": 3.751416184299308e-12,
+          "max_error": 6.075828302698483e-07,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        }
+      },
+      "signal": "ramp"
+    },
+    {
+      "methods": {
+        "native": {
+          "cases": 166,
+          "max_arithmetic_allowance": 1.169064844930311e-13,
+          "max_error": 3.7765066664414776e-16,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 5
+        },
+        "plato0": {
+          "cases": 166,
+          "max_arithmetic_allowance": 2.4827563905710637e-12,
+          "max_error": 0.87158203125,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        },
+        "plato1": {
+          "cases": 166,
+          "max_arithmetic_allowance": 2.917258565703221e-12,
+          "max_error": 0.16433520953552083,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        }
+      },
+      "signal": "step"
+    },
+    {
+      "methods": {
+        "native": {
+          "cases": 166,
+          "max_arithmetic_allowance": 8.978928711656095e-13,
+          "max_error": 87.5,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 26
+        },
+        "plato0": {
+          "cases": 166,
+          "max_arithmetic_allowance": 2.0979097059446353e-11,
+          "max_error": 96.875,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        },
+        "plato1": {
+          "cases": 166,
+          "max_arithmetic_allowance": 2.0979097059446353e-11,
+          "max_error": 94.22653958944281,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        }
+      },
+      "signal": "spikes"
+    },
+    {
+      "methods": {
+        "native": {
+          "cases": 166,
+          "max_arithmetic_allowance": 2.86289671578305e-14,
+          "max_error": 2.114098141901195,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 1
+        },
+        "plato0": {
+          "cases": 166,
+          "max_arithmetic_allowance": 8.286754356169718e-13,
+          "max_error": 2.152741730911657,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        },
+        "plato1": {
+          "cases": 166,
+          "max_arithmetic_allowance": 8.300999784746005e-13,
+          "max_error": 2.1103329413250917,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        }
+      },
+      "signal": "noise"
+    },
+    {
+      "methods": {
+        "native": {
+          "cases": 166,
+          "max_arithmetic_allowance": 12468290060288.188,
+          "max_error": 1.2379400392853803e+27,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 14
+        },
+        "plato0": {
+          "cases": 166,
+          "max_arithmetic_allowance": 531972737041231.2,
+          "max_error": 1.2379400392853803e+27,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        },
+        "plato1": {
+          "cases": 166,
+          "max_arithmetic_allowance": 551932434643842.44,
+          "max_error": 1.328698106681669e+27,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        }
+      },
+      "signal": "cancellation"
+    },
+    {
+      "methods": {
+        "native": {
+          "cases": 166,
+          "max_arithmetic_allowance": 3.427257270662232e+24,
+          "max_error": 3.88894110444033e+38,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 1
+        },
+        "plato0": {
+          "cases": 166,
+          "max_arithmetic_allowance": 1.945285163317868e+26,
+          "max_error": 3.602989552643247e+38,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        },
+        "plato1": {
+          "cases": 166,
+          "max_arithmetic_allowance": 1.9984546681504626e+26,
+          "max_error": 3.6922131453447416e+38,
+          "violations": 0,
+          "zero_analytical_nonzero_error": 0
+        }
+      },
+      "signal": "extrema"
+    }
+  ]
+}

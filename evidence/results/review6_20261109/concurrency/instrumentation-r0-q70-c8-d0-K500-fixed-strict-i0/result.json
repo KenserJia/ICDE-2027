@@ -1,0 +1,154 @@
+{
+  "id": "instrumentation-r0-q70-c8-d0-K500-fixed-strict-i0",
+  "group": "instrumentation",
+  "rep": 0,
+  "query_mix": 0.7,
+  "clients": 8,
+  "delay_ms": 0,
+  "K": 500,
+  "policy": "fixed",
+  "instrument": false,
+  "mode": "strict",
+  "operations": 120000,
+  "queries": 83837,
+  "mutations": 36163,
+  "measured_query_fraction": 0.6986416666666667,
+  "active_seconds": 1.251763917,
+  "throughput_ops_s": 95864.72206963289,
+  "metrics": {
+    "all": {
+      "latency_ms": {
+        "n": 120000,
+        "p50": 0.00625,
+        "p95": 0.028375,
+        "p99": 0.030291,
+        "p99_9": 18.660335084000327,
+        "mean": 0.07461630435833334,
+        "max": 113.371125
+      }
+    },
+    "query": {
+      "latency_ms": {
+        "n": 83837,
+        "p50": 0.008917,
+        "p95": 0.028542,
+        "p99": 0.030166,
+        "p99_9": 0.04124900000000216,
+        "mean": 0.011405843076445961,
+        "max": 8.878041
+      }
+    },
+    "mutation": {
+      "latency_ms": {
+        "n": 36163,
+        "p50": 0.001375,
+        "p95": 0.001875,
+        "p99": 4.446967659999971,
+        "p99_9": 47.37064585800542,
+        "mean": 0.22115767101733813,
+        "max": 113.371125
+      }
+    },
+    "query_capture_overlap": {
+      "latency_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      }
+    },
+    "query_no_capture_overlap": {
+      "latency_ms": {
+        "n": 83837,
+        "p50": 0.008917,
+        "p95": 0.028542,
+        "p99": 0.030166,
+        "p99_9": 0.04124900000000216,
+        "mean": 0.011405843076445961,
+        "max": 8.878041
+      }
+    },
+    "query_persist_overlap_without_capture": {
+      "latency_ms": {
+        "n": 29,
+        "p50": 0.00975,
+        "p95": 5.629792199999986,
+        "p99": 8.741658039999999,
+        "p99_9": 8.864402704,
+        "mean": 0.6888477931034482,
+        "max": 8.878041
+      }
+    }
+  },
+  "checkpoint_captures": 72,
+  "capture_wall_ms": {
+    "n": 72,
+    "p50": 1.1409795,
+    "p95": 1.2331661500000002,
+    "p99": 1.2997748200000003,
+    "p99_9": 1.341602482,
+    "mean": 1.1527459027777778,
+    "max": 1.34625
+  },
+  "checkpoint_phases_ms": {
+    "capture_ms": {
+      "n": 72,
+      "p50": 1.1417705,
+      "p95": 1.2349399500000002,
+      "p99": 1.3027060700000004,
+      "p99_9": 1.3449331070000001,
+      "mean": 1.153751097222222,
+      "max": 1.349625
+    },
+    "persist_ms": {
+      "n": 72,
+      "p50": 1.986771,
+      "p95": 2.91506615,
+      "p99": 3.0112692500000007,
+      "p99_9": 3.097614125,
+      "mean": 1.901517402777778,
+      "max": 3.107208
+    },
+    "total_ms": {
+      "n": 72,
+      "p50": 3.1356045000000003,
+      "p95": 4.056023150000001,
+      "p99": 4.146671360000001,
+      "p99_9": 4.2256415359999995,
+      "mean": 3.0553657361111113,
+      "max": 4.2344159999999995
+    }
+  },
+  "query_capture_overlap_fraction": 0.0,
+  "capture_lock_time_fraction": 0.0,
+  "maximum_gap": 500,
+  "active_end_prefix": 39163,
+  "restored_prefix_equal": true,
+  "facts_equal": true,
+  "history_arrays_equal": true,
+  "ledger": {
+    "history_physical_array_bytes": 10148,
+    "history_metadata_bytes": 4096,
+    "fact_catalog_bytes": 6400,
+    "service_control_reserved_bytes": 4096,
+    "resident_reserved_bytes": 24740,
+    "workspace_bytes": 4096,
+    "budget_bytes": 131072,
+    "active_overlay_capacity": 16,
+    "physical_overlay_capacity": 16,
+    "snapshot_payload_bytes": 12856,
+    "snapshot_envelope_bytes": 12944,
+    "two_slot_steady_bytes": 25888,
+    "transient_three_envelope_bytes": 38832,
+    "disk_two_slot_bytes": 25888,
+    "pending_envelope_reservation_bytes": 12944,
+    "resident_plus_pending_workspace_bytes": 41780,
+    "ledger_is_physical_ram_bound": false,
+    "complete_transient_bound_bytes": 67668,
+    "within_budget": true
+  },
+  "drain_seconds": 0.0016329579520970583,
+  "rss_start": 62832640,
+  "rss_peak": 63258624,
+  "harness_measurement_array_bytes": 4920000,
+  "uncontrolled": "OS scheduling, Python GIL, local fsync, client interleaving; closed-loop clients"
+}

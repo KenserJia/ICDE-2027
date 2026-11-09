@@ -1,0 +1,68 @@
+[
+  {
+    "bootstrap95": [
+      0.016380151969001257,
+      0.022847177439820843
+    ],
+    "coverage_min": 1.0,
+    "entities": 13,
+    "method": "tiered-b128-k16",
+    "nrmse_mean": 0.019275044237729223,
+    "reach": 512
+  },
+  {
+    "bootstrap95": [
+      0.016366547997328448,
+      0.02199318168701205
+    ],
+    "coverage_min": 1.0,
+    "entities": 13,
+    "method": "tiered-b128-k16",
+    "nrmse_mean": 0.019057254977913426,
+    "reach": 1024
+  },
+  {
+    "bootstrap95": [
+      0.017408354452919668,
+      0.02497458515093508
+    ],
+    "coverage_min": 1.0,
+    "entities": 13,
+    "method": "tiered-b128-k16",
+    "nrmse_mean": 0.020842655889728338,
+    "reach": 2048
+  },
+  {
+    "bootstrap95": [
+      0.06287797794046453,
+      0.08207779465107833
+    ],
+    "coverage_min": 1.0,
+    "entities": 13,
+    "method": "tiered-b32-k16",
+    "nrmse_mean": 0.07131700008124778,
+    "reach": 4096
+  },
+  {
+    "bootstrap95": [
+      0.0757975670598312,
+      0.1089665990254235
+    ],
+    "coverage_min": 1.0,
+    "entities": 13,
+    "method": "tiered-b32-k0",
+    "nrmse_mean": 0.09080939835086635,
+    "reach": 8192
+  },
+  {
+    "bootstrap95": [
+      0.1343895808192175,
+      0.1657411554417499
+    ],
+    "coverage_min": 1.0,
+    "entities": 13,
+    "method": "tiered-b64-k0",
+    "nrmse_mean": 0.1507271484256315,
+    "reach": 16384
+  }
+]

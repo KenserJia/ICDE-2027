@@ -1,0 +1,31 @@
+{
+  "variant": "fused",
+  "K": 2000,
+  "rep": 0,
+  "mode": "after_partial_write",
+  "caller_ack": 2000,
+  "recovered_ack": 0,
+  "recovered_unacknowledged": 0,
+  "loss": 2000,
+  "bound_claimed": true,
+  "certificate_checks": 7,
+  "continued_checkpoint": true,
+  "ledger": {
+    "array_bytes": 18340,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 0,
+    "resident_reservation_bytes": 26532,
+    "envelope_reservation_bytes": 26620,
+    "workspace_bytes": 8192,
+    "charged_bytes": 114584,
+    "budget_bytes": 131072,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 19414,
+    "snapshot_metadata_bytes": 1074,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 19502
+  },
+  "returncode": -9,
+  "seconds": 0.14189400000032037
+}

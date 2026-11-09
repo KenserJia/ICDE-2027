@@ -1,0 +1,79 @@
+{
+  "entity_order": [
+    [
+      "bike",
+      0
+    ],
+    [
+      "beijing",
+      0
+    ],
+    [
+      "beijing",
+      1
+    ],
+    [
+      "beijing",
+      2
+    ],
+    [
+      "beijing",
+      3
+    ],
+    [
+      "beijing",
+      4
+    ],
+    [
+      "beijing",
+      5
+    ],
+    [
+      "beijing",
+      6
+    ],
+    [
+      "beijing",
+      7
+    ],
+    [
+      "beijing",
+      8
+    ],
+    [
+      "beijing",
+      9
+    ],
+    [
+      "beijing",
+      10
+    ],
+    [
+      "beijing",
+      11
+    ]
+  ],
+  "metadata": [
+    "entity_index",
+    "budget",
+    "workload_index",
+    "method_index",
+    "prefix",
+    "delay",
+    "window",
+    "aligned",
+    "active_overlap"
+  ],
+  "methods": [
+    "recent",
+    "online",
+    "error",
+    "plato"
+  ],
+  "unit": "one query, four channels per row; descriptive pooling only",
+  "workloads": [
+    "critical",
+    "dynamic_dominant",
+    "stable"
+  ]
+}

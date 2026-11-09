@@ -1,0 +1,3902 @@
+[
+  {
+    "dataset": "bike",
+    "entity": 0,
+    "method": "exact_tail",
+    "queries": 283,
+    "answered": 142,
+    "coverage": 0.5017667844522968,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 94,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 48,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 283,
+      "p50": 5.042,
+      "p95": 8.241699999999998,
+      "p99": 12.18194,
+      "p99_9": 17.029500000000112,
+      "maximum": 18.792
+    },
+    "update_us": {
+      "count": 6952,
+      "p50": 0.25,
+      "p95": 0.334,
+      "p99": 0.5,
+      "p99_9": 0.9600580000000373,
+      "maximum": 3.5
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "bike",
+    "entity": 0,
+    "method": "eh_sum",
+    "queries": 283,
+    "answered": 283,
+    "coverage": 1.0,
+    "mse": 0.07107673715065019,
+    "nrmse": 0.23585846554266668,
+    "phase": {
+      "near": {
+        "queries": 94,
+        "mse": 0.03124776136622563
+      },
+      "far": {
+        "queries": 94,
+        "mse": 0.08682944811232478
+      },
+      "alternating": {
+        "queries": 95,
+        "mse": 0.09489956760684486
+      }
+    },
+    "query_us": {
+      "count": 283,
+      "p50": 2.833,
+      "p95": 4.199699999999998,
+      "p99": 5.448120000000009,
+      "p99_9": 7.235656000000014,
+      "maximum": 7.459
+    },
+    "update_us": {
+      "count": 6952,
+      "p50": 5.375,
+      "p95": 11.375,
+      "p99": 16.894759999999973,
+      "p99_9": 28.24155800000137,
+      "maximum": 119.5
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "bike",
+    "entity": 0,
+    "method": "coarse_only",
+    "queries": 283,
+    "answered": 283,
+    "coverage": 1.0,
+    "mse": 0.026763926997548065,
+    "nrmse": 0.1447313608546624,
+    "phase": {
+      "near": {
+        "queries": 94,
+        "mse": 0.020886647218426257
+      },
+      "far": {
+        "queries": 94,
+        "mse": 0.02375971365083941
+      },
+      "alternating": {
+        "queries": 95,
+        "mse": 0.035551930722053995
+      }
+    },
+    "query_us": {
+      "count": 283,
+      "p50": 5.917,
+      "p95": 9.417,
+      "p99": 10.450060000000002,
+      "p99_9": 26.23100000000008,
+      "maximum": 27.5
+    },
+    "update_us": {
+      "count": 6952,
+      "p50": 0.708,
+      "p95": 0.875,
+      "p99": 2.875,
+      "p99_9": 4.127058000000037,
+      "maximum": 13.167
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "bike",
+    "entity": 0,
+    "method": "fixed_recent",
+    "queries": 283,
+    "answered": 283,
+    "coverage": 1.0,
+    "mse": 0.011493538545001854,
+    "nrmse": 0.09484503598468076,
+    "phase": {
+      "near": {
+        "queries": 94,
+        "mse": 0.00046147275138662175
+      },
+      "far": {
+        "queries": 94,
+        "mse": 0.02014235276209317
+      },
+      "alternating": {
+        "queries": 95,
+        "mse": 0.013851703262825522
+      }
+    },
+    "query_us": {
+      "count": 283,
+      "p50": 8.584,
+      "p95": 26.8708,
+      "p99": 29.85632,
+      "p99_9": 42.30100000000013,
+      "maximum": 44.416
+    },
+    "update_us": {
+      "count": 6952,
+      "p50": 0.666,
+      "p95": 0.75,
+      "p99": 8.916,
+      "p99_9": 11.293058000000038,
+      "maximum": 20.416
+    },
+    "actions": 200,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "bike",
+    "entity": 0,
+    "method": "online_overlay",
+    "queries": 283,
+    "answered": 283,
+    "coverage": 1.0,
+    "mse": 0.011854796509142328,
+    "nrmse": 0.09632405990726048,
+    "phase": {
+      "near": {
+        "queries": 94,
+        "mse": 0.00046147275138662175
+      },
+      "far": {
+        "queries": 94,
+        "mse": 0.020403618378450547
+      },
+      "alternating": {
+        "queries": 95,
+        "mse": 0.014669356272448262
+      }
+    },
+    "query_us": {
+      "count": 283,
+      "p50": 9.458,
+      "p95": 25.9959,
+      "p99": 30.672620000000006,
+      "p99_9": 35.774594000000086,
+      "maximum": 37.208
+    },
+    "update_us": {
+      "count": 6952,
+      "p50": 0.625,
+      "p95": 0.709,
+      "p99": 45.10357999999999,
+      "p99_9": 53.27249100000041,
+      "maximum": 63.875
+    },
+    "actions": 200,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "bike",
+    "entity": 0,
+    "method": "finite_future_oracle",
+    "queries": 283,
+    "answered": 283,
+    "coverage": 1.0,
+    "mse": 0.009240459351378459,
+    "nrmse": 0.08504220414031963,
+    "phase": {
+      "near": {
+        "queries": 94,
+        "mse": 0.0007625280557281153
+      },
+      "far": {
+        "queries": 94,
+        "mse": 0.016481418383047595
+      },
+      "alternating": {
+        "queries": 95,
+        "mse": 0.010464410854686182
+      }
+    },
+    "query_us": {
+      "count": 283,
+      "p50": 9.459,
+      "p95": 25.9959,
+      "p99": 29.799320000000016,
+      "p99_9": 31.79775,
+      "maximum": 31.833
+    },
+    "update_us": {
+      "count": 6952,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 10.0487499999997,
+      "p99_9": 16.966183000000147,
+      "maximum": 23.5
+    },
+    "actions": 120,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 0,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.834,
+      "p95": 7.875,
+      "p99": 9.663079999999994,
+      "p99_9": 22.16540800000013,
+      "maximum": 23.583
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.375,
+      "p99": 0.5,
+      "p99_9": 0.75,
+      "maximum": 5.0
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 0,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.11743326597284108,
+    "nrmse": 0.32019556365136914,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.08193322585463902
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.1605947894208429
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.10995013604571895
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.833,
+      "p95": 3.959,
+      "p99": 4.48992,
+      "p99_9": 8.444000000000017,
+      "maximum": 8.625
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.5,
+      "p95": 11.666,
+      "p99": 17.19775,
+      "p99_9": 29.992725000000636,
+      "maximum": 55.875
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 0,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.037811572715361425,
+    "nrmse": 0.18169045459184271,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.05871032042291131
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.022839946397818247
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.031822585100902044
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 5.917,
+      "p95": 9.1668,
+      "p99": 12.56308,
+      "p99_9": 16.597500000000764,
+      "maximum": 24.833
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.708,
+      "p95": 0.875,
+      "p99": 2.917,
+      "p99_9": 5.122925000000182,
+      "maximum": 14.666
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 0,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.008064210766681176,
+    "nrmse": 0.08390747954780732,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00015011694591469553
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.017883783056509065
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.006199309042619056
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.541,
+      "p95": 26.75,
+      "p99": 27.60508,
+      "p99_9": 30.95290800000004,
+      "maximum": 31.375
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.75,
+      "p99": 8.959,
+      "p99_9": 10.203850000000363,
+      "maximum": 14.167
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 0,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.0074501688737502805,
+    "nrmse": 0.08064970799147358,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00015011694591469553
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.016300119390945694
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.005936840327849934
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.5,
+      "p95": 26.0336,
+      "p99": 30.408079999999998,
+      "p99_9": 54.903000000003146,
+      "maximum": 88.75
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.709,
+      "p99": 51.25,
+      "p99_9": 56.28790000000027,
+      "maximum": 62.875
+    },
+    "actions": 372,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 0,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.005237157014912005,
+    "nrmse": 0.06761881226958638,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00015011694591469553
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.013365013464722717
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.0022299268177755046
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.458,
+      "p95": 26.032799999999998,
+      "p99": 29.783079999999998,
+      "p99_9": 31.25,
+      "maximum": 31.25
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 13.81225,
+      "p99_9": 17.041975000000004,
+      "maximum": 21.666
+    },
+    "actions": 336,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 1,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.833,
+      "p95": 8.042,
+      "p99": 9.659999999999997,
+      "p99_9": 12.07790800000004,
+      "maximum": 12.5
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.375,
+      "p99": 0.542,
+      "p99_9": 0.8319750000000895,
+      "maximum": 14.416
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 1,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.10097576797655906,
+    "nrmse": 0.313267392899779,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.06444176168523533
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.13212798605533224
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.10648628436298882
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.792,
+      "p95": 4.200599999999998,
+      "p99": 6.126159999999999,
+      "p99_9": 9.849908000000259,
+      "maximum": 12.625
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.5,
+      "p95": 11.708,
+      "p99": 17.2815,
+      "p99_9": 29.37397500000009,
+      "maximum": 2777.625
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 1,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.029955091599146222,
+    "nrmse": 0.17062471394963447,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.03292618946440463
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.021488980295577748
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.03541512110644982
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 5.916,
+      "p95": 9.292,
+      "p99": 12.435159999999993,
+      "p99_9": 13.564908000000006,
+      "maximum": 13.625
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.708,
+      "p95": 0.875,
+      "p99": 2.917,
+      "p99_9": 4.583,
+      "maximum": 7.125
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 1,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.010667422840784533,
+    "nrmse": 0.10182076729170934,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00011333182322822561
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.018938894711981943
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.012984221622974823
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.666,
+      "p95": 26.875,
+      "p99": 31.48124,
+      "p99_9": 38.35668400000079,
+      "maximum": 46.834
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.75,
+      "p99": 9.04175,
+      "p99_9": 10.373950000000091,
+      "maximum": 14.166
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 1,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.009846647192115145,
+    "nrmse": 0.09782521227756916,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00011333182322822561
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.01604566378800564
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.013406561736168972
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.5,
+      "p95": 26.083,
+      "p99": 28.845,
+      "p99_9": 32.64431600000024,
+      "maximum": 35.208
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.709,
+      "p99": 51.0725,
+      "p99_9": 56.5,
+      "maximum": 71.541
+    },
+    "actions": 376,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 1,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.006239042177989223,
+    "nrmse": 0.0778691745740405,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00011333182322822561
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.014044320860496841
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.004591727067938917
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.375,
+      "p95": 26.0,
+      "p99": 31.11684,
+      "p99_9": 32.240092000000026,
+      "maximum": 32.542
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 13.69775,
+      "p99_9": 17.0,
+      "maximum": 321.416
+    },
+    "actions": 326,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 2,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.916,
+      "p95": 8.0,
+      "p99": 9.003079999999997,
+      "p99_9": 13.881092000000448,
+      "maximum": 18.708
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.375,
+      "p99": 0.541,
+      "p99_9": 0.792,
+      "maximum": 4.959
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 2,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.1206526722502345,
+    "nrmse": 0.3366305779036372,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.09647329370247416
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.15991384746691426
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.10573311184254108
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.75,
+      "p95": 4.1668,
+      "p99": 4.625,
+      "p99_9": 8.179724000000034,
+      "maximum": 8.541
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.5,
+      "p95": 11.655750000000001,
+      "p99": 17.292,
+      "p99_9": 30.20487500000027,
+      "maximum": 67.458
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 2,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.03585881354251747,
+    "nrmse": 0.18351985103638724,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.03998584085203929
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.025431177510415626
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.042116332860006184
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 5.541,
+      "p95": 9.4588,
+      "p99": 10.890999999999995,
+      "p99_9": 13.674184000000073,
+      "maximum": 14.459
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.709,
+      "p95": 0.875,
+      "p99": 2.958,
+      "p99_9": 4.663925000000182,
+      "maximum": 7.666
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 2,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.010738632377239318,
+    "nrmse": 0.10042910158392516,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 9.811643326014343e-05
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.021236747250645005
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.010924414087785553
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.5,
+      "p95": 27.241799999999998,
+      "p99": 29.858159999999994,
+      "p99_9": 32.57068400000005,
+      "maximum": 33.084
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.75,
+      "p99": 9.167,
+      "p99_9": 9.75,
+      "maximum": 18.416
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 2,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.011071187750859444,
+    "nrmse": 0.10197229599900963,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 9.811643326014343e-05
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.018377378578225304
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.014768259112280345
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.5,
+      "p95": 26.407799999999998,
+      "p99": 29.989919999999998,
+      "p99_9": 32.86740800000039,
+      "maximum": 37.0
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.709,
+      "p99": 51.417,
+      "p99_9": 56.083,
+      "maximum": 61.25
+    },
+    "actions": 372,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 2,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.0071416647391076135,
+    "nrmse": 0.08190017304427336,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 9.811643326014343e-05
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.016592582735129917
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.004773348429081639
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.459,
+      "p95": 26.324799999999996,
+      "p99": 30.033079999999998,
+      "p99_9": 31.882184000000073,
+      "maximum": 32.667
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 13.85425,
+      "p99_9": 16.958,
+      "maximum": 20.916
+    },
+    "actions": 326,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 3,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.917,
+      "p95": 7.949799999999998,
+      "p99": 8.553759999999999,
+      "p99_9": 11.54609200000001,
+      "maximum": 11.667
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.375,
+      "p99": 0.542,
+      "p99_9": 0.75,
+      "maximum": 9.125
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 3,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.11559034167662624,
+    "nrmse": 0.32282977830804743,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.11020368970073942
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.1348317199174037
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.1018151252391769
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.833,
+      "p95": 4.083,
+      "p99": 5.159999999999997,
+      "p99_9": 8.552592000000002,
+      "maximum": 8.583
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.459,
+      "p95": 11.625,
+      "p99": 17.208,
+      "p99_9": 30.102100000002,
+      "maximum": 117.834
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 3,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.03912618469898293,
+    "nrmse": 0.18782204486282217,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.06679090818223629
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.022470328756486944
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.02804849130722349
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 6.0,
+      "p95": 9.449799999999998,
+      "p99": 10.042,
+      "p99_9": 16.40009200000028,
+      "maximum": 19.417
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.709,
+      "p95": 0.875,
+      "p99": 2.958,
+      "p99_9": 4.748950000000091,
+      "maximum": 19.792
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 3,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.00846183250334521,
+    "nrmse": 0.08734640326557146,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00013521330324419692
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.0166231995164732
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.008660809347397278
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.417,
+      "p95": 27.0,
+      "p99": 27.90692,
+      "p99_9": 32.083,
+      "maximum": 32.083
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.75,
+      "p99": 9.155750000000001,
+      "p99_9": 9.83197500000009,
+      "maximum": 13.042
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 3,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.008037282664571606,
+    "nrmse": 0.08512702094151328,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00013521330324419692
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.016169274888926635
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.007840963075198343
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.583,
+      "p95": 26.291800000000002,
+      "p99": 29.371919999999974,
+      "p99_9": 35.94559200000037,
+      "maximum": 39.958
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.709,
+      "p99": 51.75,
+      "p99_9": 57.12397500000009,
+      "maximum": 75.125
+    },
+    "actions": 372,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 3,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.005094183076336589,
+    "nrmse": 0.06777196665675193,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00013720227146936828
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.010948848590923887
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.004220691199321421
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.5,
+      "p95": 26.041,
+      "p99": 27.69892,
+      "p99_9": 36.39959200000106,
+      "maximum": 47.833
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 13.7815,
+      "p99_9": 16.16497500000009,
+      "maximum": 20.542
+    },
+    "actions": 332,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 4,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.917,
+      "p95": 8.083,
+      "p99": 8.792919999999999,
+      "p99_9": 11.627184000000275,
+      "maximum": 14.584
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.375,
+      "p99": 0.458,
+      "p99_9": 0.667,
+      "maximum": 12.166
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 4,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.1281141528275324,
+    "nrmse": 0.3327909484297564,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.08706906717232032
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.1732442197968903
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.1242156593934253
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.834,
+      "p95": 4.167,
+      "p99": 4.66676,
+      "p99_9": 8.49827600000005,
+      "maximum": 9.042
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.5,
+      "p95": 11.583,
+      "p99": 17.167,
+      "p99_9": 29.98750000000109,
+      "maximum": 176.5
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 4,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.03877222219481729,
+    "nrmse": 0.18307679348233105,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.042708605603456545
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.028847233374734903
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.044719815255764225
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 5.667,
+      "p95": 9.5418,
+      "p99": 10.033839999999998,
+      "p99_9": 11.564184000000006,
+      "maximum": 11.625
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.709,
+      "p95": 0.916,
+      "p99": 2.958,
+      "p99_9": 3.708,
+      "maximum": 15.875
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 4,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.010445001200727463,
+    "nrmse": 0.09502266314842743,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00011285044435264555
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.023795320222245977
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.0074819995431107
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.334,
+      "p95": 27.2416,
+      "p99": 28.40692,
+      "p99_9": 34.740092000000026,
+      "maximum": 35.042
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.667,
+      "p95": 0.75,
+      "p99": 9.25,
+      "p99_9": 10.083975000000002,
+      "maximum": 14.875
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 4,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.012145572373237868,
+    "nrmse": 0.10246650989390314,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00011285044435264555
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.022002809269721375
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.014361789789509354
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.5,
+      "p95": 26.450599999999998,
+      "p99": 27.0,
+      "p99_9": 30.531816000000028,
+      "maximum": 30.833
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.709,
+      "p99": 51.6565,
+      "p99_9": 54.24687500000027,
+      "maximum": 76.5
+    },
+    "actions": 376,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 4,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.0091480667664149,
+    "nrmse": 0.08892781337291848,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00012097810028000617
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.018974018659108412
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.008389806646850878
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.375,
+      "p95": 26.125,
+      "p99": 27.544839999999997,
+      "p99_9": 38.742592000001245,
+      "maximum": 52.167
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 13.70875,
+      "p99_9": 16.788875000000274,
+      "maximum": 21.334
+    },
+    "actions": 334,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 5,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.875,
+      "p95": 7.949799999999998,
+      "p99": 8.772999999999998,
+      "p99_9": 11.153684000000048,
+      "maximum": 11.667
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.334,
+      "p99": 0.417,
+      "p99_9": 0.5839750000000021,
+      "maximum": 1.167
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 5,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.1404709045831747,
+    "nrmse": 0.3100140746852769,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.10375080165897535
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.18491343757270184
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.1329321213483822
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.875,
+      "p95": 4.084,
+      "p99": 4.542,
+      "p99_9": 5.966908000000022,
+      "maximum": 6.208
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.459,
+      "p95": 11.5,
+      "p99": 17.11475,
+      "p99_9": 30.075725000000634,
+      "maximum": 799.791
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 5,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.052730041188876454,
+    "nrmse": 0.1899403688493185,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.05918105655670874
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.04238252421484717
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.05658378446047001
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 6.125,
+      "p95": 9.4168,
+      "p99": 9.959919999999999,
+      "p99_9": 12.901000000000067,
+      "maximum": 13.625
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.709,
+      "p95": 0.875,
+      "p99": 2.91675,
+      "p99_9": 3.3339750000000024,
+      "maximum": 16.875
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 5,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.017052792169206347,
+    "nrmse": 0.10801547288964541,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00021358913217984268
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.035539377340641394
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.015481800882613651
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.458,
+      "p95": 27.125,
+      "p99": 27.583759999999998,
+      "p99_9": 28.62668400000003,
+      "maximum": 28.959
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.667,
+      "p95": 0.75,
+      "p99": 9.167,
+      "p99_9": 9.998950000000091,
+      "maximum": 15.375
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 5,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.015644150022068686,
+    "nrmse": 0.10345803077426718,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00021358913217984268
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.03203063733717657
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.014755936354350092
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.584,
+      "p95": 26.324799999999996,
+      "p99": 26.75,
+      "p99_9": 27.23740800000005,
+      "maximum": 27.75
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.709,
+      "p99": 51.2815,
+      "p99_9": 53.83190000000019,
+      "maximum": 61.083
+    },
+    "actions": 376,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 5,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.010847566859320997,
+    "nrmse": 0.08614982300930502,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00021358913217984268
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.02416592816317496
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.008218217833450555
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.375,
+      "p95": 26.208,
+      "p99": 27.08516,
+      "p99_9": 32.00140800000003,
+      "maximum": 32.333
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.709,
+      "p99": 13.625,
+      "p99_9": 16.45697500000009,
+      "maximum": 72.167
+    },
+    "actions": 332,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 6,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.959,
+      "p95": 8.0,
+      "p99": 8.32392,
+      "p99_9": 10.961816000000061,
+      "maximum": 11.625
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.334,
+      "p99": 0.417,
+      "p99_9": 0.625,
+      "maximum": 3.542
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 6,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.11864236540933835,
+    "nrmse": 0.33218152119107075,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.07570830112594545
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.16319817999359254
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.11720473004477565
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.875,
+      "p95": 4.208,
+      "p99": 4.625,
+      "p99_9": 5.595000000000084,
+      "maximum": 6.5
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.5,
+      "p95": 11.5,
+      "p99": 17.167,
+      "p99_9": 29.81947500000118,
+      "maximum": 187.208
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 6,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.03507651958162014,
+    "nrmse": 0.18061916011953794,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.04011479042314879
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.024760106187822154
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.04031203232647708
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 6.125,
+      "p95": 9.542,
+      "p99": 9.99016,
+      "p99_9": 12.435500000000076,
+      "maximum": 13.25
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.709,
+      "p95": 0.875,
+      "p99": 2.958,
+      "p99_9": 3.6208500000003623,
+      "maximum": 17.042
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 6,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.010311085123921017,
+    "nrmse": 0.09792819670903374,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00014810697998920457
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.017421792082856827
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.01339273939552419
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.833,
+      "p95": 27.416,
+      "p99": 28.27184,
+      "p99_9": 31.736224000000263,
+      "maximum": 34.541
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.667,
+      "p95": 0.75,
+      "p99": 9.280750000000001,
+      "p99_9": 10.41497500000009,
+      "maximum": 16.958
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 6,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.010474811653527783,
+    "nrmse": 0.09870262037263156,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00014810697998920457
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.015478993531199005
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.015818012886906176
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.708,
+      "p95": 26.417,
+      "p99": 27.06308,
+      "p99_9": 34.35590800000109,
+      "maximum": 46.0
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.709,
+      "p99": 51.46875,
+      "p99_9": 54.831975000000085,
+      "maximum": 107.25
+    },
+    "actions": 372,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 6,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.005683665518039054,
+    "nrmse": 0.07270592885465672,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00014810697998920457
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.012870123496773044
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.004062462184705053
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.625,
+      "p95": 26.3666,
+      "p99": 27.606759999999998,
+      "p99_9": 28.74150000000006,
+      "maximum": 29.375
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.709,
+      "p99": 13.708,
+      "p99_9": 17.247900000000183,
+      "maximum": 36.75
+    },
+    "actions": 330,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 7,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.917,
+      "p95": 8.032799999999998,
+      "p99": 8.32368,
+      "p99_9": 13.97072400000111,
+      "maximum": 25.916
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.334,
+      "p99": 0.458,
+      "p99_9": 0.625,
+      "maximum": 1.5
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 7,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.112380327644637,
+    "nrmse": 0.3245347526628996,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.08901740264873076
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.13714736970072036
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.11107855373345198
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.916,
+      "p95": 4.116599999999998,
+      "p99": 4.5319199999999995,
+      "p99_9": 5.300908000000022,
+      "maximum": 5.542
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.459,
+      "p95": 11.5,
+      "p99": 17.042,
+      "p99_9": 28.87427500000373,
+      "maximum": 140.542
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 7,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.03779373005590528,
+    "nrmse": 0.18820273971586113,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.05162310839214155
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.022802017935965316
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.03889411461597284
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 5.666,
+      "p95": 9.491799999999998,
+      "p99": 10.221919999999997,
+      "p99_9": 12.214500000000042,
+      "maximum": 12.667
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.709,
+      "p95": 0.875,
+      "p99": 2.958,
+      "p99_9": 3.25,
+      "maximum": 13.916
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 7,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.008809821762552265,
+    "nrmse": 0.09086562620338963,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00018001048903127737
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.017873106952723317
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.008413799437597123
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.458,
+      "p95": 27.25,
+      "p99": 28.0,
+      "p99_9": 32.46150000000014,
+      "maximum": 34.0
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.667,
+      "p95": 0.75,
+      "p99": 9.25,
+      "p99_9": 9.958,
+      "maximum": 15.166
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 7,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.00909959465257619,
+    "nrmse": 0.09234791324915514,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00018001048903127737
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.015964939732946794
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.011182202930297484
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.666,
+      "p95": 26.5,
+      "p99": 27.10508,
+      "p99_9": 42.246500000000935,
+      "maximum": 52.292
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.667,
+      "p95": 0.709,
+      "p99": 51.542,
+      "p99_9": 53.831975000000085,
+      "maximum": 59.0
+    },
+    "actions": 374,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 7,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.006679177782785717,
+    "nrmse": 0.07911841249824068,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00018001048903127737
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.011794693534677367
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.008083967819491033
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.5,
+      "p95": 26.282799999999998,
+      "p99": 28.08516,
+      "p99_9": 31.886592000000004,
+      "maximum": 31.917
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 13.708,
+      "p99_9": 17.082950000000093,
+      "maximum": 65.209
+    },
+    "actions": 326,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 8,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.959,
+      "p95": 7.958,
+      "p99": 8.65692,
+      "p99_9": 11.219592000000002,
+      "maximum": 11.25
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.334,
+      "p99": 0.417,
+      "p99_9": 0.6239750000000895,
+      "maximum": 3.542
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 8,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.12158027339674579,
+    "nrmse": 0.3220766038463175,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.09858188759391234
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.16935050804211846
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.09700582221803045
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.875,
+      "p95": 4.157799999999998,
+      "p99": 4.58376,
+      "p99_9": 9.076816000000953,
+      "maximum": 19.333
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.5,
+      "p95": 11.5,
+      "p99": 17.15575,
+      "p99_9": 29.955850000000275,
+      "maximum": 136.834
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 8,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.04006604439019085,
+    "nrmse": 0.18489103527352518,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.05463163984873041
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.028630319452371947
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.036888918807743656
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 6.042,
+      "p95": 9.542,
+      "p99": 10.553239999999999,
+      "p99_9": 12.919592000000305,
+      "maximum": 16.208
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.709,
+      "p95": 0.875,
+      "p99": 2.917,
+      "p99_9": 3.291975000000002,
+      "maximum": 16.125
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 8,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.011909519457901295,
+    "nrmse": 0.10080329758824544,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0001125867012384702
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.025156174507691628
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.010514535408781193
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.708,
+      "p95": 27.366799999999998,
+      "p99": 28.095,
+      "p99_9": 31.375,
+      "maximum": 31.375
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.667,
+      "p95": 0.75,
+      "p99": 9.208,
+      "p99_9": 9.958975000000002,
+      "maximum": 12.041
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 8,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.009476074278387278,
+    "nrmse": 0.08991700824627731,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0001125867012384702
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.020366807064680574
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.007993832097285323
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.625,
+      "p95": 26.416,
+      "p99": 27.04176,
+      "p99_9": 28.597000000000033,
+      "maximum": 28.959
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.709,
+      "p99": 51.417,
+      "p99_9": 53.83190000000019,
+      "maximum": 69.75
+    },
+    "actions": 372,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 8,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.00760336140566353,
+    "nrmse": 0.08054348877260346,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0001125867012384702
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.017577879787599365
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.005160834746259929
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.5,
+      "p95": 26.282799999999998,
+      "p99": 27.60508,
+      "p99_9": 39.02550000000247,
+      "maximum": 65.542
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 13.6565,
+      "p99_9": 16.41392500000018,
+      "maximum": 18.125
+    },
+    "actions": 334,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 9,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.875,
+      "p95": 8.042,
+      "p99": 8.511999999999999,
+      "p99_9": 10.256184000000124,
+      "maximum": 11.584
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.334,
+      "p99": 0.458,
+      "p99_9": 0.667,
+      "maximum": 3.958
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 9,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.13366663396885256,
+    "nrmse": 0.34933167741006066,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.12982108897102568
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.15528684959781477
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.11598130307172118
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.833,
+      "p95": 4.0838,
+      "p99": 4.6569199999999995,
+      "p99_9": 7.82718400000004,
+      "maximum": 8.25
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.5,
+      "p95": 11.542,
+      "p99": 17.23975,
+      "p99_9": 29.65865000000073,
+      "maximum": 48.292
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 9,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.045412706054119206,
+    "nrmse": 0.2036175249606742,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0742556969851102
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.030532457327015664
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.031388475219128034
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 5.708,
+      "p95": 9.375,
+      "p99": 10.208,
+      "p99_9": 13.349408000000015,
+      "maximum": 13.5
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.709,
+      "p95": 0.875,
+      "p99": 2.916,
+      "p99_9": 3.3739500000000917,
+      "maximum": 14.25
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 9,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.012874370696675146,
+    "nrmse": 0.10841502351006004,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00018647785365068578
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.02720429790266774
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.011291550908938382
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.333,
+      "p95": 27.334,
+      "p99": 28.18808,
+      "p99_9": 32.29750000000004,
+      "maximum": 32.75
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.667,
+      "p95": 0.75,
+      "p99": 9.125,
+      "p99_9": 9.875,
+      "maximum": 13.5
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 9,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.011814011572519557,
+    "nrmse": 0.10385446178835132,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00018647785365068578
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.025716940779540183
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.009596066205057971
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.958,
+      "p95": 26.459,
+      "p99": 27.0,
+      "p99_9": 36.51981600000102,
+      "maximum": 47.5
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.709,
+      "p99": 51.44775,
+      "p99_9": 54.20487500000027,
+      "maximum": 59.0
+    },
+    "actions": 368,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 9,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.009892505233463826,
+    "nrmse": 0.09503413098565552,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00018647785365068578
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.02161529429618338
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.00792418482767609
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.458,
+      "p95": 26.333,
+      "p99": 27.239919999999998,
+      "p99_9": 38.35518400000216,
+      "maximum": 61.584
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 13.667,
+      "p99_9": 16.537825000000367,
+      "maximum": 720.292
+    },
+    "actions": 332,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 10,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.834,
+      "p95": 7.875,
+      "p99": 8.54176,
+      "p99_9": 10.70431600000007,
+      "maximum": 11.458
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.375,
+      "p99": 0.458,
+      "p99_9": 0.75,
+      "maximum": 13.875
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 10,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.11266373910875882,
+    "nrmse": 0.32695987640100055,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.07943108148845629
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.15224724293848357
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.10647646109698011
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.792,
+      "p95": 4.0,
+      "p99": 4.438839999999999,
+      "p99_9": 5.360408000000098,
+      "maximum": 6.416
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.4795,
+      "p95": 11.583,
+      "p99": 17.084,
+      "p99_9": 28.896225000001728,
+      "maximum": 136.042
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 10,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.0361101553205792,
+    "nrmse": 0.18510453478949385,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.05282772540189223
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.016808090960349315
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.03861488900296619
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 6.041,
+      "p95": 9.532799999999998,
+      "p99": 10.302999999999999,
+      "p99_9": 13.022908000000006,
+      "maximum": 13.083
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.709,
+      "p95": 0.875,
+      "p99": 2.916,
+      "p99_9": 4.45697500000009,
+      "maximum": 7.459
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 10,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.00810422414642118,
+    "nrmse": 0.08769162183922871,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00012382277287765708
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.013702097688621451
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.0105098836866165
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.458,
+      "p95": 27.166800000000002,
+      "p99": 29.081999999999994,
+      "p99_9": 32.11072400000002,
+      "maximum": 32.291
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.667,
+      "p95": 0.75,
+      "p99": 9.166,
+      "p99_9": 9.833,
+      "maximum": 10.208
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 10,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.007793425273847543,
+    "nrmse": 0.08599368664299081,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00012382277287765708
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.012723087684050519
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.010553735870441736
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.541,
+      "p95": 26.333,
+      "p99": 27.042,
+      "p99_9": 30.66500000000005,
+      "maximum": 31.208
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.709,
+      "p99": 51.7395,
+      "p99_9": 53.70385000000036,
+      "maximum": 57.708
+    },
+    "actions": 376,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 10,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.0052646439001982764,
+    "nrmse": 0.07067842785864872,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0001948312677192722
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.00973213785275282
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.005885423298934948
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.5,
+      "p95": 26.282799999999998,
+      "p99": 27.784999999999997,
+      "p99_9": 33.07077600000021,
+      "maximum": 35.334
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 13.541,
+      "p99_9": 17.373950000000093,
+      "maximum": 21.208
+    },
+    "actions": 328,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 11,
+    "method": "exact_tail",
+    "queries": 725,
+    "answered": 364,
+    "coverage": 0.5020689655172413,
+    "mse": 0.0,
+    "nrmse": 0.0,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.0
+      },
+      "far": {
+        "queries": 0,
+        "mse": null
+      },
+      "alternating": {
+        "queries": 122,
+        "mse": 0.0
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 4.917,
+      "p95": 7.958,
+      "p99": 8.57292,
+      "p99_9": 11.169776000000143,
+      "maximum": 12.709
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.25,
+      "p95": 0.375,
+      "p99": 0.5,
+      "p99_9": 0.709,
+      "maximum": 5.167
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 17064,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 21160,
+      "workspace_bytes": 2048,
+      "charged_bytes": 65528,
+      "budget_bytes": 65536,
+      "capacity_events": 711
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 11,
+    "method": "eh_sum",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.12148314474373202,
+    "nrmse": 0.32518328484805625,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.10413769506071578
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.14955933482471961
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.11086842166014495
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 2.833,
+      "p95": 4.074799999999998,
+      "p99": 4.4901599999999995,
+      "p99_9": 5.3521840000001575,
+      "maximum": 7.042
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 5.459,
+      "p95": 11.5,
+      "p99": 17.07275,
+      "p99_9": 26.90350000000109,
+      "maximum": 127.75
+    },
+    "actions": 0,
+    "account": {
+      "resident_reserved_bytes": 2560,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 6656,
+      "workspace_bytes": 2048,
+      "charged_bytes": 22016,
+      "budget_bytes": 65536,
+      "max_buckets": 32
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 11,
+    "method": "coarse_only",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.03555782976033608,
+    "nrmse": 0.1759291579873386,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.042522444380040464
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.030034376155935093
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.034093844556584735
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 6.0,
+      "p95": 9.375,
+      "p99": 9.78192,
+      "p99_9": 12.415408000000133,
+      "maximum": 13.833
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.709,
+      "p95": 0.875,
+      "p99": 2.875,
+      "p99_9": 3.25,
+      "maximum": 14.916
+    },
+    "actions": 0,
+    "account": {
+      "resident_array_bytes": 4096,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 8192,
+      "workspace_bytes": 2048,
+      "charged_bytes": 26624,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 11,
+    "method": "fixed_recent",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.010355013667981533,
+    "nrmse": 0.09493919373806685,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00012238989025530126
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.02398851308333422
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.007010474804798685
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 8.417,
+      "p95": 27.0838,
+      "p99": 28.04176,
+      "p99_9": 28.515684000000014,
+      "maximum": 28.667
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.75,
+      "p99": 9.125,
+      "p99_9": 9.667,
+      "maximum": 27.291
+    },
+    "actions": 422,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 11,
+    "method": "online_overlay",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.011258329262760948,
+    "nrmse": 0.09899361272965697,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00012238989025530126
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.022452860759778603
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.011245995532864712
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.583,
+      "p95": 26.416800000000002,
+      "p99": 27.12616,
+      "p99_9": 37.78027600000148,
+      "maximum": 53.709
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.666,
+      "p95": 0.709,
+      "p99": 51.5725,
+      "p99_9": 55.62292500000018,
+      "maximum": 96.875
+    },
+    "actions": 372,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  },
+  {
+    "dataset": "beijing",
+    "entity": 11,
+    "method": "finite_future_oracle",
+    "queries": 725,
+    "answered": 725,
+    "coverage": 1.0,
+    "mse": 0.00861711048715365,
+    "nrmse": 0.08660660842798115,
+    "phase": {
+      "near": {
+        "queries": 242,
+        "mse": 0.00012238989025530126
+      },
+      "far": {
+        "queries": 241,
+        "mse": 0.019769201836586828
+      },
+      "alternating": {
+        "queries": 242,
+        "mse": 0.006005822756723914
+      }
+    },
+    "query_us": {
+      "count": 725,
+      "p50": 9.541,
+      "p95": 26.292,
+      "p99": 27.427999999999997,
+      "p99_9": 30.31500000000017,
+      "maximum": 32.125
+    },
+    "update_us": {
+      "count": 14026,
+      "p50": 0.625,
+      "p95": 0.708,
+      "p99": 13.5,
+      "p99_9": 16.458,
+      "maximum": 62.916
+    },
+    "actions": 328,
+    "account": {
+      "resident_array_bytes": 8960,
+      "metadata_bytes": 4096,
+      "snapshot_slots": 2,
+      "snapshot_slot_bytes": 13056,
+      "workspace_bytes": 2048,
+      "charged_bytes": 41216,
+      "budget_bytes": 65536
+    }
+  }
+]

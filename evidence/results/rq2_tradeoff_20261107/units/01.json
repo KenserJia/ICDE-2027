@@ -1,0 +1,1475 @@
+{
+  "dataset": "beijing",
+  "entity": 0,
+  "signature": "161041ecd042231f731392df85e18a92a3088a3f4164b6dd5588a56b8f952640",
+  "training_variance": 1.0000000015593193,
+  "counts": {
+    "train_rows": 21038,
+    "validation_rows": 7013,
+    "test_rows": 7013,
+    "eligible_test_prefix_start": 28052,
+    "excluded_test_prefix_count": 0,
+    "eligible_prefix_count": 7013,
+    "anchors": 55,
+    "global_queries": 385,
+    "common_queries": 440
+  },
+  "pool_configurations": 74,
+  "unique_query_method_cases": 61050,
+  "exact_numeric_checks": 19378,
+  "snapshot_checks": [
+    {
+      "key": [
+        "native",
+        512,
+        1,
+        1
+      ],
+      "bytes": 16630,
+      "reserve": 17732,
+      "margin": 1102
+    },
+    {
+      "key": [
+        "native",
+        512,
+        4,
+        5
+      ],
+      "bytes": 14390,
+      "reserve": 15492,
+      "margin": 1102
+    },
+    {
+      "key": [
+        "native",
+        512,
+        8,
+        5
+      ],
+      "bytes": 10934,
+      "reserve": 12036,
+      "margin": 1102
+    },
+    {
+      "key": [
+        "native",
+        512,
+        16,
+        5
+      ],
+      "bytes": 9210,
+      "reserve": 10308,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "native",
+        512,
+        128,
+        0
+      ],
+      "bytes": 7434,
+      "reserve": 8536,
+      "margin": 1102
+    },
+    {
+      "key": [
+        "tail",
+        512,
+        512
+      ],
+      "bytes": 13052,
+      "reserve": 18432,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        1,
+        1
+      ],
+      "bytes": 16810,
+      "reserve": 17908,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        4,
+        7
+      ],
+      "bytes": 16906,
+      "reserve": 18004,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        8,
+        9
+      ],
+      "bytes": 13482,
+      "reserve": 14580,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        16,
+        9
+      ],
+      "bytes": 10606,
+      "reserve": 11700,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        128,
+        0
+      ],
+      "bytes": 7614,
+      "reserve": 8712,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "tail",
+        1024,
+        540
+      ],
+      "bytes": 13724,
+      "reserve": 19104,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        1,
+        1
+      ],
+      "bytes": 17162,
+      "reserve": 18260,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        4,
+        7
+      ],
+      "bytes": 17258,
+      "reserve": 18356,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        8,
+        16
+      ],
+      "bytes": 17982,
+      "reserve": 19076,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        16,
+        17
+      ],
+      "bytes": 13394,
+      "reserve": 14484,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        128,
+        0
+      ],
+      "bytes": 7966,
+      "reserve": 9064,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "tail",
+        2048,
+        540
+      ],
+      "bytes": 13724,
+      "reserve": 19104,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        1,
+        1
+      ],
+      "bytes": 17866,
+      "reserve": 18964,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        4,
+        7
+      ],
+      "bytes": 17962,
+      "reserve": 19060,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        8,
+        14
+      ],
+      "bytes": 17502,
+      "reserve": 18596,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        16,
+        29
+      ],
+      "bytes": 17746,
+      "reserve": 18836,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        128,
+        0
+      ],
+      "bytes": 8670,
+      "reserve": 9768,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "tail",
+        4096,
+        540
+      ],
+      "bytes": 13724,
+      "reserve": 19104,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        1,
+        0
+      ],
+      "bytes": 14642,
+      "reserve": 15748,
+      "margin": 1106
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        4,
+        5
+      ],
+      "bytes": 17034,
+      "reserve": 18132,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        8,
+        12
+      ],
+      "bytes": 17726,
+      "reserve": 18820,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        16,
+        25
+      ],
+      "bytes": 17938,
+      "reserve": 19028,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        128,
+        0
+      ],
+      "bytes": 10078,
+      "reserve": 11176,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "tail",
+        8192,
+        540
+      ],
+      "bytes": 13724,
+      "reserve": 19104,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        1,
+        0
+      ],
+      "bytes": 17462,
+      "reserve": 18564,
+      "margin": 1102
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        4,
+        3
+      ],
+      "bytes": 17518,
+      "reserve": 18612,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        8,
+        7
+      ],
+      "bytes": 17582,
+      "reserve": 18676,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        16,
+        16
+      ],
+      "bytes": 18022,
+      "reserve": 19108,
+      "margin": 1086
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        128,
+        0
+      ],
+      "bytes": 12898,
+      "reserve": 13992,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "tail",
+        16384,
+        540
+      ],
+      "bytes": 13724,
+      "reserve": 19104,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        512,
+        1,
+        5
+      ],
+      "bytes": 35130,
+      "reserve": 36228,
+      "margin": 1098
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        1,
+        5
+      ],
+      "bytes": 35310,
+      "reserve": 36404,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        4,
+        9
+      ],
+      "bytes": 19246,
+      "reserve": 20340,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "tail",
+        1024,
+        1024
+      ],
+      "bytes": 25340,
+      "reserve": 30720,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        1,
+        5
+      ],
+      "bytes": 35662,
+      "reserve": 36756,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        4,
+        17
+      ],
+      "bytes": 28946,
+      "reserve": 30036,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        8,
+        17
+      ],
+      "bytes": 18578,
+      "reserve": 19668,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "tail",
+        2048,
+        1450
+      ],
+      "bytes": 35564,
+      "reserve": 40944,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        1,
+        5
+      ],
+      "bytes": 36366,
+      "reserve": 37460,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        4,
+        25
+      ],
+      "bytes": 38994,
+      "reserve": 40084,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        8,
+        33
+      ],
+      "bytes": 28754,
+      "reserve": 29844,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        16,
+        33
+      ],
+      "bytes": 18966,
+      "reserve": 20052,
+      "margin": 1086
+    },
+    {
+      "key": [
+        "tail",
+        4096,
+        1450
+      ],
+      "bytes": 35564,
+      "reserve": 40944,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        1,
+        5
+      ],
+      "bytes": 37774,
+      "reserve": 38868,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        4,
+        24
+      ],
+      "bytes": 39234,
+      "reserve": 40324,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        8,
+        49
+      ],
+      "bytes": 39634,
+      "reserve": 40724,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        16,
+        65
+      ],
+      "bytes": 30102,
+      "reserve": 31188,
+      "margin": 1086
+    },
+    {
+      "key": [
+        "tail",
+        8192,
+        1450
+      ],
+      "bytes": 35564,
+      "reserve": 40944,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        1,
+        4
+      ],
+      "bytes": 35970,
+      "reserve": 37060,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        4,
+        22
+      ],
+      "bytes": 39718,
+      "reserve": 40804,
+      "margin": 1086
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        8,
+        44
+      ],
+      "bytes": 39494,
+      "reserve": 40580,
+      "margin": 1086
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        16,
+        87
+      ],
+      "bytes": 39610,
+      "reserve": 40692,
+      "margin": 1082
+    },
+    {
+      "key": [
+        "tail",
+        16384,
+        1450
+      ],
+      "bytes": 35564,
+      "reserve": 40944,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        1,
+        9
+      ],
+      "bytes": 53806,
+      "reserve": 54900,
+      "margin": 1094
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        1,
+        15
+      ],
+      "bytes": 81906,
+      "reserve": 82996,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "tail",
+        2048,
+        2048
+      ],
+      "bytes": 49916,
+      "reserve": 55296,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        1,
+        15
+      ],
+      "bytes": 82610,
+      "reserve": 83700,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        4,
+        33
+      ],
+      "bytes": 48338,
+      "reserve": 49428,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "tail",
+        4096,
+        3271
+      ],
+      "bytes": 79268,
+      "reserve": 84648,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        1,
+        14
+      ],
+      "bytes": 79394,
+      "reserve": 80484,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        4,
+        61
+      ],
+      "bytes": 82450,
+      "reserve": 83540,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        8,
+        65
+      ],
+      "bytes": 49106,
+      "reserve": 50196,
+      "margin": 1090
+    },
+    {
+      "key": [
+        "tail",
+        8192,
+        3271
+      ],
+      "bytes": 79268,
+      "reserve": 84648,
+      "margin": 5380
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        1,
+        14
+      ],
+      "bytes": 82214,
+      "reserve": 83300,
+      "margin": 1086
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        4,
+        59
+      ],
+      "bytes": 82934,
+      "reserve": 84020,
+      "margin": 1086
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        8,
+        118
+      ],
+      "bytes": 83306,
+      "reserve": 84388,
+      "margin": 1082
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        16,
+        129
+      ],
+      "bytes": 52382,
+      "reserve": 53460,
+      "margin": 1078
+    },
+    {
+      "key": [
+        "tail",
+        16384,
+        3271
+      ],
+      "bytes": 79268,
+      "reserve": 84648,
+      "margin": 5380
+    }
+  ],
+  "reach_checks": [
+    {
+      "key": [
+        "native",
+        512,
+        1,
+        1
+      ],
+      "verified_continuous_reach": 512
+    },
+    {
+      "key": [
+        "native",
+        512,
+        4,
+        5
+      ],
+      "verified_continuous_reach": 512
+    },
+    {
+      "key": [
+        "native",
+        512,
+        8,
+        5
+      ],
+      "verified_continuous_reach": 512
+    },
+    {
+      "key": [
+        "native",
+        512,
+        16,
+        5
+      ],
+      "verified_continuous_reach": 512
+    },
+    {
+      "key": [
+        "native",
+        512,
+        128,
+        0
+      ],
+      "verified_continuous_reach": 512
+    },
+    {
+      "key": [
+        "tail",
+        512,
+        512
+      ],
+      "verified_continuous_reach": 512
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        1,
+        1
+      ],
+      "verified_continuous_reach": 1024
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        4,
+        7
+      ],
+      "verified_continuous_reach": 1024
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        8,
+        9
+      ],
+      "verified_continuous_reach": 1024
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        16,
+        9
+      ],
+      "verified_continuous_reach": 1024
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        128,
+        0
+      ],
+      "verified_continuous_reach": 1024
+    },
+    {
+      "key": [
+        "tail",
+        1024,
+        540
+      ],
+      "verified_continuous_reach": 540
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        1,
+        1
+      ],
+      "verified_continuous_reach": 2048
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        4,
+        7
+      ],
+      "verified_continuous_reach": 2048
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        8,
+        16
+      ],
+      "verified_continuous_reach": 2048
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        16,
+        17
+      ],
+      "verified_continuous_reach": 2048
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        128,
+        0
+      ],
+      "verified_continuous_reach": 2048
+    },
+    {
+      "key": [
+        "tail",
+        2048,
+        540
+      ],
+      "verified_continuous_reach": 540
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        1,
+        1
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        4,
+        7
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        8,
+        14
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        16,
+        29
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        128,
+        0
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "tail",
+        4096,
+        540
+      ],
+      "verified_continuous_reach": 540
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        1,
+        0
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        4,
+        5
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        8,
+        12
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        16,
+        25
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        128,
+        0
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "tail",
+        8192,
+        540
+      ],
+      "verified_continuous_reach": 540
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        1,
+        0
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        4,
+        3
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        8,
+        7
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        16,
+        16
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        128,
+        0
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "tail",
+        16384,
+        540
+      ],
+      "verified_continuous_reach": 540
+    },
+    {
+      "key": [
+        "native",
+        512,
+        1,
+        5
+      ],
+      "verified_continuous_reach": 512
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        1,
+        5
+      ],
+      "verified_continuous_reach": 1024
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        4,
+        9
+      ],
+      "verified_continuous_reach": 1024
+    },
+    {
+      "key": [
+        "tail",
+        1024,
+        1024
+      ],
+      "verified_continuous_reach": 1024
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        1,
+        5
+      ],
+      "verified_continuous_reach": 2048
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        4,
+        17
+      ],
+      "verified_continuous_reach": 2048
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        8,
+        17
+      ],
+      "verified_continuous_reach": 2048
+    },
+    {
+      "key": [
+        "tail",
+        2048,
+        1450
+      ],
+      "verified_continuous_reach": 1450
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        1,
+        5
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        4,
+        25
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        8,
+        33
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        16,
+        33
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "tail",
+        4096,
+        1450
+      ],
+      "verified_continuous_reach": 1450
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        1,
+        5
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        4,
+        24
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        8,
+        49
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        16,
+        65
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "tail",
+        8192,
+        1450
+      ],
+      "verified_continuous_reach": 1450
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        1,
+        4
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        4,
+        22
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        8,
+        44
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        16,
+        87
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "tail",
+        16384,
+        1450
+      ],
+      "verified_continuous_reach": 1450
+    },
+    {
+      "key": [
+        "native",
+        1024,
+        1,
+        9
+      ],
+      "verified_continuous_reach": 1024
+    },
+    {
+      "key": [
+        "native",
+        2048,
+        1,
+        15
+      ],
+      "verified_continuous_reach": 2048
+    },
+    {
+      "key": [
+        "tail",
+        2048,
+        2048
+      ],
+      "verified_continuous_reach": 2048
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        1,
+        15
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "native",
+        4096,
+        4,
+        33
+      ],
+      "verified_continuous_reach": 4096
+    },
+    {
+      "key": [
+        "tail",
+        4096,
+        3271
+      ],
+      "verified_continuous_reach": 3271
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        1,
+        14
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        4,
+        61
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "native",
+        8192,
+        8,
+        65
+      ],
+      "verified_continuous_reach": 8192
+    },
+    {
+      "key": [
+        "tail",
+        8192,
+        3271
+      ],
+      "verified_continuous_reach": 3271
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        1,
+        14
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        4,
+        59
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        8,
+        118
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "native",
+        16384,
+        16,
+        129
+      ],
+      "verified_continuous_reach": 16384
+    },
+    {
+      "key": [
+        "tail",
+        16384,
+        3271
+      ],
+      "verified_continuous_reach": 3271
+    }
+  ],
+  "elapsed_seconds": 2.28457191598136
+}

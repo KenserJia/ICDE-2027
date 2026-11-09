@@ -1,0 +1,32 @@
+{
+  "title": "Plato: Approximate Analytics over Compressed Time Series with Tight Deterministic Error Guarantees",
+  "authors": [
+    "Chunbin Lin",
+    "Etienne Boursier",
+    "Yannis Papakonstantinou"
+  ],
+  "doi": "10.14778/3384345.3384357",
+  "primary_url": "https://www.vldb.org/pvldb/vol13/p1105-lin.pdf",
+  "implemented": [
+    "Sections 3.1-3.3: fixed-length segmentation, least-squares degree-0/1 polynomial, residual norm/sum records",
+    "Section 4.3.1: orthogonal projection principle; local range-mask specialization via Cauchy-Schwarz"
+  ],
+  "local_adapters": [
+    "bounded rolling segment ring",
+    "only active raw segment retained",
+    "same history ledger and validation/test trace",
+    "conservative range-mask and arithmetic inflation"
+  ],
+  "not_implemented": [
+    "upstream engine execution",
+    "full expression optimizer",
+    "RPO service and engine speed comparison"
+  ],
+  "matched_contract": [
+    "retrospective mean",
+    "full R=4096 reach",
+    "same queries, prefixes, datasets and cap",
+    "finite float32 inputs"
+  ],
+  "source_of_range_mask_equation": "derived in the manuscript, not quoted as an original Plato equation"
+}

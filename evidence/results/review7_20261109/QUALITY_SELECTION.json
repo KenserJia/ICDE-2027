@@ -1,0 +1,3642 @@
+[
+  {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.05931509678254876,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.06766531457784818,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.011464033562234972,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.013778136023095794,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.1600728929607507,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.1600728929607507,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.03064635026433875,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.06027607063052511,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.06282688920521055,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.05910165787037488,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.004397913351487412,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.004350359525268647,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.23793626211825503,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.23793626211825503,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.05355038194492038,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.047044533228754536,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 2,
+    "dataset": "beijing",
+    "entity": 1,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.04430429739440145,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 2,
+    "dataset": "beijing",
+    "entity": 1,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.048243551919392086,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 2,
+    "dataset": "beijing",
+    "entity": 1,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.003607587905539209,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 2,
+    "dataset": "beijing",
+    "entity": 1,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.003566027351650298,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 2,
+    "dataset": "beijing",
+    "entity": 1,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.20817089132405964,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 2,
+    "dataset": "beijing",
+    "entity": 1,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.20817089132405964,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 2,
+    "dataset": "beijing",
+    "entity": 1,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b64-f4-k8",
+    "family": "native",
+    "validation_mse": 0.05429942972745411,
+    "charge": 253208,
+    "config": {
+      "id": "n-b64-f4-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 4,
+        "overlay_capacity": 8,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52996,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 61188,
+        "envelope_reservation_bytes": 61276,
+        "workspace_bytes": 8192,
+        "charged_bytes": 253208,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 2,
+    "dataset": "beijing",
+    "entity": 1,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.041996846760977896,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 3,
+    "dataset": "beijing",
+    "entity": 2,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.048723584923910136,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 3,
+    "dataset": "beijing",
+    "entity": 2,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.05275168721531002,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 3,
+    "dataset": "beijing",
+    "entity": 2,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.003510406672856387,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 3,
+    "dataset": "beijing",
+    "entity": 2,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.003387777354750746,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 3,
+    "dataset": "beijing",
+    "entity": 2,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.22206314701301313,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 3,
+    "dataset": "beijing",
+    "entity": 2,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.22206314701301313,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 3,
+    "dataset": "beijing",
+    "entity": 2,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b64-f4-k8",
+    "family": "native",
+    "validation_mse": 0.056512063525867705,
+    "charge": 253208,
+    "config": {
+      "id": "n-b64-f4-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 4,
+        "overlay_capacity": 8,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52996,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 61188,
+        "envelope_reservation_bytes": 61276,
+        "workspace_bytes": 8192,
+        "charged_bytes": 253208,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 3,
+    "dataset": "beijing",
+    "entity": 2,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.043136570199885926,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 4,
+    "dataset": "beijing",
+    "entity": 3,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.05086095908260927,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 4,
+    "dataset": "beijing",
+    "entity": 3,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.05076590844398134,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 4,
+    "dataset": "beijing",
+    "entity": 3,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.0035942639878762533,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 4,
+    "dataset": "beijing",
+    "entity": 3,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.003277786643738654,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 4,
+    "dataset": "beijing",
+    "entity": 3,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.21114812213784098,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 4,
+    "dataset": "beijing",
+    "entity": 3,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.21114812213784098,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 4,
+    "dataset": "beijing",
+    "entity": 3,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.05102216648559322,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 4,
+    "dataset": "beijing",
+    "entity": 3,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.045148089769188104,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 5,
+    "dataset": "beijing",
+    "entity": 4,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.060750757650748964,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 5,
+    "dataset": "beijing",
+    "entity": 4,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.057699346551195456,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 5,
+    "dataset": "beijing",
+    "entity": 4,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.0034966304699786525,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 5,
+    "dataset": "beijing",
+    "entity": 4,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.003780551928793513,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 5,
+    "dataset": "beijing",
+    "entity": 4,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.2396069672460108,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 5,
+    "dataset": "beijing",
+    "entity": 4,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.2396069672460108,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 5,
+    "dataset": "beijing",
+    "entity": 4,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.052371887818895735,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 5,
+    "dataset": "beijing",
+    "entity": 4,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.047137912557450125,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 6,
+    "dataset": "beijing",
+    "entity": 5,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.05768325490323233,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 6,
+    "dataset": "beijing",
+    "entity": 5,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.05165100594656699,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 6,
+    "dataset": "beijing",
+    "entity": 5,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.004295574761949962,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 6,
+    "dataset": "beijing",
+    "entity": 5,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.004391083141530298,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 6,
+    "dataset": "beijing",
+    "entity": 5,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.2343218284030489,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 6,
+    "dataset": "beijing",
+    "entity": 5,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.2343218284030489,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 6,
+    "dataset": "beijing",
+    "entity": 5,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.0474260134605139,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 6,
+    "dataset": "beijing",
+    "entity": 5,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.04500145016480683,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 7,
+    "dataset": "beijing",
+    "entity": 6,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.06201826385987702,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 7,
+    "dataset": "beijing",
+    "entity": 6,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.059935972775065356,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 7,
+    "dataset": "beijing",
+    "entity": 6,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.00358325761151536,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 7,
+    "dataset": "beijing",
+    "entity": 6,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.0042234848871185076,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 7,
+    "dataset": "beijing",
+    "entity": 6,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.24310929172038098,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 7,
+    "dataset": "beijing",
+    "entity": 6,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.24310929172038098,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 7,
+    "dataset": "beijing",
+    "entity": 6,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.0555904372289451,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 7,
+    "dataset": "beijing",
+    "entity": 6,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.04843604800354251,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 8,
+    "dataset": "beijing",
+    "entity": 7,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.0580658812686704,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 8,
+    "dataset": "beijing",
+    "entity": 7,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.05006343697670693,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 8,
+    "dataset": "beijing",
+    "entity": 7,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.003646517794907478,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 8,
+    "dataset": "beijing",
+    "entity": 7,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.0034572523515875426,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 8,
+    "dataset": "beijing",
+    "entity": 7,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.22335849227781068,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 8,
+    "dataset": "beijing",
+    "entity": 7,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.22335849227781068,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 8,
+    "dataset": "beijing",
+    "entity": 7,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.057688385016355544,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 8,
+    "dataset": "beijing",
+    "entity": 7,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.046254891992424975,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 9,
+    "dataset": "beijing",
+    "entity": 8,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.06358112592525582,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 9,
+    "dataset": "beijing",
+    "entity": 8,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.05675045252505753,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 9,
+    "dataset": "beijing",
+    "entity": 8,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.0046362283495997225,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 9,
+    "dataset": "beijing",
+    "entity": 8,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.003857133531906743,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 9,
+    "dataset": "beijing",
+    "entity": 8,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.22957152420086957,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 9,
+    "dataset": "beijing",
+    "entity": 8,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.22957152420086957,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 9,
+    "dataset": "beijing",
+    "entity": 8,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.0482911139247999,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 9,
+    "dataset": "beijing",
+    "entity": 8,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.047334741827403264,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 10,
+    "dataset": "beijing",
+    "entity": 9,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.05366574646633948,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 10,
+    "dataset": "beijing",
+    "entity": 9,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.04835517494796645,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 10,
+    "dataset": "beijing",
+    "entity": 9,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.0031585419637296303,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 10,
+    "dataset": "beijing",
+    "entity": 9,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.0036902560026927773,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 10,
+    "dataset": "beijing",
+    "entity": 9,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.21674394088473747,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 10,
+    "dataset": "beijing",
+    "entity": 9,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.21674394088473747,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 10,
+    "dataset": "beijing",
+    "entity": 9,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.05270194054298899,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 10,
+    "dataset": "beijing",
+    "entity": 9,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.046910734961363075,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 11,
+    "dataset": "beijing",
+    "entity": 10,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.04470358756108609,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 11,
+    "dataset": "beijing",
+    "entity": 10,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.04657302132185245,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 11,
+    "dataset": "beijing",
+    "entity": 10,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.004001636479512591,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 11,
+    "dataset": "beijing",
+    "entity": 10,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.003725189402549334,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 11,
+    "dataset": "beijing",
+    "entity": 10,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.18058156810530715,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 11,
+    "dataset": "beijing",
+    "entity": 10,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.18058156810530715,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 11,
+    "dataset": "beijing",
+    "entity": 10,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.049190868728521,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 11,
+    "dataset": "beijing",
+    "entity": 10,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.0443864629716005,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 12,
+    "dataset": "beijing",
+    "entity": 11,
+    "B": 131072,
+    "R": 4096,
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "validation_mse": 0.056738513312305415,
+    "charge": 127064,
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 12,
+    "dataset": "beijing",
+    "entity": 11,
+    "B": 131072,
+    "R": 4096,
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "validation_mse": 0.05469302092816481,
+    "charge": 130716,
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 12,
+    "dataset": "beijing",
+    "entity": 11,
+    "B": 262144,
+    "R": 4096,
+    "id": "n-b256-f16-k16",
+    "family": "native",
+    "validation_mse": 0.004660799198110536,
+    "charge": 201240,
+    "config": {
+      "id": "n-b256-f16-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 16,
+        "max_reach": 4096,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 12,
+    "dataset": "beijing",
+    "entity": 11,
+    "B": 262144,
+    "R": 4096,
+    "id": "h-b128-q8",
+    "family": "histogram",
+    "validation_mse": 0.0037637948727145647,
+    "charge": 224004,
+    "config": {
+      "id": "h-b128-q8",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 8,
+        "max_reach": 4096,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 12,
+    "dataset": "beijing",
+    "entity": 11,
+    "B": 131072,
+    "R": 16384,
+    "id": "n-b256-f16-k0",
+    "family": "native",
+    "validation_mse": 0.24271590430710707,
+    "charge": 118552,
+    "config": {
+      "id": "n-b256-f16-k0",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 16,
+        "overlay_capacity": 0,
+        "max_reach": 16384,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 12,
+    "dataset": "beijing",
+    "entity": 11,
+    "B": 131072,
+    "R": 16384,
+    "id": "h-b256-q1",
+    "family": "histogram",
+    "validation_mse": 0.24271590430710707,
+    "charge": 120344,
+    "config": {
+      "id": "h-b256-q1",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 1,
+        "max_reach": 16384,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 12,
+    "dataset": "beijing",
+    "entity": 11,
+    "B": 262144,
+    "R": 16384,
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "validation_mse": 0.053203548376142475,
+    "charge": 249624,
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  {
+    "unit": 12,
+    "dataset": "beijing",
+    "entity": 11,
+    "B": 262144,
+    "R": 16384,
+    "id": "h-b256-q4",
+    "family": "histogram",
+    "validation_mse": 0.04394242406985316,
+    "charge": 247316,
+    "config": {
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "bootstrap95_mean_difference": [
+      0.0,
+      0.0
+    ],
+    "charged_bytes": 44780,
+    "coverage_min": 1.0,
+    "dynamic_mse_mean": 0.0005902879950281915,
+    "dynamic_wins": 0,
+    "fixed_mse_mean": 0.0005902879950281915,
+    "label": "stable",
+    "mean_mse_dynamic_minus_fixed": 0.0,
+    "spec": {
+      "dwell_queries": 0,
+      "shift_buckets": 0,
+      "width_buckets": 2
+    },
+    "units": 13,
+    "workload_id": "shift0-dwellsteady-width2"
+  },
+  {
+    "bootstrap95_mean_difference": [
+      -0.023562030368207046,
+      -0.018660245535763165
+    ],
+    "charged_bytes": 44780,
+    "coverage_min": 1.0,
+    "dynamic_mse_mean": 0.026145819381861272,
+    "dynamic_wins": 13,
+    "fixed_mse_mean": 0.04709942638456076,
+    "label": "dynamic_dominant",
+    "mean_mse_dynamic_minus_fixed": -0.020953607002699486,
+    "spec": {
+      "dwell_queries": 0,
+      "shift_buckets": 16,
+      "width_buckets": 1
+    },
+    "units": 13,
+    "workload_id": "shift16-dwellsteady-width1"
+  },
+  {
+    "bootstrap95_mean_difference": [
+      3.6511440211396364e-05,
+      0.001967655180940384
+    ],
+    "charged_bytes": 44780,
+    "coverage_min": 1.0,
+    "dynamic_mse_mean": 0.024486223628386504,
+    "dynamic_wins": 6,
+    "fixed_mse_mean": 0.023631151011030947,
+    "label": "critical",
+    "mean_mse_dynamic_minus_fixed": 0.0008550726173555653,
+    "spec": {
+      "dwell_queries": 4,
+      "shift_buckets": 30,
+      "width_buckets": 4
+    },
+    "units": 13,
+    "workload_id": "shift30-dwell4-width4"
+  }
+]

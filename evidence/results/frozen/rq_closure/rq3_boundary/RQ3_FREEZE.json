@@ -1,0 +1,30 @@
+{
+  "selection_rule": "PROTOCOL.md",
+  "selection_split": "train",
+  "workloads": {
+    "critical": {
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "workload_id": "shift30-dwell4-width4"
+    },
+    "dynamic_dominant": {
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "workload_id": "shift16-dwellsteady-width1"
+    },
+    "stable": {
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "workload_id": "shift0-dwellsteady-width2"
+    }
+  }
+}

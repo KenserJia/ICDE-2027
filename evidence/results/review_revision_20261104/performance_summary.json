@@ -1,0 +1,266 @@
+[
+  {
+    "allocation": "fixed",
+    "drain_median_ms": 1.6271249623969197,
+    "durability": "sync",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 6.0290010830001775,
+    "p999_range_ms": [
+      6.023041376000061,
+      6.502586416000396
+    ],
+    "runs": 3,
+    "throughput_median": 127576.30582169615,
+    "throughput_range": [
+      120469.1726232117,
+      127800.03010932423
+    ],
+    "workload": "stable"
+  },
+  {
+    "allocation": "dynamic",
+    "drain_median_ms": 1.4437499921768904,
+    "durability": "sync",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 6.244667083000014,
+    "p999_range_ms": [
+      6.2419590410000065,
+      6.66325012500002
+    ],
+    "runs": 3,
+    "throughput_median": 122119.49496377072,
+    "throughput_range": [
+      114660.14353673715,
+      122711.75554782724
+    ],
+    "workload": "stable"
+  },
+  {
+    "allocation": "fixed",
+    "drain_median_ms": 2.0940840477123857,
+    "durability": "strict",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 20.53264716700363,
+    "p999_range_ms": [
+      20.457553917008838,
+      20.615132167001175
+    ],
+    "runs": 3,
+    "throughput_median": 86920.97514953425,
+    "throughput_range": [
+      84786.44912835269,
+      87159.54980757915
+    ],
+    "workload": "stable"
+  },
+  {
+    "allocation": "dynamic",
+    "drain_median_ms": 2.1238329354673624,
+    "durability": "strict",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 21.333427166001666,
+    "p999_range_ms": [
+      20.775730292003654,
+      21.486264125002315
+    ],
+    "runs": 3,
+    "throughput_median": 82483.0740375109,
+    "throughput_range": [
+      80570.62480100397,
+      84704.26509484845
+    ],
+    "workload": "stable"
+  },
+  {
+    "allocation": "fixed",
+    "drain_median_ms": 1.436582999303937,
+    "durability": "sync",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 4.816084083000014,
+    "p999_range_ms": [
+      4.811333,
+      4.848833042000007
+    ],
+    "runs": 3,
+    "throughput_median": 157839.80341604937,
+    "throughput_range": [
+      157599.0561455177,
+      158105.35815047167
+    ],
+    "workload": "critical"
+  },
+  {
+    "allocation": "dynamic",
+    "drain_median_ms": 1.4263329794630408,
+    "durability": "sync",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 5.148167374000061,
+    "p999_range_ms": [
+      5.131250166000027,
+      5.307250084000014
+    ],
+    "runs": 3,
+    "throughput_median": 147172.01432553257,
+    "throughput_range": [
+      144420.9214347321,
+      147618.94880418887
+    ],
+    "workload": "critical"
+  },
+  {
+    "allocation": "fixed",
+    "drain_median_ms": 2.076833974570036,
+    "durability": "strict",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 18.437129458000733,
+    "p999_range_ms": [
+      18.42213762500207,
+      18.512220667002076
+    ],
+    "runs": 3,
+    "throughput_median": 98904.92385182847,
+    "throughput_range": [
+      98868.13534178892,
+      99676.82448018844
+    ],
+    "workload": "critical"
+  },
+  {
+    "allocation": "dynamic",
+    "drain_median_ms": 2.097749966196716,
+    "durability": "strict",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 18.799295875000798,
+    "p999_range_ms": [
+      18.69655704300263,
+      18.99018512500297
+    ],
+    "runs": 3,
+    "throughput_median": 93953.0472180802,
+    "throughput_range": [
+      92447.14811409036,
+      94839.89975724566
+    ],
+    "workload": "critical"
+  },
+  {
+    "allocation": "fixed",
+    "drain_median_ms": 1.4179579447954893,
+    "durability": "sync",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 3.7363342910000474,
+    "p999_range_ms": [
+      3.6754590410000065,
+      3.788958042000007
+    ],
+    "runs": 3,
+    "throughput_median": 202149.0975954305,
+    "throughput_range": [
+      200907.76154208553,
+      203828.1041044849
+    ],
+    "workload": "dynamic_dominant"
+  },
+  {
+    "allocation": "dynamic",
+    "drain_median_ms": 1.4049999881535769,
+    "durability": "sync",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 5.506000208000034,
+    "p999_range_ms": [
+      5.461583,
+      5.598000584000095
+    ],
+    "runs": 3,
+    "throughput_median": 152512.82223130408,
+    "throughput_range": [
+      149012.43683686914,
+      152633.79535088068
+    ],
+    "workload": "dynamic_dominant"
+  },
+  {
+    "allocation": "fixed",
+    "drain_median_ms": 2.084458013996482,
+    "durability": "strict",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 16.075920792000783,
+    "p999_range_ms": [
+      15.229216584001406,
+      16.6666794180022
+    ],
+    "runs": 3,
+    "throughput_median": 117862.11154384837,
+    "throughput_range": [
+      111910.42457966082,
+      118406.25126209369
+    ],
+    "workload": "dynamic_dominant"
+  },
+  {
+    "allocation": "dynamic",
+    "drain_median_ms": 2.1420830162242055,
+    "durability": "strict",
+    "operations_per_run": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "p999_median_ms": 18.20717316700101,
+    "p999_range_ms": [
+      17.800636292008736,
+      18.95925700000115
+    ],
+    "runs": 3,
+    "throughput_median": 95705.23858688757,
+    "throughput_range": [
+      93701.86981500583,
+      98917.11069810727
+    ],
+    "workload": "dynamic_dominant"
+  }
+]

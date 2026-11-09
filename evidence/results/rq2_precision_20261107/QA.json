@@ -1,0 +1,49 @@
+{
+  "entities": 13,
+  "grid_points": 90,
+  "feasible_points": 80,
+  "infeasible_points": 10,
+  "unique_query_method_counts": {
+    "validation": 17552,
+    "test": 17560
+  },
+  "budget_expanded_test_cases": 48852,
+  "oracle_checks": 1508,
+  "oracle_max_abs_difference": 0.0,
+  "all_feasible_coverage_one": true,
+  "all_ledger_checks_pass": true,
+  "all_serialization_checks_pass": true,
+  "snapshot_checks": 377,
+  "original_hashes_unchanged": true,
+  "snapshot_reserve_min_margin": 1086,
+  "limitations": [
+    "Single macOS/arm64 host",
+    "13 entities including 12 correlated stations",
+    "Controlled original RQ2 schedule; queried history changes with R",
+    "Uniform b=f=h, no overlays: not the original tuned-layout frontier",
+    "6 KiB metadata reserve differs from original 4 KiB; old results untouched",
+    "Ledger is not a RAM cap",
+    "No test-selected configuration; no monotonicity or universality claim"
+  ],
+  "active_cell_intersection_cases": {
+    "validation": 84,
+    "test": 4
+  },
+  "existing_manuscripts_byte_unchanged": {
+    "paper/IEEE-conference-template-062824/IEEE-conference-template-062824.tex": true,
+    "paper/IEEE-conference-template-062824/IEEE-conference-template-062824.pdf": true,
+    "paper/IEEE-conference-template-062824/review_supplement.tex": true,
+    "paper/IEEE-conference-template-062824/review_supplement.pdf": true
+  },
+  "figure_source_check": {
+    "ready": true,
+    "strict": false,
+    "counts": {
+      "PASS": 20,
+      "WARN": 0,
+      "FAIL": 0
+    }
+  },
+  "minimum_pdf_text_pt": 7.0,
+  "visual_inspection": "All three standalone plots plus combined color/grayscale sheet: shared scales, visible uncertainty, legend clear of all data/error extents, no canvas clipping; color/marker/dash redundancy. Comparison sheet is an inspection layout, not to be reduced to manuscript width."
+}

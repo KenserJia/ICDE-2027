@@ -1,0 +1,61 @@
+{
+  "configurations": 108,
+  "entities": 13,
+  "ledger_checks": true,
+  "within_R_all_native_answered": true,
+  "common_all_answered": true,
+  "exact_numeric_checks": 235243,
+  "snapshot_checks": 962,
+  "minimum_snapshot_margin": 1078,
+  "unique_query_method_cases": 741480,
+  "budget_expanded_cases": 1082160,
+  "frozen_hashes_unchanged": true,
+  "old_precision_hashes_unchanged": true,
+  "backup_files_preserved": 73,
+  "old_fixed_h_copies_identical": {
+    "rq2_all_budgets_grayscale.png": true,
+    "rq2_256KiB.svg": true,
+    "rq2_256KiB.tiff": true,
+    "rq2_64KiB.tiff": true,
+    "rq2_128KiB.svg": true,
+    "rq2_all_budgets.svg": true,
+    "rq2_64KiB.svg": true,
+    "rq2_128KiB.tiff": true,
+    "rq2_64KiB.pdf": true,
+    "rq2_64KiB.png": true,
+    "rq2_all_budgets.tiff": true,
+    "rq2_all_budgets.png": true,
+    "rq2_256KiB.pdf": true,
+    "rq2_128KiB.png": true,
+    "rq2_256KiB.png": true,
+    "rq2_128KiB.pdf": true,
+    "rq2_all_budgets.pdf": true
+  },
+  "figure_source_QA": {
+    "ready": true,
+    "strict": false,
+    "counts": {
+      "PASS": 20,
+      "WARN": 0,
+      "FAIL": 0
+    }
+  },
+  "new_pdf_files": 12,
+  "minimum_pdf_text_pt": 7.0,
+  "primary_active_cell_intersections": 0,
+  "unavailable_prediction_records": 198490,
+  "observed_zero_error_approximate_records": 0,
+  "within_contract_native_query_checks": 751500,
+  "global_queries": 4676,
+  "common_queries": 5344,
+  "active_boundary_audit": {
+    "cases": 500,
+    "legacy_oracle_pass": true,
+    "cases_differing_from_populated_cell_interpolation": 91,
+    "maximum_difference": 0.9863911905937057,
+    "primary_queries_intersect_active_cell": 0,
+    "production_kernel_unchanged": true,
+    "interpretation": "Legacy unfinished-cell behavior confirmed and kept separate; primary queries delay>=b=128, hence sealed history only. Not a new certificate."
+  },
+  "visual_QA": "All 9 main panels and 54 distance panels: shared axes/scales, data and uncertainty remain in axes, legend separate, no text canvas clipping; review color/grayscale contact sheets and individual exports. Stack proportions sum to one; no interpretation of composition as confidence intervals."
+}

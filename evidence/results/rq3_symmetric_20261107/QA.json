@@ -1,0 +1,101 @@
+{
+  "entities": 13,
+  "workloads": 6,
+  "policies": [
+    "recent",
+    "online"
+  ],
+  "shared_grid13": true,
+  "candidates": {
+    "legacy44780": 13,
+    "verified50924": 13,
+    "verified44780": 7
+  },
+  "validation_selections": 468,
+  "all_selections_frozen_before_test": true,
+  "freeze_signature": "49a63945e92b7f066efaf0b93cf753a03d15e7e648692af55c08f5649b32a8a5",
+  "archived_rows_reproduced": 234,
+  "archived_selected_fixed_choices_reproduced": 78,
+  "maximum_archived_mse_difference": 0.0,
+  "test_candidate_cases": 274716,
+  "all_coverage_one": true,
+  "snapshot_checks": 4056,
+  "minimum_verified_snapshot_margin": 1082,
+  "production_source_unchanged": true,
+  "policy_hyperparameters_tuned": false,
+  "layout_hyperparameters_tuned": [
+    "b",
+    "f",
+    "k"
+  ],
+  "win_tolerance": 1e-12,
+  "profile_reuse": "legacy44780 and verified50924 use identical13-layout predictions; not independent replication",
+  "limits": [
+    "single macOS/arm64",
+    "12correlated stations",
+    "controlled ingestion-order schedules",
+    "entity/workload-specific validation warm-start",
+    "legacy44780 is nominal, not serialization-verified",
+    "verified ledger not an RSS cap",
+    "native active-cell semantics retained, no new certificate"
+  ],
+  "all_468_selections_independently_recomputed": true,
+  "all_candidate_MSE_recomputed": 2028,
+  "all_query_predictions_finite": true,
+  "selection_freeze_hash_verified": true,
+  "validation_state_hashes_verified": 2028,
+  "source_hashes_unchanged": true,
+  "prior_frozen_experiments": [
+    {
+      "experiment": "rq2_precision_20261107",
+      "unchanged_files": 68
+    },
+    {
+      "experiment": "rq2_tradeoff_20261107",
+      "unchanged_files": 127
+    }
+  ],
+  "prior_RQ2_insert_and_scope_files_preserved": {
+    "paper/IEEE-conference-template-062824/rq2_tradeoff_supplement.tex": true,
+    "paper/IEEE-conference-template-062824/figures/rq2_paper_scope.pdf": true,
+    "paper/IEEE-conference-template-062824/figures/rq2_paper_scope.svg": true,
+    "paper/IEEE-conference-template-062824/figures/rq2_paper_scope.png": true
+  },
+  "pages": {
+    "IEEE-conference-template-062824": {
+      "total_pages": 14,
+      "references_start": 12,
+      "body_last_page": 12
+    },
+    "review_supplement": {
+      "total_pages": 38,
+      "references_start": 37,
+      "body_last_page": 37
+    }
+  },
+  "bibliography_entries": 69,
+  "bibliography_unchanged": true,
+  "main_font_margin_preamble_unchanged": true,
+  "figure_source_QA": {
+    "ready": true,
+    "strict": false,
+    "counts": {
+      "PASS": 20,
+      "WARN": 0,
+      "FAIL": 0
+    }
+  },
+  "minimum_new_figure_font_pt": 7.0,
+  "log_checks": {
+    "IEEE-conference-template-062824": {
+      "material_failures": [],
+      "underfull_warnings": 27
+    },
+    "review_supplement": {
+      "material_failures": [],
+      "underfull_warnings": 23
+    }
+  },
+  "backup": "<SOURCE_ROOT>/revision_backups/before_rq3_symmetric_20261107.tar.gz",
+  "visual_review": "Main contact sheet and RQ3 text/Figure3; supplementary all6-profile outcomes, paired-budget plot, four-cell table, same-layout matrix and13far parameter rows; color/grayscale and text bounds checked. No missing panels, clipping or orphan new-appendix scope notes."
+}

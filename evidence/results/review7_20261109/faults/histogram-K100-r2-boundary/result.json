@@ -1,0 +1,31 @@
+{
+  "variant": "histogram",
+  "K": 100,
+  "rep": 2,
+  "mode": "boundary",
+  "caller_ack": 100,
+  "recovered_ack": 0,
+  "recovered_unacknowledged": 0,
+  "loss": 100,
+  "bound_claimed": true,
+  "certificate_checks": 7,
+  "continued_checkpoint": true,
+  "ledger": {
+    "array_bytes": 18896,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 0,
+    "resident_reservation_bytes": 27088,
+    "envelope_reservation_bytes": 27176,
+    "workspace_bytes": 22100,
+    "charged_bytes": 130716,
+    "budget_bytes": 131072,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 19542,
+    "snapshot_metadata_bytes": 646,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 19630
+  },
+  "returncode": -9,
+  "seconds": 0.1306049160193652
+}

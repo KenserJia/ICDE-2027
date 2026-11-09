@@ -1,0 +1,58 @@
+[
+  {
+    "name": "bike",
+    "url": "https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip",
+    "sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+    "entities": 1,
+    "rows": 17379,
+    "channels": [
+      "cnt",
+      "temp",
+      "hum",
+      "windspeed"
+    ],
+    "timestamp": "dteday + hr; event-step queries; gaps in civil hours are not filled",
+    "scope": "hourly city aggregate, not individual riders"
+  },
+  {
+    "name": "beijing",
+    "url": "https://archive.ics.uci.edu/static/public/501/beijing+multi+site+air+quality+data.zip",
+    "sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4",
+    "entities": 12,
+    "rows_per_entity": [
+      35064,
+      35064,
+      35064,
+      35064,
+      35064,
+      35064,
+      35064,
+      35064,
+      35064,
+      35064,
+      35064,
+      35064
+    ],
+    "channels": [
+      "PM2.5",
+      "TEMP",
+      "PRES",
+      "WSPM"
+    ],
+    "missing_values_causally_filled": [
+      979,
+      920,
+      925,
+      804,
+      670,
+      789,
+      1106,
+      682,
+      1059,
+      731,
+      436,
+      747
+    ],
+    "scope": "real hourly observations + controlled query/policy load; no actual policy CDC trace"
+  }
+]

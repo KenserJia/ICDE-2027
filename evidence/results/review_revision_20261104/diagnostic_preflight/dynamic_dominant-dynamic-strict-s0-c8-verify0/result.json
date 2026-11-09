@@ -1,0 +1,157 @@
+{
+  "account": {
+    "active_overlay_capacity": 16,
+    "budget_bytes": 131072,
+    "complete_transient_bound_bytes": 68934,
+    "fact_catalog_bytes": 6400,
+    "history_metadata_bytes": 4096,
+    "history_physical_array_bytes": 10148,
+    "physical_overlay_capacity": 16,
+    "resident_reserved_bytes": 24740,
+    "service_control_reserved_bytes": 4096,
+    "snapshot_envelope_bytes": 13366,
+    "snapshot_payload_bytes": 13278,
+    "transient_three_envelope_bytes": 40098,
+    "two_slot_steady_bytes": 26732,
+    "within_budget": true,
+    "workspace_bytes": 4096
+  },
+  "active_seconds": 0.11270937498193234,
+  "allocation": "dynamic",
+  "by_operation": {
+    "delete": {
+      "count": 155,
+      "maximum": 0.049625,
+      "p50": 0.001708,
+      "p95": 0.0057751999999999986,
+      "p99": 0.009310180000000005,
+      "p99_9": 0.04346500000000015
+    },
+    "fact_read": {
+      "count": 157,
+      "maximum": 0.003,
+      "p50": 0.000916,
+      "p95": 0.002209,
+      "p99": 0.0024849999999999994,
+      "p99_9": 0.0029415000000000083
+    },
+    "history_query": {
+      "count": 2251,
+      "maximum": 9.0915,
+      "p50": 0.012,
+      "p95": 0.0595835,
+      "p99": 0.0819375,
+      "p99_9": 4.895729500000025
+    },
+    "observe": {
+      "count": 4630,
+      "maximum": 93.998209,
+      "p50": 0.001709,
+      "p95": 0.004917,
+      "p99": 0.08220282000000015,
+      "p99_9": 37.49167458200052
+    },
+    "put": {
+      "count": 807,
+      "maximum": 27.109583,
+      "p50": 0.001541,
+      "p95": 0.004195399999999998,
+      "p99": 0.007284499999999992,
+      "p99_9": 10.80054295400149
+    }
+  },
+  "checkpoint_bytes_per_measured_mutation": 28.280221745350502,
+  "checkpoint_phases_ms": {
+    "capture_ms": {
+      "count": 12,
+      "maximum": 5.24375,
+      "p50": 2.4422915,
+      "p95": 4.250472549999999,
+      "p99": 5.045094510000001,
+      "p99_9": 5.223884451000002
+    },
+    "persist_ms": {
+      "count": 12,
+      "maximum": 2.167,
+      "p50": 0.939125,
+      "p95": 1.7866062499999995,
+      "p99": 2.09092125,
+      "p99_9": 2.1593921250000006
+    },
+    "total_ms": {
+      "count": 12,
+      "maximum": 6.137084,
+      "p50": 3.4815210000000003,
+      "p95": 5.304108449999999,
+      "p99": 5.97048889,
+      "p99_9": 6.120424489000001
+    },
+    "validation_ms": {
+      "count": 12,
+      "maximum": 0.000334,
+      "p50": 0.0001455,
+      "p95": 0.00028779999999999995,
+      "p99": 0.00032476000000000006,
+      "p99_9": 0.0003330760000000001
+    }
+  },
+  "checkpoint_records_retained": 12,
+  "clients": 8,
+  "diagnostic": true,
+  "drain_seconds": 0.0014919580426067114,
+  "durability": "strict",
+  "errors": [],
+  "fact_roundtrip": true,
+  "final_prefix": 20592,
+  "history_roundtrip": true,
+  "latency_ms": {
+    "count": 8000,
+    "maximum": 93.998209,
+    "p50": 0.0026455000000000003,
+    "p95": 0.033625,
+    "p99": 0.07846024000000003,
+    "p99_9": 27.112137125002842
+  },
+  "maximum_gap": 500,
+  "measurement_array_bytes": 264000,
+  "operations": 8000,
+  "request_wait_ms": {
+    "condition_wait": {
+      "count": 8000,
+      "maximum": 93.674003,
+      "p50": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "p99_9": 23.047799291004413
+    },
+    "coordinator_entry": {
+      "count": 8000,
+      "maximum": 9.493084,
+      "p50": 0.000125,
+      "p95": 0.000375,
+      "p99": 0.0005,
+      "p99_9": 0.39993750000480077
+    },
+    "service_lock_wait": {
+      "count": 8000,
+      "maximum": 4.960792,
+      "p50": 8.3e-05,
+      "p95": 0.000125,
+      "p99": 0.000167,
+      "p99_9": 0.0005005000000005566
+    }
+  },
+  "restored_prefix": 20592,
+  "rss_end_bytes": 49954816,
+  "rss_peak_bytes": 49741824,
+  "rss_start_bytes": 49741824,
+  "seed": 20261104,
+  "slowest_0_1pct_mean_ms": {
+    "condition_wait": 46.46377,
+    "coordinator_entry": 2.17573975,
+    "latency": 48.78766175,
+    "service_lock_wait": 0.044812625
+  },
+  "throughput_ops_s": 70979.0112959319,
+  "verify_capture": false
+}

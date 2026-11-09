@@ -1,0 +1,67 @@
+[
+  {
+    "path": "repro/review4_20261109/run.py",
+    "source": "repro/review4_20261109/run.py",
+    "transform": [
+      "root/temp path portability only"
+    ],
+    "source_sha256": "c9c988a31c454ea90a0a2a3a5bf9d04ae2130067f3ef960270850497bc717e19",
+    "packaged_sha256": "099d6a1d817f9eaeb355485a98696d116150ebe5e367120652126a05c2ca8314"
+  },
+  {
+    "path": "repro/rq3_symmetric_20261107/figures.py",
+    "source": "repro/rq3_symmetric_20261107/figures.py",
+    "transform": [
+      "root/temp path portability only"
+    ],
+    "source_sha256": "7e386467532bfa6eef1c29c61ecf1efa00b573a8ca1fbc13d1fb8b4d1f03780f",
+    "packaged_sha256": "b26abbcdea56cc8cccf35216b5eeef22ba011e58aefb5ec2890a0afbb7951f5a"
+  },
+  {
+    "path": "repro/rq2_tradeoff_20261107/figures.py",
+    "source": "repro/rq2_tradeoff_20261107/figures.py",
+    "transform": [
+      "root/temp path portability only"
+    ],
+    "source_sha256": "b149fed55786c6507249aecaa4cc4252cec94bf3f6a75cbe5d832e2693a057d9",
+    "packaged_sha256": "cf02fe3211eea8124caaa26a953464b80ec78c9ca8ba073626bbf1db0b12c6c8"
+  },
+  {
+    "path": "repro/rq2_precision_20261107/figures.py",
+    "source": "repro/rq2_precision_20261107/figures.py",
+    "transform": [
+      "root/temp path portability only"
+    ],
+    "source_sha256": "b212cfa2c26a75b61c19f39af19dcf6f15d8cc10d43027ca0182e2cff716cfac",
+    "packaged_sha256": "e283189460fc30687d294903b22015231f1d014b8dff11de942f93dfd1fa6317"
+  },
+  {
+    "path": "repro/review4_paper_20261109/figures.py",
+    "source": "repro/review4_paper_20261109/figures.py",
+    "transform": [
+      "root/temp path portability only"
+    ],
+    "source_sha256": "005095d12e9b22b45b331469c529044a5b93b4308c4a2aa93b44203edab3be73",
+    "packaged_sha256": "a9848827e775dc40f1f29fd0711d70246e14bf93d00503f22211e52dc918f952"
+  },
+  {
+    "path": "repro/review7_paper_20261109/figures.py",
+    "source": "repro/review7_paper_20261109/figures.py",
+    "transform": [
+      "root/temp path portability only"
+    ],
+    "source_sha256": "056aa1136c3245c0771670e4296be9b0a55244544e3b04d089be2cabc0f3e41d",
+    "packaged_sha256": "b6d709f0cf989d47a0f22b04016a0df8e111cb3c97a3ac0be6d3f4ff3ce9574b"
+  },
+  {
+    "path": "repro/framework_20261109/draw.py",
+    "source": "repro/framework_20261109/draw.py",
+    "transform": [
+      "root/temp path portability only",
+      "portable font lookup and English-only main framework generation",
+      "fit unchanged labels within original boxes under portable font metrics"
+    ],
+    "source_sha256": "4c8b3c8e00ab4209221ce193d07dcbf7369e17a69a5b083bbce2a03bfa115b3c",
+    "packaged_sha256": "1070e74a67fa14b719dd84e7e95a8530da4cadde2dd205f209ff31f25077634b"
+  }
+]

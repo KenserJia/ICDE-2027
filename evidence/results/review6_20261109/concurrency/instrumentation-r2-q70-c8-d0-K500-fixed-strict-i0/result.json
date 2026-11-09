@@ -1,0 +1,154 @@
+{
+  "id": "instrumentation-r2-q70-c8-d0-K500-fixed-strict-i0",
+  "group": "instrumentation",
+  "rep": 2,
+  "query_mix": 0.7,
+  "clients": 8,
+  "delay_ms": 0,
+  "K": 500,
+  "policy": "fixed",
+  "instrument": false,
+  "mode": "strict",
+  "operations": 120000,
+  "queries": 83964,
+  "mutations": 36036,
+  "measured_query_fraction": 0.6997,
+  "active_seconds": 1.267604167,
+  "throughput_ops_s": 94666.77620980082,
+  "metrics": {
+    "all": {
+      "latency_ms": {
+        "n": 120000,
+        "p50": 0.00625,
+        "p95": 0.028292,
+        "p99": 0.031,
+        "p99_9": 18.914335249000004,
+        "mean": 0.073973646325,
+        "max": 103.429791
+      }
+    },
+    "query": {
+      "latency_ms": {
+        "n": 83964,
+        "p50": 0.008916,
+        "p95": 0.0285,
+        "p99": 0.030833,
+        "p99_9": 0.05350462499999958,
+        "mean": 0.011527760837978181,
+        "max": 6.397958
+      }
+    },
+    "mutation": {
+      "latency_ms": {
+        "n": 36036,
+        "p50": 0.001375,
+        "p95": 0.002,
+        "p99": 5.510949450000027,
+        "p99_9": 38.616393314999804,
+        "mean": 0.21947276745476746,
+        "max": 103.429791
+      }
+    },
+    "query_capture_overlap": {
+      "latency_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      }
+    },
+    "query_no_capture_overlap": {
+      "latency_ms": {
+        "n": 83964,
+        "p50": 0.008916,
+        "p95": 0.0285,
+        "p99": 0.030833,
+        "p99_9": 0.05350462499999958,
+        "mean": 0.011527760837978181,
+        "max": 6.397958
+      }
+    },
+    "query_persist_overlap_without_capture": {
+      "latency_ms": {
+        "n": 21,
+        "p50": 0.017292,
+        "p95": 3.361375,
+        "p99": 3.3887414,
+        "p99_9": 3.3948988399999998,
+        "mean": 0.8691309047619048,
+        "max": 3.395583
+      }
+    }
+  },
+  "checkpoint_captures": 72,
+  "capture_wall_ms": {
+    "n": 72,
+    "p50": 1.1804169999999998,
+    "p95": 1.3487122,
+    "p99": 1.3741071800000002,
+    "p99_9": 1.385636018,
+    "mean": 1.2116714027777777,
+    "max": 1.386917
+  },
+  "checkpoint_phases_ms": {
+    "capture_ms": {
+      "n": 72,
+      "p50": 1.1815,
+      "p95": 1.3512,
+      "p99": 1.3761560000000002,
+      "p99_9": 1.3879775,
+      "mean": 1.2130144166666668,
+      "max": 1.389291
+    },
+    "persist_ms": {
+      "n": 72,
+      "p50": 2.0950415,
+      "p95": 2.9500330000000003,
+      "p99": 3.11906339,
+      "p99_9": 3.1195688390000003,
+      "mean": 1.9725284166666666,
+      "max": 3.119625
+    },
+    "total_ms": {
+      "n": 72,
+      "p50": 3.2942704999999997,
+      "p95": 4.206896250000001,
+      "p99": 4.42344482,
+      "p99_9": 4.4799694820000004,
+      "mean": 3.185648125,
+      "max": 4.48625
+    }
+  },
+  "query_capture_overlap_fraction": 0.0,
+  "capture_lock_time_fraction": 0.0,
+  "maximum_gap": 500,
+  "active_end_prefix": 39036,
+  "restored_prefix_equal": true,
+  "facts_equal": true,
+  "history_arrays_equal": true,
+  "ledger": {
+    "history_physical_array_bytes": 10148,
+    "history_metadata_bytes": 4096,
+    "fact_catalog_bytes": 6400,
+    "service_control_reserved_bytes": 4096,
+    "resident_reserved_bytes": 24740,
+    "workspace_bytes": 4096,
+    "budget_bytes": 131072,
+    "active_overlay_capacity": 16,
+    "physical_overlay_capacity": 16,
+    "snapshot_payload_bytes": 13120,
+    "snapshot_envelope_bytes": 13208,
+    "two_slot_steady_bytes": 26416,
+    "transient_three_envelope_bytes": 39624,
+    "disk_two_slot_bytes": 26416,
+    "pending_envelope_reservation_bytes": 13208,
+    "resident_plus_pending_workspace_bytes": 42044,
+    "ledger_is_physical_ram_bound": false,
+    "complete_transient_bound_bytes": 68460,
+    "within_budget": true
+  },
+  "drain_seconds": 0.0014098339015617967,
+  "rss_start": 67158016,
+  "rss_peak": 67584000,
+  "harness_measurement_array_bytes": 4920000,
+  "uncontrolled": "OS scheduling, Python GIL, local fsync, client interleaving; closed-loop clients"
+}

@@ -1,0 +1,288 @@
+{
+  "id": "main-r1-q95-c1-d0-K500-fixed-strict-i1",
+  "group": "main",
+  "rep": 1,
+  "query_mix": 0.95,
+  "clients": 1,
+  "delay_ms": 0,
+  "K": 500,
+  "policy": "fixed",
+  "instrument": true,
+  "mode": "strict",
+  "operations": 120000,
+  "queries": 113969,
+  "mutations": 6031,
+  "measured_query_fraction": 0.9497416666666667,
+  "active_seconds": 1.43214925,
+  "throughput_ops_s": 83790.14966491796,
+  "metrics": {
+    "all": {
+      "latency_ms": {
+        "n": 120000,
+        "p50": 0.009459,
+        "p95": 0.029,
+        "p99": 0.029583,
+        "p99_9": 0.03691704100000016,
+        "mean": 0.01135367871666667,
+        "max": 2.017417
+      },
+      "service_lock_wait_ms": {
+        "n": 120000,
+        "p50": 4.2e-05,
+        "p95": 8.4e-05,
+        "p99": 8.4e-05,
+        "p99_9": 0.000125,
+        "mean": 6.271801666666667e-05,
+        "max": 0.005
+      },
+      "coordinator_entry_ms": {
+        "n": 120000,
+        "p50": 0.0,
+        "p95": 0.000125,
+        "p99": 0.000167,
+        "p99_9": 0.000209,
+        "mean": 7.777575e-06,
+        "max": 0.010334
+      },
+      "gate_condition_wait_ms": {
+        "n": 120000,
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "p99_9": 0.0,
+        "mean": 0.000166679175,
+        "max": 2.008042
+      }
+    },
+    "query": {
+      "latency_ms": {
+        "n": 113969,
+        "p50": 0.009542,
+        "p95": 0.029041,
+        "p99": 0.029584,
+        "p99_9": 0.036585312000000265,
+        "mean": 0.011637155787977433,
+        "max": 0.063833
+      },
+      "service_lock_wait_ms": {
+        "n": 113969,
+        "p50": 8.3e-05,
+        "p95": 8.4e-05,
+        "p99": 8.4e-05,
+        "p99_9": 0.000125,
+        "mean": 6.277354368293132e-05,
+        "max": 0.005
+      },
+      "coordinator_entry_ms": {
+        "n": 113969,
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "p99_9": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "gate_condition_wait_ms": {
+        "n": 113969,
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "p99_9": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      }
+    },
+    "mutation": {
+      "latency_ms": {
+        "n": 6031,
+        "p50": 0.002458,
+        "p95": 0.0029375,
+        "p99": 0.014167,
+        "p99_9": 1.659621010000012,
+        "mean": 0.005996756425136793,
+        "max": 2.017417
+      },
+      "service_lock_wait_ms": {
+        "n": 6031,
+        "p50": 4.2e-05,
+        "p95": 8.4e-05,
+        "p99": 8.4e-05,
+        "p99_9": 0.000125,
+        "mean": 6.166871165644172e-05,
+        "max": 0.000209
+      },
+      "coordinator_entry_ms": {
+        "n": 6031,
+        "p50": 0.000166,
+        "p95": 0.000167,
+        "p99": 0.00025,
+        "p99_9": 0.00041697000000000023,
+        "mean": 0.0001547519482672857,
+        "max": 0.010334
+      },
+      "gate_condition_wait_ms": {
+        "n": 6031,
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "p99_9": 1.6493092600000108,
+        "mean": 0.0033164485160006633,
+        "max": 2.008042
+      }
+    },
+    "query_capture_overlap": {
+      "latency_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      },
+      "service_lock_wait_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      },
+      "coordinator_entry_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      },
+      "gate_condition_wait_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      }
+    },
+    "query_no_capture_overlap": {
+      "latency_ms": {
+        "n": 113969,
+        "p50": 0.009542,
+        "p95": 0.029041,
+        "p99": 0.029584,
+        "p99_9": 0.036585312000000265,
+        "mean": 0.011637155787977433,
+        "max": 0.063833
+      },
+      "service_lock_wait_ms": {
+        "n": 113969,
+        "p50": 8.3e-05,
+        "p95": 8.4e-05,
+        "p99": 8.4e-05,
+        "p99_9": 0.000125,
+        "mean": 6.277354368293132e-05,
+        "max": 0.005
+      },
+      "coordinator_entry_ms": {
+        "n": 113969,
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "p99_9": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "gate_condition_wait_ms": {
+        "n": 113969,
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "p99_9": 0.0,
+        "mean": 0.0,
+        "max": 0.0
+      }
+    },
+    "query_persist_overlap_without_capture": {
+      "latency_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      },
+      "service_lock_wait_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      },
+      "coordinator_entry_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      },
+      "gate_condition_wait_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      }
+    }
+  },
+  "checkpoint_captures": 12,
+  "capture_wall_ms": {
+    "n": 12,
+    "p50": 1.175146,
+    "p95": 1.28784375,
+    "p99": 1.29856875,
+    "p99_9": 1.300981875,
+    "mean": 1.1976180833333334,
+    "max": 1.30125
+  },
+  "checkpoint_phases_ms": {
+    "capture_ms": {
+      "n": 12,
+      "p50": 1.1758745,
+      "p95": 1.2888234,
+      "p99": 1.29973188,
+      "p99_9": 1.3021862880000001,
+      "mean": 1.1983992500000002,
+      "max": 1.302459
+    },
+    "persist_ms": {
+      "n": 12,
+      "p50": 0.425771,
+      "p95": 0.6275435999999999,
+      "p99": 0.69407512,
+      "p99_9": 0.7090447120000001,
+      "mean": 0.4488541666666667,
+      "max": 0.710708
+    },
+    "total_ms": {
+      "n": 12,
+      "p50": 1.6405629999999998,
+      "p95": 1.8374829999999998,
+      "p99": 1.958263,
+      "p99_9": 1.9854385000000003,
+      "mean": 1.647364666666667,
+      "max": 1.988458
+    }
+  },
+  "query_capture_overlap_fraction": 0.0,
+  "capture_lock_time_fraction": 0.010026333498411566,
+  "maximum_gap": 500,
+  "active_end_prefix": 9031,
+  "restored_prefix_equal": true,
+  "facts_equal": true,
+  "history_arrays_equal": true,
+  "ledger": {
+    "history_physical_array_bytes": 10148,
+    "history_metadata_bytes": 4096,
+    "fact_catalog_bytes": 6400,
+    "service_control_reserved_bytes": 4096,
+    "resident_reserved_bytes": 24740,
+    "workspace_bytes": 4096,
+    "budget_bytes": 131072,
+    "active_overlay_capacity": 16,
+    "physical_overlay_capacity": 16,
+    "snapshot_payload_bytes": 12990,
+    "snapshot_envelope_bytes": 13078,
+    "two_slot_steady_bytes": 26156,
+    "transient_three_envelope_bytes": 39234,
+    "disk_two_slot_bytes": 26156,
+    "pending_envelope_reservation_bytes": 13078,
+    "resident_plus_pending_workspace_bytes": 41914,
+    "ledger_is_physical_ram_bound": false,
+    "complete_transient_bound_bytes": 68070,
+    "within_budget": true
+  },
+  "drain_seconds": 0.001469500013627112,
+  "rss_start": 62832640,
+  "rss_peak": 62914560,
+  "harness_measurement_array_bytes": 4920000,
+  "uncontrolled": "OS scheduling, Python GIL, local fsync, client interleaving; closed-loop clients"
+}

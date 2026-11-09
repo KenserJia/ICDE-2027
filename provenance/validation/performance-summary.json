@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "groups": [
+    {
+      "group": "performance_records",
+      "runs": 102,
+      "requests": 10200000,
+      "certificate_checks": 67944,
+      "all_final_array_restores": true,
+      "all_charges_within_budget": true,
+      "all_max_gaps_within_K": true,
+      "timing_match_expected": false
+    },
+    {
+      "group": "cost_control_records",
+      "runs": 18,
+      "requests": 1800000,
+      "certificate_checks": 8640,
+      "all_final_array_restores": true,
+      "all_charges_within_budget": true,
+      "all_max_gaps_within_K": true,
+      "timing_match_expected": false
+    },
+    {
+      "group": "cost_wide_records",
+      "runs": 18,
+      "requests": 1800000,
+      "certificate_checks": 8792,
+      "all_final_array_restores": true,
+      "all_charges_within_budget": true,
+      "all_max_gaps_within_K": true,
+      "timing_match_expected": false
+    }
+  ],
+  "total_requests": 13800000,
+  "interpretation": "New packaging-validation run, not a replacement for the manuscript measurements. Timing, scheduling, memory and checkpoint counts may differ. No cross-machine invariance claimed."
+}

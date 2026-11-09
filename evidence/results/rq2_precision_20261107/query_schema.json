@@ -1,0 +1,22 @@
+{
+  "files": "units/NN_queries.npz; NN order is bike/0 then Beijing/0..11",
+  "metadata_columns": [
+    "reach",
+    "h",
+    "event_count",
+    "delay",
+    "window",
+    "intersects_active_cell"
+  ],
+  "stage_codes": {
+    "0": "validation",
+    "1": "test"
+  },
+  "prediction": "native returned range mean, four channels",
+  "truth": "exact offline binary64 mean of corresponding float32 rows, four channels",
+  "budget_reuse": "each h/R simulated once; budgets gate feasibility only, no extra replication",
+  "counts": {
+    "validation": 17552,
+    "test": 17560
+  }
+}

@@ -1,0 +1,782 @@
+[
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "bike",
+    "degree": 1,
+    "entity": 0,
+    "validation_mse": 0.014862515519057552,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "bike",
+    "degree": 1,
+    "entity": 0,
+    "validation_mse": 0.012636084996665495,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "bike",
+    "degree": 1,
+    "entity": 0,
+    "validation_mse": 0.011369903532970705,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "bike",
+    "degree": 0,
+    "entity": 0,
+    "validation_mse": 0.0060354365255067205,
+    "width": 16,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "bike",
+    "degree": 0,
+    "entity": 0,
+    "validation_mse": 0.006211922854452627,
+    "width": 16,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "bike",
+    "degree": 1,
+    "entity": 0,
+    "validation_mse": 0.007730338902614485,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 0,
+    "validation_mse": 0.009220564353296799,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 0,
+    "validation_mse": 0.016586894369704373,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 0,
+    "validation_mse": 0.011542604046972209,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 0,
+    "validation_mse": 0.0027111515266708777,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 0,
+    "validation_mse": 0.0028651693309914416,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 0,
+    "validation_mse": 0.0026415819638607855,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 1,
+    "validation_mse": 0.0039546087540942125,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 1,
+    "validation_mse": 0.009862331720552111,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 1,
+    "validation_mse": 0.006609784158428007,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 1,
+    "validation_mse": 0.001195150801097433,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 1,
+    "validation_mse": 0.0015685483753605902,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 1,
+    "validation_mse": 0.0015931058523486004,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 2,
+    "validation_mse": 0.008346783855980115,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 2,
+    "validation_mse": 0.007607224454056659,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 2,
+    "validation_mse": 0.010683460513241975,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 2,
+    "validation_mse": 0.001787290350095229,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 2,
+    "validation_mse": 0.0016346958313803836,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 2,
+    "validation_mse": 0.001585865140332156,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 3,
+    "validation_mse": 0.009272927623349303,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 3,
+    "validation_mse": 0.008295602464291282,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 3,
+    "validation_mse": 0.012665723212625227,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 3,
+    "validation_mse": 0.0021642346237157268,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 3,
+    "validation_mse": 0.0017567651276482773,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 3,
+    "validation_mse": 0.0027991657167072644,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 4,
+    "validation_mse": 0.008054502763814425,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 4,
+    "validation_mse": 0.01188734905443093,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 4,
+    "validation_mse": 0.019306553835855736,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 4,
+    "validation_mse": 0.0022117023478851494,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 4,
+    "validation_mse": 0.0026866676186086996,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 4,
+    "validation_mse": 0.0025841076573595353,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 5,
+    "validation_mse": 0.013706468476272998,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 5,
+    "validation_mse": 0.015806798670549783,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 5,
+    "validation_mse": 0.023962016060746622,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 5,
+    "validation_mse": 0.004095728933691842,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 5,
+    "validation_mse": 0.002545263535434771,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 5,
+    "validation_mse": 0.004165374022413144,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 6,
+    "validation_mse": 0.013821067461743561,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 6,
+    "validation_mse": 0.016121495552318694,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 6,
+    "validation_mse": 0.011179741109579163,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 6,
+    "validation_mse": 0.0023514637150108346,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 6,
+    "validation_mse": 0.0023598085564579857,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 6,
+    "validation_mse": 0.0018192377264848033,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 7,
+    "validation_mse": 0.007077067423790882,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 7,
+    "validation_mse": 0.008742816751377539,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 7,
+    "validation_mse": 0.010732433319246766,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 7,
+    "validation_mse": 0.0014774972165061966,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 7,
+    "validation_mse": 0.0018355307761247076,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 7,
+    "validation_mse": 0.0015376729521574724,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 8,
+    "validation_mse": 0.010753239305457286,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 8,
+    "validation_mse": 0.009954049710725523,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 8,
+    "validation_mse": 0.01044715704767178,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 8,
+    "validation_mse": 0.002927391176856642,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 8,
+    "validation_mse": 0.0021105170044999747,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 8,
+    "validation_mse": 0.002605422723506952,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 9,
+    "validation_mse": 0.006955273847785998,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 9,
+    "validation_mse": 0.009145166355587576,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 9,
+    "validation_mse": 0.008754099453700709,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 9,
+    "validation_mse": 0.0015716675498531523,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 9,
+    "validation_mse": 0.00118189717217983,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 9,
+    "validation_mse": 0.0020616232160776357,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 10,
+    "validation_mse": 0.0053580527718711125,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 10,
+    "validation_mse": 0.008397250904758784,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 10,
+    "validation_mse": 0.014674545727630559,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 10,
+    "validation_mse": 0.0013278632262137408,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 10,
+    "validation_mse": 0.0013325163447590967,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 10,
+    "validation_mse": 0.0014945540427752152,
+    "width": 32,
+    "workload": "stable"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 11,
+    "validation_mse": 0.010346446081381244,
+    "width": 64,
+    "workload": "critical"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 11,
+    "validation_mse": 0.008559523628195988,
+    "width": 64,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 65536,
+    "candidates": 6,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 11,
+    "validation_mse": 0.012893160325482224,
+    "width": 64,
+    "workload": "stable"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 11,
+    "validation_mse": 0.001822793317073335,
+    "width": 32,
+    "workload": "critical"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 11,
+    "validation_mse": 0.002192807196952064,
+    "width": 32,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "budget": 131072,
+    "candidates": 9,
+    "dataset": "beijing",
+    "degree": 1,
+    "entity": 11,
+    "validation_mse": 0.0027338931492795443,
+    "width": 32,
+    "workload": "stable"
+  }
+]

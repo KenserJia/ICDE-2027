@@ -1,0 +1,48 @@
+{
+  "datasets": [
+    {
+      "name": "bike",
+      "creator": "Hadi Fanaee-T",
+      "year": "2013",
+      "title": "Bike Sharing",
+      "doi": "10.24432/C5W894",
+      "landing_page": "https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset",
+      "license": "CC-BY-4.0",
+      "raw_archive": "data/raw/bike.zip",
+      "raw_sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+      "raw_url": "https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip",
+      "processed_archive": "data/real/bike.npz",
+      "processed_sha256": "b0461c73abcf4c8451bc8d81087ea63e1154e78d133c42bd2b25e9ee4b240030",
+      "channels": [
+        "cnt",
+        "temp",
+        "hum",
+        "windspeed"
+      ],
+      "preprocessing": "data/README.md"
+    },
+    {
+      "name": "beijing",
+      "creator": "Song Chen",
+      "year": "2017",
+      "title": "Beijing Multi-Site Air Quality",
+      "doi": "10.24432/C5RK5G",
+      "landing_page": "https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data",
+      "license": "CC-BY-4.0",
+      "raw_archive": "data/raw/beijing.zip",
+      "raw_sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4",
+      "raw_url": "https://archive.ics.uci.edu/static/public/501/beijing+multi+site+air+quality+data.zip",
+      "processed_archive": "data/real/beijing.npz",
+      "processed_sha256": "2aefc9178bbc33b391ab47d89705808c4d3bb5cd49199b8a6282d49e47d77d85",
+      "channels": [
+        "PM2.5",
+        "TEMP",
+        "PRES",
+        "WSPM"
+      ],
+      "preprocessing": "data/README.md"
+    }
+  ],
+  "license_file": "licenses/CC-BY-4.0.txt",
+  "preparation_command": "python reproduce.py prepare-data --output runs/prepared"
+}

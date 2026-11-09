@@ -1,0 +1,4513 @@
+{
+  "summary": {
+    "cases": 500,
+    "legacy_oracle_pass": true,
+    "cases_differing_from_populated_cell_interpolation": 91,
+    "maximum_difference": 0.9863911905937057,
+    "primary_queries_intersect_active_cell": 0,
+    "production_kernel_unchanged": true,
+    "interpretation": "Legacy unfinished-cell behavior confirmed and kept separate; primary queries delay>=b=128, hence sealed history only. Not a new certificate."
+  },
+  "records": [
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 1,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 1,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.010327593709986954,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.01305630287063897,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.029174153108149747,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.01422902926059777,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.01085544800242555,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.014524279360766279,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.019323017287999344,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.013454826639952344,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.013440078479193485,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.00963276560588544,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.013845799564723982,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.009035180878880222,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.17285253275902224,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.06605699770610596,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.02473313981294631,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.006843932000311803,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.03215297256862798,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.045707774079346564,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.035280150035396196,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.008507740911137929,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.03980844222782515,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.03381090898995265,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.023791196759760602,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.00571589154195884,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 4,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 4,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.012426388878375272,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0179179473279798,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.03415654575728988,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.01661889655809734,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.016131672667616503,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.024038967193968364,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.016062825997124275,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0139131998257227,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.02215794476866717,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.01388325757545572,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.12990008819481538,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.042836707264582996,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.011149661378333647,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.11071508274702677,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.034459613611707934,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.008960398148631171,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.054876977354595985,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.04680232852080235,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.008100030897233879,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.05622203760198043,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.04112473302786901,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.007001296100581422,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 8,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.08126882399071245,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.02065442103498394,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.03659541315307291,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.01782637838739154,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.07427886315896481,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.11755556814509438,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0744180989762685,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.06758991319981256,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.10710782893246051,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.06404734175581506,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.02089886766405613,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.018439671757721328,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.007428736199754982,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.02537093305230871,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.014734570702871111,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.007059230617939921,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.02931515373691132,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.008447090362958432,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.004129155333037093,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.006511879837429291,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.026491458125092016,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.006844926442678645,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.012105279653711554,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.02582148202100254,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.006446259727723502,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.026999794250674614,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0184610658406561,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.003880595921210095,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 16,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 32,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 16,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.6026529566272972,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.150976957510092,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.07550876624408742,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0188807874520025,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 1,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 1,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 1,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 7,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 1,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 63,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 1,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2049,
+      "delay": 127,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.9863911905937057,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.5064189921270821,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.12813798800021092,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.8534369425135369,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.43522751614355026,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.1098845029987493,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 1,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 7,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 1,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 63,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 1,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2055,
+      "delay": 127,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.27076110495360445,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.2688326293734664,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 7,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.2550066186027196,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 1,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 63,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 1,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2109,
+      "delay": 127,
+      "window": 128,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 0,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 5.7928735324570824e-05,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 1,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.00011493813703016519,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 7,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0004376980375790998,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 1,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 4,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 16,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 32,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 63,
+      "window": 128,
+      "resolution": "FINE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.001861103498872252,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 1,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 4,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 16,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 32,
+      "resolution": "BASE_APPROX",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    },
+    {
+      "h": 128,
+      "prefix": 2175,
+      "delay": 127,
+      "window": 128,
+      "resolution": "EXACT",
+      "legacy_vs_ideal_max_abs_difference": 0.0,
+      "legacy_oracle_max_abs_difference": 0.0
+    }
+  ]
+}

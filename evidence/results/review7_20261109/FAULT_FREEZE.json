@@ -1,0 +1,1303 @@
+{
+  "order": [
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 1,
+      "mode": "newest_corrupt"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 2,
+      "mode": "semantic_invalid"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 1,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 0,
+      "mode": "random"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 1,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 0,
+      "mode": "newest_corrupt"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 2,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 0,
+      "mode": "boundary"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 0,
+      "mode": "random"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 1,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 0,
+      "mode": "boundary"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 2,
+      "mode": "boundary"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 1,
+      "mode": "semantic_invalid"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 0,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 1,
+      "mode": "random"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 1,
+      "mode": "newest_corrupt"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 2,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 1,
+      "mode": "boundary"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 0,
+      "mode": "random"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 1,
+      "mode": "boundary"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 2,
+      "mode": "newest_corrupt"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 2,
+      "mode": "random"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 1,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 0,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 2,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 2,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 1,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 1,
+      "mode": "random"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 2,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 1,
+      "mode": "both_corrupt"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 2,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 2,
+      "mode": "boundary"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 2,
+      "mode": "semantic_invalid"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 1,
+      "mode": "semantic_invalid"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 2,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 1,
+      "mode": "random"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 0,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 2,
+      "mode": "boundary"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 2,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 0,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 0,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 0,
+      "mode": "both_corrupt"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 2,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 0,
+      "mode": "random"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 2,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 0,
+      "mode": "semantic_invalid"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 2,
+      "mode": "random"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 2,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 2,
+      "mode": "both_corrupt"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 2,
+      "mode": "both_corrupt"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 1,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 0,
+      "mode": "newest_corrupt"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 1,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 2,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 2,
+      "mode": "semantic_invalid"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 1,
+      "mode": "random"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 1,
+      "mode": "both_corrupt"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 1,
+      "mode": "semantic_invalid"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 0,
+      "mode": "boundary"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 0,
+      "mode": "newest_corrupt"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 0,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 0,
+      "mode": "semantic_invalid"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 2,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 1,
+      "mode": "boundary"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 2,
+      "mode": "boundary"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 2,
+      "mode": "newest_corrupt"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 2,
+      "mode": "newest_corrupt"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 1,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 2,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 1,
+      "mode": "newest_corrupt"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 1,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 2,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 1,
+      "mode": "boundary"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 0,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 1,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 0,
+      "mode": "boundary"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 0,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 1,
+      "mode": "both_corrupt"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 1,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 0,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 2,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 0,
+      "mode": "both_corrupt"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 0,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 2,
+      "mode": "boundary"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 1,
+      "mode": "random"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 0,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 2,
+      "mode": "random"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 1,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 2,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 0,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 2,
+      "mode": "random"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 1,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 0,
+      "mode": "semantic_invalid"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 0,
+      "mode": "random"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 0,
+      "mode": "boundary"
+    },
+    {
+      "variant": "histogram",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 1,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_partial_write"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 2,
+      "mode": "both_corrupt"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 0,
+      "mode": "boundary"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 1,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 1,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 1,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 0,
+      "mode": "random"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 0,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 1,
+      "mode": "random"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 0,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 100,
+      "rep": 0,
+      "mode": "both_corrupt"
+    },
+    {
+      "variant": "cache32",
+      "K": 500,
+      "rep": 0,
+      "mode": "boundary"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 0,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 0,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 2000,
+      "rep": 2,
+      "mode": "after_file_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 500,
+      "rep": 1,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 2,
+      "mode": "boundary"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 0,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "fused",
+      "K": 500,
+      "rep": 2,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 100,
+      "rep": 2,
+      "mode": "after_replace_before_dir_fsync"
+    },
+    {
+      "variant": "histogram",
+      "K": 2000,
+      "rep": 1,
+      "mode": "before_file_fsync"
+    },
+    {
+      "variant": "cache32",
+      "K": 2000,
+      "rep": 1,
+      "mode": "random"
+    }
+  ],
+  "source_sha256": "9bfff359744a2a69d62d7555e20842fc85f28ca497111733391c5fa46ca00177",
+  "child_sha256": "b413d2ce323c1e6c192db352868fe56afcecc20bebfc367f872be5c18acb14d5",
+  "scope": "process kills and deliberate corruption only; latest completed valid image required for K bound"
+}

@@ -1,0 +1,2330 @@
+[
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.23202214244310712,
+      0.2768213356237448
+    ],
+    "nrmse_mean": 0.2530754192315616,
+    "query_p95_us_median": 4.125,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.25755511970973183,
+      0.3065769496191236
+    ],
+    "nrmse_mean": 0.28079949165093077,
+    "query_p95_us_median": 4.646,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 51200,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": [
+      0.0,
+      0.0
+    ],
+    "nrmse_mean": 0.0,
+    "query_p95_us_median": 8.3335,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 51200,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": [
+      0.0,
+      0.0
+    ],
+    "nrmse_mean": 0.0,
+    "query_p95_us_median": 8.812999999999999,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 25180,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.21975905582104685,
+      0.2503110747404034
+    ],
+    "nrmse_mean": 0.23482036911583754,
+    "query_p95_us_median": 5.625,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 25180,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.26096897370045996,
+      0.3098320535219842
+    ],
+    "nrmse_mean": 0.28507111793494855,
+    "query_p95_us_median": 5.709,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 53596,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k16",
+    "nrmse_bootstrap95": [
+      0.0159030110993096,
+      0.021713925103538565
+    ],
+    "nrmse_mean": 0.01853641086746495,
+    "query_p95_us_median": 23.833,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 53596,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k16",
+    "nrmse_bootstrap95": [
+      0.016861968953312115,
+      0.023228264591123055
+    ],
+    "nrmse_mean": 0.019720567944218666,
+    "query_p95_us_median": 24.0,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 39388,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.0159030110993096,
+      0.021713925103538565
+    ],
+    "nrmse_mean": 0.01853641086746495,
+    "query_p95_us_median": 24.104,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 39388,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.016861968953312115,
+      0.023228264591123055
+    ],
+    "nrmse_mean": 0.019720567944218666,
+    "query_p95_us_median": 24.104,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 30740,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.24762101358766406,
+      0.29448458241379605
+    ],
+    "nrmse_mean": 0.26981968150807945,
+    "query_p95_us_median": 11.104,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 30740,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.30445278691108574,
+      0.34899692815921823
+    ],
+    "nrmse_mean": 0.3263500238638668,
+    "query_p95_us_median": 8.6875,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 58772,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k8",
+    "nrmse_bootstrap95": [
+      0.0159030110993096,
+      0.021713925103538565
+    ],
+    "nrmse_mean": 0.01853641086746495,
+    "query_p95_us_median": 23.7085,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 58772,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k8",
+    "nrmse_bootstrap95": [
+      0.016861968953312115,
+      0.023228264591123055
+    ],
+    "nrmse_mean": 0.019720567944218666,
+    "query_p95_us_median": 23.771,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 23420,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k0",
+    "nrmse_bootstrap95": [
+      0.07628009843821006,
+      0.09555909038618732
+    ],
+    "nrmse_mean": 0.0857420746883398,
+    "query_p95_us_median": 14.2915,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 23420,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k0",
+    "nrmse_bootstrap95": [
+      0.08158885864499836,
+      0.09871652182756725
+    ],
+    "nrmse_mean": 0.08962079696237896,
+    "query_p95_us_median": 14.625,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 31100,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k16",
+    "nrmse_bootstrap95": [
+      0.0159030110993096,
+      0.021713925103538565
+    ],
+    "nrmse_mean": 0.01853641086746495,
+    "query_p95_us_median": 31.979,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 31100,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k16",
+    "nrmse_bootstrap95": [
+      0.016861968953312115,
+      0.023228264591123055
+    ],
+    "nrmse_mean": 0.019720567944218666,
+    "query_p95_us_median": 31.9375,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 27260,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k8",
+    "nrmse_bootstrap95": [
+      0.049533081568691954,
+      0.06442738599925235
+    ],
+    "nrmse_mean": 0.05680327532722557,
+    "query_p95_us_median": 24.396,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 27260,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k8",
+    "nrmse_bootstrap95": [
+      0.05985682626523299,
+      0.0772380865600449
+    ],
+    "nrmse_mean": 0.06779920238960307,
+    "query_p95_us_median": 26.5625,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 42256,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.23495191745878846,
+      0.28301178381435493
+    ],
+    "nrmse_mean": 0.25744520181721425,
+    "query_p95_us_median": 16.26505,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 42256,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.28900304756030454,
+      0.31976432265933674
+    ],
+    "nrmse_mean": 0.3058263681105188,
+    "query_p95_us_median": 18.021,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22796,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.1391055947413685,
+      0.1685664298919207
+    ],
+    "nrmse_mean": 0.1536681825344109,
+    "query_p95_us_median": 8.125,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22796,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.16924102399488078,
+      0.21944789851811436
+    ],
+    "nrmse_mean": 0.19231678499672883,
+    "query_p95_us_median": 8.167,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 37388,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k16",
+    "nrmse_bootstrap95": [
+      0.0159030110993096,
+      0.021713925103538565
+    ],
+    "nrmse_mean": 0.01853641086746495,
+    "query_p95_us_median": 26.0835,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 37388,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k16",
+    "nrmse_bootstrap95": [
+      0.016861968953312115,
+      0.023228264591123055
+    ],
+    "nrmse_mean": 0.019720567944218666,
+    "query_p95_us_median": 26.0835,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 30092,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.0159030110993096,
+      0.021713925103538565
+    ],
+    "nrmse_mean": 0.01853641086746495,
+    "query_p95_us_median": 26.5625,
+    "reach": 512,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 30092,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.016861968953312115,
+      0.023228264591123055
+    ],
+    "nrmse_mean": 0.019720567944218666,
+    "query_p95_us_median": 26.5,
+    "reach": 512,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.29728577005089396,
+      0.32948657472260756
+    ],
+    "nrmse_mean": 0.31515414436731803,
+    "query_p95_us_median": 3.4585,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.33488912838512824,
+      0.3665029967735786
+    ],
+    "nrmse_mean": 0.3505552932807326,
+    "query_p95_us_median": 4.0625,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 65528,
+    "coverage_mean": 0.6406485671191553,
+    "coverage_min": 0.5833333333333334,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": [
+      0.0,
+      0.0
+    ],
+    "nrmse_mean": 0.0,
+    "query_p95_us_median": 8.3955,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 65528,
+    "coverage_mean": 0.6470588235294118,
+    "coverage_min": 0.6078431372549019,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": [
+      0.0,
+      0.0
+    ],
+    "nrmse_mean": 0.0,
+    "query_p95_us_median": 8.604,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 25708,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.2578346167191185,
+      0.29115931638989745
+    ],
+    "nrmse_mean": 0.2756611833801492,
+    "query_p95_us_median": 5.625,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 25708,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.27215313507927,
+      0.3084993555406475
+    ],
+    "nrmse_mean": 0.2907957292320551,
+    "query_p95_us_median": 5.646,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 54124,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k16",
+    "nrmse_bootstrap95": [
+      0.015936251073803993,
+      0.020849581984459825
+    ],
+    "nrmse_mean": 0.018309901177554648,
+    "query_p95_us_median": 23.8125,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 54124,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k16",
+    "nrmse_bootstrap95": [
+      0.017501103144143968,
+      0.02459444026665594
+    ],
+    "nrmse_mean": 0.020818577804397703,
+    "query_p95_us_median": 23.9795,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 39916,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.015936251073803993,
+      0.020849581984459825
+    ],
+    "nrmse_mean": 0.018309901177554648,
+    "query_p95_us_median": 24.093799999999998,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 39916,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.017501103144143968,
+      0.02459444026665594
+    ],
+    "nrmse_mean": 0.020818577804397703,
+    "query_p95_us_median": 24.2295,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 31004,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.2644305327208124,
+      0.29078888383933627
+    ],
+    "nrmse_mean": 0.27791159646878605,
+    "query_p95_us_median": 8.5415,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 31004,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.346669150851732,
+      0.39031560225685386
+    ],
+    "nrmse_mean": 0.3685530548967062,
+    "query_p95_us_median": 4.167,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 59036,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k8",
+    "nrmse_bootstrap95": [
+      0.015936251073803993,
+      0.020849581984459825
+    ],
+    "nrmse_mean": 0.018309901177554648,
+    "query_p95_us_median": 23.5625,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 59036,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k8",
+    "nrmse_bootstrap95": [
+      0.017501103144143968,
+      0.02459444026665594
+    ],
+    "nrmse_mean": 0.020818577804397703,
+    "query_p95_us_median": 23.7915,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 25532,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k0",
+    "nrmse_bootstrap95": [
+      0.07591376391224551,
+      0.0929529129050571
+    ],
+    "nrmse_mean": 0.0838861765024156,
+    "query_p95_us_median": 14.375,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 25532,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k0",
+    "nrmse_bootstrap95": [
+      0.07395117849991274,
+      0.09534276094239015
+    ],
+    "nrmse_mean": 0.08447450312573114,
+    "query_p95_us_median": 14.5,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 33212,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k16",
+    "nrmse_bootstrap95": [
+      0.0527770654351797,
+      0.06645068329933135
+    ],
+    "nrmse_mean": 0.059451822779482466,
+    "query_p95_us_median": 31.0415,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 33212,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k16",
+    "nrmse_bootstrap95": [
+      0.05445486707908977,
+      0.07135566206820446
+    ],
+    "nrmse_mean": 0.06242023749358205,
+    "query_p95_us_median": 31.3545,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 29372,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k8",
+    "nrmse_bootstrap95": [
+      0.06462800951568304,
+      0.08076345492106927
+    ],
+    "nrmse_mean": 0.0720624542129544,
+    "query_p95_us_median": 18.667,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 29372,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k8",
+    "nrmse_bootstrap95": [
+      0.061060931209735644,
+      0.0796499192436929
+    ],
+    "nrmse_mean": 0.06975727872280614,
+    "query_p95_us_median": 22.8125,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 42388,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.29166646389791046,
+      0.3264472933471049
+    ],
+    "nrmse_mean": 0.30924974119624077,
+    "query_p95_us_median": 12.5835,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 42388,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.3728740289805846,
+      0.4127599499196196
+    ],
+    "nrmse_mean": 0.39208121821431086,
+    "query_p95_us_median": 13.875049999999998,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 23852,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.16157597137877133,
+      0.18721199063707442
+    ],
+    "nrmse_mean": 0.1751367512457687,
+    "query_p95_us_median": 7.979,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 23852,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.1780304321105126,
+      0.21095107878839173
+    ],
+    "nrmse_mean": 0.19426707868487186,
+    "query_p95_us_median": 8.000499999999999,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 38444,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k16",
+    "nrmse_bootstrap95": [
+      0.015936251073803993,
+      0.020849581984459825
+    ],
+    "nrmse_mean": 0.018309901177554648,
+    "query_p95_us_median": 27.0625,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 38444,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k16",
+    "nrmse_bootstrap95": [
+      0.017501103144143968,
+      0.02459444026665594
+    ],
+    "nrmse_mean": 0.020818577804397703,
+    "query_p95_us_median": 27.125,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 31148,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.09924462690233779,
+      0.12926011185304817
+    ],
+    "nrmse_mean": 0.11392344108647497,
+    "query_p95_us_median": 26.0,
+    "reach": 1024,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 31148,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.12868746532564504,
+      0.15854476008364596
+    ],
+    "nrmse_mean": 0.14321808372608535,
+    "query_p95_us_median": 26.104,
+    "reach": 1024,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.314290284775804,
+      0.3504777030664674
+    ],
+    "nrmse_mean": 0.3322936127330272,
+    "query_p95_us_median": 3.542,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.35210940560376036,
+      0.3972009696569397
+    ],
+    "nrmse_mean": 0.37285016901644114,
+    "query_p95_us_median": 3.646,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 65528,
+    "coverage_mean": 0.3137254901960785,
+    "coverage_min": 0.27450980392156865,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": [
+      0.0,
+      0.0
+    ],
+    "nrmse_mean": 0.0,
+    "query_p95_us_median": 7.058949999999999,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 65528,
+    "coverage_mean": 0.306184012066365,
+    "coverage_min": 0.2549019607843137,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": [
+      0.0,
+      0.0
+    ],
+    "nrmse_mean": 0.0,
+    "query_p95_us_median": 8.167049999999998,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 26764,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.22644708919485204,
+      0.26039145473956016
+    ],
+    "nrmse_mean": 0.2426055387405315,
+    "query_p95_us_median": 5.5625,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 26764,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.26388274840435527,
+      0.29898136723610336
+    ],
+    "nrmse_mean": 0.28013752374169765,
+    "query_p95_us_median": 5.625,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 55180,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k16",
+    "nrmse_bootstrap95": [
+      0.01691056187246765,
+      0.023717538846707176
+    ],
+    "nrmse_mean": 0.020019005679952538,
+    "query_p95_us_median": 24.6875,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 55180,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k16",
+    "nrmse_bootstrap95": [
+      0.016899948137267053,
+      0.025620876754468818
+    ],
+    "nrmse_mean": 0.02065611439095983,
+    "query_p95_us_median": 24.8335,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 40972,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.13923879725990562,
+      0.16225857114559006
+    ],
+    "nrmse_mean": 0.15022238857002607,
+    "query_p95_us_median": 23.5415,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 40972,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.1611979768621446,
+      0.18707276326570185
+    ],
+    "nrmse_mean": 0.17405777661066038,
+    "query_p95_us_median": 23.854,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 31532,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.29261540641038225,
+      0.3257962168141106
+    ],
+    "nrmse_mean": 0.30948174483537133,
+    "query_p95_us_median": 4.167,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 31532,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.3375940427698046,
+      0.3881601587282129
+    ],
+    "nrmse_mean": 0.3607794895542084,
+    "query_p95_us_median": 4.146,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 59564,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k8",
+    "nrmse_bootstrap95": [
+      0.01691056187246765,
+      0.023717538846707176
+    ],
+    "nrmse_mean": 0.020019005679952538,
+    "query_p95_us_median": 23.6665,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 59564,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k8",
+    "nrmse_bootstrap95": [
+      0.016899948137267053,
+      0.025620876754468818
+    ],
+    "nrmse_mean": 0.02065611439095983,
+    "query_p95_us_median": 23.708,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 29756,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k0",
+    "nrmse_bootstrap95": [
+      0.08239690489539264,
+      0.10988945722728223
+    ],
+    "nrmse_mean": 0.09531184115962077,
+    "query_p95_us_median": 14.2705,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 29756,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k0",
+    "nrmse_bootstrap95": [
+      0.0753252880837325,
+      0.09985219354536251
+    ],
+    "nrmse_mean": 0.08678095117160113,
+    "query_p95_us_median": 14.625,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 37436,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k16",
+    "nrmse_bootstrap95": [
+      0.0626786450882887,
+      0.08011657336584214
+    ],
+    "nrmse_mean": 0.07148752912119957,
+    "query_p95_us_median": 17.8125,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 37436,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k16",
+    "nrmse_bootstrap95": [
+      0.06350344922165196,
+      0.08634943453173534
+    ],
+    "nrmse_mean": 0.07434195601118307,
+    "query_p95_us_median": 24.561999999999998,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 33596,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k8",
+    "nrmse_bootstrap95": [
+      0.07191186433912551,
+      0.10157379266637831
+    ],
+    "nrmse_mean": 0.08581235535449583,
+    "query_p95_us_median": 14.8335,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 33596,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k8",
+    "nrmse_bootstrap95": [
+      0.06813454943527411,
+      0.0929445550767338
+    ],
+    "nrmse_mean": 0.07959594893383516,
+    "query_p95_us_median": 16.3125,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 42652,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.3134745434642967,
+      0.3471133827850436
+    ],
+    "nrmse_mean": 0.3302014845162648,
+    "query_p95_us_median": 10.0215,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 42652,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.36194024355475257,
+      0.4153110898970745
+    ],
+    "nrmse_mean": 0.3864783316557276,
+    "query_p95_us_median": 9.8335,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 25964,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.1485766497401804,
+      0.18608015164419295
+    ],
+    "nrmse_mean": 0.1666805031593621,
+    "query_p95_us_median": 7.8955,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 25964,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.16318029639305967,
+      0.19196367804085518
+    ],
+    "nrmse_mean": 0.17655317779162344,
+    "query_p95_us_median": 7.979,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 40556,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k16",
+    "nrmse_bootstrap95": [
+      0.08779986422220243,
+      0.11324900313244352
+    ],
+    "nrmse_mean": 0.09965794460450948,
+    "query_p95_us_median": 25.354,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 40556,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k16",
+    "nrmse_bootstrap95": [
+      0.10505669892016727,
+      0.13388429564063276
+    ],
+    "nrmse_mean": 0.11795118468104163,
+    "query_p95_us_median": 26.0835,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 33260,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.11504997593218337,
+      0.14162788137279395
+    ],
+    "nrmse_mean": 0.12807790444555367,
+    "query_p95_us_median": 15.1045,
+    "reach": 2048,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 33260,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.123783095409335,
+      0.15102924969718712
+    ],
+    "nrmse_mean": 0.13686280725932753,
+    "query_p95_us_median": 20.604,
+    "reach": 2048,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.33752456349588034,
+      0.3696855633405103
+    ],
+    "nrmse_mean": 0.3539847668362098,
+    "query_p95_us_median": 3.396,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.3919459241170671,
+      0.437336327888448
+    ],
+    "nrmse_mean": 0.41500393274213543,
+    "query_p95_us_median": 3.5205,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 65528,
+    "coverage_mean": 0.17571644042232276,
+    "coverage_min": 0.16666666666666666,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": [
+      0.0,
+      0.0
+    ],
+    "nrmse_mean": 0.0,
+    "query_p95_us_median": 7.062,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 65528,
+    "coverage_mean": 0.17571644042232276,
+    "coverage_min": 0.16666666666666666,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": [
+      0.0,
+      0.0
+    ],
+    "nrmse_mean": 0.0,
+    "query_p95_us_median": 8.2085,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 28876,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.2143034187159076,
+      0.23994371431083122
+    ],
+    "nrmse_mean": 0.2275308668923081,
+    "query_p95_us_median": 5.4795,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 28876,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.27003111014813075,
+      0.3290192748643045
+    ],
+    "nrmse_mean": 0.29895877502706913,
+    "query_p95_us_median": 5.583,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 57292,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k16",
+    "nrmse_bootstrap95": [
+      0.11718735648169867,
+      0.14289868433214536
+    ],
+    "nrmse_mean": 0.1299174311621226,
+    "query_p95_us_median": 24.229,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 57292,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k16",
+    "nrmse_bootstrap95": [
+      0.15640794419913834,
+      0.18250645868586263
+    ],
+    "nrmse_mean": 0.16889303003635645,
+    "query_p95_us_median": 24.3125,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 43084,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.17006656170549134,
+      0.1955844888240701
+    ],
+    "nrmse_mean": 0.18323850779822176,
+    "query_p95_us_median": 14.271,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 43084,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.1940914248378271,
+      0.2261572275363508
+    ],
+    "nrmse_mean": 0.20948622635113287,
+    "query_p95_us_median": 18.646,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 32588,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.26793887823711887,
+      0.29763296317202165
+    ],
+    "nrmse_mean": 0.2831603970151836,
+    "query_p95_us_median": 4.1875,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 32588,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.31945858305682234,
+      0.3722025418472295
+    ],
+    "nrmse_mean": 0.34619639602983976,
+    "query_p95_us_median": 4.1045,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 60620,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k8",
+    "nrmse_bootstrap95": [
+      0.1681885711267585,
+      0.19268571989237857
+    ],
+    "nrmse_mean": 0.18077723403935034,
+    "query_p95_us_median": 23.3955,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 60620,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k8",
+    "nrmse_bootstrap95": [
+      0.2006098254575742,
+      0.2246593113593216
+    ],
+    "nrmse_mean": 0.21242598496706175,
+    "query_p95_us_median": 23.686999999999998,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 38204,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k0",
+    "nrmse_bootstrap95": [
+      0.07332346546223573,
+      0.10230988116590342
+    ],
+    "nrmse_mean": 0.0873012017893564,
+    "query_p95_us_median": 14.417,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 38204,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k0",
+    "nrmse_bootstrap95": [
+      0.08009596582323682,
+      0.10931019495385967
+    ],
+    "nrmse_mean": 0.09452338638801892,
+    "query_p95_us_median": 14.5415,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 45884,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k16",
+    "nrmse_bootstrap95": [
+      0.06106315295214641,
+      0.07826786033197776
+    ],
+    "nrmse_mean": 0.06865234194753565,
+    "query_p95_us_median": 18.396,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 45884,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k16",
+    "nrmse_bootstrap95": [
+      0.06219037916954884,
+      0.08356498256730058
+    ],
+    "nrmse_mean": 0.07186508906601187,
+    "query_p95_us_median": 19.7705,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 42044,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k8",
+    "nrmse_bootstrap95": [
+      0.07332346546223573,
+      0.10230988116590342
+    ],
+    "nrmse_mean": 0.0873012017893564,
+    "query_p95_us_median": 13.021,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 42044,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k8",
+    "nrmse_bootstrap95": [
+      0.08009596582323682,
+      0.10931019495385967
+    ],
+    "nrmse_mean": 0.09452338638801892,
+    "query_p95_us_median": 13.1455,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 43180,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.3114042122524923,
+      0.3432660819749284
+    ],
+    "nrmse_mean": 0.3275008298352055,
+    "query_p95_us_median": 4.292,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 43180,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.37669789803114606,
+      0.4239672403824908
+    ],
+    "nrmse_mean": 0.400165868377954,
+    "query_p95_us_median": 4.188,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 30188,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.1472580260661605,
+      0.16563816964534658
+    ],
+    "nrmse_mean": 0.15643909164340528,
+    "query_p95_us_median": 7.854,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 30188,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.17357344539761904,
+      0.21770488291167603
+    ],
+    "nrmse_mean": 0.19613192334225832,
+    "query_p95_us_median": 7.875,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 44780,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k16",
+    "nrmse_bootstrap95": [
+      0.1118382517184695,
+      0.1305419329649124
+    ],
+    "nrmse_mean": 0.1211117935622915,
+    "query_p95_us_median": 15.2295,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 44780,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k16",
+    "nrmse_bootstrap95": [
+      0.12438970768678552,
+      0.1638373342625282
+    ],
+    "nrmse_mean": 0.1428761279621729,
+    "query_p95_us_median": 20.125500000000002,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 37484,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.1298854840132243,
+      0.1480779987273477
+    ],
+    "nrmse_mean": 0.1386570595108407,
+    "query_p95_us_median": 14.646,
+    "reach": 4096,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 37484,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.13194531198152268,
+      0.17598198625918152
+    ],
+    "nrmse_mean": 0.15300439347103362,
+    "query_p95_us_median": 16.625,
+    "reach": 4096,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.42556392696114165,
+      0.48949293327802446
+    ],
+    "nrmse_mean": 0.460198036253646,
+    "query_p95_us_median": 3.4204999999999997,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.48128234812464643,
+      0.5157215245235824
+    ],
+    "nrmse_mean": 0.4986511162244434,
+    "query_p95_us_median": 3.7377,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 65528,
+    "coverage_mean": 0.0,
+    "coverage_min": 0.0,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": null,
+    "nrmse_mean": null,
+    "query_p95_us_median": 4.9874,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 65528,
+    "coverage_mean": 0.0,
+    "coverage_min": 0.0,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": null,
+    "nrmse_mean": null,
+    "query_p95_us_median": 5.991199999999999,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 33100,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.22441304176518975,
+      0.2671031297758781
+    ],
+    "nrmse_mean": 0.24488665716454858,
+    "query_p95_us_median": 5.459,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 33100,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.2367144717114578,
+      0.28648533936452764
+    ],
+    "nrmse_mean": 0.26209622673886807,
+    "query_p95_us_median": 5.5168,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 61516,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k16",
+    "nrmse_bootstrap95": [
+      0.19316132295597843,
+      0.23657625168469534
+    ],
+    "nrmse_mean": 0.21463909218206048,
+    "query_p95_us_median": 14.2955,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 61516,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k16",
+    "nrmse_bootstrap95": [
+      0.1899204495810901,
+      0.21768264873379375
+    ],
+    "nrmse_mean": 0.2041592475818497,
+    "query_p95_us_median": 14.337499999999999,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 47308,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.2067261591306763,
+      0.25232206480429403
+    ],
+    "nrmse_mean": 0.22896677269082488,
+    "query_p95_us_median": 14.5168,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 47308,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.2096515977335593,
+      0.2484622030862324
+    ],
+    "nrmse_mean": 0.2292222559019255,
+    "query_p95_us_median": 14.4457,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 34700,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.27707216381020483,
+      0.32399033160904966
+    ],
+    "nrmse_mean": 0.300205457189683,
+    "query_p95_us_median": 4.083699999999999,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 34700,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.28693164106535757,
+      0.3275077247598089
+    ],
+    "nrmse_mean": 0.3078116207823227,
+    "query_p95_us_median": 4.083699999999999,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 62732,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k8",
+    "nrmse_bootstrap95": [
+      0.2369721167189828,
+      0.28559301466915826
+    ],
+    "nrmse_mean": 0.2611630632456796,
+    "query_p95_us_median": 16.5581,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 62732,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k8",
+    "nrmse_bootstrap95": [
+      0.225257632757366,
+      0.2503504802536771
+    ],
+    "nrmse_mean": 0.23774532355253808,
+    "query_p95_us_median": 17.3707,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 55100,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k0",
+    "nrmse_bootstrap95": [
+      0.0734929439701717,
+      0.1032631462398741
+    ],
+    "nrmse_mean": 0.08721437248052638,
+    "query_p95_us_median": 14.3956,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 55100,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k0",
+    "nrmse_bootstrap95": [
+      0.06365514827122451,
+      0.08558661847498762
+    ],
+    "nrmse_mean": 0.07446408412767479,
+    "query_p95_us_median": 14.8956,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 62780,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k16",
+    "nrmse_bootstrap95": [
+      0.0734929439701717,
+      0.1032631462398741
+    ],
+    "nrmse_mean": 0.08721437248052638,
+    "query_p95_us_median": 12.6537,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 62780,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k16",
+    "nrmse_bootstrap95": [
+      0.06365514827122451,
+      0.08558661847498762
+    ],
+    "nrmse_mean": 0.07446408412767479,
+    "query_p95_us_median": 12.7374,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 58940,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k8",
+    "nrmse_bootstrap95": [
+      0.0734929439701717,
+      0.1032631462398741
+    ],
+    "nrmse_mean": 0.08721437248052638,
+    "query_p95_us_median": 13.0339,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 58940,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b32-k8",
+    "nrmse_bootstrap95": [
+      0.06365514827122451,
+      0.08558661847498762
+    ],
+    "nrmse_mean": 0.07446408412767479,
+    "query_p95_us_median": 13.1537,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 44236,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.2995305080032567,
+      0.3552903058991781
+    ],
+    "nrmse_mean": 0.3273265375623196,
+    "query_p95_us_median": 4.1414,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 44236,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.33877480794731674,
+      0.37535152743006767
+    ],
+    "nrmse_mean": 0.3576830525945886,
+    "query_p95_us_median": 4.1544,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 38636,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.14335710576819743,
+      0.1805904412940223
+    ],
+    "nrmse_mean": 0.1615974021858117,
+    "query_p95_us_median": 7.8911,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 38636,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.14567825664781225,
+      0.1763460242508561
+    ],
+    "nrmse_mean": 0.16083403214802638,
+    "query_p95_us_median": 7.958,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 53228,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k16",
+    "nrmse_bootstrap95": [
+      0.12814333726527477,
+      0.16575700012948674
+    ],
+    "nrmse_mean": 0.1468590515731225,
+    "query_p95_us_median": 16.625,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 53228,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k16",
+    "nrmse_bootstrap95": [
+      0.13595087390230148,
+      0.16435032741646025
+    ],
+    "nrmse_mean": 0.15008065525177028,
+    "query_p95_us_median": 16.624899999999997,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 45932,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.14335710576819743,
+      0.1805904412940223
+    ],
+    "nrmse_mean": 0.1615974021858117,
+    "query_p95_us_median": 7.792,
+    "reach": 8192,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 45932,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.14567825664781225,
+      0.1763460242508561
+    ],
+    "nrmse_mean": 0.16083403214802638,
+    "query_p95_us_median": 7.833699999999999,
+    "reach": 8192,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.5328368284195543,
+      0.5871477563883098
+    ],
+    "nrmse_mean": 0.5636688222878966,
+    "query_p95_us_median": 3.28315,
+    "reach": 16384,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 22016,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "eh_sum",
+    "nrmse_bootstrap95": [
+      0.5542388737965867,
+      0.5806013961926184
+    ],
+    "nrmse_mean": 0.5684181946131684,
+    "query_p95_us_median": 3.4664,
+    "reach": 16384,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 65528,
+    "coverage_mean": 0.0,
+    "coverage_min": 0.0,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": null,
+    "nrmse_mean": null,
+    "query_p95_us_median": 4.9622,
+    "reach": 16384,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 65528,
+    "coverage_mean": 0.0,
+    "coverage_min": 0.0,
+    "method": "exact_tail",
+    "nrmse_bootstrap95": null,
+    "nrmse_mean": null,
+    "query_p95_us_median": 5.7289,
+    "reach": 16384,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 41548,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.21298818482244908,
+      0.25196112826984357
+    ],
+    "nrmse_mean": 0.2341556849375666,
+    "query_p95_us_median": 5.5964,
+    "reach": 16384,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 41548,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k0",
+    "nrmse_bootstrap95": [
+      0.22251354056895437,
+      0.2666315398719196
+    ],
+    "nrmse_mean": 0.24143243992577987,
+    "query_p95_us_median": 5.625,
+    "reach": 16384,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 55756,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.21298818482244908,
+      0.25196112826984357
+    ],
+    "nrmse_mean": 0.2341556849375666,
+    "query_p95_us_median": 5.4286,
+    "reach": 16384,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 55756,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b128-k8",
+    "nrmse_bootstrap95": [
+      0.22251354056895437,
+      0.2666315398719196
+    ],
+    "nrmse_mean": 0.24143243992577987,
+    "query_p95_us_median": 5.4211,
+    "reach": 16384,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 38924,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.25103565084267815,
+      0.29076726560724436
+    ],
+    "nrmse_mean": 0.27162250285834644,
+    "query_p95_us_median": 4.0452,
+    "reach": 16384,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 38924,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b256-k0",
+    "nrmse_bootstrap95": [
+      0.2667633263694184,
+      0.32373098810160283
+    ],
+    "nrmse_mean": 0.2913516958128345,
+    "query_p95_us_median": 4.0461,
+    "reach": 16384,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 46348,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.29622705037110375,
+      0.34622099182993327
+    ],
+    "nrmse_mean": 0.32203871009953533,
+    "query_p95_us_median": 4.0831,
+    "reach": 16384,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 46348,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b512-k0",
+    "nrmse_bootstrap95": [
+      0.31728737929013223,
+      0.36629860112291335
+    ],
+    "nrmse_mean": 0.3401906181889099,
+    "query_p95_us_median": 4.0872,
+    "reach": 16384,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 55532,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.12991252517736457,
+      0.1602770280746806
+    ],
+    "nrmse_mean": 0.14565035836662543,
+    "query_p95_us_median": 9.525,
+    "reach": 16384,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 55532,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k0",
+    "nrmse_bootstrap95": [
+      0.15112496672616263,
+      0.19183630892784534
+    ],
+    "nrmse_mean": 0.1698988971210129,
+    "query_p95_us_median": 9.808000000000002,
+    "reach": 16384,
+    "stage": "validation",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 62828,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.12991252517736457,
+      0.1602770280746806
+    ],
+    "nrmse_mean": 0.14565035836662543,
+    "query_p95_us_median": 8.338099999999999,
+    "reach": 16384,
+    "stage": "test",
+    "units": 13
+  },
+  {
+    "charged_bytes_max": 62828,
+    "coverage_mean": 1.0,
+    "coverage_min": 1.0,
+    "method": "tiered-b64-k8",
+    "nrmse_bootstrap95": [
+      0.15112496672616263,
+      0.19183630892784534
+    ],
+    "nrmse_mean": 0.1698988971210129,
+    "query_p95_us_median": 8.3506,
+    "reach": 16384,
+    "stage": "validation",
+    "units": 13
+  }
+]

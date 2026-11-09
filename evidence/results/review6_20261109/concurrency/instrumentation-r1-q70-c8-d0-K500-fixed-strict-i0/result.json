@@ -1,0 +1,154 @@
+{
+  "id": "instrumentation-r1-q70-c8-d0-K500-fixed-strict-i0",
+  "group": "instrumentation",
+  "rep": 1,
+  "query_mix": 0.7,
+  "clients": 8,
+  "delay_ms": 0,
+  "K": 500,
+  "policy": "fixed",
+  "instrument": false,
+  "mode": "strict",
+  "operations": 120000,
+  "queries": 83766,
+  "mutations": 36234,
+  "measured_query_fraction": 0.69805,
+  "active_seconds": 1.344399083,
+  "throughput_ops_s": 89259.2099454742,
+  "metrics": {
+    "all": {
+      "latency_ms": {
+        "n": 120000,
+        "p50": 0.006292,
+        "p95": 0.028458,
+        "p99": 0.04229241999999978,
+        "p99_9": 20.417672416000023,
+        "mean": 0.07951669939166667,
+        "max": 71.325792
+      }
+    },
+    "query": {
+      "latency_ms": {
+        "n": 83766,
+        "p50": 0.008959,
+        "p95": 0.028667,
+        "p99": 0.038,
+        "p99_9": 0.08164450500000005,
+        "mean": 0.012245686245015878,
+        "max": 7.068958
+      }
+    },
+    "mutation": {
+      "latency_ms": {
+        "n": 36234,
+        "p50": 0.001375,
+        "p95": 0.003542,
+        "p99": 6.499013499999993,
+        "p99_9": 41.5261910889999,
+        "mean": 0.23503427093337748,
+        "max": 71.325792
+      }
+    },
+    "query_capture_overlap": {
+      "latency_ms": {
+        "n": 0,
+        "mean": null,
+        "max": null
+      }
+    },
+    "query_no_capture_overlap": {
+      "latency_ms": {
+        "n": 83766,
+        "p50": 0.008959,
+        "p95": 0.028667,
+        "p99": 0.038,
+        "p99_9": 0.08164450500000005,
+        "mean": 0.012245686245015878,
+        "max": 7.068958
+      }
+    },
+    "query_persist_overlap_without_capture": {
+      "latency_ms": {
+        "n": 6,
+        "p50": 0.47374999999999995,
+        "p95": 0.993031,
+        "p99": 1.0041726,
+        "p99_9": 1.00667946,
+        "mean": 0.4865485,
+        "max": 1.006958
+      }
+    }
+  },
+  "checkpoint_captures": 72,
+  "capture_wall_ms": {
+    "n": 72,
+    "p50": 1.200479,
+    "p95": 1.8867793500000027,
+    "p99": 2.6237294300000005,
+    "p99_9": 2.6739976430000003,
+    "mean": 1.2907402222222222,
+    "max": 2.679583
+  },
+  "checkpoint_phases_ms": {
+    "capture_ms": {
+      "n": 72,
+      "p50": 1.2015414999999998,
+      "p95": 1.8892359000000027,
+      "p99": 2.6280380700000006,
+      "p99_9": 2.678891607,
+      "mean": 1.292308,
+      "max": 2.684542
+    },
+    "persist_ms": {
+      "n": 72,
+      "p50": 2.074479,
+      "p95": 2.92226425,
+      "p99": 4.86987575000003,
+      "p99_9": 7.90696287500001,
+      "mean": 2.0495972361111114,
+      "max": 8.244417
+    },
+    "total_ms": {
+      "n": 72,
+      "p50": 3.2709585,
+      "p95": 4.4975731,
+      "p99": 7.4520138200000305,
+      "p99_9": 10.581489482000011,
+      "mean": 3.3420117499999997,
+      "max": 10.929209
+    }
+  },
+  "query_capture_overlap_fraction": 0.0,
+  "capture_lock_time_fraction": 0.0,
+  "maximum_gap": 500,
+  "active_end_prefix": 39234,
+  "restored_prefix_equal": true,
+  "facts_equal": true,
+  "history_arrays_equal": true,
+  "ledger": {
+    "history_physical_array_bytes": 10148,
+    "history_metadata_bytes": 4096,
+    "fact_catalog_bytes": 6400,
+    "service_control_reserved_bytes": 4096,
+    "resident_reserved_bytes": 24740,
+    "workspace_bytes": 4096,
+    "budget_bytes": 131072,
+    "active_overlay_capacity": 16,
+    "physical_overlay_capacity": 16,
+    "snapshot_payload_bytes": 13027,
+    "snapshot_envelope_bytes": 13115,
+    "two_slot_steady_bytes": 26230,
+    "transient_three_envelope_bytes": 39345,
+    "disk_two_slot_bytes": 26230,
+    "pending_envelope_reservation_bytes": 13115,
+    "resident_plus_pending_workspace_bytes": 41951,
+    "ledger_is_physical_ram_bound": false,
+    "complete_transient_bound_bytes": 68181,
+    "within_budget": true
+  },
+  "drain_seconds": 0.0014515409711748362,
+  "rss_start": 67158016,
+  "rss_peak": 67584000,
+  "harness_measurement_array_bytes": 4920000,
+  "uncontrolled": "OS scheduling, Python GIL, local fsync, client interleaving; closed-loop clients"
+}

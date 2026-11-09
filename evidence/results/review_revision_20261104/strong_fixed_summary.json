@@ -1,0 +1,92 @@
+[
+  {
+    "bootstrap95_delta": [
+      0.004602466762712246,
+      0.0066157489691111345
+    ],
+    "coverage_min": 1.0,
+    "dynamic_minus_selected": 0.005525004423802576,
+    "dynamic_mse": 0.008669545870009308,
+    "dynamic_wins": 0,
+    "entities": 13,
+    "max_charge": 44780,
+    "mean_relative_reduction": -1.8279526288254881,
+    "selected_fixed_mse": 0.003144541446206729,
+    "workload": "critical"
+  },
+  {
+    "bootstrap95_delta": [
+      0.011924483437897652,
+      0.016291015648520823
+    ],
+    "coverage_min": 1.0,
+    "dynamic_minus_selected": 0.014015749055261087,
+    "dynamic_mse": 0.01626459059316115,
+    "dynamic_wins": 0,
+    "entities": 13,
+    "max_charge": 44780,
+    "mean_relative_reduction": -7.46842528421848,
+    "selected_fixed_mse": 0.0022488415379000636,
+    "workload": "dynamic_dominant"
+  },
+  {
+    "bootstrap95_delta": [
+      0.0,
+      0.0
+    ],
+    "coverage_min": 1.0,
+    "dynamic_minus_selected": 0.0,
+    "dynamic_mse": 0.00041070076576108134,
+    "dynamic_wins": 0,
+    "entities": 13,
+    "max_charge": 44780,
+    "mean_relative_reduction": 0.0,
+    "selected_fixed_mse": 0.00041070076576108134,
+    "workload": "stable"
+  },
+  {
+    "bootstrap95_delta": [
+      0.0019351927078965806,
+      0.004198325986825757
+    ],
+    "coverage_min": 1.0,
+    "dynamic_minus_selected": 0.0030078607533921674,
+    "dynamic_mse": 0.003638184544045076,
+    "dynamic_wins": 0,
+    "entities": 13,
+    "max_charge": 44780,
+    "mean_relative_reduction": -5.260809195906518,
+    "selected_fixed_mse": 0.000630323790652908,
+    "workload": "held12"
+  },
+  {
+    "bootstrap95_delta": [
+      0.0044223383174949345,
+      0.008256409639952876
+    ],
+    "coverage_min": 1.0,
+    "dynamic_minus_selected": 0.006314734418308509,
+    "dynamic_mse": 0.009090213717912314,
+    "dynamic_wins": 0,
+    "entities": 13,
+    "max_charge": 44780,
+    "mean_relative_reduction": -2.465257204126385,
+    "selected_fixed_mse": 0.0027754792996038066,
+    "workload": "held24"
+  },
+  {
+    "bootstrap95_delta": [
+      0.005513197186660775,
+      0.007987634396281465
+    ],
+    "coverage_min": 1.0,
+    "dynamic_minus_selected": 0.006730117083515045,
+    "dynamic_mse": 0.009465550595254496,
+    "dynamic_wins": 0,
+    "entities": 13,
+    "max_charge": 44780,
+    "mean_relative_reduction": -2.6420695298219314,
+    "selected_fixed_mse": 0.0027354335117394523,
+    "workload": "held28"
+  }
+]

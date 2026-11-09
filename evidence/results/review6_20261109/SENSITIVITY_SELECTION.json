@@ -1,0 +1,588 @@
+{
+  "entity_workload": [
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "workload": "critical",
+      "id": "t1-L32",
+      "validation_mse": 0.010357879548367257
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "workload": "dynamic_dominant",
+      "id": "t1-L32",
+      "validation_mse": 0.001914207464451936
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0012493195712628426
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "workload": "held12",
+      "id": "t8-L32",
+      "validation_mse": 0.0048459406772548164
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "workload": "held24",
+      "id": "t2-L32",
+      "validation_mse": 0.010594279430016673
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "workload": "held28",
+      "id": "t2-L32",
+      "validation_mse": 0.00624357629734126
+    },
+    {
+      "dataset": "beijing",
+      "entity": 0,
+      "workload": "critical",
+      "id": "t8-L32",
+      "validation_mse": 0.022684034043803786
+    },
+    {
+      "dataset": "beijing",
+      "entity": 0,
+      "workload": "dynamic_dominant",
+      "id": "t1-L32",
+      "validation_mse": 0.028945502076858507
+    },
+    {
+      "dataset": "beijing",
+      "entity": 0,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0005738917040645665
+    },
+    {
+      "dataset": "beijing",
+      "entity": 0,
+      "workload": "held12",
+      "id": "t2-L128",
+      "validation_mse": 0.00481116496099001
+    },
+    {
+      "dataset": "beijing",
+      "entity": 0,
+      "workload": "held24",
+      "id": "t2-L32",
+      "validation_mse": 0.008395130842799308
+    },
+    {
+      "dataset": "beijing",
+      "entity": 0,
+      "workload": "held28",
+      "id": "t8-L32",
+      "validation_mse": 0.029286574650961645
+    },
+    {
+      "dataset": "beijing",
+      "entity": 1,
+      "workload": "critical",
+      "id": "t8-L32",
+      "validation_mse": 0.0235724860819189
+    },
+    {
+      "dataset": "beijing",
+      "entity": 1,
+      "workload": "dynamic_dominant",
+      "id": "t8-L32",
+      "validation_mse": 0.012962719593471589
+    },
+    {
+      "dataset": "beijing",
+      "entity": 1,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0004850912836247441
+    },
+    {
+      "dataset": "beijing",
+      "entity": 1,
+      "workload": "held12",
+      "id": "t8-L128",
+      "validation_mse": 0.0027710818279945734
+    },
+    {
+      "dataset": "beijing",
+      "entity": 1,
+      "workload": "held24",
+      "id": "t8-L128",
+      "validation_mse": 0.007330658917723869
+    },
+    {
+      "dataset": "beijing",
+      "entity": 1,
+      "workload": "held28",
+      "id": "t8-L128",
+      "validation_mse": 0.02838961555706591
+    },
+    {
+      "dataset": "beijing",
+      "entity": 2,
+      "workload": "critical",
+      "id": "t8-L32",
+      "validation_mse": 0.01762726421016352
+    },
+    {
+      "dataset": "beijing",
+      "entity": 2,
+      "workload": "dynamic_dominant",
+      "id": "t1-L32",
+      "validation_mse": 0.03443399700263269
+    },
+    {
+      "dataset": "beijing",
+      "entity": 2,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0003622510288607406
+    },
+    {
+      "dataset": "beijing",
+      "entity": 2,
+      "workload": "held12",
+      "id": "t8-L128",
+      "validation_mse": 0.0035037133079091976
+    },
+    {
+      "dataset": "beijing",
+      "entity": 2,
+      "workload": "held24",
+      "id": "t2-L32",
+      "validation_mse": 0.006765873537477647
+    },
+    {
+      "dataset": "beijing",
+      "entity": 2,
+      "workload": "held28",
+      "id": "t8-L128",
+      "validation_mse": 0.026786284152785764
+    },
+    {
+      "dataset": "beijing",
+      "entity": 3,
+      "workload": "critical",
+      "id": "t2-L32",
+      "validation_mse": 0.022176538430935547
+    },
+    {
+      "dataset": "beijing",
+      "entity": 3,
+      "workload": "dynamic_dominant",
+      "id": "t1-L32",
+      "validation_mse": 0.029896905484189013
+    },
+    {
+      "dataset": "beijing",
+      "entity": 3,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0005486047388086298
+    },
+    {
+      "dataset": "beijing",
+      "entity": 3,
+      "workload": "held12",
+      "id": "t4-L128",
+      "validation_mse": 0.0043689818694770104
+    },
+    {
+      "dataset": "beijing",
+      "entity": 3,
+      "workload": "held24",
+      "id": "t4-L32",
+      "validation_mse": 0.011482430032034542
+    },
+    {
+      "dataset": "beijing",
+      "entity": 3,
+      "workload": "held28",
+      "id": "t8-L32",
+      "validation_mse": 0.01767475024966173
+    },
+    {
+      "dataset": "beijing",
+      "entity": 4,
+      "workload": "critical",
+      "id": "t8-L32",
+      "validation_mse": 0.02500284169793736
+    },
+    {
+      "dataset": "beijing",
+      "entity": 4,
+      "workload": "dynamic_dominant",
+      "id": "t2-L32",
+      "validation_mse": 0.0355126014115492
+    },
+    {
+      "dataset": "beijing",
+      "entity": 4,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0007556927392613924
+    },
+    {
+      "dataset": "beijing",
+      "entity": 4,
+      "workload": "held12",
+      "id": "t8-L128",
+      "validation_mse": 0.004736482162788506
+    },
+    {
+      "dataset": "beijing",
+      "entity": 4,
+      "workload": "held24",
+      "id": "t1-L128",
+      "validation_mse": 0.009397029254337861
+    },
+    {
+      "dataset": "beijing",
+      "entity": 4,
+      "workload": "held28",
+      "id": "t8-L128",
+      "validation_mse": 0.02908360323413697
+    },
+    {
+      "dataset": "beijing",
+      "entity": 5,
+      "workload": "critical",
+      "id": "t4-L32",
+      "validation_mse": 0.015193284533359393
+    },
+    {
+      "dataset": "beijing",
+      "entity": 5,
+      "workload": "dynamic_dominant",
+      "id": "t8-L32",
+      "validation_mse": 0.03915892954234165
+    },
+    {
+      "dataset": "beijing",
+      "entity": 5,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0009764072784495785
+    },
+    {
+      "dataset": "beijing",
+      "entity": 5,
+      "workload": "held12",
+      "id": "t4-L128",
+      "validation_mse": 0.0020174377722458523
+    },
+    {
+      "dataset": "beijing",
+      "entity": 5,
+      "workload": "held24",
+      "id": "t2-L32",
+      "validation_mse": 0.008547052864557628
+    },
+    {
+      "dataset": "beijing",
+      "entity": 5,
+      "workload": "held28",
+      "id": "t8-L128",
+      "validation_mse": 0.013784014703825013
+    },
+    {
+      "dataset": "beijing",
+      "entity": 6,
+      "workload": "critical",
+      "id": "t4-L32",
+      "validation_mse": 0.023959429086671705
+    },
+    {
+      "dataset": "beijing",
+      "entity": 6,
+      "workload": "dynamic_dominant",
+      "id": "t2-L32",
+      "validation_mse": 0.015534025715201695
+    },
+    {
+      "dataset": "beijing",
+      "entity": 6,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.000759196951883299
+    },
+    {
+      "dataset": "beijing",
+      "entity": 6,
+      "workload": "held12",
+      "id": "t2-L128",
+      "validation_mse": 0.0038465920766998438
+    },
+    {
+      "dataset": "beijing",
+      "entity": 6,
+      "workload": "held24",
+      "id": "t2-L32",
+      "validation_mse": 0.012662764942661
+    },
+    {
+      "dataset": "beijing",
+      "entity": 6,
+      "workload": "held28",
+      "id": "t8-L32",
+      "validation_mse": 0.02686779938859834
+    },
+    {
+      "dataset": "beijing",
+      "entity": 7,
+      "workload": "critical",
+      "id": "t4-L32",
+      "validation_mse": 0.01443634240218413
+    },
+    {
+      "dataset": "beijing",
+      "entity": 7,
+      "workload": "dynamic_dominant",
+      "id": "t4-L32",
+      "validation_mse": 0.021540862687231092
+    },
+    {
+      "dataset": "beijing",
+      "entity": 7,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0002310640756618578
+    },
+    {
+      "dataset": "beijing",
+      "entity": 7,
+      "workload": "held12",
+      "id": "t4-L128",
+      "validation_mse": 0.0010391503711738605
+    },
+    {
+      "dataset": "beijing",
+      "entity": 7,
+      "workload": "held24",
+      "id": "t8-L128",
+      "validation_mse": 0.007927480736443886
+    },
+    {
+      "dataset": "beijing",
+      "entity": 7,
+      "workload": "held28",
+      "id": "t8-L32",
+      "validation_mse": 0.020130654407943153
+    },
+    {
+      "dataset": "beijing",
+      "entity": 8,
+      "workload": "critical",
+      "id": "t4-L32",
+      "validation_mse": 0.021012022663648107
+    },
+    {
+      "dataset": "beijing",
+      "entity": 8,
+      "workload": "dynamic_dominant",
+      "id": "t2-L32",
+      "validation_mse": 0.023424135644336628
+    },
+    {
+      "dataset": "beijing",
+      "entity": 8,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0006262411084143398
+    },
+    {
+      "dataset": "beijing",
+      "entity": 8,
+      "workload": "held12",
+      "id": "t8-L32",
+      "validation_mse": 0.0035344217804656264
+    },
+    {
+      "dataset": "beijing",
+      "entity": 8,
+      "workload": "held24",
+      "id": "t8-L128",
+      "validation_mse": 0.010498908683134788
+    },
+    {
+      "dataset": "beijing",
+      "entity": 8,
+      "workload": "held28",
+      "id": "t8-L128",
+      "validation_mse": 0.04832906127929442
+    },
+    {
+      "dataset": "beijing",
+      "entity": 9,
+      "workload": "critical",
+      "id": "t8-L32",
+      "validation_mse": 0.02866454532469267
+    },
+    {
+      "dataset": "beijing",
+      "entity": 9,
+      "workload": "dynamic_dominant",
+      "id": "t2-L32",
+      "validation_mse": 0.02357273891575275
+    },
+    {
+      "dataset": "beijing",
+      "entity": 9,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0003144728703366494
+    },
+    {
+      "dataset": "beijing",
+      "entity": 9,
+      "workload": "held12",
+      "id": "t4-L128",
+      "validation_mse": 0.001785915872117135
+    },
+    {
+      "dataset": "beijing",
+      "entity": 9,
+      "workload": "held24",
+      "id": "t1-L32",
+      "validation_mse": 0.011827481688875048
+    },
+    {
+      "dataset": "beijing",
+      "entity": 9,
+      "workload": "held28",
+      "id": "t8-L128",
+      "validation_mse": 0.02379495471481348
+    },
+    {
+      "dataset": "beijing",
+      "entity": 10,
+      "workload": "critical",
+      "id": "t8-L128",
+      "validation_mse": 0.02473984107118236
+    },
+    {
+      "dataset": "beijing",
+      "entity": 10,
+      "workload": "dynamic_dominant",
+      "id": "t2-L32",
+      "validation_mse": 0.034650077573263854
+    },
+    {
+      "dataset": "beijing",
+      "entity": 10,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.0008502400491504701
+    },
+    {
+      "dataset": "beijing",
+      "entity": 10,
+      "workload": "held12",
+      "id": "t4-L128",
+      "validation_mse": 0.0011759571622523483
+    },
+    {
+      "dataset": "beijing",
+      "entity": 10,
+      "workload": "held24",
+      "id": "t2-L32",
+      "validation_mse": 0.00809692393053121
+    },
+    {
+      "dataset": "beijing",
+      "entity": 10,
+      "workload": "held28",
+      "id": "t8-L32",
+      "validation_mse": 0.044275543251000186
+    },
+    {
+      "dataset": "beijing",
+      "entity": 11,
+      "workload": "critical",
+      "id": "t1-L32",
+      "validation_mse": 0.031359579184929626
+    },
+    {
+      "dataset": "beijing",
+      "entity": 11,
+      "workload": "dynamic_dominant",
+      "id": "t1-L32",
+      "validation_mse": 0.02745802071560114
+    },
+    {
+      "dataset": "beijing",
+      "entity": 11,
+      "workload": "stable",
+      "id": "t2-L32",
+      "validation_mse": 0.00046140851962401717
+    },
+    {
+      "dataset": "beijing",
+      "entity": 11,
+      "workload": "held12",
+      "id": "t2-L32",
+      "validation_mse": 0.001797754592100702
+    },
+    {
+      "dataset": "beijing",
+      "entity": 11,
+      "workload": "held24",
+      "id": "t8-L128",
+      "validation_mse": 0.006986994669734275
+    },
+    {
+      "dataset": "beijing",
+      "entity": 11,
+      "workload": "held28",
+      "id": "t8-L128",
+      "validation_mse": 0.0457945890072211
+    }
+  ],
+  "shared": [
+    {
+      "workload": "critical",
+      "id": "t8-L128",
+      "validation_nmse": 0.021620726718241626
+    },
+    {
+      "workload": "dynamic_dominant",
+      "id": "t0.5-L32",
+      "validation_nmse": 0.027408056470116723
+    },
+    {
+      "workload": "stable",
+      "id": "t0.5-L32",
+      "validation_nmse": 0.0006302986101060234
+    },
+    {
+      "workload": "held12",
+      "id": "t8-L128",
+      "validation_nmse": 0.0036287486385601924
+    },
+    {
+      "workload": "held24",
+      "id": "t2-L128",
+      "validation_nmse": 0.009572022673686039
+    },
+    {
+      "workload": "held28",
+      "id": "t8-L128",
+      "validation_nmse": 0.02896114859670677
+    },
+    {
+      "workload": "all_workloads",
+      "id": "t8-L128",
+      "validation_nmse": 0.015374597677022388
+    }
+  ],
+  "all_selections_before_test": true
+}

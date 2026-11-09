@@ -1,0 +1,2322 @@
+{
+  "dataset": "bike",
+  "entity": 0,
+  "rows": [
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 512,
+      "h": 8,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0015930322439647287,
+      "nrmse": 0.03991280805838566,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 35576
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 512,
+      "h": 8,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0014144491454616574,
+      "nrmse": 0.03760916308893846,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 35576
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 512,
+      "h": 16,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.013258053699456485,
+      "nrmse": 0.11514362216638807,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 31352
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 512,
+      "h": 16,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.009967994625841149,
+      "nrmse": 0.0998398449793165,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 31352
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 512,
+      "h": 32,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.01237729775520627,
+      "nrmse": 0.11125330457837748,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 29240
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 512,
+      "h": 32,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.019123300961565032,
+      "nrmse": 0.13828702397285272,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 29240
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 512,
+      "h": 64,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.030907850162987787,
+      "nrmse": 0.17580628607625326,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 28184
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 512,
+      "h": 64,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0490404762053032,
+      "nrmse": 0.22145084398572726,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 28184
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 512,
+      "h": 128,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.04991588073936302,
+      "nrmse": 0.22341862240595944,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 29704
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 512,
+      "h": 128,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0849193567875303,
+      "nrmse": 0.2914092602422862,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 29704
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 1024,
+      "h": 8,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0015535495771377902,
+      "nrmse": 0.03941509330447859,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 44024
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 1024,
+      "h": 8,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0008538907178059146,
+      "nrmse": 0.029221408581542353,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 44024
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 1024,
+      "h": 16,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.011130322416418217,
+      "nrmse": 0.10550034330921701,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 35576
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 1024,
+      "h": 16,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.00990603989139328,
+      "nrmse": 0.09952909077713877,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 35576
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 1024,
+      "h": 32,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.01938678180960077,
+      "nrmse": 0.1392364242855423,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 31352
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 1024,
+      "h": 32,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.011696161465749005,
+      "nrmse": 0.10814879328410947,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 31352
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 1024,
+      "h": 64,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.05018083944477351,
+      "nrmse": 0.22401080229245543,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 29240
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 1024,
+      "h": 64,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.023268573898447303,
+      "nrmse": 0.15254040102321548,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 29240
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 1024,
+      "h": 128,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.11122833088176969,
+      "nrmse": 0.33350911696843666,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 30232
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 1024,
+      "h": 128,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.04473764621622799,
+      "nrmse": 0.2115127568361594,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 30232
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 2048,
+      "h": 8,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0023501438111641995,
+      "nrmse": 0.0484782818981626,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 60920
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 2048,
+      "h": 8,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0016845642498866135,
+      "nrmse": 0.04104344348623643,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 60920
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 2048,
+      "h": 16,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.017641359058846288,
+      "nrmse": 0.13282077809449777,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 44024
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 2048,
+      "h": 16,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.007548229655993457,
+      "nrmse": 0.0868805482882991,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 44024
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 2048,
+      "h": 32,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.02392831307116136,
+      "nrmse": 0.15468779240243294,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 35576
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 2048,
+      "h": 32,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.010704151245387797,
+      "nrmse": 0.10346086828599495,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 35576
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 2048,
+      "h": 64,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.03077821579827671,
+      "nrmse": 0.17543721343819485,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 31352
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 2048,
+      "h": 64,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.021558345567216766,
+      "nrmse": 0.14682760506703427,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 31352
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 2048,
+      "h": 128,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.10173099187547326,
+      "nrmse": 0.3189529621684757,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 31288
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 2048,
+      "h": 128,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0590978560982135,
+      "nrmse": 0.24310050640574618,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 31288
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 4096,
+      "h": 8,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0012797977294141851,
+      "nrmse": 0.03577426074620441,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 94712
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 4096,
+      "h": 8,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.0014367062680763038,
+      "nrmse": 0.03790390838566519,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 94712
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 4096,
+      "h": 16,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.011579790970953373,
+      "nrmse": 0.10760943728959824,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 60920
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 4096,
+      "h": 16,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.010063695035381537,
+      "nrmse": 0.1003179697522982,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 60920
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 4096,
+      "h": 32,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.02425138969704665,
+      "nrmse": 0.15572857716186986,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 44024
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 4096,
+      "h": 32,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.020815256648615707,
+      "nrmse": 0.14427493437757946,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 44024
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 4096,
+      "h": 64,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.04773782415745659,
+      "nrmse": 0.21848987219451615,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 35576
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 4096,
+      "h": 64,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.031949940678832174,
+      "nrmse": 0.17874546355593018,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 35576
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 4096,
+      "h": 128,
+      "stage": "validation",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.08551721774930798,
+      "nrmse": 0.29243327088057697,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 33400
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 4096,
+      "h": 128,
+      "stage": "test",
+      "queries": 24,
+      "answered": 24,
+      "coverage": 1.0,
+      "mse": 0.044370468483983926,
+      "nrmse": 0.21064298842226936,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 33400
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 8192,
+      "h": 8,
+      "stage": "validation",
+      "queries": 20,
+      "answered": 20,
+      "coverage": 1.0,
+      "mse": 0.0011657395936728171,
+      "nrmse": 0.03414292893076366,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 162296
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 8192,
+      "h": 8,
+      "stage": "test",
+      "queries": 20,
+      "answered": 20,
+      "coverage": 1.0,
+      "mse": 0.000874012768921346,
+      "nrmse": 0.029563706984147658,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 162296
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 8192,
+      "h": 16,
+      "stage": "validation",
+      "queries": 20,
+      "answered": 20,
+      "coverage": 1.0,
+      "mse": 0.004894914423222345,
+      "nrmse": 0.06996366509033893,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 94712
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 8192,
+      "h": 16,
+      "stage": "test",
+      "queries": 20,
+      "answered": 20,
+      "coverage": 1.0,
+      "mse": 0.005360593319884582,
+      "nrmse": 0.07321607289696351,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 94712
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 8192,
+      "h": 32,
+      "stage": "validation",
+      "queries": 20,
+      "answered": 20,
+      "coverage": 1.0,
+      "mse": 0.01457157042730634,
+      "nrmse": 0.12071276012102244,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 60920
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 8192,
+      "h": 32,
+      "stage": "test",
+      "queries": 20,
+      "answered": 20,
+      "coverage": 1.0,
+      "mse": 0.00920216928685516,
+      "nrmse": 0.0959279380837411,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 60920
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 8192,
+      "h": 64,
+      "stage": "validation",
+      "queries": 20,
+      "answered": 20,
+      "coverage": 1.0,
+      "mse": 0.03168200962336388,
+      "nrmse": 0.17799440914205092,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 44024
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 8192,
+      "h": 64,
+      "stage": "test",
+      "queries": 20,
+      "answered": 20,
+      "coverage": 1.0,
+      "mse": 0.016588310987645283,
+      "nrmse": 0.12879561724045827,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 44024
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 8192,
+      "h": 128,
+      "stage": "validation",
+      "queries": 20,
+      "answered": 20,
+      "coverage": 1.0,
+      "mse": 0.07237364862961555,
+      "nrmse": 0.2690235097018599,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 37624
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 8192,
+      "h": 128,
+      "stage": "test",
+      "queries": 20,
+      "answered": 20,
+      "coverage": 1.0,
+      "mse": 0.043571536385846266,
+      "nrmse": 0.20873796126184493,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 37624
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 16384,
+      "h": 16,
+      "stage": "validation",
+      "queries": 10,
+      "answered": 10,
+      "coverage": 1.0,
+      "mse": 0.00798020779907097,
+      "nrmse": 0.08933200890388993,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 162296
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 16384,
+      "h": 16,
+      "stage": "test",
+      "queries": 12,
+      "answered": 12,
+      "coverage": 1.0,
+      "mse": 0.009559246101667722,
+      "nrmse": 0.09777139725152054,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 162296
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 16384,
+      "h": 32,
+      "stage": "validation",
+      "queries": 10,
+      "answered": 10,
+      "coverage": 1.0,
+      "mse": 0.02542844937178636,
+      "nrmse": 0.1594630033014581,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 94712
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 16384,
+      "h": 32,
+      "stage": "test",
+      "queries": 12,
+      "answered": 12,
+      "coverage": 1.0,
+      "mse": 0.00845345334645945,
+      "nrmse": 0.09194266345460193,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 94712
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 16384,
+      "h": 64,
+      "stage": "validation",
+      "queries": 10,
+      "answered": 10,
+      "coverage": 1.0,
+      "mse": 0.09069791385478043,
+      "nrmse": 0.3011609437387251,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 60920
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 16384,
+      "h": 64,
+      "stage": "test",
+      "queries": 12,
+      "answered": 12,
+      "coverage": 1.0,
+      "mse": 0.008868590089104051,
+      "nrmse": 0.09417319208027981,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 60920
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 16384,
+      "h": 128,
+      "stage": "validation",
+      "queries": 10,
+      "answered": 10,
+      "coverage": 1.0,
+      "mse": 0.1600414581875061,
+      "nrmse": 0.40005181977219184,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 46072
+    },
+    {
+      "dataset": "bike",
+      "entity": 0,
+      "reach": 16384,
+      "h": 128,
+      "stage": "test",
+      "queries": 12,
+      "answered": 12,
+      "coverage": 1.0,
+      "mse": 0.021333330041437292,
+      "nrmse": 0.1460593375429927,
+      "training_variance": 0.9999999980284099,
+      "charged_bytes": 46072
+    }
+  ],
+  "snapshot_checks": [
+    {
+      "reach": 512,
+      "h": 8,
+      "actual_npz_bytes": 10070,
+      "reserved_slot_bytes": 11176,
+      "native_slot_bytes": 9128
+    },
+    {
+      "reach": 512,
+      "h": 16,
+      "actual_npz_bytes": 8670,
+      "reserved_slot_bytes": 9768,
+      "native_slot_bytes": 7720
+    },
+    {
+      "reach": 512,
+      "h": 32,
+      "actual_npz_bytes": 7962,
+      "reserved_slot_bytes": 9064,
+      "native_slot_bytes": 7016
+    },
+    {
+      "reach": 512,
+      "h": 64,
+      "actual_npz_bytes": 7610,
+      "reserved_slot_bytes": 8712,
+      "native_slot_bytes": 6664
+    },
+    {
+      "reach": 512,
+      "h": 128,
+      "actual_npz_bytes": 7442,
+      "reserved_slot_bytes": 8536,
+      "native_slot_bytes": 6488
+    },
+    {
+      "reach": 1024,
+      "h": 8,
+      "actual_npz_bytes": 12890,
+      "reserved_slot_bytes": 13992,
+      "native_slot_bytes": 11944
+    },
+    {
+      "reach": 1024,
+      "h": 16,
+      "actual_npz_bytes": 10082,
+      "reserved_slot_bytes": 11176,
+      "native_slot_bytes": 9128
+    },
+    {
+      "reach": 1024,
+      "h": 32,
+      "actual_npz_bytes": 8670,
+      "reserved_slot_bytes": 9768,
+      "native_slot_bytes": 7720
+    },
+    {
+      "reach": 1024,
+      "h": 64,
+      "actual_npz_bytes": 7966,
+      "reserved_slot_bytes": 9064,
+      "native_slot_bytes": 7016
+    },
+    {
+      "reach": 1024,
+      "h": 128,
+      "actual_npz_bytes": 7622,
+      "reserved_slot_bytes": 8712,
+      "native_slot_bytes": 6664
+    },
+    {
+      "reach": 2048,
+      "h": 8,
+      "actual_npz_bytes": 18522,
+      "reserved_slot_bytes": 19624,
+      "native_slot_bytes": 17576
+    },
+    {
+      "reach": 2048,
+      "h": 16,
+      "actual_npz_bytes": 12898,
+      "reserved_slot_bytes": 13992,
+      "native_slot_bytes": 11944
+    },
+    {
+      "reach": 2048,
+      "h": 32,
+      "actual_npz_bytes": 10078,
+      "reserved_slot_bytes": 11176,
+      "native_slot_bytes": 9128
+    },
+    {
+      "reach": 2048,
+      "h": 64,
+      "actual_npz_bytes": 8670,
+      "reserved_slot_bytes": 9768,
+      "native_slot_bytes": 7720
+    },
+    {
+      "reach": 2048,
+      "h": 128,
+      "actual_npz_bytes": 7974,
+      "reserved_slot_bytes": 9064,
+      "native_slot_bytes": 7016
+    },
+    {
+      "reach": 4096,
+      "h": 8,
+      "actual_npz_bytes": 29786,
+      "reserved_slot_bytes": 30888,
+      "native_slot_bytes": 28840
+    },
+    {
+      "reach": 4096,
+      "h": 16,
+      "actual_npz_bytes": 18530,
+      "reserved_slot_bytes": 19624,
+      "native_slot_bytes": 17576
+    },
+    {
+      "reach": 4096,
+      "h": 32,
+      "actual_npz_bytes": 12894,
+      "reserved_slot_bytes": 13992,
+      "native_slot_bytes": 11944
+    },
+    {
+      "reach": 4096,
+      "h": 64,
+      "actual_npz_bytes": 10078,
+      "reserved_slot_bytes": 11176,
+      "native_slot_bytes": 9128
+    },
+    {
+      "reach": 4096,
+      "h": 128,
+      "actual_npz_bytes": 8678,
+      "reserved_slot_bytes": 9768,
+      "native_slot_bytes": 7720
+    },
+    {
+      "reach": 8192,
+      "h": 8,
+      "actual_npz_bytes": 52314,
+      "reserved_slot_bytes": 53416,
+      "native_slot_bytes": 51368
+    },
+    {
+      "reach": 8192,
+      "h": 16,
+      "actual_npz_bytes": 29794,
+      "reserved_slot_bytes": 30888,
+      "native_slot_bytes": 28840
+    },
+    {
+      "reach": 8192,
+      "h": 32,
+      "actual_npz_bytes": 18526,
+      "reserved_slot_bytes": 19624,
+      "native_slot_bytes": 17576
+    },
+    {
+      "reach": 8192,
+      "h": 64,
+      "actual_npz_bytes": 12894,
+      "reserved_slot_bytes": 13992,
+      "native_slot_bytes": 11944
+    },
+    {
+      "reach": 8192,
+      "h": 128,
+      "actual_npz_bytes": 10086,
+      "reserved_slot_bytes": 11176,
+      "native_slot_bytes": 9128
+    },
+    {
+      "reach": 16384,
+      "h": 16,
+      "actual_npz_bytes": 52326,
+      "reserved_slot_bytes": 53416,
+      "native_slot_bytes": 51368
+    },
+    {
+      "reach": 16384,
+      "h": 32,
+      "actual_npz_bytes": 29794,
+      "reserved_slot_bytes": 30888,
+      "native_slot_bytes": 28840
+    },
+    {
+      "reach": 16384,
+      "h": 64,
+      "actual_npz_bytes": 18530,
+      "reserved_slot_bytes": 19624,
+      "native_slot_bytes": 17576
+    },
+    {
+      "reach": 16384,
+      "h": 128,
+      "actual_npz_bytes": 12906,
+      "reserved_slot_bytes": 13992,
+      "native_slot_bytes": 11944
+    }
+  ],
+  "query_schedules": {
+    "512-validation": [
+      {
+        "t": 10939,
+        "delay": 62,
+        "window": 32
+      },
+      {
+        "t": 11067,
+        "delay": 139,
+        "window": 64
+      },
+      {
+        "t": 11195,
+        "delay": 200,
+        "window": 128
+      },
+      {
+        "t": 11323,
+        "delay": 296,
+        "window": 64
+      },
+      {
+        "t": 11451,
+        "delay": 372,
+        "window": 32
+      },
+      {
+        "t": 11579,
+        "delay": 434,
+        "window": 32
+      },
+      {
+        "t": 11707,
+        "delay": 65,
+        "window": 128
+      },
+      {
+        "t": 11835,
+        "delay": 133,
+        "window": 32
+      },
+      {
+        "t": 11963,
+        "delay": 216,
+        "window": 32
+      },
+      {
+        "t": 12091,
+        "delay": 290,
+        "window": 64
+      },
+      {
+        "t": 12219,
+        "delay": 350,
+        "window": 32
+      },
+      {
+        "t": 12347,
+        "delay": 255,
+        "window": 256
+      },
+      {
+        "t": 12475,
+        "delay": 48,
+        "window": 256
+      },
+      {
+        "t": 12603,
+        "delay": 125,
+        "window": 32
+      },
+      {
+        "t": 12731,
+        "delay": 189,
+        "window": 128
+      },
+      {
+        "t": 12859,
+        "delay": 279,
+        "window": 64
+      },
+      {
+        "t": 12987,
+        "delay": 255,
+        "window": 256
+      },
+      {
+        "t": 13115,
+        "delay": 255,
+        "window": 256
+      },
+      {
+        "t": 13243,
+        "delay": 56,
+        "window": 256
+      },
+      {
+        "t": 13371,
+        "delay": 135,
+        "window": 128
+      },
+      {
+        "t": 13499,
+        "delay": 218,
+        "window": 64
+      },
+      {
+        "t": 13627,
+        "delay": 273,
+        "window": 64
+      },
+      {
+        "t": 13755,
+        "delay": 373,
+        "window": 128
+      },
+      {
+        "t": 13883,
+        "delay": 443,
+        "window": 32
+      }
+    ],
+    "512-test": [
+      {
+        "t": 14415,
+        "delay": 36,
+        "window": 32
+      },
+      {
+        "t": 14543,
+        "delay": 132,
+        "window": 64
+      },
+      {
+        "t": 14671,
+        "delay": 219,
+        "window": 256
+      },
+      {
+        "t": 14799,
+        "delay": 282,
+        "window": 128
+      },
+      {
+        "t": 14927,
+        "delay": 345,
+        "window": 32
+      },
+      {
+        "t": 15055,
+        "delay": 383,
+        "window": 128
+      },
+      {
+        "t": 15183,
+        "delay": 58,
+        "window": 128
+      },
+      {
+        "t": 15311,
+        "delay": 129,
+        "window": 128
+      },
+      {
+        "t": 15439,
+        "delay": 196,
+        "window": 64
+      },
+      {
+        "t": 15567,
+        "delay": 255,
+        "window": 256
+      },
+      {
+        "t": 15695,
+        "delay": 350,
+        "window": 128
+      },
+      {
+        "t": 15823,
+        "delay": 383,
+        "window": 128
+      },
+      {
+        "t": 15951,
+        "delay": 65,
+        "window": 32
+      },
+      {
+        "t": 16079,
+        "delay": 118,
+        "window": 128
+      },
+      {
+        "t": 16207,
+        "delay": 190,
+        "window": 256
+      },
+      {
+        "t": 16335,
+        "delay": 255,
+        "window": 256
+      },
+      {
+        "t": 16463,
+        "delay": 366,
+        "window": 128
+      },
+      {
+        "t": 16591,
+        "delay": 255,
+        "window": 256
+      },
+      {
+        "t": 16719,
+        "delay": 45,
+        "window": 64
+      },
+      {
+        "t": 16847,
+        "delay": 114,
+        "window": 64
+      },
+      {
+        "t": 16975,
+        "delay": 202,
+        "window": 128
+      },
+      {
+        "t": 17103,
+        "delay": 267,
+        "window": 32
+      },
+      {
+        "t": 17231,
+        "delay": 363,
+        "window": 64
+      },
+      {
+        "t": 17359,
+        "delay": 439,
+        "window": 32
+      }
+    ],
+    "1024-validation": [
+      {
+        "t": 10939,
+        "delay": 113,
+        "window": 32
+      },
+      {
+        "t": 11067,
+        "delay": 267,
+        "window": 64
+      },
+      {
+        "t": 11195,
+        "delay": 405,
+        "window": 128
+      },
+      {
+        "t": 11323,
+        "delay": 578,
+        "window": 64
+      },
+      {
+        "t": 11451,
+        "delay": 730,
+        "window": 32
+      },
+      {
+        "t": 11579,
+        "delay": 869,
+        "window": 32
+      },
+      {
+        "t": 11707,
+        "delay": 116,
+        "window": 128
+      },
+      {
+        "t": 11835,
+        "delay": 261,
+        "window": 32
+      },
+      {
+        "t": 11963,
+        "delay": 421,
+        "window": 32
+      },
+      {
+        "t": 12091,
+        "delay": 572,
+        "window": 64
+      },
+      {
+        "t": 12219,
+        "delay": 708,
+        "window": 32
+      },
+      {
+        "t": 12347,
+        "delay": 767,
+        "window": 256
+      },
+      {
+        "t": 12475,
+        "delay": 99,
+        "window": 256
+      },
+      {
+        "t": 12603,
+        "delay": 253,
+        "window": 32
+      },
+      {
+        "t": 12731,
+        "delay": 394,
+        "window": 128
+      },
+      {
+        "t": 12859,
+        "delay": 561,
+        "window": 64
+      },
+      {
+        "t": 12987,
+        "delay": 723,
+        "window": 256
+      },
+      {
+        "t": 13115,
+        "delay": 767,
+        "window": 256
+      },
+      {
+        "t": 13243,
+        "delay": 107,
+        "window": 256
+      },
+      {
+        "t": 13371,
+        "delay": 263,
+        "window": 128
+      },
+      {
+        "t": 13499,
+        "delay": 423,
+        "window": 64
+      },
+      {
+        "t": 13627,
+        "delay": 555,
+        "window": 64
+      },
+      {
+        "t": 13755,
+        "delay": 731,
+        "window": 128
+      },
+      {
+        "t": 13883,
+        "delay": 878,
+        "window": 32
+      }
+    ],
+    "1024-test": [
+      {
+        "t": 14415,
+        "delay": 87,
+        "window": 32
+      },
+      {
+        "t": 14543,
+        "delay": 260,
+        "window": 64
+      },
+      {
+        "t": 14671,
+        "delay": 424,
+        "window": 256
+      },
+      {
+        "t": 14799,
+        "delay": 564,
+        "window": 128
+      },
+      {
+        "t": 14927,
+        "delay": 703,
+        "window": 32
+      },
+      {
+        "t": 15055,
+        "delay": 873,
+        "window": 128
+      },
+      {
+        "t": 15183,
+        "delay": 109,
+        "window": 128
+      },
+      {
+        "t": 15311,
+        "delay": 257,
+        "window": 128
+      },
+      {
+        "t": 15439,
+        "delay": 401,
+        "window": 64
+      },
+      {
+        "t": 15567,
+        "delay": 574,
+        "window": 256
+      },
+      {
+        "t": 15695,
+        "delay": 708,
+        "window": 128
+      },
+      {
+        "t": 15823,
+        "delay": 876,
+        "window": 128
+      },
+      {
+        "t": 15951,
+        "delay": 116,
+        "window": 32
+      },
+      {
+        "t": 16079,
+        "delay": 246,
+        "window": 128
+      },
+      {
+        "t": 16207,
+        "delay": 395,
+        "window": 256
+      },
+      {
+        "t": 16335,
+        "delay": 550,
+        "window": 256
+      },
+      {
+        "t": 16463,
+        "delay": 724,
+        "window": 128
+      },
+      {
+        "t": 16591,
+        "delay": 767,
+        "window": 256
+      },
+      {
+        "t": 16719,
+        "delay": 96,
+        "window": 64
+      },
+      {
+        "t": 16847,
+        "delay": 242,
+        "window": 64
+      },
+      {
+        "t": 16975,
+        "delay": 407,
+        "window": 128
+      },
+      {
+        "t": 17103,
+        "delay": 549,
+        "window": 32
+      },
+      {
+        "t": 17231,
+        "delay": 721,
+        "window": 64
+      },
+      {
+        "t": 17359,
+        "delay": 874,
+        "window": 32
+      }
+    ],
+    "2048-validation": [
+      {
+        "t": 10939,
+        "delay": 215,
+        "window": 32
+      },
+      {
+        "t": 11067,
+        "delay": 523,
+        "window": 64
+      },
+      {
+        "t": 11195,
+        "delay": 815,
+        "window": 128
+      },
+      {
+        "t": 11323,
+        "delay": 1141,
+        "window": 64
+      },
+      {
+        "t": 11451,
+        "delay": 1447,
+        "window": 32
+      },
+      {
+        "t": 11579,
+        "delay": 1739,
+        "window": 32
+      },
+      {
+        "t": 11707,
+        "delay": 218,
+        "window": 128
+      },
+      {
+        "t": 11835,
+        "delay": 517,
+        "window": 32
+      },
+      {
+        "t": 11963,
+        "delay": 831,
+        "window": 32
+      },
+      {
+        "t": 12091,
+        "delay": 1135,
+        "window": 64
+      },
+      {
+        "t": 12219,
+        "delay": 1425,
+        "window": 32
+      },
+      {
+        "t": 12347,
+        "delay": 1738,
+        "window": 256
+      },
+      {
+        "t": 12475,
+        "delay": 201,
+        "window": 256
+      },
+      {
+        "t": 12603,
+        "delay": 509,
+        "window": 32
+      },
+      {
+        "t": 12731,
+        "delay": 804,
+        "window": 128
+      },
+      {
+        "t": 12859,
+        "delay": 1124,
+        "window": 64
+      },
+      {
+        "t": 12987,
+        "delay": 1440,
+        "window": 256
+      },
+      {
+        "t": 13115,
+        "delay": 1749,
+        "window": 256
+      },
+      {
+        "t": 13243,
+        "delay": 209,
+        "window": 256
+      },
+      {
+        "t": 13371,
+        "delay": 519,
+        "window": 128
+      },
+      {
+        "t": 13499,
+        "delay": 833,
+        "window": 64
+      },
+      {
+        "t": 13627,
+        "delay": 1118,
+        "window": 64
+      },
+      {
+        "t": 13755,
+        "delay": 1448,
+        "window": 128
+      },
+      {
+        "t": 13883,
+        "delay": 1748,
+        "window": 32
+      }
+    ],
+    "2048-test": [
+      {
+        "t": 14415,
+        "delay": 189,
+        "window": 32
+      },
+      {
+        "t": 14543,
+        "delay": 516,
+        "window": 64
+      },
+      {
+        "t": 14671,
+        "delay": 834,
+        "window": 256
+      },
+      {
+        "t": 14799,
+        "delay": 1127,
+        "window": 128
+      },
+      {
+        "t": 14927,
+        "delay": 1420,
+        "window": 32
+      },
+      {
+        "t": 15055,
+        "delay": 1743,
+        "window": 128
+      },
+      {
+        "t": 15183,
+        "delay": 211,
+        "window": 128
+      },
+      {
+        "t": 15311,
+        "delay": 513,
+        "window": 128
+      },
+      {
+        "t": 15439,
+        "delay": 811,
+        "window": 64
+      },
+      {
+        "t": 15567,
+        "delay": 1137,
+        "window": 256
+      },
+      {
+        "t": 15695,
+        "delay": 1425,
+        "window": 128
+      },
+      {
+        "t": 15823,
+        "delay": 1746,
+        "window": 128
+      },
+      {
+        "t": 15951,
+        "delay": 218,
+        "window": 32
+      },
+      {
+        "t": 16079,
+        "delay": 502,
+        "window": 128
+      },
+      {
+        "t": 16207,
+        "delay": 805,
+        "window": 256
+      },
+      {
+        "t": 16335,
+        "delay": 1113,
+        "window": 256
+      },
+      {
+        "t": 16463,
+        "delay": 1441,
+        "window": 128
+      },
+      {
+        "t": 16591,
+        "delay": 1754,
+        "window": 256
+      },
+      {
+        "t": 16719,
+        "delay": 198,
+        "window": 64
+      },
+      {
+        "t": 16847,
+        "delay": 498,
+        "window": 64
+      },
+      {
+        "t": 16975,
+        "delay": 817,
+        "window": 128
+      },
+      {
+        "t": 17103,
+        "delay": 1112,
+        "window": 32
+      },
+      {
+        "t": 17231,
+        "delay": 1438,
+        "window": 64
+      },
+      {
+        "t": 17359,
+        "delay": 1744,
+        "window": 32
+      }
+    ],
+    "4096-validation": [
+      {
+        "t": 10939,
+        "delay": 420,
+        "window": 32
+      },
+      {
+        "t": 11067,
+        "delay": 1035,
+        "window": 64
+      },
+      {
+        "t": 11195,
+        "delay": 1634,
+        "window": 128
+      },
+      {
+        "t": 11323,
+        "delay": 2267,
+        "window": 64
+      },
+      {
+        "t": 11451,
+        "delay": 2881,
+        "window": 32
+      },
+      {
+        "t": 11579,
+        "delay": 3480,
+        "window": 32
+      },
+      {
+        "t": 11707,
+        "delay": 423,
+        "window": 128
+      },
+      {
+        "t": 11835,
+        "delay": 1029,
+        "window": 32
+      },
+      {
+        "t": 11963,
+        "delay": 1650,
+        "window": 32
+      },
+      {
+        "t": 12091,
+        "delay": 2261,
+        "window": 64
+      },
+      {
+        "t": 12219,
+        "delay": 2859,
+        "window": 32
+      },
+      {
+        "t": 12347,
+        "delay": 3479,
+        "window": 256
+      },
+      {
+        "t": 12475,
+        "delay": 406,
+        "window": 256
+      },
+      {
+        "t": 12603,
+        "delay": 1021,
+        "window": 32
+      },
+      {
+        "t": 12731,
+        "delay": 1623,
+        "window": 128
+      },
+      {
+        "t": 12859,
+        "delay": 2250,
+        "window": 64
+      },
+      {
+        "t": 12987,
+        "delay": 2874,
+        "window": 256
+      },
+      {
+        "t": 13115,
+        "delay": 3490,
+        "window": 256
+      },
+      {
+        "t": 13243,
+        "delay": 414,
+        "window": 256
+      },
+      {
+        "t": 13371,
+        "delay": 1031,
+        "window": 128
+      },
+      {
+        "t": 13499,
+        "delay": 1652,
+        "window": 64
+      },
+      {
+        "t": 13627,
+        "delay": 2244,
+        "window": 64
+      },
+      {
+        "t": 13755,
+        "delay": 2882,
+        "window": 128
+      },
+      {
+        "t": 13883,
+        "delay": 3489,
+        "window": 32
+      }
+    ],
+    "4096-test": [
+      {
+        "t": 14415,
+        "delay": 394,
+        "window": 32
+      },
+      {
+        "t": 14543,
+        "delay": 1028,
+        "window": 64
+      },
+      {
+        "t": 14671,
+        "delay": 1653,
+        "window": 256
+      },
+      {
+        "t": 14799,
+        "delay": 2253,
+        "window": 128
+      },
+      {
+        "t": 14927,
+        "delay": 2854,
+        "window": 32
+      },
+      {
+        "t": 15055,
+        "delay": 3484,
+        "window": 128
+      },
+      {
+        "t": 15183,
+        "delay": 416,
+        "window": 128
+      },
+      {
+        "t": 15311,
+        "delay": 1025,
+        "window": 128
+      },
+      {
+        "t": 15439,
+        "delay": 1630,
+        "window": 64
+      },
+      {
+        "t": 15567,
+        "delay": 2263,
+        "window": 256
+      },
+      {
+        "t": 15695,
+        "delay": 2859,
+        "window": 128
+      },
+      {
+        "t": 15823,
+        "delay": 3487,
+        "window": 128
+      },
+      {
+        "t": 15951,
+        "delay": 423,
+        "window": 32
+      },
+      {
+        "t": 16079,
+        "delay": 1014,
+        "window": 128
+      },
+      {
+        "t": 16207,
+        "delay": 1624,
+        "window": 256
+      },
+      {
+        "t": 16335,
+        "delay": 2239,
+        "window": 256
+      },
+      {
+        "t": 16463,
+        "delay": 2875,
+        "window": 128
+      },
+      {
+        "t": 16591,
+        "delay": 3495,
+        "window": 256
+      },
+      {
+        "t": 16719,
+        "delay": 403,
+        "window": 64
+      },
+      {
+        "t": 16847,
+        "delay": 1010,
+        "window": 64
+      },
+      {
+        "t": 16975,
+        "delay": 1636,
+        "window": 128
+      },
+      {
+        "t": 17103,
+        "delay": 2238,
+        "window": 32
+      },
+      {
+        "t": 17231,
+        "delay": 2872,
+        "window": 64
+      },
+      {
+        "t": 17359,
+        "delay": 3485,
+        "window": 32
+      }
+    ],
+    "8192-validation": [
+      {
+        "t": 11451,
+        "delay": 830,
+        "window": 32
+      },
+      {
+        "t": 11579,
+        "delay": 2059,
+        "window": 64
+      },
+      {
+        "t": 11707,
+        "delay": 3272,
+        "window": 128
+      },
+      {
+        "t": 11835,
+        "delay": 4520,
+        "window": 64
+      },
+      {
+        "t": 11963,
+        "delay": 5748,
+        "window": 32
+      },
+      {
+        "t": 12091,
+        "delay": 6962,
+        "window": 32
+      },
+      {
+        "t": 12219,
+        "delay": 833,
+        "window": 128
+      },
+      {
+        "t": 12347,
+        "delay": 2053,
+        "window": 32
+      },
+      {
+        "t": 12475,
+        "delay": 3288,
+        "window": 32
+      },
+      {
+        "t": 12603,
+        "delay": 4514,
+        "window": 64
+      },
+      {
+        "t": 12731,
+        "delay": 5726,
+        "window": 32
+      },
+      {
+        "t": 12859,
+        "delay": 6961,
+        "window": 256
+      },
+      {
+        "t": 12987,
+        "delay": 816,
+        "window": 256
+      },
+      {
+        "t": 13115,
+        "delay": 2045,
+        "window": 32
+      },
+      {
+        "t": 13243,
+        "delay": 3261,
+        "window": 128
+      },
+      {
+        "t": 13371,
+        "delay": 4503,
+        "window": 64
+      },
+      {
+        "t": 13499,
+        "delay": 5741,
+        "window": 256
+      },
+      {
+        "t": 13627,
+        "delay": 6972,
+        "window": 256
+      },
+      {
+        "t": 13755,
+        "delay": 824,
+        "window": 256
+      },
+      {
+        "t": 13883,
+        "delay": 2055,
+        "window": 128
+      }
+    ],
+    "8192-test": [
+      {
+        "t": 14927,
+        "delay": 804,
+        "window": 32
+      },
+      {
+        "t": 15055,
+        "delay": 2052,
+        "window": 64
+      },
+      {
+        "t": 15183,
+        "delay": 3291,
+        "window": 256
+      },
+      {
+        "t": 15311,
+        "delay": 4506,
+        "window": 128
+      },
+      {
+        "t": 15439,
+        "delay": 5721,
+        "window": 32
+      },
+      {
+        "t": 15567,
+        "delay": 6966,
+        "window": 128
+      },
+      {
+        "t": 15695,
+        "delay": 826,
+        "window": 128
+      },
+      {
+        "t": 15823,
+        "delay": 2049,
+        "window": 128
+      },
+      {
+        "t": 15951,
+        "delay": 3268,
+        "window": 64
+      },
+      {
+        "t": 16079,
+        "delay": 4516,
+        "window": 256
+      },
+      {
+        "t": 16207,
+        "delay": 5726,
+        "window": 128
+      },
+      {
+        "t": 16335,
+        "delay": 6969,
+        "window": 128
+      },
+      {
+        "t": 16463,
+        "delay": 833,
+        "window": 32
+      },
+      {
+        "t": 16591,
+        "delay": 2038,
+        "window": 128
+      },
+      {
+        "t": 16719,
+        "delay": 3262,
+        "window": 256
+      },
+      {
+        "t": 16847,
+        "delay": 4492,
+        "window": 256
+      },
+      {
+        "t": 16975,
+        "delay": 5742,
+        "window": 128
+      },
+      {
+        "t": 17103,
+        "delay": 6977,
+        "window": 256
+      },
+      {
+        "t": 17231,
+        "delay": 813,
+        "window": 64
+      },
+      {
+        "t": 17359,
+        "delay": 2034,
+        "window": 64
+      }
+    ],
+    "16384-validation": [
+      {
+        "t": 12475,
+        "delay": 1649,
+        "window": 32
+      },
+      {
+        "t": 12603,
+        "delay": 4107,
+        "window": 64
+      },
+      {
+        "t": 12731,
+        "delay": 6549,
+        "window": 128
+      },
+      {
+        "t": 12859,
+        "delay": 9026,
+        "window": 64
+      },
+      {
+        "t": 12987,
+        "delay": 11482,
+        "window": 32
+      },
+      {
+        "t": 13243,
+        "delay": 1652,
+        "window": 128
+      },
+      {
+        "t": 13371,
+        "delay": 4101,
+        "window": 32
+      },
+      {
+        "t": 13499,
+        "delay": 6565,
+        "window": 32
+      },
+      {
+        "t": 13627,
+        "delay": 9020,
+        "window": 64
+      },
+      {
+        "t": 13755,
+        "delay": 11460,
+        "window": 32
+      }
+    ],
+    "16384-test": [
+      {
+        "t": 15951,
+        "delay": 1623,
+        "window": 32
+      },
+      {
+        "t": 16079,
+        "delay": 4100,
+        "window": 64
+      },
+      {
+        "t": 16207,
+        "delay": 6568,
+        "window": 256
+      },
+      {
+        "t": 16335,
+        "delay": 9012,
+        "window": 128
+      },
+      {
+        "t": 16463,
+        "delay": 11455,
+        "window": 32
+      },
+      {
+        "t": 16591,
+        "delay": 13929,
+        "window": 128
+      },
+      {
+        "t": 16719,
+        "delay": 1645,
+        "window": 128
+      },
+      {
+        "t": 16847,
+        "delay": 4097,
+        "window": 128
+      },
+      {
+        "t": 16975,
+        "delay": 6545,
+        "window": 64
+      },
+      {
+        "t": 17103,
+        "delay": 9022,
+        "window": 256
+      },
+      {
+        "t": 17231,
+        "delay": 11460,
+        "window": 128
+      },
+      {
+        "t": 17359,
+        "delay": 13932,
+        "window": 128
+      }
+    ]
+  },
+  "oracle_checks": 116,
+  "oracle_max_abs_difference": 0.0,
+  "elapsed_seconds": 0.40825554192997515
+}

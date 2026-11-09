@@ -1,0 +1,41 @@
+{
+  "signature": "161041ecd042231f731392df85e18a92a3088a3f4164b6dd5588a56b8f952640",
+  "hashes": {
+    "repro/rq2_tradeoff_20261107/run.py": "cc083286810b5c4a3f6fc549e1d2d044f6f2e26eb8612b648a44182b5a916555",
+    "repro/rq2_tradeoff_20261107/PROTOCOL.txt": "35dcab7729ba59259aac926f37a589c5769ee9a9eff761669e2808f08699f2c8",
+    "src/mtmemory_icde/core/history.py": "9e9484d38bb80bb3367d81a1ec91785d6c8c058555ddb593349a03db4f6c6b0b",
+    "src/mtmemory_icde/core/baselines.py": "a3c87dc666879e58b3cc4fa20e552d3b04f20e6f6fed038fcafc5f599225b300",
+    "data/real/bike.npz": "b0461c73abcf4c8451bc8d81087ea63e1154e78d133c42bd2b25e9ee4b240030",
+    "data/real/beijing.npz": "2aefc9178bbc33b391ab47d89705808c4d3bb5cd49199b8a6282d49e47d77d85"
+  },
+  "python": "3.14.5 (v3.14.5:5607950ef23, May 10 2026, 07:38:09) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.5.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "b": 128,
+  "metadata": 6144,
+  "workspace": 8192,
+  "budgets": [
+    65536,
+    131072,
+    262144
+  ],
+  "reaches": [
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384
+  ],
+  "methods": [
+    "h1",
+    "h4",
+    "h8",
+    "h16",
+    "coarse",
+    "tail"
+  ],
+  "selection": "none; predeclared capacity rule",
+  "query_seed": 20261107
+}

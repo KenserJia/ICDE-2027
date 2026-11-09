@@ -1,0 +1,322 @@
+{
+  "concurrency": {
+    "commits": 1000,
+    "elapsed_s": 0.709562125033699,
+    "errors": [],
+    "last_generations": [
+      1000,
+      1000,
+      1000,
+      1000
+    ],
+    "read_counts": [
+      1910,
+      1856,
+      1850,
+      1936
+    ],
+    "readers": 4
+  },
+  "corruption_matrix": [
+    {
+      "corruption_detected": true,
+      "mode": "truncate_header",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "truncated envelope",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-truncate_header/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "truncate_payload",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-truncate_payload/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "truncate_trailer",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-truncate_trailer/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "flip_magic",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-flip_magic/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "flip_header",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-flip_header/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "flip_payload",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-flip_payload/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "corruption_detected": true,
+      "mode": "flip_trailer",
+      "recovered_generation": 0,
+      "rollback_distance": 1,
+      "scan": {
+        "invalid": [
+          {
+            "error": "envelope checksum",
+            "path": "<USER_HOME>/.codex/.chatgpt-projects/g-p-6a4cdd58705081918813a748ab72b5db/artifacts/round73_74_20261101/checkpoints/corrupt-flip_trailer/state.1.chk",
+            "slot": 1
+          }
+        ],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "valid_engine": true
+    },
+    {
+      "all_corrupt_rejected": true,
+      "error": "no valid checkpoint slot",
+      "mode": "both_slots_corrupt"
+    }
+  ],
+  "crash_matrix": [
+    {
+      "elapsed_ms": 19.6575,
+      "failpoint": "after_partial_write",
+      "pending_files": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 0,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.433,
+      "failpoint": "before_file_fsync",
+      "pending_files": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 0,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 18.650458,
+      "failpoint": "after_file_fsync",
+      "pending_files": [
+        "state.1.chk.pending"
+      ],
+      "recovered_generation": 0,
+      "rep": 0,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 0,
+        "valid_generations": [
+          0
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 19.005833,
+      "failpoint": "after_replace_before_dir_fsync",
+      "pending_files": [],
+      "recovered_generation": 1,
+      "rep": 0,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    },
+    {
+      "elapsed_ms": 20.799792,
+      "failpoint": "after_dir_fsync",
+      "pending_files": [],
+      "recovered_generation": 1,
+      "rep": 0,
+      "returncode": -9,
+      "scan": {
+        "invalid": [],
+        "slot": 1,
+        "valid_generations": [
+          0,
+          1
+        ]
+      },
+      "signal_sigkill": true,
+      "stderr": "",
+      "valid_engine": true
+    }
+  ],
+  "expected": [
+    {
+      "fact_version": 257,
+      "generation": 0,
+      "nobs": 256,
+      "query_mean": 0.4748144964687526,
+      "query_status": "EXACT"
+    },
+    {
+      "fact_version": 265,
+      "generation": 1,
+      "nobs": 264,
+      "query_mean": -0.05298570543527603,
+      "query_status": "EXACT"
+    }
+  ],
+  "latency": {
+    "commit_ms": {
+      "max": 0.321084,
+      "mean": 0.25855995000000004,
+      "p50": 0.244146,
+      "p95": 0.3087625,
+      "p99": 0.31464801000000003
+    },
+    "disk_bytes": 18908,
+    "files": {
+      "state.0.chk": 9454,
+      "state.1.chk": 9454,
+      "state.lock": 0
+    },
+    "last_commit": {
+      "envelope_bytes": 9454,
+      "generation": 99,
+      "payload_bytes": 9366,
+      "slot": 1
+    },
+    "payload_bytes": 9366,
+    "recover_ms": {
+      "max": 0.105625,
+      "mean": 0.08033494000000001,
+      "p50": 0.072604,
+      "p95": 0.10238125,
+      "p99": 0.1038925
+    }
+  },
+  "payload_bytes": [
+    8865,
+    9366
+  ],
+  "payload_sha256": [
+    "eb94b7c12ff831c555c18406f9b02697abee8dd192a5d90c4a9706305182a130",
+    "efd1509133d45b05d5b4c779878c4fdf2ae5429fa2cb106379caa4974c322054"
+  ],
+  "platform": "darwin",
+  "protocol": "Round 7.4 strong recovery"
+}

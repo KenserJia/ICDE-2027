@@ -1,0 +1,78 @@
+[
+  {
+    "allocation": "fixed",
+    "checkpoint_phase_median_ms": {
+      "capture_ms": null,
+      "persist_ms": null,
+      "total_ms": 1.405792,
+      "validation_ms": null
+    },
+    "durability": "sync",
+    "p999_median": 4.0149582920000055,
+    "slowest_request_wait_mean_ms": {
+      "condition_wait": 0.0,
+      "coordinator_entry": 0.0,
+      "latency": 4.112970876,
+      "service_lock_wait": 0.000118688
+    },
+    "throughput_median": 186698.7589396089,
+    "verify_capture": true
+  },
+  {
+    "allocation": "dynamic",
+    "checkpoint_phase_median_ms": {
+      "capture_ms": null,
+      "persist_ms": null,
+      "total_ms": 1.408896,
+      "validation_ms": null
+    },
+    "durability": "sync",
+    "p999_median": 5.87758508300002,
+    "slowest_request_wait_mean_ms": {
+      "condition_wait": 0.0,
+      "coordinator_entry": 0.0,
+      "latency": 6.077150852,
+      "service_lock_wait": 0.000123224
+    },
+    "throughput_median": 141766.37213568354,
+    "verify_capture": true
+  },
+  {
+    "allocation": "dynamic",
+    "checkpoint_phase_median_ms": {
+      "capture_ms": 1.1948545,
+      "persist_ms": 2.121292,
+      "total_ms": 3.934521,
+      "validation_ms": 0.583771
+    },
+    "durability": "strict",
+    "p999_median": 18.76933791601004,
+    "slowest_request_wait_mean_ms": {
+      "condition_wait": 71.409275696,
+      "coordinator_entry": 0.024819976000000004,
+      "latency": 72.20698617999999,
+      "service_lock_wait": 0.000130324
+    },
+    "throughput_median": 91851.35498249429,
+    "verify_capture": true
+  },
+  {
+    "allocation": "dynamic",
+    "checkpoint_phase_median_ms": {
+      "capture_ms": 1.173896,
+      "persist_ms": 2.2104795,
+      "total_ms": 3.3933545,
+      "validation_ms": 8.3e-05
+    },
+    "durability": "strict",
+    "p999_median": 16.559932334011023,
+    "slowest_request_wait_mean_ms": {
+      "condition_wait": 66.85007038799999,
+      "coordinator_entry": 0.008552828000000002,
+      "latency": 67.69491167999999,
+      "service_lock_wait": 0.00012580799999999999
+    },
+    "throughput_median": 99286.25592653196,
+    "verify_capture": false
+  }
+]

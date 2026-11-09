@@ -1,0 +1,580 @@
+{
+  "schema": 1,
+  "experiments": [
+    {
+      "id": "rq1-active",
+      "title": "Populated active-cell and numerical boundary checks",
+      "rqs": [
+        "RQ1"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review4_20261109",
+          "argv": [
+            "{python}",
+            "-c",
+            "import more; more.active()"
+          ]
+        },
+        {
+          "cwd": "repro/review4_20261109",
+          "argv": [
+            "{python}",
+            "extra_checks.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/review4_20261109"
+      ],
+      "note": ""
+    },
+    {
+      "id": "rq2-controlled",
+      "title": "Phase-controlled reach / exactness / error grid",
+      "rqs": [
+        "RQ2"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review4_20261109",
+          "argv": [
+            "{python}",
+            "run.py"
+          ]
+        },
+        {
+          "cwd": "repro/review4_20261109",
+          "argv": [
+            "{python}",
+            "phase_only.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/review4_20261109"
+      ],
+      "note": ""
+    },
+    {
+      "id": "rq2-model-ablation",
+      "title": "Polynomial/L2 comparison and coarse/overlay/reservation ablations",
+      "rqs": [
+        "RQ1",
+        "RQ2",
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review4_20261109",
+          "argv": [
+            "{python}",
+            "more.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/review4_20261109"
+      ],
+      "note": ""
+    },
+    {
+      "id": "rq2-fixed-width",
+      "title": "Complete prior fixed-width supplemental curves",
+      "rqs": [
+        "RQ2"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/rq2_precision_20261107",
+          "argv": [
+            "{python}",
+            "run.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/frozen/rq_closure/rq2_range/raw.json",
+        "results/review_revision_20261104/range_training_variance_raw.json"
+      ],
+      "output_prefixes": [
+        "results/rq2_precision_20261107"
+      ],
+      "note": ""
+    },
+    {
+      "id": "rq2-triptych-source",
+      "title": "Complete fixed-demand supplemental precision/reach grid",
+      "rqs": [
+        "RQ2"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/rq2_tradeoff_20261107",
+          "argv": [
+            "{python}",
+            "run.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/rq2_tradeoff_20261107"
+      ],
+      "note": ""
+    },
+    {
+      "id": "rq3-calibration",
+      "title": "Distance/dwell calibration and held-out confirmation",
+      "rqs": [
+        "RQ3"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/round78_rq_closure",
+          "argv": [
+            "{python}",
+            "-c",
+            "from pathlib import Path; import run; run.run_rq3(Path('calibration-output'), 'formal')"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/calibration"
+      ],
+      "note": "Writes calibration-output in its workspace driver folder; all trace seeds are retained."
+    },
+    {
+      "id": "rq3-symmetric",
+      "title": "Independent validation layout tuning for both policies",
+      "rqs": [
+        "RQ3"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/rq3_symmetric_20261107",
+          "argv": [
+            "{python}",
+            "run.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/frozen/rq_closure/rq3_boundary/RQ3_FREEZE.json",
+        "results/review_revision_20261104/strong_fixed_raw.json",
+        "results/review_revision_20261104/fixed_selection.json"
+      ],
+      "output_prefixes": [
+        "results/rq3_symmetric_20261107"
+      ],
+      "note": ""
+    },
+    {
+      "id": "rq3-kernel",
+      "title": "Fixed-layout bandwidth and query-history sensitivity",
+      "rqs": [
+        "RQ3"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review6_20261109",
+          "argv": [
+            "{python}",
+            "sensitivity.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/frozen/rq_closure/rq3_boundary/RQ3_FREEZE.json",
+        "results/rq3_symmetric_20261107/candidate_test_results.json"
+      ],
+      "output_prefixes": [
+        "results/review6_20261109"
+      ],
+      "note": ""
+    },
+    {
+      "id": "joint-quality",
+      "title": "Validation-frozen joint recent/histogram quality and snapshots",
+      "rqs": [
+        "RQ1",
+        "RQ2",
+        "RQ4"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review7_20261109",
+          "argv": [
+            "{python}",
+            "quality.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/review7_20261109"
+      ],
+      "note": ""
+    },
+    {
+      "id": "joint-faults",
+      "title": "216 joint process-stop/corruption/format recovery cases",
+      "rqs": [
+        "RQ4"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review7_20261109",
+          "argv": [
+            "{python}",
+            "faults.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/review7_20261109"
+      ],
+      "note": "Termination is injected only into owned child processes. Uses the pinned process-stop helper. Offset targets are K+7/K+10/K+13."
+    },
+    {
+      "id": "joint-performance",
+      "title": "102 primary/locality cases plus36 cost-control cases",
+      "rqs": [
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review7_20261109",
+          "argv": [
+            "{python}",
+            "performance.py"
+          ]
+        },
+        {
+          "cwd": "repro/review7_20261109",
+          "argv": [
+            "{python}",
+            "cost_controls.py"
+          ]
+        },
+        {
+          "cwd": "repro/review7_20261109",
+          "argv": [
+            "{python}",
+            "cost_wide.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/review7_20261109"
+      ],
+      "note": "138 runs of100000 measured requests; run sequentially without other timing workloads."
+    },
+    {
+      "id": "joint-numerics",
+      "title": "Supported-kernel checks, unsupported precision example and fusion equivalence",
+      "rqs": [
+        "RQ1",
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review7_20261109",
+          "argv": [
+            "{python}",
+            "numerical.py"
+          ]
+        },
+        {
+          "cwd": "repro/review7_20261109",
+          "argv": [
+            "{python}",
+            "fusion_audit.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/review7_20261109"
+      ],
+      "note": ""
+    },
+    {
+      "id": "native-checkpoint",
+      "title": "54 matched million-request checkpoint component runs",
+      "rqs": [
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review3",
+          "argv": [
+            "{python}",
+            "performance.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/frozen/rq_closure/rq3_boundary/RQ3_FREEZE.json"
+      ],
+      "output_prefixes": [
+        "results/review3_20261104"
+      ],
+      "note": ""
+    },
+    {
+      "id": "native-memory",
+      "title": "Nine isolated component memory diagnostics",
+      "rqs": [
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review3",
+          "argv": [
+            "{python}",
+            "memory.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/frozen/rq_closure/rq3_boundary/RQ3_FREEZE.json"
+      ],
+      "output_prefixes": [
+        "results/review3_20261104"
+      ],
+      "note": ""
+    },
+    {
+      "id": "native-concurrency",
+      "title": "120 component concurrency/query-mix conditions",
+      "rqs": [
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review6_20261109",
+          "argv": [
+            "{python}",
+            "concurrency.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/frozen/rq_closure/rq3_boundary/RQ3_FREEZE.json"
+      ],
+      "output_prefixes": [
+        "results/review6_20261109"
+      ],
+      "note": ""
+    },
+    {
+      "id": "native-paced",
+      "title": "Paced2s grid and18 ten-second confirmations",
+      "rqs": [
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review6_20261109",
+          "argv": [
+            "{python}",
+            "openloop.py"
+          ]
+        },
+        {
+          "cwd": "repro/review6_20261109",
+          "argv": [
+            "{python}",
+            "paced_confirm.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/frozen/rq_closure/rq3_boundary/RQ3_FREEZE.json"
+      ],
+      "output_prefixes": [
+        "results/review6_20261109"
+      ],
+      "note": ""
+    },
+    {
+      "id": "certificate-component",
+      "title": "1008 serial certificate-kernel conditions",
+      "rqs": [
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review6_20261109",
+          "argv": [
+            "{python}",
+            "certificate_cost.py"
+          ]
+        },
+        {
+          "cwd": "repro/review6_20261109",
+          "argv": [
+            "{python}",
+            "quality_optimized.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/review6_20261109"
+      ],
+      "note": ""
+    },
+    {
+      "id": "local-replay",
+      "title": "25 separate durable-journal process-stop checks",
+      "rqs": [
+        "RQ4"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/review2",
+          "argv": [
+            "{python}",
+            "recovery_check.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/review2_20261104"
+      ],
+      "note": ""
+    },
+    {
+      "id": "storage-faults",
+      "title": "Standalone two-slot storage process-stop and reader tests",
+      "rqs": [
+        "RQ4"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/round73_74",
+          "argv": [
+            "{python}",
+            "run_recovery.py",
+            "--out",
+            "results/recovery_full.json",
+            "--repetitions",
+            "20"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [],
+      "note": "Component evidence uses the included native scalar engine; separate from the certified joint service."
+    },
+    {
+      "id": "scotty",
+      "title": "Unmodified Scotty0.4 registered-window operator",
+      "rqs": [
+        "RQ5"
+      ],
+      "kind": "external",
+      "commands": [
+        {
+          "cwd": "repro/round73_74",
+          "argv": [
+            "{python}",
+            "run_scotty.py",
+            "--profile",
+            "full"
+          ]
+        },
+        {
+          "cwd": "repro/round73_74",
+          "argv": [
+            "{python}",
+            "run_mt_common_contract.py",
+            "--events",
+            "1000000",
+            "--repeats",
+            "5",
+            "--out",
+            "results/mt_common.jsonl"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [],
+      "note": "Requires a working JDK (java,javac), Maven and access to Maven Central. The frozen upstream source archive and Apache2 license are bundled."
+    },
+    {
+      "id": "duckdb",
+      "title": "DuckDB2.0.0 exact/reservoir range operators",
+      "rqs": [
+        "RQ5"
+      ],
+      "kind": "external",
+      "commands": [
+        {
+          "cwd": "repro/review2",
+          "argv": [
+            "{python}",
+            "external.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/frozen/rq_closure/rq3_boundary/RQ3_FREEZE.json"
+      ],
+      "output_prefixes": [
+        "results/review2_20261104"
+      ],
+      "note": "Install the sql extra; raw-source retention and sample rebuild costs are outside the service ledger."
+    },
+    {
+      "id": "long-duration",
+      "title": "Thirty-minute strict native bounded-telemetry component run",
+      "rqs": [
+        "RQ4",
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/p0_p1_supplement",
+          "argv": [
+            "{python}",
+            "-c",
+            "from pathlib import Path; import json; import run_supplement as r; p=Path('soak-output'); p.mkdir(); x=r.run_soak_case(p,'strict',1800,13001,8,500); (p/'summary.json').write_text(json.dumps(x,indent=2))"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [],
+      "note": "A wall-clock study: operation count and throughput vary with hardware. Includes initialization under the component protocol."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "operations": 20000,
+  "order": [
+    {
+      "id": "pilot",
+      "group": "pilot",
+      "rep": 2,
+      "query_mix": 0.7,
+      "clients": 8,
+      "delay_ms": 0,
+      "K": 500,
+      "policy": "fixed",
+      "instrument": true,
+      "mode": "strict"
+    }
+  ],
+  "source_sha256": "1339605e6d372bca2f971de9da27275813726e248db93f27dde610cfb1c1c78f",
+  "time": {
+    "timestamp_utc": "2026-11-09T06:43:34.587805+00:00",
+    "python": "3.14.5 (v3.14.5:5607950ef23, May 10 2026, 07:38:09) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "numpy": "2.5.4",
+    "psutil": "7.2.2",
+    "logical_cpus": 10,
+    "memory_bytes": 25769803776
+  }
+}

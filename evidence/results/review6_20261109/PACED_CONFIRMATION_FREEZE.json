@@ -1,0 +1,168 @@
+{
+  "order": [
+    {
+      "id": "confirm10-r0-q70-sync",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r0-q70-strict",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r0-q70-none",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r1-q95-none",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r1-q95-strict",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r1-q95-sync",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r2-q70-strict",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r2-q70-none",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r2-q70-sync",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r2-q95-strict",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r2-q95-sync",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r2-q95-none",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r1-q70-none",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r1-q70-sync",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r1-q70-strict",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r0-q95-sync",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r0-q95-strict",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict",
+      "arrival_seconds": 10
+    },
+    {
+      "id": "confirm10-r0-q95-none",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none",
+      "arrival_seconds": 10
+    }
+  ],
+  "source_sha256": "4a64fda15226ac002a1e7ca9410757019ef4b693d4e4b85ad8dbf04f894350eb",
+  "purpose": "duration confirmation of two critical cells; all modes and reps retained; selected before confirmation, based on short-run scheduling variability; not a prespecified independent initial study"
+}

@@ -1,0 +1,154 @@
+{
+  "source_sha256": "df87a5753a6ff3bcf633380c9b12fe486b7d3fa69275ddb1b07213d8c5804ea3",
+  "configs": [
+    {
+      "id": "t0.5-L32",
+      "policy": "online",
+      "tau": 0.5,
+      "L": 32
+    },
+    {
+      "id": "t0.5-L128",
+      "policy": "online",
+      "tau": 0.5,
+      "L": 128
+    },
+    {
+      "id": "t0.5-L512",
+      "policy": "online",
+      "tau": 0.5,
+      "L": 512
+    },
+    {
+      "id": "t1-L32",
+      "policy": "online",
+      "tau": 1,
+      "L": 32
+    },
+    {
+      "id": "t1-L128",
+      "policy": "online",
+      "tau": 1,
+      "L": 128
+    },
+    {
+      "id": "t1-L512",
+      "policy": "online",
+      "tau": 1,
+      "L": 512
+    },
+    {
+      "id": "t2-L32",
+      "policy": "online",
+      "tau": 2,
+      "L": 32
+    },
+    {
+      "id": "t2-L128",
+      "policy": "online",
+      "tau": 2,
+      "L": 128
+    },
+    {
+      "id": "t2-L512",
+      "policy": "online",
+      "tau": 2,
+      "L": 512
+    },
+    {
+      "id": "t4-L32",
+      "policy": "online",
+      "tau": 4,
+      "L": 32
+    },
+    {
+      "id": "t4-L128",
+      "policy": "online",
+      "tau": 4,
+      "L": 128
+    },
+    {
+      "id": "t4-L512",
+      "policy": "online",
+      "tau": 4,
+      "L": 512
+    },
+    {
+      "id": "t8-L32",
+      "policy": "online",
+      "tau": 8,
+      "L": 32
+    },
+    {
+      "id": "t8-L128",
+      "policy": "online",
+      "tau": 8,
+      "L": 128
+    },
+    {
+      "id": "t8-L512",
+      "policy": "online",
+      "tau": 8,
+      "L": 512
+    },
+    {
+      "id": "recent",
+      "policy": "recent",
+      "tau": 2,
+      "L": 128
+    }
+  ],
+  "workloads": {
+    "critical": {
+      "dwell_queries": 4,
+      "shift_buckets": 30,
+      "width_buckets": 4
+    },
+    "dynamic_dominant": {
+      "dwell_queries": 0,
+      "shift_buckets": 16,
+      "width_buckets": 1
+    },
+    "stable": {
+      "dwell_queries": 0,
+      "shift_buckets": 0,
+      "width_buckets": 2
+    },
+    "held12": {
+      "shift_buckets": 12,
+      "dwell_queries": 32,
+      "width_buckets": 2
+    },
+    "held24": {
+      "shift_buckets": 24,
+      "dwell_queries": 64,
+      "width_buckets": 2
+    },
+    "held28": {
+      "shift_buckets": 28,
+      "dwell_queries": 8,
+      "width_buckets": 2
+    }
+  },
+  "units": 13,
+  "geometry": [
+    64,
+    8,
+    16,
+    4096
+  ],
+  "cap": 131072,
+  "metadata": 8192,
+  "workspace": 8192,
+  "selection": "validation MSE, charge, distance from tau2, id; globally freeze before test",
+  "platform": {
+    "timestamp_utc": "2026-11-09T06:54:33.258882+00:00",
+    "python": "3.14.5 (v3.14.5:5607950ef23, May 10 2026, 07:38:09) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "numpy": "2.5.4",
+    "psutil": "7.2.2",
+    "logical_cpus": 10,
+    "memory_bytes": 25769803776
+  }
+}

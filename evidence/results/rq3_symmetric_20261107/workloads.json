@@ -1,0 +1,32 @@
+{
+  "critical": {
+    "dwell_queries": 4,
+    "shift_buckets": 30,
+    "width_buckets": 4
+  },
+  "dynamic_dominant": {
+    "dwell_queries": 0,
+    "shift_buckets": 16,
+    "width_buckets": 1
+  },
+  "stable": {
+    "dwell_queries": 0,
+    "shift_buckets": 0,
+    "width_buckets": 2
+  },
+  "held12": {
+    "shift_buckets": 12,
+    "dwell_queries": 32,
+    "width_buckets": 2
+  },
+  "held24": {
+    "shift_buckets": 24,
+    "dwell_queries": 64,
+    "width_buckets": 2
+  },
+  "held28": {
+    "shift_buckets": 28,
+    "dwell_queries": 8,
+    "width_buckets": 2
+  }
+}

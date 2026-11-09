@@ -1,0 +1,603 @@
+{
+  "K": 500,
+  "clients": 8,
+  "harness_sha256": "4bff50a5b5081b488cc525b16a07b18afe93e2fd3d1a31469d1eae40a0e2d44a",
+  "operations": 1000000,
+  "order": [
+    {
+      "allocation": "fixed",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "original",
+      "workload": "critical"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "original",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "original",
+      "workload": "stable"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "original",
+      "workload": "critical"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "original",
+      "workload": "stable"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "optimized",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "original",
+      "workload": "critical"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "optimized",
+      "workload": "critical"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "optimized",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "original",
+      "workload": "stable"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "sync",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "sync",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "sync",
+      "workload": "critical"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "original",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "optimized",
+      "workload": "critical"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "optimized",
+      "workload": "stable"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "sync",
+      "workload": "critical"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "sync",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "original",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "sync",
+      "workload": "critical"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "original",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "sync",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "sync",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "optimized",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "original",
+      "workload": "stable"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "optimized",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "sync",
+      "workload": "critical"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "original",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "sync",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "sync",
+      "workload": "stable"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "optimized",
+      "workload": "critical"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "optimized",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "sync",
+      "workload": "critical"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "original",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "optimized",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "optimized",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "optimized",
+      "workload": "critical"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "sync",
+      "workload": "critical"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "optimized",
+      "workload": "stable"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "sync",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "optimized",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "optimized",
+      "workload": "critical"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "original",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "sync",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "original",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "optimized",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "original",
+      "workload": "critical"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "sync",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "optimized",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 16,
+        "width_buckets": 1
+      },
+      "variant": "sync",
+      "workload": "dynamic_dominant"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 2,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "optimized",
+      "workload": "critical"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 0,
+        "shift_buckets": 0,
+        "width_buckets": 2
+      },
+      "variant": "sync",
+      "workload": "stable"
+    },
+    {
+      "allocation": "fixed",
+      "seed": 0,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "original",
+      "workload": "critical"
+    },
+    {
+      "allocation": "dynamic",
+      "seed": 1,
+      "spec": {
+        "dwell_queries": 4,
+        "shift_buckets": 30,
+        "width_buckets": 4
+      },
+      "variant": "original",
+      "workload": "critical"
+    }
+  ],
+  "warmup": 20000
+}

@@ -1,0 +1,756 @@
+{
+  "rows": [
+    {
+      "unit": 2,
+      "dataset": "beijing",
+      "entity": 1,
+      "B": 131072,
+      "R": 4096,
+      "family": "native",
+      "id": "n-b64-f16-k8",
+      "config": {
+        "id": "n-b64-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21460,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29652,
+          "envelope_reservation_bytes": 29740,
+          "workspace_bytes": 8192,
+          "charged_bytes": 127064,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.04430429739440145,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.042271536104144296,
+          "nrmse": 0.20560042818473606,
+          "exact_fraction": 0.2072482638888889,
+          "mean_normalized_bound": 0.6904621806089281,
+          "guaranteed_within_0_1": 0.2905815972222222
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.003391175929489834,
+          "nrmse": 0.058233803986433366,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.09528151503026532,
+          "guaranteed_within_0_1": 0.712890625
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.0595436933446866,
+          "nrmse": 0.24401576444204234,
+          "exact_fraction": 0.064453125,
+          "mean_normalized_bound": 0.9663424130419086,
+          "guaranteed_within_0_1": 0.08268229166666667
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.06387973903825646,
+          "nrmse": 0.2527444143522776,
+          "exact_fraction": 0.057291666666666664,
+          "mean_normalized_bound": 1.00976261375461,
+          "guaranteed_within_0_1": 0.076171875
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 0.0,
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 22545,
+        "snapshot_metadata_bytes": 1085,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 22633
+      },
+      "restored_prefix": 35200,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 2,
+      "dataset": "beijing",
+      "entity": 1,
+      "B": 131072,
+      "R": 4096,
+      "family": "histogram",
+      "id": "h-b128-q2",
+      "config": {
+        "id": "h-b128-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.048243551919392086,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.04178545320396551,
+          "nrmse": 0.20441490447118468,
+          "exact_fraction": 0.017144097222222224,
+          "mean_normalized_bound": 1.0603532767058266,
+          "guaranteed_within_0_1": 0.03146701388888889
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.03970645394437238,
+          "nrmse": 0.19926478342161258,
+          "exact_fraction": 0.022135416666666668,
+          "mean_normalized_bound": 1.0549670060740748,
+          "guaranteed_within_0_1": 0.034505208333333336
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.04100289111169925,
+          "nrmse": 0.20249170619641213,
+          "exact_fraction": 0.016927083333333332,
+          "mean_normalized_bound": 1.0247227882168994,
+          "guaranteed_within_0_1": 0.033854166666666664
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.044647014555824927,
+          "nrmse": 0.2112984016018447,
+          "exact_fraction": 0.012369791666666666,
+          "mean_normalized_bound": 1.1013700358265053,
+          "guaranteed_within_0_1": 0.026041666666666668
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 2.5979218776228663e-14,
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 19552,
+        "snapshot_metadata_bytes": 656,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 19640
+      },
+      "restored_prefix": 35200,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 2,
+      "dataset": "beijing",
+      "entity": 1,
+      "B": 262144,
+      "R": 4096,
+      "family": "native",
+      "id": "n-b256-f16-k16",
+      "config": {
+        "id": "n-b256-f16-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 40004,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 48196,
+          "envelope_reservation_bytes": 48284,
+          "workspace_bytes": 8192,
+          "charged_bytes": 201240,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.003607587905539209,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.0032445384595617983,
+          "nrmse": 0.05696085021241897,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.09785201138399896,
+          "guaranteed_within_0_1": 0.7100694444444444
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.003391175929489834,
+          "nrmse": 0.058233803986433366,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.09528151503029127,
+          "guaranteed_within_0_1": 0.712890625
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.0032608328220496015,
+          "nrmse": 0.057103702326523224,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.0972056850294702,
+          "guaranteed_within_0_1": 0.7122395833333334
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.003081606627145959,
+          "nrmse": 0.055512220498178354,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.10106883409223538,
+          "guaranteed_within_0_1": 0.705078125
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 0.0,
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 41106,
+        "snapshot_metadata_bytes": 1102,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 41194
+      },
+      "restored_prefix": 35200,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 2,
+      "dataset": "beijing",
+      "entity": 1,
+      "B": 262144,
+      "R": 4096,
+      "family": "histogram",
+      "id": "h-b128-q8",
+      "config": {
+        "id": "h-b128-q8",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 8,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 39896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 48088,
+          "envelope_reservation_bytes": 48176,
+          "workspace_bytes": 31388,
+          "charged_bytes": 224004,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.003566027351650298,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.003792959644967146,
+          "nrmse": 0.06158700871028494,
+          "exact_fraction": 0.021484375,
+          "mean_normalized_bound": 0.23553277346678325,
+          "guaranteed_within_0_1": 0.3511284722222222
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.0037811967854170115,
+          "nrmse": 0.061491436658612474,
+          "exact_fraction": 0.027994791666666668,
+          "mean_normalized_bound": 0.23076806068974723,
+          "guaranteed_within_0_1": 0.349609375
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.0036844406231839057,
+          "nrmse": 0.06069959324563697,
+          "exact_fraction": 0.01953125,
+          "mean_normalized_bound": 0.23509052384496776,
+          "guaranteed_within_0_1": 0.3606770833333333
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.003913241526300519,
+          "nrmse": 0.06255590718002745,
+          "exact_fraction": 0.016927083333333332,
+          "mean_normalized_bound": 0.2407397358656347,
+          "guaranteed_within_0_1": 0.3430989583333333
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 2.693678613496786e-14,
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 40552,
+        "snapshot_metadata_bytes": 656,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 40640
+      },
+      "restored_prefix": 35200,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 2,
+      "dataset": "beijing",
+      "entity": 1,
+      "B": 131072,
+      "R": 16384,
+      "family": "native",
+      "id": "n-b256-f16-k0",
+      "config": {
+        "id": "n-b256-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 19332,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27524,
+          "envelope_reservation_bytes": 27612,
+          "workspace_bytes": 8192,
+          "charged_bytes": 118552,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.20817089132405964,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.16736966033067646,
+          "nrmse": 0.4091083721882055,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.5166533988183093,
+          "guaranteed_within_0_1": 0.0
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.15767019527583936,
+          "nrmse": 0.3970770644944617,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.5379045708441033,
+          "guaranteed_within_0_1": 0.0
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.14105797344093143,
+          "nrmse": 0.3755768540873476,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.369786087818645,
+          "guaranteed_within_0_1": 0.0
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.2033808122752586,
+          "nrmse": 0.45097761819159293,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.64226953779218,
+          "guaranteed_within_0_1": 0.0
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 0.0,
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 20427,
+        "snapshot_metadata_bytes": 1095,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 20515
+      },
+      "restored_prefix": 35200,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 2,
+      "dataset": "beijing",
+      "entity": 1,
+      "B": 131072,
+      "R": 16384,
+      "family": "histogram",
+      "id": "h-b256-q1",
+      "config": {
+        "id": "h-b256-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 19780,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27972,
+          "envelope_reservation_bytes": 28060,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120344,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.20817089132405964,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.16736966033067646,
+          "nrmse": 0.4091083721882055,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.5166533988183093,
+          "guaranteed_within_0_1": 0.0
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.15767019527583936,
+          "nrmse": 0.3970770644944617,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.5379045708441033,
+          "guaranteed_within_0_1": 0.0
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.14105797344093143,
+          "nrmse": 0.3755768540873476,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.369786087818645,
+          "guaranteed_within_0_1": 0.0
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.2033808122752586,
+          "nrmse": 0.45097761819159293,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.64226953779218,
+          "guaranteed_within_0_1": 0.0
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 0.0,
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 20407,
+        "snapshot_metadata_bytes": 627,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 20495
+      },
+      "restored_prefix": 35200,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 2,
+      "dataset": "beijing",
+      "entity": 1,
+      "B": 262144,
+      "R": 16384,
+      "family": "native",
+      "id": "n-b64-f4-k8",
+      "config": {
+        "id": "n-b64-f4-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 4,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52996,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 61188,
+          "envelope_reservation_bytes": 61276,
+          "workspace_bytes": 8192,
+          "charged_bytes": 253208,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.05429942972745411,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.04719142361011775,
+          "nrmse": 0.2172358708218254,
+          "exact_fraction": 0.20703125,
+          "mean_normalized_bound": 0.6653187419679392,
+          "guaranteed_within_0_1": 0.3858506944444444
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 8.039911960384061e-05,
+          "nrmse": 0.008966555611739532,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.009093210011195963,
+          "guaranteed_within_0_1": 0.9986979166666666
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.0595436933446866,
+          "nrmse": 0.24401576444204234,
+          "exact_fraction": 0.064453125,
+          "mean_normalized_bound": 0.9663424130419086,
+          "guaranteed_within_0_1": 0.08268229166666667
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.08195017836606282,
+          "nrmse": 0.2862694155850006,
+          "exact_fraction": 0.056640625,
+          "mean_normalized_bound": 1.0205206028507132,
+          "guaranteed_within_0_1": 0.076171875
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 0.0,
+      "ledger": {
+        "array_bytes": 52996,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 61188,
+        "envelope_reservation_bytes": 61276,
+        "workspace_bytes": 8192,
+        "charged_bytes": 253208,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 54094,
+        "snapshot_metadata_bytes": 1098,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 54182
+      },
+      "restored_prefix": 35200,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 2,
+      "dataset": "beijing",
+      "entity": 1,
+      "B": 262144,
+      "R": 16384,
+      "family": "histogram",
+      "id": "h-b256-q4",
+      "config": {
+        "id": "h-b256-q4",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.041996846760977896,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.035835672074319924,
+          "nrmse": 0.18930312212205977,
+          "exact_fraction": 0.0008680555555555555,
+          "mean_normalized_bound": 1.0463951843454258,
+          "guaranteed_within_0_1": 0.019748263888888888
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.03332658524721851,
+          "nrmse": 0.18255570443045535,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 1.0525095203467068,
+          "guaranteed_within_0_1": 0.016276041666666668
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.031892876529134646,
+          "nrmse": 0.17858576791889816,
+          "exact_fraction": 0.0026041666666666665,
+          "mean_normalized_bound": 1.02325542956691,
+          "guaranteed_within_0_1": 0.025390625
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.042287554446606625,
+          "nrmse": 0.20563937952687006,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 1.0634206031226612,
+          "guaranteed_within_0_1": 0.017578125
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 2.6201263381153694e-14,
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 42681,
+        "snapshot_metadata_bytes": 657,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 42769
+      },
+      "restored_prefix": 35200,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Second-review validation protocol, 2026-11-04
+
+All earlier frozen evidence stays unchanged. The augmented append-only history keeps per-channel cell minima/maxima; their arrays and two snapshot reservations are charged equally for recent, delay-directed and error-aware policies. For a partial cell with m observations, r included observations and value span D, its SUM error is bounded by r(m-r)D/m. Divide the sum of boundary contributions by query width to certify the mean. This excludes floating-point arithmetic error and arbitrary historical deletions. Use actual populated cell length for an unfinished active cell.
+
+Symmetric validation selects (b,f,k) from b={64,128}, f={8,16}, k={8,16,32} for each of recent, online and error policies at 64/128 KiB. Infeasible layouts are excluded by actual array charges. Each policy receives the identical feasible grid; selection uses validation only and is frozen for every entity/workload before test queries. Use all 13 entities and the three previously frozen schedules, preserve warm prefixes and use training-only normalization. Report all paired results, including losses. Error policy scores bounded demand proximity times the observed reduction in cell value span available from fine cells; it is a proxy, not an optimality theorem.
+
+Certificate tests cover aligned/misaligned boundaries, incomplete active cells, overlay eviction, serialization and adversarial step signals; report violations and certificate tightness on real held-out queries. No error-aware superiority is assumed.
+
+External baseline will use an upstream implementation with recorded version and compatible retrospective aggregate semantics. A local reimplementation is not to be labeled as the upstream system. If runtime/source prerequisites prevent execution, record the exact blocker and retain the unexecuted adapter separately.
+
+Recovery extension chooses local replay integration, not distributed/event-time claims. Checkpoints and replay offsets describe the same prefix; replay counted mutations idempotently. Crash trials must distinguish missing acknowledgments and external side effects; neither distributed exactly-once nor device-loss durability is implied.

@@ -1,0 +1,144 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=24mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,array,url,hyperref}
+\usepackage[T1]{fontenc}
+\newcommand{\up}{\operatorname{up}}
+\newcommand{\fl}{\operatorname{fl}}
+\newcommand{\RN}{\operatorname{RN}}
+\title{Joint Certified State and Native Checkpoints\\Algorithms, Numerical Derivation, and Evaluation Contract}
+\author{Technical material for author review}
+\date{9 November 2026}
+\begin{document}\maketitle
+\noindent This note accompanies new implementation and experiment files. It does not change the manuscript. Experimental values and complete tables are supplied separately; the results do not imply superiority across all budgets or workloads.
+
+\section{State and contract}
+A service image contains current fact values, versions and tombstones, together with historical sums, populated counts, extrema and segment identities. It also contains the active segment, retention capacity, demand buffers and counted mutation prefix $a$. Queries acquire the service lock to obtain facts, history and prefix from one coherent state. Observations and fact mutations each advance $a$ once. Queries and control operations do not advance $a$; their state can roll back to the captured state after recovery. History is append-only. Fact deletion is supported, whereas deletion from retained history and replay promotion are rejected.
+
+Let $p$ be the prefix of the latest completed checkpoint and $K>0$ the admitted mutation gap. The service admits a new counted mutation only when $a-p<K$. A completed mutation advances $a$ by one. Image capture excludes mutation admission and uses the service lock; persistence occurs outside the admission lock. The durable prefix advances only after successful persistence. Storage writes a checksummed temporary envelope, synchronizes its file, replaces the older slot, and synchronizes the directory. Recovery chooses the newest checksummed slot. Temporary files are not recovery candidates.
+
+\subsection{Algorithm 1: admission and coherent checkpointing}
+\noindent\textbf{Input:} service $S$, two-slot store $D$, interval $K$, admission condition variable $C$.\par
+\smallskip
+\noindent\begin{tabular}{@{}r p{.90\linewidth}@{}}
+1 & Initialize $p$ from a valid restored image, or persist the initial coherent state. Set failure to empty.\\
+2 & \textbf{Mutate($f$):} acquire $C$; reject if persistence has failed.\\
+3 & While $S.a-p\geq K$, notify the worker, wait on $C$, and recheck failure.\\
+4 & Apply one counted mutation $f$ under the service lock. It advances $S.a$ once. Notify the worker when $S.a-p\geq K$. Release $C$ and return.\\
+5 & \textbf{Checkpoint worker:} wait on $C$ for a threshold, force or shutdown request.\\
+6 & With $C$ held, acquire the service lock, serialize every retained array and cursor, and record the captured prefix $s=S.a$. Release both locks.\\
+7 & Commit the image through $D$. After successful file and directory synchronization, reacquire $C$, set $p\leftarrow\max(p,s)$, and wake waiters.\\
+8 & If capture or persistence raises an exception, record failure under $C$, stop the worker, and wake all waiters. Subsequent mutations and forced checkpoints raise an explicit error; $p$ does not advance.\\
+9 & A forced checkpoint waits for its target prefix to become durable or for failure. Closing joins the worker even when failure is reported.\\
+\end{tabular}
+\smallskip
+
+Initially $a=p$. An admitted mutation changes a gap of at most $K-1$ into a gap of at most $K$. Queries leave the gap unchanged. Capture leaves $p$ unchanged, and successful persistence increases $p$ to a previously applied prefix, which cannot increase the gap. This proves $0\leq a-p\leq K$ by induction, provided all counted mutations use admission and each advances $a$ exactly once. Recovered images may include a mutation whose caller had not yet observed its response. Loss measured against caller-observed responses therefore uses $\max(0,a_{\rm caller}-a_{\rm recovered})$.
+
+The bound requires the latest completed image to remain valid. Corruption that forces recovery from an older slot can exceed $K$; rejection of both slots is an explicit recovery failure. Process termination tests do not establish power-loss or device-failure durability. The coordinator's error propagation prevents indefinite waits after a storage exception. It does not make an invalid storage medium reliable.
+
+\section{Algorithm 2: coherent certified range query}
+The certificate is componentwise; the derivation below treats one channel. Let $[\ell,h)$ be the requested interval and $w=h-\ell$. A contributing populated cell has start $t_j$, actual populated count $m_j$, sum $\widehat S_j$, minimum $L_j$ and maximum $U_j$. Its intersection count is $r_j=|[\ell,h)\cap[t_j,t_j+m_j)|$.
+\smallskip
+\noindent\textbf{Input:} key, delay, width, history state, maximum cell width $b$.\par
+\smallskip
+\noindent\begin{tabular}{@{}r p{.90\linewidth}@{}}
+1 & Acquire the service lock. Read the current event count, prefix and requested fact. Reject an invalid or unreachable interval with UNKNOWN.\\
+2 & Record bounded demand metadata. If a derived history answer for this delay and width is cached in the current history state, copy it and attach the freshly read fact and prefix.\\
+3 & Traverse disjoint cells. Validate retained segment identities. Use a whole sealed segment's coarse sum when it is fully covered; otherwise use its retained fine cells or coarse cell. In the active segment, use each cell's actual populated support.\\
+4 & Set $v=0$, floating numerator $A=0$, analytical numerator $B_0=0$, outward numerator $B_+=0$, and outward magnitude numerator $G_0=0$.\\
+5 & For each intersecting cell, compute $r_j$, increment $v$, and accumulate $A\leftarrow\RN(A+\RN(\RN(r_j/m_j)\widehat S_j))$. Accumulate $G_0\leftarrow\up(G_0+\up(r_j\max(|L_j|,|U_j|)))$.\\
+6 & For $0<r_j<m_j$, accumulate the ordinary analytical numerator and its outward counterpart using $r_j(m_j-r_j)(U_j-L_j)/m_j$.\\
+7 & Require the populated, disjoint intersections to cover exactly $w$. Set $\widehat y=\RN(A/w)$, $\widehat B=\RN(B_0/w)$, $B^+=\up(B_+/w)$ and $G^+=\up(G_0/w)$.\\
+8 & Set $n=b+v+4$. Compute an outward upper bound $\gamma_n^+$, $N^+=\up(\gamma_n^+G^+)$, $D^+=\up(\max(0,B^+-\widehat B))$, $F^+=\up(N^++D^+)$, and $T^+=\up(\widehat B+F^+)$.\\
+9 & Return $(\widehat y,T^+)$, the analytical and arithmetic components, and structural EXACT if every intersection is a whole populated cell; otherwise return APPROX. Cache a copied history answer if enabled. Attach current facts and prefix before releasing the lock.\\
+\end{tabular}
+\smallskip
+
+An observation, overlay eviction or capacity change invalidates the history cache. Restore clears it. Fact mutations can reuse history answers because every response reads the current fact and prefix again. Returned arrays are copies, so caller mutation cannot alter a cached answer. Unavailable history is never assigned a finite certificate.
+
+\section{Analytical approximation bound}
+Let $S_j=\sum_{i\in J_j}x_i$ denote the exact cell sum and $s_j$ the exact sum over the $r_j$ selected observations. When $0<r_j<m_j$, write $\mu_A$ and $\mu_C$ for the selected and complementary means. Then
+\begin{align}
+\frac{r_j}{m_j}S_j-s_j
+ &=\frac{r_j(m_j-r_j)}{m_j}(\mu_C-\mu_A),\\
+\left|\frac{r_j}{m_j}S_j-s_j\right|
+ &\leq\frac{r_j(m_j-r_j)}{m_j}(U_j-L_j).
+\end{align}
+Whole-cell intersections have zero analytical error. The triangle inequality gives
+\begin{equation}
+ |y_* - y|\leq B,
+ \quad y_* = \frac1w\sum_j\frac{r_j}{m_j}S_j,
+ \quad B=\frac1w\sum_{j:0<r_j<m_j}\frac{r_j(m_j-r_j)}{m_j}(U_j-L_j).
+ \label{eq:analytical}
+\end{equation}
+This bound depends on within-cell extrema and makes no distributional or independence assumption. It can be conservative because it ignores cancellation and within-cell ordering. An SSE-optimal bin partition need not minimize $B$ or maximize exact query alignment.
+
+\section{Floating-point model and supported domain}
+Targets are the finite binary32 observations accepted by the service, converted exactly into binary64. Arithmetic uses round-to-nearest binary64 and the usual model $\fl(x\circ y)=(x\circ y)(1+\delta)$ with $|\delta|\leq u=2^{-53}$. The supported domain has $1\leq w,b\leq2^{20}$; cell counts are exact integers and $m_j\leq b$. The estimator uses binary64 additions, divisions and multiplications with no overflow or harmful underflow. Binary32 inputs and these bounded counts keep nonzero estimator operations far above binary64 underflow. The outward treatment of zero in the bound calculation does not rely on a relative-error model for zero.
+
+The sum reduction for a cell has per-input addition depth at most $b-1$. Sequential reduction and a binary pairwise tree both satisfy this bound. In the native layout, a fine-cell sum has depth at most $f-1$, followed by at most $b/f-1$ additions to form a coarse sum. Their total is $f+b/f-2\leq b-1$. A histogram bin formed from at most $b$ raw observations has the same conservative depth limit. Minima and maxima are exact comparisons of converted inputs.
+
+These assumptions describe the implemented kernel. A binary32 accumulator, an arbitrary parallel reduction with extra operations, a different input conversion, or an unanalysed compensated-summation kernel requires its own error analysis. Structural EXACT means no summary-induced approximation; it does not promise zero floating-point error.
+
+\section{Complete arithmetic allowance}
+For $nu<1$, define $\gamma_n=nu/(1-nu)$. The standard product-of-rounding-factors argument bounds a coefficient perturbed by at most $n$ elementary rounding factors by $\gamma_n$; the recursive and pairwise summation analysis is discussed in~\cite{higham1993}. The implemented query path adds one division to form $r_j/m_j$, one multiplication by the stored sum, at most $v$ additions into the query numerator, and one final division by $w$. Together with at most $b-1$ cell-sum additions, each input path uses at most $b+v+2$ rounding factors. The implementation uses the conservative value
+\begin{equation}
+ n=b+v+4,
+ \qquad G=\frac1w\sum_jr_jM_j,
+ \qquad M_j=\max(|L_j|,|U_j|).
+\end{equation}
+Since $(r_j/m_j)\sum_{i\in J_j}|x_i|\leq r_jM_j$, expanding the rounded expression into perturbed input coefficients yields
+\begin{equation}
+ |\widehat y-y_*|\leq\gamma_nG.
+ \label{eq:arithmetic}
+\end{equation}
+This componentwise absolute bound remains valid under cancellation, including a zero true mean. It does not divide by the true mean.
+
+A single upward adjustment of a final ordinary bound would not account for every intermediate operation used to evaluate that bound. The implementation therefore also evaluates its nonnegative ingredients outward. Define $\up(z)=\operatorname{nextafter}(\RN(z),+\infty)$ for each elementary result. Every nonnegative addition, multiplication and positive division in $B$ and $G$ is followed by $\up$. The span uses $\up(U_j-L_j)$; the integer numerator $r_j(m_j-r_j)$ is formed exactly. Counts do not exceed $2^{20}$, so this product is exactly representable in binary64. Monotonicity gives
+\begin{equation}
+ B^+\geq B,\qquad G^+\geq G.
+\end{equation}
+For $\gamma_n$, compute $z^+=\up(nu)$ and $d^-=\operatorname{nextafter}(\RN(1-z^+),-\infty)$, require $d^->0$, and set $\gamma_n^+=\up(z^+/d^-)$. Then $\gamma_n^+\geq\gamma_n$. Here $v\leq w\leq2^{20}$, so $nu<1$ comfortably holds.
+
+Let $\widehat B$ be the ordinary evaluated analytical bound reported for interpretability. Its evaluation error is covered without assuming a favorable rounding sign:
+\begin{align}
+ N^+&=\up(\gamma_n^+G^+),\\
+ D^+&=\up\bigl(\max(0,B^+-\widehat B)\bigr),\\
+ F^+&=\up(N^++D^+),\\
+ T^+&=\up(\widehat B+F^+).
+ \label{eq:final}
+\end{align}
+Because all upward operations enclose the corresponding exact result,
+\begin{align}
+ T^+&\geq\widehat B+N^++\max(0,B^+-\widehat B)\\
+ &\geq B^++\gamma_nG\\
+ &\geq B+|\widehat y-y_*|\\
+ &\geq|\widehat y-y|.
+\end{align}
+The last step combines~\eqref{eq:analytical} and~\eqref{eq:arithmetic}. This proves the implemented total certificate. $F^+$ contains both estimator rounding and evaluation allowance for the analytical bound. Values computed as $\up(0)$ may be the smallest positive binary64 value; this conservative slack is harmless. Nonfinite outputs are rejected.
+
+\section{Budget-matched histogram baseline}
+The baseline seals a time block of $b$ observations into $q$ contiguous bins. It adapts the dynamic-programming histogram construction studied by Jagadish et al.~\cite{jagadish1998} to a bounded append-only time ring. Its objective is the sum of within-bin squared errors over four channels. For a block $x_0,\ldots,x_{b-1}$, let
+\begin{equation}
+ C(i,j)=\sum_{c=1}^4\left[\sum_{t=i}^{j-1}x_{tc}^2-
+ \frac{(\sum_{t=i}^{j-1}x_{tc})^2}{j-i}\right],\quad
+ D(k,j)=\min_{i=k-1}^{j-1}\{D(k-1,i)+C(i,j)\}.
+\end{equation}
+Backtracking supplies bin ends. The implementation minimizes the evaluated binary64 objective with deterministic ties; it does not claim exact-real optimal partitions. Each bin retains its end, SUM and extrema, and the active block retains raw binary32 observations. Full-block sums accelerate interior traversal. The shared certificate derivation applies to these bins regardless of how their boundaries were selected.
+
+The algorithm reserves $O(qb)$ workspace and uses $O(qb^2)$ transition work per sealed block. Workspace is preallocated and charged. This implementation adapts the original histogram algorithm to bounded time blocks; its guarantees are those derived here for the shared service contract. Both compared services retain the same current-fact directory, declared reach, control buffers, checkpoint codec and admission semantics. Validation selects configurations independently for both families, before their test results are read.
+
+\section{Payload accounting and evidence limits}
+Let $A$ be all retained array payloads, $M=8192$ bytes a bounded metadata reservation, $C$ the derived cache reservation, $W$ numerical workspace, and $E=A+M+88$ the reserved envelope. The reported charge is
+\begin{equation}
+ B_{\rm joint}=(A+M+C)+3E+W.
+\end{equation}
+It reserves resident payload, two durable envelopes, one pending envelope and workspace. It is a logical payload ledger. Python objects, allocator behavior, serialization temporaries, file-system buffers and experiment instrumentation require separate physical-memory measurement. Sampled whole-process RSS is reported separately and cannot establish a strict peak-RAM bound.
+
+All 13 entities and all feasible selected comparisons are retained. Twelve entities are correlated stations from one dataset. Three timing repetitions are technical repeats on one macOS/arm64 host. Reported timing ranges describe those repeats; they do not establish cross-platform or population-level confidence intervals. The independent integer oracle converts binary32 values to integers at scale $2^{-149}$ and checks containment through exact rational inequalities without numerical tolerance. This checks the implemented cases and complements the proof, rather than proving correctness by sampling alone.
+
+\begin{thebibliography}{9}
+\bibitem{jagadish1998} H. V. Jagadish, N. Koudas, S. Muthukrishnan, V. Poosala, K. C. Sevcik, and T. Suel, ``Optimal Histograms with Quality Guarantees,'' in \emph{Proc. VLDB}, 1998, pp. 275--286. \url{https://www.vldb.org/conf/1998/p275.pdf}.
+\bibitem{higham1993} N. J. Higham, ``The Accuracy of Floating Point Summation,'' \emph{SIAM J. Sci. Comput.}, vol. 14, no. 4, pp. 783--799, 1993, doi: 10.1137/0914050. \url{https://nhigham.com/wp-content/uploads/2023/10/high93s.pdf}.
+\end{thebibliography}
+\end{document}

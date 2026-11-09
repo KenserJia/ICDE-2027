@@ -1,0 +1,26 @@
+[
+  {
+    "allocation": "fixed",
+    "clients": 1,
+    "p999_median": 1.3671670420000008,
+    "throughput_median": 212516.07019917693
+  },
+  {
+    "allocation": "dynamic",
+    "clients": 1,
+    "p999_median": 1.3757080420000007,
+    "throughput_median": 154861.57326269892
+  },
+  {
+    "allocation": "fixed",
+    "clients": 16,
+    "p999_median": 3.6888330420000006,
+    "throughput_median": 206426.5894980967
+  },
+  {
+    "allocation": "dynamic",
+    "clients": 16,
+    "p999_median": 5.685500042000001,
+    "throughput_median": 152247.8984118054
+  }
+]

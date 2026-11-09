@@ -1,0 +1,134 @@
+[
+  {
+    "group": "short",
+    "mode": "sync",
+    "method": "native",
+    "n": 3,
+    "throughput_rps": {
+      "median": 91577.3942605474,
+      "min": 91274.24322261881,
+      "max": 92432.46191071057
+    }
+  },
+  {
+    "group": "short",
+    "mode": "sync",
+    "method": "reference",
+    "n": 3,
+    "throughput_rps": {
+      "median": 40360.701572140795,
+      "min": 40293.58375782369,
+      "max": 40706.84518742074
+    }
+  },
+  {
+    "group": "short",
+    "mode": "sync",
+    "method": "fused",
+    "n": 3,
+    "throughput_rps": {
+      "median": 40516.40112576147,
+      "min": 40362.22813813936,
+      "max": 40715.34899237912
+    }
+  },
+  {
+    "group": "short",
+    "mode": "strict",
+    "method": "native",
+    "n": 3,
+    "throughput_rps": {
+      "median": 81393.38415404444,
+      "min": 80791.75924244196,
+      "max": 81861.58429430818
+    }
+  },
+  {
+    "group": "short",
+    "mode": "strict",
+    "method": "reference",
+    "n": 3,
+    "throughput_rps": {
+      "median": 39159.6783361691,
+      "min": 39036.158858789204,
+      "max": 39222.66238661369
+    }
+  },
+  {
+    "group": "short",
+    "mode": "strict",
+    "method": "fused",
+    "n": 3,
+    "throughput_rps": {
+      "median": 38602.439220892506,
+      "min": 38550.487527944744,
+      "max": 38887.9283977816
+    }
+  },
+  {
+    "group": "wide",
+    "mode": "sync",
+    "method": "native",
+    "n": 3,
+    "throughput_rps": {
+      "median": 34523.025563496405,
+      "min": 34047.04933807561,
+      "max": 35189.60762140047
+    }
+  },
+  {
+    "group": "wide",
+    "mode": "sync",
+    "method": "reference",
+    "n": 3,
+    "throughput_rps": {
+      "median": 14947.084984599875,
+      "min": 14877.436238287968,
+      "max": 15028.978217457643
+    }
+  },
+  {
+    "group": "wide",
+    "mode": "sync",
+    "method": "fused",
+    "n": 3,
+    "throughput_rps": {
+      "median": 24326.268782117542,
+      "min": 24256.599163817536,
+      "max": 24352.39869519477
+    }
+  },
+  {
+    "group": "wide",
+    "mode": "strict",
+    "method": "native",
+    "n": 3,
+    "throughput_rps": {
+      "median": 33851.869683686586,
+      "min": 33843.56884843871,
+      "max": 33936.97982698335
+    }
+  },
+  {
+    "group": "wide",
+    "mode": "strict",
+    "method": "reference",
+    "n": 3,
+    "throughput_rps": {
+      "median": 14867.205930014066,
+      "min": 14777.307180871492,
+      "max": 14918.684219769417
+    }
+  },
+  {
+    "group": "wide",
+    "mode": "strict",
+    "method": "fused",
+    "n": 3,
+    "throughput_rps": {
+      "median": 23810.742925412575,
+      "min": 23437.12921544892,
+      "max": 23939.079594894487
+    }
+  }
+]

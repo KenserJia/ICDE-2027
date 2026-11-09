@@ -1,0 +1,756 @@
+{
+  "rows": [
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "family": "native",
+      "id": "n-b64-f16-k8",
+      "config": {
+        "id": "n-b64-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21460,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29652,
+          "envelope_reservation_bytes": 29740,
+          "workspace_bytes": 8192,
+          "charged_bytes": 127064,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.05931509678254876,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.051718448311159834,
+          "nrmse": 0.22741690441373838,
+          "exact_fraction": 0.20638020833333334,
+          "mean_normalized_bound": 1.2081584669533063,
+          "guaranteed_within_0_1": 0.23936631944444445
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.014604669144143415,
+          "nrmse": 0.12084977936652527,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.2072600855385093,
+          "guaranteed_within_0_1": 0.5729166666666666
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.06182971900114035,
+          "nrmse": 0.24865582463124247,
+          "exact_fraction": 0.061848958333333336,
+          "mean_normalized_bound": 1.7039787190971503,
+          "guaranteed_within_0_1": 0.07552083333333333
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.07872095678819574,
+          "nrmse": 0.28057255201355885,
+          "exact_fraction": 0.057291666666666664,
+          "mean_normalized_bound": 1.7132365962242595,
+          "guaranteed_within_0_1": 0.06966145833333333
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 0.0,
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 22545,
+        "snapshot_metadata_bytes": 1085,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 22633
+      },
+      "restored_prefix": 17446,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "family": "histogram",
+      "id": "h-b128-q2",
+      "config": {
+        "id": "h-b128-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.06766531457784818,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.06463518803114886,
+          "nrmse": 0.2542345140978757,
+          "exact_fraction": 0.014973958333333334,
+          "mean_normalized_bound": 1.952770610226145,
+          "guaranteed_within_0_1": 0.022352430555555556
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.06780906187223003,
+          "nrmse": 0.26040173195645555,
+          "exact_fraction": 0.014322916666666666,
+          "mean_normalized_bound": 1.9013043803550207,
+          "guaranteed_within_0_1": 0.022135416666666668
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.06074243743401394,
+          "nrmse": 0.24645980920582797,
+          "exact_fraction": 0.014322916666666666,
+          "mean_normalized_bound": 2.0008198457228583,
+          "guaranteed_within_0_1": 0.020833333333333332
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.0653540647872026,
+          "nrmse": 0.25564441107924507,
+          "exact_fraction": 0.016276041666666668,
+          "mean_normalized_bound": 1.9561876046005555,
+          "guaranteed_within_0_1": 0.024088541666666668
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 5.084821452783217e-14,
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 19551,
+        "snapshot_metadata_bytes": 655,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 19639
+      },
+      "restored_prefix": 17446,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 4096,
+      "family": "native",
+      "id": "n-b256-f16-k16",
+      "config": {
+        "id": "n-b256-f16-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 4096,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 40004,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 48196,
+          "envelope_reservation_bytes": 48284,
+          "workspace_bytes": 8192,
+          "charged_bytes": 201240,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.011464033562234972,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.015608495632218722,
+          "nrmse": 0.12493396520959493,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.2153906446868964,
+          "guaranteed_within_0_1": 0.5720486111111112
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.014604669144143415,
+          "nrmse": 0.12084977936652527,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.2072600855385586,
+          "guaranteed_within_0_1": 0.5729166666666666
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.016345686808963537,
+          "nrmse": 0.12785025162740404,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.21726443749491722,
+          "guaranteed_within_0_1": 0.5670572916666666
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.015875130943549216,
+          "nrmse": 0.1259965514403012,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.2216474110272134,
+          "guaranteed_within_0_1": 0.576171875
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 0.0,
+      "ledger": {
+        "array_bytes": 40004,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48196,
+        "envelope_reservation_bytes": 48284,
+        "workspace_bytes": 8192,
+        "charged_bytes": 201240,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 41105,
+        "snapshot_metadata_bytes": 1101,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 41193
+      },
+      "restored_prefix": 17446,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 4096,
+      "family": "histogram",
+      "id": "h-b128-q8",
+      "config": {
+        "id": "h-b128-q8",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 8,
+          "max_reach": 4096,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 39896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 48088,
+          "envelope_reservation_bytes": 48176,
+          "workspace_bytes": 31388,
+          "charged_bytes": 224004,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.013778136023095794,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.01692660158572133,
+          "nrmse": 0.1301022736891775,
+          "exact_fraction": 0.022569444444444444,
+          "mean_normalized_bound": 0.616919210221537,
+          "guaranteed_within_0_1": 0.1664496527777778
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.0161074690524038,
+          "nrmse": 0.12691520430650194,
+          "exact_fraction": 0.020833333333333332,
+          "mean_normalized_bound": 0.5849573523736639,
+          "guaranteed_within_0_1": 0.15950520833333334
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.01822750806370227,
+          "nrmse": 0.1350092889383521,
+          "exact_fraction": 0.026041666666666668,
+          "mean_normalized_bound": 0.6565903860094721,
+          "guaranteed_within_0_1": 0.181640625
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.01644482764105792,
+          "nrmse": 0.12823738797043702,
+          "exact_fraction": 0.020833333333333332,
+          "mean_normalized_bound": 0.6092098922814749,
+          "guaranteed_within_0_1": 0.158203125
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 4.873879078104437e-14,
+      "ledger": {
+        "array_bytes": 39896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 48088,
+        "envelope_reservation_bytes": 48176,
+        "workspace_bytes": 31388,
+        "charged_bytes": 224004,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 40551,
+        "snapshot_metadata_bytes": 655,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 40639
+      },
+      "restored_prefix": 17446,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 16384,
+      "family": "native",
+      "id": "n-b256-f16-k0",
+      "config": {
+        "id": "n-b256-f16-k0",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 19332,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27524,
+          "envelope_reservation_bytes": 27612,
+          "workspace_bytes": 8192,
+          "charged_bytes": 118552,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.1600728929607507,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.1427297853615281,
+          "nrmse": 0.37779595768474383,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 3.294764616690939,
+          "guaranteed_within_0_1": 0.0
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.1340408467702884,
+          "nrmse": 0.3661158929008163,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 3.441869060734202,
+          "guaranteed_within_0_1": 0.0
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.1136379634523474,
+          "nrmse": 0.3371023044661589,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 3.471231844719727,
+          "guaranteed_within_0_1": 0.0
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.18051054586194856,
+          "nrmse": 0.4248653271541953,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.9711929446188896,
+          "guaranteed_within_0_1": 0.0
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 2.6756374893466273e-14,
+      "ledger": {
+        "array_bytes": 19332,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27524,
+        "envelope_reservation_bytes": 27612,
+        "workspace_bytes": 8192,
+        "charged_bytes": 118552,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 20426,
+        "snapshot_metadata_bytes": 1094,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 20514
+      },
+      "restored_prefix": 17446,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 16384,
+      "family": "histogram",
+      "id": "h-b256-q1",
+      "config": {
+        "id": "h-b256-q1",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 19780,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27972,
+          "envelope_reservation_bytes": 28060,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120344,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.1600728929607507,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.1427297853615281,
+          "nrmse": 0.37779595768474383,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 3.294764616690939,
+          "guaranteed_within_0_1": 0.0
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.1340408467702884,
+          "nrmse": 0.3661158929008163,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 3.441869060734202,
+          "guaranteed_within_0_1": 0.0
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.1136379634523474,
+          "nrmse": 0.3371023044661589,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 3.471231844719727,
+          "guaranteed_within_0_1": 0.0
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.18051054586194856,
+          "nrmse": 0.4248653271541953,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.9711929446188896,
+          "guaranteed_within_0_1": 0.0
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 2.6756374893466273e-14,
+      "ledger": {
+        "array_bytes": 19780,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27972,
+        "envelope_reservation_bytes": 28060,
+        "workspace_bytes": 8192,
+        "charged_bytes": 120344,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 20406,
+        "snapshot_metadata_bytes": 626,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 20494
+      },
+      "restored_prefix": 17446,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "family": "native",
+      "id": "n-b128-f8-k16",
+      "config": {
+        "id": "n-b128-f8-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52100,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60292,
+          "envelope_reservation_bytes": 60380,
+          "workspace_bytes": 8192,
+          "charged_bytes": 249624,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.03064635026433875,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.04757766898516941,
+          "nrmse": 0.21812305948471625,
+          "exact_fraction": 0.3361545138888889,
+          "mean_normalized_bound": 0.7815229858754099,
+          "guaranteed_within_0_1": 0.5138888888888888
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.0026582024517698573,
+          "nrmse": 0.05155775845603398,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.0704324412282262,
+          "guaranteed_within_0_1": 0.759765625
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.0025162860850875654,
+          "nrmse": 0.050162596524189716,
+          "exact_fraction": 0.5,
+          "mean_normalized_bound": 0.07164750922814395,
+          "guaranteed_within_0_1": 0.7682291666666666
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.13755851841865083,
+          "nrmse": 0.37088882254640654,
+          "exact_fraction": 0.008463541666666666,
+          "mean_normalized_bound": 2.2024890071698593,
+          "guaranteed_within_0_1": 0.013671875
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 0.0,
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 53207,
+        "snapshot_metadata_bytes": 1107,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 53295
+      },
+      "restored_prefix": 17446,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "family": "histogram",
+      "id": "h-b256-q4",
+      "config": {
+        "id": "h-b256-q4",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "validation_mse": 0.06027607063052511,
+      "metrics": {
+        "all": {
+          "queries": 4608,
+          "coverage": 1.0,
+          "mse": 0.06187253485586624,
+          "nrmse": 0.24874190434635962,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 1.9777411662414484,
+          "guaranteed_within_0_1": 0.006944444444444444
+        },
+        "near": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.0645196157139417,
+          "nrmse": 0.2540071176978077,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.121222329908715,
+          "guaranteed_within_0_1": 0.0026041666666666665
+        },
+        "middle": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.06324217950263729,
+          "nrmse": 0.25147997858144683,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 2.267405850763561,
+          "guaranteed_within_0_1": 0.009765625
+        },
+        "far": {
+          "queries": 1536,
+          "coverage": 1.0,
+          "mse": 0.05785580935101973,
+          "nrmse": 0.240532345985083,
+          "exact_fraction": 0.0,
+          "mean_normalized_bound": 1.5445953180520684,
+          "guaranteed_within_0_1": 0.008463541666666666
+        }
+      },
+      "checks": 4608,
+      "violations": 0,
+      "max_reconstruction_difference": 5.084821452783217e-14,
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false,
+        "snapshot_bytes": 42680,
+        "snapshot_metadata_bytes": 656,
+        "snapshot_fits": true,
+        "actual_envelope_bytes": 42768
+      },
+      "restored_prefix": 17446,
+      "full_array_roundtrip": true,
+      "selection_sha256": "fcd22e70f38e7a653282e27890ed7f5ae96eeb1193672dfd9c2b301f341af477"
+    }
+  ]
+}

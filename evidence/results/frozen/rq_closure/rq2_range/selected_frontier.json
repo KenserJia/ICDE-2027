@@ -1,0 +1,206 @@
+[
+  {
+    "reach": 512,
+    "selected_on_validation": "tiered-b128-k16",
+    "test": {
+      "charged_bytes_max": 53596,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b128-k16",
+      "nrmse_bootstrap95": [
+        0.0159030110993096,
+        0.021713925103538565
+      ],
+      "nrmse_mean": 0.01853641086746495,
+      "query_p95_us_median": 23.833,
+      "reach": 512,
+      "stage": "test",
+      "units": 13
+    },
+    "validation": {
+      "charged_bytes_max": 53596,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b128-k16",
+      "nrmse_bootstrap95": [
+        0.016861968953312115,
+        0.023228264591123055
+      ],
+      "nrmse_mean": 0.019720567944218666,
+      "query_p95_us_median": 24.0,
+      "reach": 512,
+      "stage": "validation",
+      "units": 13
+    }
+  },
+  {
+    "reach": 1024,
+    "selected_on_validation": "tiered-b128-k16",
+    "test": {
+      "charged_bytes_max": 54124,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b128-k16",
+      "nrmse_bootstrap95": [
+        0.015936251073803993,
+        0.020849581984459825
+      ],
+      "nrmse_mean": 0.018309901177554648,
+      "query_p95_us_median": 23.8125,
+      "reach": 1024,
+      "stage": "test",
+      "units": 13
+    },
+    "validation": {
+      "charged_bytes_max": 54124,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b128-k16",
+      "nrmse_bootstrap95": [
+        0.017501103144143968,
+        0.02459444026665594
+      ],
+      "nrmse_mean": 0.020818577804397703,
+      "query_p95_us_median": 23.9795,
+      "reach": 1024,
+      "stage": "validation",
+      "units": 13
+    }
+  },
+  {
+    "reach": 2048,
+    "selected_on_validation": "tiered-b128-k16",
+    "test": {
+      "charged_bytes_max": 55180,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b128-k16",
+      "nrmse_bootstrap95": [
+        0.01691056187246765,
+        0.023717538846707176
+      ],
+      "nrmse_mean": 0.020019005679952538,
+      "query_p95_us_median": 24.6875,
+      "reach": 2048,
+      "stage": "test",
+      "units": 13
+    },
+    "validation": {
+      "charged_bytes_max": 55180,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b128-k16",
+      "nrmse_bootstrap95": [
+        0.016899948137267053,
+        0.025620876754468818
+      ],
+      "nrmse_mean": 0.02065611439095983,
+      "query_p95_us_median": 24.8335,
+      "reach": 2048,
+      "stage": "validation",
+      "units": 13
+    }
+  },
+  {
+    "reach": 4096,
+    "selected_on_validation": "tiered-b32-k16",
+    "test": {
+      "charged_bytes_max": 45884,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b32-k16",
+      "nrmse_bootstrap95": [
+        0.06106315295214641,
+        0.07826786033197776
+      ],
+      "nrmse_mean": 0.06865234194753565,
+      "query_p95_us_median": 18.396,
+      "reach": 4096,
+      "stage": "test",
+      "units": 13
+    },
+    "validation": {
+      "charged_bytes_max": 45884,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b32-k16",
+      "nrmse_bootstrap95": [
+        0.06219037916954884,
+        0.08356498256730058
+      ],
+      "nrmse_mean": 0.07186508906601187,
+      "query_p95_us_median": 19.7705,
+      "reach": 4096,
+      "stage": "validation",
+      "units": 13
+    }
+  },
+  {
+    "reach": 8192,
+    "selected_on_validation": "tiered-b32-k0",
+    "test": {
+      "charged_bytes_max": 55100,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b32-k0",
+      "nrmse_bootstrap95": [
+        0.0734929439701717,
+        0.1032631462398741
+      ],
+      "nrmse_mean": 0.08721437248052638,
+      "query_p95_us_median": 14.3956,
+      "reach": 8192,
+      "stage": "test",
+      "units": 13
+    },
+    "validation": {
+      "charged_bytes_max": 55100,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b32-k0",
+      "nrmse_bootstrap95": [
+        0.06365514827122451,
+        0.08558661847498762
+      ],
+      "nrmse_mean": 0.07446408412767479,
+      "query_p95_us_median": 14.8956,
+      "reach": 8192,
+      "stage": "validation",
+      "units": 13
+    }
+  },
+  {
+    "reach": 16384,
+    "selected_on_validation": "tiered-b64-k0",
+    "test": {
+      "charged_bytes_max": 55532,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b64-k0",
+      "nrmse_bootstrap95": [
+        0.12991252517736457,
+        0.1602770280746806
+      ],
+      "nrmse_mean": 0.14565035836662543,
+      "query_p95_us_median": 9.525,
+      "reach": 16384,
+      "stage": "test",
+      "units": 13
+    },
+    "validation": {
+      "charged_bytes_max": 55532,
+      "coverage_mean": 1.0,
+      "coverage_min": 1.0,
+      "method": "tiered-b64-k0",
+      "nrmse_bootstrap95": [
+        0.15112496672616263,
+        0.19183630892784534
+      ],
+      "nrmse_mean": 0.1698988971210129,
+      "query_p95_us_median": 9.808000000000002,
+      "reach": 16384,
+      "stage": "validation",
+      "units": 13
+    }
+  }
+]

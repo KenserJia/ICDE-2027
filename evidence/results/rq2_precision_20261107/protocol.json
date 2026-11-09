@@ -1,0 +1,41 @@
+{
+  "budgets": [
+    65536,
+    131072,
+    262144
+  ],
+  "reaches": [
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384
+  ],
+  "widths": [
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "metadata_reserve": 6144,
+  "seed": 20261103,
+  "bootstrap_resamples": 5000,
+  "normalization": "sqrt(per-entity test MSE / mean training channel variance)",
+  "selection": "none: widths fixed before test",
+  "query_schedule": "original range_queries, every=128",
+  "hashes": {
+    "data/real/bike.npz": "b0461c73abcf4c8451bc8d81087ea63e1154e78d133c42bd2b25e9ee4b240030",
+    "data/real/beijing.npz": "2aefc9178bbc33b391ab47d89705808c4d3bb5cd49199b8a6282d49e47d77d85",
+    "src/mtmemory_icde/core/history.py": "9e9484d38bb80bb3367d81a1ec91785d6c8c058555ddb593349a03db4f6c6b0b",
+    "repro/round78_rq_closure/run.py": "80892c3a4dddea225913b09c56e5308b2e3ab066f2c7be7ca302044c6e94e160",
+    "repro/rq2_precision_20261107/run.py": "ee11e88887f02ec51217cbb0ffe406d82f101ada3edf30f2078d096b8d8eef41",
+    "results/frozen/rq_closure/rq2_range/raw.json": "4e59a1ac7360391506bce5a799912d45cc414d26c648805e8304840ef32dd2bf",
+    "results/review_revision_20261104/range_training_variance_raw.json": "145cf694daca0f4e9096df28d70e3354f14df58bf5af9b6603d10e28806feb5d"
+  },
+  "python": "3.14.5 (v3.14.5:5607950ef23, May 10 2026, 07:38:09) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.5.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64"
+}

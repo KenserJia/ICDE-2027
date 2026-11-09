@@ -1,0 +1,57 @@
+[
+  {
+    "policy": "strict",
+    "duration_target_seconds": 1800,
+    "wall_seconds": 1800.0220820829272,
+    "clients": 8,
+    "interval": 500,
+    "completed": 99349217,
+    "throughput_ops_s": 55193.33234236566,
+    "latency_sample_ms": {
+      "count": 1181676,
+      "p50": 0.002416,
+      "p95": 0.5884162500000001,
+      "p99": 3.94289575,
+      "p99_9": 6.836714475000481,
+      "maximum": 44.671916
+    },
+    "latency_sample_count": 1181676,
+    "errors": [],
+    "maximum_ack_minus_durable": 500,
+    "checkpoint_count": 143045,
+    "checkpoint_ms": {
+      "count": 143045,
+      "p50": 4.894708,
+      "p95": 5.803207599999997,
+      "p99": 6.303148080000001,
+      "p99_9": 11.35910084800016,
+      "maximum": 42.8155
+    },
+    "checkpoint_envelope_bytes_total": 2236424154,
+    "rss_bytes": {
+      "count": 1790,
+      "p50": 160006144.0,
+      "p95": 230879232.0,
+      "p99": 240493363.2,
+      "p99_9": 241894277.12,
+      "maximum": 249135104
+    },
+    "account": {
+      "history_physical_array_bytes": 8960,
+      "history_metadata_bytes": 4096,
+      "fact_catalog_bytes": 6400,
+      "service_control_reserved_bytes": 4096,
+      "resident_reserved_bytes": 23552,
+      "workspace_bytes": 4096,
+      "budget_bytes": 131072,
+      "active_overlay_capacity": 16,
+      "physical_overlay_capacity": 16,
+      "snapshot_payload_bytes": 15486,
+      "snapshot_envelope_bytes": 15574,
+      "two_slot_steady_bytes": 31148,
+      "transient_three_envelope_bytes": 46722,
+      "complete_transient_bound_bytes": 74370,
+      "within_budget": true
+    }
+  }
+]

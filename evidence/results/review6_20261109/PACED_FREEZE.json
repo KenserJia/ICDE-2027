@@ -1,0 +1,438 @@
+{
+  "order": [
+    {
+      "id": "r1-q70-rate20000-none",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r1-q70-rate20000-strict",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r1-q70-rate20000-sync",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r1-q95-rate20000-sync",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r1-q95-rate20000-none",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r1-q95-rate20000-strict",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r2-q95-rate100000-strict",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r2-q95-rate100000-none",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r2-q95-rate100000-sync",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r2-q95-rate60000-strict",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r2-q95-rate60000-none",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r2-q95-rate60000-sync",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r2-q70-rate20000-strict",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r2-q70-rate20000-none",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r2-q70-rate20000-sync",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r2-q70-rate60000-sync",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r2-q70-rate60000-strict",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r2-q70-rate60000-none",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r2-q95-rate20000-sync",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r2-q95-rate20000-strict",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r2-q95-rate20000-none",
+      "rep": 2,
+      "q": 0.95,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r0-q70-rate100000-sync",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r0-q70-rate100000-strict",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r0-q70-rate100000-none",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r0-q95-rate100000-sync",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r0-q95-rate100000-strict",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r0-q95-rate100000-none",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r1-q70-rate100000-none",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r1-q70-rate100000-sync",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r1-q70-rate100000-strict",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r0-q95-rate60000-none",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r0-q95-rate60000-strict",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r0-q95-rate60000-sync",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r0-q70-rate60000-none",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r0-q70-rate60000-strict",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r0-q70-rate60000-sync",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r0-q95-rate20000-none",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r0-q95-rate20000-sync",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r0-q95-rate20000-strict",
+      "rep": 0,
+      "q": 0.95,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r1-q95-rate100000-none",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r1-q95-rate100000-sync",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r1-q95-rate100000-strict",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r0-q70-rate20000-none",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r0-q70-rate20000-strict",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r0-q70-rate20000-sync",
+      "rep": 0,
+      "q": 0.7,
+      "rate": 20000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r1-q95-rate60000-none",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r1-q95-rate60000-sync",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r1-q95-rate60000-strict",
+      "rep": 1,
+      "q": 0.95,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r1-q70-rate60000-strict",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "strict"
+    },
+    {
+      "id": "r1-q70-rate60000-none",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r1-q70-rate60000-sync",
+      "rep": 1,
+      "q": 0.7,
+      "rate": 60000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r2-q70-rate100000-sync",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "sync"
+    },
+    {
+      "id": "r2-q70-rate100000-none",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "none"
+    },
+    {
+      "id": "r2-q70-rate100000-strict",
+      "rep": 2,
+      "q": 0.7,
+      "rate": 100000,
+      "clients": 8,
+      "mode": "strict"
+    }
+  ],
+  "source_sha256": "9c372e405bd2fbd2756ba8ad0b29630892ce6d8859dfb66e431983616e97d62c",
+  "reason": "closed-loop main grid cannot characterize delay before a Python client runs; prespecified paced follow-up before running, includes OS/GIL/queue effects; not a production SLO guarantee"
+}

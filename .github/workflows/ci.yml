@@ -1,0 +1,19 @@
+name: Artifact contracts
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.12", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+      - run: python -m pip install -e '.[test,figures,sql]'
+      - run: python reproduce.py verify
+      - run: python -m pytest -q tests repro/review6_20261109/test_optimized.py
+      - run: python reproduce.py smoke --output runs/ci-smoke
+      - run: python reproduce.py tables --output runs/ci-tables

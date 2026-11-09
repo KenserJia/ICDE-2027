@@ -1,0 +1,254 @@
+{
+  "references": {
+    "count": 69,
+    "first_citation_order": true,
+    "all_cross_references_resolve": true,
+    "scholar_direct": 65,
+    "scholar_pending": 4,
+    "final_reaudit": "<SOURCE_ROOT>/paper/references/final_audit_20261104/QA.json"
+  },
+  "IEEE-conference-template-062824": {
+    "total_pages": 13,
+    "references_start_page": 11,
+    "main_text_last_page": 11,
+    "compile_errors": []
+  },
+  "review_supplement": {
+    "total_pages": 17,
+    "references_start_page": 15,
+    "main_text_last_page": 15,
+    "compile_errors": []
+  },
+  "figure_source": {
+    "source": "<SOURCE_ROOT>/repro/review3/figures.py",
+    "backend": "python",
+    "summary": {
+      "ready": true,
+      "strict": false,
+      "counts": {
+        "PASS": 18,
+        "WARN": 2,
+        "FAIL": 0
+      }
+    },
+    "findings": [
+      {
+        "check_id": "SOURCE-SYNTAX",
+        "level": "PASS",
+        "message": "Python source parses successfully",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-FAMILY",
+        "level": "PASS",
+        "message": "A publication-safe sans-serif family is configured",
+        "evidence": [
+          "Arial",
+          "Helvetica",
+          "sans-serif"
+        ]
+      },
+      {
+        "check_id": "FONT-SIZE",
+        "level": "PASS",
+        "message": "All detected text sizes are at least 5 pt (minimum 6.5 pt)",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-GLYPH-FLOOR",
+        "level": "PASS",
+        "message": "No mathtext superscript/subscript expression detected",
+        "evidence": []
+      },
+      {
+        "check_id": "LEGEND-LABEL-CASE",
+        "level": "PASS",
+        "message": "No auditable literal legend labels detected",
+        "evidence": []
+      },
+      {
+        "check_id": "COLOR-MAP",
+        "level": "PASS",
+        "message": "No rainbow/jet/hsv color mapping detected",
+        "evidence": []
+      },
+      {
+        "check_id": "EDITABLE-TEXT",
+        "level": "PASS",
+        "message": "SVG and PDF editable-text settings are configured",
+        "evidence": []
+      },
+      {
+        "check_id": "EXPORT-VECTOR",
+        "level": "PASS",
+        "message": "Both SVG and PDF exports are present",
+        "evidence": []
+      },
+      {
+        "check_id": "EXPORT-RASTER",
+        "level": "WARN",
+        "message": "PNG preview is present but no TIFF submission raster was found",
+        "evidence": []
+      },
+      {
+        "check_id": "RASTER-DPI",
+        "level": "PASS",
+        "message": "A raster export of at least 600 dpi is configured",
+        "evidence": [
+          "600"
+        ]
+      },
+      {
+        "check_id": "FINAL-WIDTH",
+        "level": "PASS",
+        "message": "Detected width 182.9 mm matches a common journal column width",
+        "evidence": []
+      },
+      {
+        "check_id": "DATA-SAMPLING",
+        "level": "PASS",
+        "message": "No high-confidence row-sampling operation detected",
+        "evidence": []
+      },
+      {
+        "check_id": "DATA-EXCLUSION",
+        "level": "PASS",
+        "message": "No high-confidence missing-data exclusion detected",
+        "evidence": []
+      },
+      {
+        "check_id": "DEMO-DATA",
+        "level": "PASS",
+        "message": "No obvious simulated-data generator detected",
+        "evidence": []
+      },
+      {
+        "check_id": "LOG-GUARD",
+        "level": "WARN",
+        "message": "Logarithmic operation found without an obvious positivity/pseudocount guard",
+        "evidence": [
+          "set_xscale('log"
+        ]
+      },
+      {
+        "check_id": "INTERP-MONOTONIC",
+        "level": "PASS",
+        "message": "No NumPy interpolation requiring an increasing x-grid detected",
+        "evidence": []
+      },
+      {
+        "check_id": "UNCERTAINTY-ENCODING",
+        "level": "PASS",
+        "message": "No stochastic aggregate requiring a variability audit was inferred",
+        "evidence": []
+      },
+      {
+        "check_id": "ROTATION-ANCHOR",
+        "level": "PASS",
+        "message": "Every detected rotated text call uses anchor-based placement",
+        "evidence": [
+          "line 54: rotation=..."
+        ]
+      },
+      {
+        "check_id": "ANNOTATION-WORKAROUND",
+        "level": "PASS",
+        "message": "No high-risk hard-coded label height or opaque white text mask detected",
+        "evidence": []
+      },
+      {
+        "check_id": "BACKEND-EXCLUSIVE",
+        "level": "PASS",
+        "message": "No obvious cross-backend plotting reference found for python",
+        "evidence": []
+      }
+    ]
+  },
+  "figure_text": {
+    "review3_architecture": {
+      "pdf": "<SOURCE_ROOT>/paper/IEEE-conference-template-062824/figures/review3_architecture.pdf",
+      "auditable": true,
+      "minimum_required_pt": 5.0,
+      "minimum_found_pt": 6.5,
+      "text_run_count": 25,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    "review3_scope": {
+      "pdf": "<SOURCE_ROOT>/paper/IEEE-conference-template-062824/figures/review3_scope.pdf",
+      "auditable": true,
+      "minimum_required_pt": 5.0,
+      "minimum_found_pt": 6.5,
+      "text_run_count": 71,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    "review3_certificates": {
+      "pdf": "<SOURCE_ROOT>/paper/IEEE-conference-template-062824/figures/review3_certificates.pdf",
+      "auditable": true,
+      "minimum_required_pt": 5.0,
+      "minimum_found_pt": 6.5,
+      "text_run_count": 53,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    }
+  },
+  "accepted_figure_warnings": [
+    "PNG is a preview; IEEE submission embeds editable vector PDF, so no TIFF is required.",
+    "Reach axis uses only the six declared positive reaches 512..16384; positivity is asserted in source."
+  ],
+  "visual_review": {
+    "main_all_pages": "contact sheet reviewed; tables and certificate figure inspected at full page size; no clipping or overlap",
+    "companion_all_pages": "contact sheet reviewed; original figures/results retained; no clipping or overflow",
+    "panels": {
+      "review3_architecture": "every panel inspected, readable labels, actual pairs and negative results retained",
+      "review3_scope": "every panel inspected, readable labels, actual pairs and negative results retained",
+      "review3_certificates": "every panel inspected, readable labels, actual pairs and negative results retained"
+    },
+    "latest_full_pages_reviewed": [
+      8,
+      9,
+      10
+    ],
+    "backend": "Python/matplotlib; Python PDF render"
+  },
+  "abstract_words": 212,
+  "tests": "............                                                             [100%]\n12 passed in 0.18s",
+  "workspace_correction": {
+    "timestamp_utc": "2026-11-04T08:05:51.627122+00:00",
+    "reason": "simultaneously live fitting temporaries were undercharged",
+    "old_workspace": "max(4096,32*h)",
+    "new_workspace": "max(4096,192*h+1024)",
+    "preserved_initial_pass": "<SOURCE_ROOT>/results/review3_20261104/preflight_workspace_correction",
+    "action": "rerun full validation/test; report frozen-selection equivalence",
+    "final_choices_unchanged": true,
+    "selected_configs": 78,
+    "all_test_mse_unchanged": true,
+    "corrected_workspace_used": true
+  },
+  "preserved_negative_findings": {
+    "0.016265": true,
+    "0.002249": true,
+    "0.629": true,
+    "3.33": true,
+    "249": true,
+    "98.88": true,
+    "128 KiB": true,
+    "Linux/x86": true,
+    "older": true,
+    "0.698": true,
+    "2.98": true
+  },
+  "scope": "single-host macOS/arm64, ingestion order, latest-valid-image process-crash bound; no Linux/x86, event-time or distributed exactly-once extension",
+  "conference_rule_source": "https://icde2027.github.io/submission-guidelines.html; 12 pages excluding references and AI acknowledgment, no appendix",
+  "remaining_submission_inputs": [
+    "author names/order/affiliations/ORCID",
+    "funding",
+    "public artifact URL",
+    "five pending direct Scholar pages (metadata and independent sources already retained)"
+  ],
+  "reference_reaudit": "Bibliography/claim-support wording only; experimental outputs and scope unchanged."
+}

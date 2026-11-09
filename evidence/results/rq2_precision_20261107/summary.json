@@ -1,0 +1,1322 @@
+[
+  {
+    "budget_bytes": 65536,
+    "reach": 512,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.019275044237729223,
+    "bootstrap95": [
+      0.016380151969001257,
+      0.022847177439820843
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 512,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.019275044237729223,
+    "bootstrap95": [
+      0.016380151969001257,
+      0.022847177439820843
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 512,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.019275044237729223,
+    "bootstrap95": [
+      0.016380151969001257,
+      0.022847177439820843
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 512,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 31352,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05003518693577766,
+    "bootstrap95": [
+      0.04076176354827751,
+      0.0611134010594991
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 512,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 31352,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05003518693577766,
+    "bootstrap95": [
+      0.04076176354827751,
+      0.0611134010594991
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 512,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 31352,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05003518693577766,
+    "bootstrap95": [
+      0.04076176354827751,
+      0.0611134010594991
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 512,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 29240,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.08913476251145971,
+    "bootstrap95": [
+      0.07852885926050918,
+      0.10064445800001338
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 512,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 29240,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.08913476251145971,
+    "bootstrap95": [
+      0.07852885926050918,
+      0.10064445800001338
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 512,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 29240,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.08913476251145971,
+    "bootstrap95": [
+      0.07852885926050918,
+      0.10064445800001338
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 512,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 28184,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.1596244018910615,
+    "bootstrap95": [
+      0.14291224232797908,
+      0.17737352089742306
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 512,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 28184,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.1596244018910615,
+    "bootstrap95": [
+      0.14291224232797908,
+      0.17737352089742306
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 512,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 28184,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.1596244018910615,
+    "bootstrap95": [
+      0.14291224232797908,
+      0.17737352089742306
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 512,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 29704,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.24789405863306427,
+    "bootstrap95": [
+      0.2299608178086208,
+      0.26628819004112014
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 512,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 29704,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.24789405863306427,
+    "bootstrap95": [
+      0.2299608178086208,
+      0.26628819004112014
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 512,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 29704,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.24789405863306427,
+    "bootstrap95": [
+      0.2299608178086208,
+      0.26628819004112014
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 1024,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.019057254977913426,
+    "bootstrap95": [
+      0.016366547997328448,
+      0.02199318168701205
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 1024,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.019057254977913426,
+    "bootstrap95": [
+      0.016366547997328448,
+      0.02199318168701205
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 1024,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.019057254977913426,
+    "bootstrap95": [
+      0.016366547997328448,
+      0.02199318168701205
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 1024,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05175491435114167,
+    "bootstrap95": [
+      0.04287069714820027,
+      0.061994528505493196
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 1024,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05175491435114167,
+    "bootstrap95": [
+      0.04287069714820027,
+      0.061994528505493196
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 1024,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05175491435114167,
+    "bootstrap95": [
+      0.04287069714820027,
+      0.061994528505493196
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 1024,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 31352,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.0871842872265597,
+    "bootstrap95": [
+      0.07795898570524101,
+      0.09796788615264988
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 1024,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 31352,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.0871842872265597,
+    "bootstrap95": [
+      0.07795898570524101,
+      0.09796788615264988
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 1024,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 31352,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.0871842872265597,
+    "bootstrap95": [
+      0.07795898570524101,
+      0.09796788615264988
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 1024,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 29240,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.18148755636783032,
+    "bootstrap95": [
+      0.16702232438390316,
+      0.19475132639436954
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 1024,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 29240,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.18148755636783032,
+    "bootstrap95": [
+      0.16702232438390316,
+      0.19475132639436954
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 1024,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 29240,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.18148755636783032,
+    "bootstrap95": [
+      0.16702232438390316,
+      0.19475132639436954
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 1024,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 30232,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.28520114573233235,
+    "bootstrap95": [
+      0.2674104687713921,
+      0.30104310171228593
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 1024,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 30232,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.28520114573233235,
+    "bootstrap95": [
+      0.2674104687713921,
+      0.30104310171228593
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 1024,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 30232,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.28520114573233235,
+    "bootstrap95": [
+      0.2674104687713921,
+      0.30104310171228593
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 2048,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.020842655889728338,
+    "bootstrap95": [
+      0.017408354452919668,
+      0.02497458515093508
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 2048,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.020842655889728338,
+    "bootstrap95": [
+      0.017408354452919668,
+      0.02497458515093508
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 2048,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.020842655889728338,
+    "bootstrap95": [
+      0.017408354452919668,
+      0.02497458515093508
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 2048,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.04866703550829637,
+    "bootstrap95": [
+      0.041548443540795565,
+      0.05706749431095411
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 2048,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.04866703550829637,
+    "bootstrap95": [
+      0.041548443540795565,
+      0.05706749431095411
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 2048,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.04866703550829637,
+    "bootstrap95": [
+      0.041548443540795565,
+      0.05706749431095411
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 2048,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.09898150671890742,
+    "bootstrap95": [
+      0.08483611204597916,
+      0.11490409450181745
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 2048,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.09898150671890742,
+    "bootstrap95": [
+      0.08483611204597916,
+      0.11490409450181745
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 2048,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.09898150671890742,
+    "bootstrap95": [
+      0.08483611204597916,
+      0.11490409450181745
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 2048,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 31352,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.17292057058377705,
+    "bootstrap95": [
+      0.15338499187889845,
+      0.1942210566646787
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 2048,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 31352,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.17292057058377705,
+    "bootstrap95": [
+      0.15338499187889845,
+      0.1942210566646787
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 2048,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 31352,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.17292057058377705,
+    "bootstrap95": [
+      0.15338499187889845,
+      0.1942210566646787
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 2048,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 31288,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.2516140327556346,
+    "bootstrap95": [
+      0.23331088001005193,
+      0.27238375421763605
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 2048,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 31288,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.2516140327556346,
+    "bootstrap95": [
+      0.23331088001005193,
+      0.27238375421763605
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 2048,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 31288,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.2516140327556346,
+    "bootstrap95": [
+      0.23331088001005193,
+      0.27238375421763605
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 4096,
+    "h": 8,
+    "feasible": false,
+    "charged_bytes": 94712,
+    "entities": 0,
+    "test_queries": 0,
+    "coverage_min": null,
+    "nrmse_mean": null,
+    "bootstrap95": null
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 4096,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 94712,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.020221635629097498,
+    "bootstrap95": [
+      0.01686532418727887,
+      0.024142173256865237
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 4096,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 94712,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.020221635629097498,
+    "bootstrap95": [
+      0.01686532418727887,
+      0.024142173256865237
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 4096,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05034015005780738,
+    "bootstrap95": [
+      0.04042729559368681,
+      0.06171921813211851
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 4096,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05034015005780738,
+    "bootstrap95": [
+      0.04042729559368681,
+      0.06171921813211851
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 4096,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05034015005780738,
+    "bootstrap95": [
+      0.04042729559368681,
+      0.06171921813211851
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 4096,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.09050818434918619,
+    "bootstrap95": [
+      0.07569095603901613,
+      0.10626270446874946
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 4096,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.09050818434918619,
+    "bootstrap95": [
+      0.07569095603901613,
+      0.10626270446874946
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 4096,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.09050818434918619,
+    "bootstrap95": [
+      0.07569095603901613,
+      0.10626270446874946
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 4096,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.16216518210217606,
+    "bootstrap95": [
+      0.1516622787452205,
+      0.17289919094337977
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 4096,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.16216518210217606,
+    "bootstrap95": [
+      0.1516622787452205,
+      0.17289919094337977
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 4096,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 35576,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.16216518210217606,
+    "bootstrap95": [
+      0.1516622787452205,
+      0.17289919094337977
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 4096,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 33400,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.23573576615317615,
+    "bootstrap95": [
+      0.22141922244919904,
+      0.250521177109645
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 4096,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 33400,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.23573576615317615,
+    "bootstrap95": [
+      0.22141922244919904,
+      0.250521177109645
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 4096,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 33400,
+    "entities": 13,
+    "test_queries": 636,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.23573576615317615,
+    "bootstrap95": [
+      0.22141922244919904,
+      0.250521177109645
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 8192,
+    "h": 8,
+    "feasible": false,
+    "charged_bytes": 162296,
+    "entities": 0,
+    "test_queries": 0,
+    "coverage_min": null,
+    "nrmse_mean": null,
+    "bootstrap95": null
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 8192,
+    "h": 8,
+    "feasible": false,
+    "charged_bytes": 162296,
+    "entities": 0,
+    "test_queries": 0,
+    "coverage_min": null,
+    "nrmse_mean": null,
+    "bootstrap95": null
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 8192,
+    "h": 8,
+    "feasible": true,
+    "charged_bytes": 162296,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.019703530658264627,
+    "bootstrap95": [
+      0.016274728426796684,
+      0.023611278916893946
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 8192,
+    "h": 16,
+    "feasible": false,
+    "charged_bytes": 94712,
+    "entities": 0,
+    "test_queries": 0,
+    "coverage_min": null,
+    "nrmse_mean": null,
+    "bootstrap95": null
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 8192,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 94712,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05226191431575001,
+    "bootstrap95": [
+      0.045444634175996604,
+      0.059240364388278906
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 8192,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 94712,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.05226191431575001,
+    "bootstrap95": [
+      0.045444634175996604,
+      0.059240364388278906
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 8192,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.09080939835086635,
+    "bootstrap95": [
+      0.0757975670598312,
+      0.1089665990254235
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 8192,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.09080939835086635,
+    "bootstrap95": [
+      0.0757975670598312,
+      0.1089665990254235
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 8192,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.09080939835086635,
+    "bootstrap95": [
+      0.0757975670598312,
+      0.1089665990254235
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 8192,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.16763660285138224,
+    "bootstrap95": [
+      0.1479471421790393,
+      0.189115519775637
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 8192,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.16763660285138224,
+    "bootstrap95": [
+      0.1479471421790393,
+      0.189115519775637
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 8192,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 44024,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.16763660285138224,
+    "bootstrap95": [
+      0.1479471421790393,
+      0.189115519775637
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 8192,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 37624,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.2540249091681621,
+    "bootstrap95": [
+      0.23135354693174792,
+      0.28004166148718745
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 8192,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 37624,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.2540249091681621,
+    "bootstrap95": [
+      0.23135354693174792,
+      0.28004166148718745
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 8192,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 37624,
+    "entities": 13,
+    "test_queries": 584,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.2540249091681621,
+    "bootstrap95": [
+      0.23135354693174792,
+      0.28004166148718745
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 16384,
+    "h": 8,
+    "feasible": false,
+    "charged_bytes": 297464,
+    "entities": 0,
+    "test_queries": 0,
+    "coverage_min": null,
+    "nrmse_mean": null,
+    "bootstrap95": null
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 16384,
+    "h": 8,
+    "feasible": false,
+    "charged_bytes": 297464,
+    "entities": 0,
+    "test_queries": 0,
+    "coverage_min": null,
+    "nrmse_mean": null,
+    "bootstrap95": null
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 16384,
+    "h": 8,
+    "feasible": false,
+    "charged_bytes": 297464,
+    "entities": 0,
+    "test_queries": 0,
+    "coverage_min": null,
+    "nrmse_mean": null,
+    "bootstrap95": null
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 16384,
+    "h": 16,
+    "feasible": false,
+    "charged_bytes": 162296,
+    "entities": 0,
+    "test_queries": 0,
+    "coverage_min": null,
+    "nrmse_mean": null,
+    "bootstrap95": null
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 16384,
+    "h": 16,
+    "feasible": false,
+    "charged_bytes": 162296,
+    "entities": 0,
+    "test_queries": 0,
+    "coverage_min": null,
+    "nrmse_mean": null,
+    "bootstrap95": null
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 16384,
+    "h": 16,
+    "feasible": true,
+    "charged_bytes": 162296,
+    "entities": 13,
+    "test_queries": 480,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.04976817339542868,
+    "bootstrap95": [
+      0.04186549917777484,
+      0.05958859733267701
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 16384,
+    "h": 32,
+    "feasible": false,
+    "charged_bytes": 94712,
+    "entities": 0,
+    "test_queries": 0,
+    "coverage_min": null,
+    "nrmse_mean": null,
+    "bootstrap95": null
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 16384,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 94712,
+    "entities": 13,
+    "test_queries": 480,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.08408548633387453,
+    "bootstrap95": [
+      0.07278660885225956,
+      0.09611961907618014
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 16384,
+    "h": 32,
+    "feasible": true,
+    "charged_bytes": 94712,
+    "entities": 13,
+    "test_queries": 480,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.08408548633387453,
+    "bootstrap95": [
+      0.07278660885225956,
+      0.09611961907618014
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 16384,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 480,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.1507271484256315,
+    "bootstrap95": [
+      0.1343895808192175,
+      0.1657411554417499
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 16384,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 480,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.1507271484256315,
+    "bootstrap95": [
+      0.1343895808192175,
+      0.1657411554417499
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 16384,
+    "h": 64,
+    "feasible": true,
+    "charged_bytes": 60920,
+    "entities": 13,
+    "test_queries": 480,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.1507271484256315,
+    "bootstrap95": [
+      0.1343895808192175,
+      0.1657411554417499
+    ]
+  },
+  {
+    "budget_bytes": 65536,
+    "reach": 16384,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 46072,
+    "entities": 13,
+    "test_queries": 480,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.2422007103772764,
+    "bootstrap95": [
+      0.22088889274446463,
+      0.2609313111810863
+    ]
+  },
+  {
+    "budget_bytes": 131072,
+    "reach": 16384,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 46072,
+    "entities": 13,
+    "test_queries": 480,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.2422007103772764,
+    "bootstrap95": [
+      0.22088889274446463,
+      0.2609313111810863
+    ]
+  },
+  {
+    "budget_bytes": 262144,
+    "reach": 16384,
+    "h": 128,
+    "feasible": true,
+    "charged_bytes": 46072,
+    "entities": 13,
+    "test_queries": 480,
+    "coverage_min": 1.0,
+    "nrmse_mean": 0.2422007103772764,
+    "bootstrap95": [
+      0.22088889274446463,
+      0.2609313111810863
+    ]
+  }
+]

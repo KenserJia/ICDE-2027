@@ -1,0 +1,305 @@
+[
+  {
+    "bootstrap95_mse_delta": [
+      0.0,
+      0.0
+    ],
+    "bootstrap95_relative_mse_change": [
+      0.0,
+      0.0
+    ],
+    "cost_p99_9_ratio_median": 4.4264439238372555,
+    "cost_p99_ratio_median": 1.0878520989597946,
+    "cost_pairs": 5,
+    "cost_replica_pairs": [
+      {
+        "p99_9_ratio_full_over_simple": 2.757236855680258,
+        "p99_ratio_full_over_simple": 1.2347943131718655,
+        "seed": 20261103,
+        "throughput_ratio_full_over_simple": 0.7462357746840307,
+        "write_ratio_full_over_simple": 1.0092868898413905
+      },
+      {
+        "p99_9_ratio_full_over_simple": 5.9419988583951895,
+        "p99_ratio_full_over_simple": 1.2383811873296882,
+        "seed": 20261314,
+        "throughput_ratio_full_over_simple": 0.7196657750193041,
+        "write_ratio_full_over_simple": 1.0063604557279984
+      },
+      {
+        "p99_9_ratio_full_over_simple": 4.807040105373896,
+        "p99_ratio_full_over_simple": 0.9958242916581965,
+        "seed": 20261525,
+        "throughput_ratio_full_over_simple": 0.7246577078573738,
+        "write_ratio_full_over_simple": 1.0080168624342438
+      },
+      {
+        "p99_9_ratio_full_over_simple": 4.4264439238372555,
+        "p99_ratio_full_over_simple": 1.0724060680798873,
+        "seed": 20261736,
+        "throughput_ratio_full_over_simple": 0.7278492225329871,
+        "write_ratio_full_over_simple": 1.0075920342318596
+      },
+      {
+        "p99_9_ratio_full_over_simple": 3.0658107668814827,
+        "p99_ratio_full_over_simple": 1.0878520989597946,
+        "seed": 20261947,
+        "throughput_ratio_full_over_simple": 0.7683761613518103,
+        "write_ratio_full_over_simple": 1.005970497661181
+      }
+    ],
+    "cost_throughput_ratio_median": 0.7278492225329871,
+    "cost_write_ratio_median": 1.0075920342318596,
+    "full_quality_wins": 0,
+    "mean_mse_delta_full_minus_simple": 0.0,
+    "mean_relative_mse_change": 0.0,
+    "pairs": [
+      {
+        "dataset": "beijing",
+        "entity": 0,
+        "mse_delta_full_minus_simple": 0.0,
+        "p99_ratio_full_over_simple": 2.910670763366704,
+        "relative_mse_change": 0.0,
+        "throughput_ratio_full_over_simple": 0.6924029093582534
+      },
+      {
+        "dataset": "beijing",
+        "entity": 1,
+        "mse_delta_full_minus_simple": 0.0,
+        "p99_ratio_full_over_simple": 2.8838552843754166,
+        "relative_mse_change": 0.0,
+        "throughput_ratio_full_over_simple": 0.6858123534277607
+      },
+      {
+        "dataset": "beijing",
+        "entity": 2,
+        "mse_delta_full_minus_simple": 0.0,
+        "p99_ratio_full_over_simple": 2.8163615930900985,
+        "relative_mse_change": 0.0,
+        "throughput_ratio_full_over_simple": 0.6938583961777751
+      },
+      {
+        "dataset": "beijing",
+        "entity": 3,
+        "mse_delta_full_minus_simple": 0.0,
+        "p99_ratio_full_over_simple": 2.9085353158030123,
+        "relative_mse_change": 0.0,
+        "throughput_ratio_full_over_simple": 0.6848771446931001
+      },
+      {
+        "dataset": "bike",
+        "entity": 0,
+        "mse_delta_full_minus_simple": 0.0,
+        "p99_ratio_full_over_simple": 3.899515474267747,
+        "relative_mse_change": 0.0,
+        "throughput_ratio_full_over_simple": 0.7015693823312648
+      }
+    ],
+    "quality_p99_ratio_median": 2.9085353158030123,
+    "quality_pairs": 5,
+    "quality_throughput_ratio_median": 0.6924029093582534,
+    "workload_id": "shift0-dwellsteady-width2"
+  },
+  {
+    "bootstrap95_mse_delta": [
+      -0.016068745734355443,
+      -0.011358871234375326
+    ],
+    "bootstrap95_relative_mse_change": [
+      -0.6956943487356672,
+      -0.413621969721782
+    ],
+    "cost_p99_9_ratio_median": 4.101359656993455,
+    "cost_p99_ratio_median": 1.9890112247216452,
+    "cost_pairs": 5,
+    "cost_replica_pairs": [
+      {
+        "p99_9_ratio_full_over_simple": 4.090806966270101,
+        "p99_ratio_full_over_simple": 2.956219872551002,
+        "seed": 20261103,
+        "throughput_ratio_full_over_simple": 0.6045709357540527,
+        "write_ratio_full_over_simple": 0.9734965060284587
+      },
+      {
+        "p99_9_ratio_full_over_simple": 2.557642647686157,
+        "p99_ratio_full_over_simple": 1.9890112247216452,
+        "seed": 20261314,
+        "throughput_ratio_full_over_simple": 0.5826721776693423,
+        "write_ratio_full_over_simple": 0.9733420143598648
+      },
+      {
+        "p99_9_ratio_full_over_simple": 4.21436555227657,
+        "p99_ratio_full_over_simple": 0.04871509608284004,
+        "seed": 20261525,
+        "throughput_ratio_full_over_simple": 0.5958049495998946,
+        "write_ratio_full_over_simple": 0.9753953194180898
+      },
+      {
+        "p99_9_ratio_full_over_simple": 5.636027130496379,
+        "p99_ratio_full_over_simple": 0.5368972068149083,
+        "seed": 20261736,
+        "throughput_ratio_full_over_simple": 0.5676383003113905,
+        "write_ratio_full_over_simple": 0.9736675413989684
+      },
+      {
+        "p99_9_ratio_full_over_simple": 4.101359656993455,
+        "p99_ratio_full_over_simple": 2.1778370557338347,
+        "seed": 20261947,
+        "throughput_ratio_full_over_simple": 0.575992499914148,
+        "write_ratio_full_over_simple": 0.9736799379431026
+      }
+    ],
+    "cost_throughput_ratio_median": 0.5826721776693423,
+    "cost_write_ratio_median": 0.9736675413989684,
+    "full_quality_wins": 5,
+    "mean_mse_delta_full_minus_simple": -0.01397911268629769,
+    "mean_relative_mse_change": -0.5365948728515277,
+    "pairs": [
+      {
+        "dataset": "beijing",
+        "entity": 0,
+        "mse_delta_full_minus_simple": -0.01697585395629945,
+        "p99_ratio_full_over_simple": 4.528841465163638,
+        "relative_mse_change": -0.586746431835053,
+        "throughput_ratio_full_over_simple": 0.671189238082995
+      },
+      {
+        "dataset": "beijing",
+        "entity": 1,
+        "mse_delta_full_minus_simple": -0.012505179805192774,
+        "p99_ratio_full_over_simple": 4.569416867469877,
+        "relative_mse_change": -0.46070543868486075,
+        "throughput_ratio_full_over_simple": 0.6709947190426773
+      },
+      {
+        "dataset": "beijing",
+        "entity": 2,
+        "mse_delta_full_minus_simple": -0.009577921319375439,
+        "p99_ratio_full_over_simple": 4.583913253012039,
+        "relative_mse_change": -0.3962644455161818,
+        "throughput_ratio_full_over_simple": 0.6694882494703195
+      },
+      {
+        "dataset": "beijing",
+        "entity": 3,
+        "mse_delta_full_minus_simple": -0.01555541240855754,
+        "p99_ratio_full_over_simple": 4.61361251457442,
+        "relative_mse_change": -0.407437759445843,
+        "throughput_ratio_full_over_simple": 0.6629012919651925
+      },
+      {
+        "dataset": "bike",
+        "entity": 0,
+        "mse_delta_full_minus_simple": -0.015281195942063255,
+        "p99_ratio_full_over_simple": 4.458942860251426,
+        "relative_mse_change": -0.8318202887757004,
+        "throughput_ratio_full_over_simple": 0.6702604439953287
+      }
+    ],
+    "quality_p99_ratio_median": 4.569416867469877,
+    "quality_pairs": 5,
+    "quality_throughput_ratio_median": 0.6702604439953287,
+    "workload_id": "shift16-dwellsteady-width1"
+  },
+  {
+    "bootstrap95_mse_delta": [
+      -0.0004853361791197391,
+      -4.346018290357096e-05
+    ],
+    "bootstrap95_relative_mse_change": [
+      -0.05656692847624114,
+      -0.005776189410482766
+    ],
+    "cost_p99_9_ratio_median": 4.783305251174301,
+    "cost_p99_ratio_median": 1.3202754602416618,
+    "cost_pairs": 5,
+    "cost_replica_pairs": [
+      {
+        "p99_9_ratio_full_over_simple": 3.347695859268644,
+        "p99_ratio_full_over_simple": 1.3202754602416618,
+        "seed": 20261103,
+        "throughput_ratio_full_over_simple": 0.6963391075760978,
+        "write_ratio_full_over_simple": 1.0036112349531876
+      },
+      {
+        "p99_9_ratio_full_over_simple": 3.861065062494639,
+        "p99_ratio_full_over_simple": 1.34140895467806,
+        "seed": 20261314,
+        "throughput_ratio_full_over_simple": 0.6780220753763188,
+        "write_ratio_full_over_simple": 1.0088882945529107
+      },
+      {
+        "p99_9_ratio_full_over_simple": 4.967305804882116,
+        "p99_ratio_full_over_simple": 0.4544800228152698,
+        "seed": 20261525,
+        "throughput_ratio_full_over_simple": 0.675816727027506,
+        "write_ratio_full_over_simple": 1.011024255148077
+      },
+      {
+        "p99_9_ratio_full_over_simple": 6.280713205273191,
+        "p99_ratio_full_over_simple": 1.3457801279654802,
+        "seed": 20261736,
+        "throughput_ratio_full_over_simple": 0.6757252776445222,
+        "write_ratio_full_over_simple": 1.004487598642076
+      },
+      {
+        "p99_9_ratio_full_over_simple": 4.783305251174301,
+        "p99_ratio_full_over_simple": 1.2603486058608744,
+        "seed": 20261947,
+        "throughput_ratio_full_over_simple": 0.6864372411508861,
+        "write_ratio_full_over_simple": 1.0082871696059803
+      }
+    ],
+    "cost_throughput_ratio_median": 0.6780220753763188,
+    "cost_write_ratio_median": 1.0082871696059803,
+    "full_quality_wins": 5,
+    "mean_mse_delta_full_minus_simple": -0.00021817914440899893,
+    "mean_relative_mse_change": -0.02540192982833993,
+    "pairs": [
+      {
+        "dataset": "beijing",
+        "entity": 0,
+        "mse_delta_full_minus_simple": -5.815343567953327e-05,
+        "p99_ratio_full_over_simple": 4.237702771132729,
+        "relative_mse_change": -0.008743384188259882,
+        "throughput_ratio_full_over_simple": 0.6858990227495485
+      },
+      {
+        "dataset": "beijing",
+        "entity": 1,
+        "mse_delta_full_minus_simple": -4.4156070811001216e-05,
+        "p99_ratio_full_over_simple": 4.1291453175457615,
+        "relative_mse_change": -0.005590093899333377,
+        "throughput_ratio_full_over_simple": 0.6838996326974938
+      },
+      {
+        "dataset": "beijing",
+        "entity": 2,
+        "mse_delta_full_minus_simple": -3.541766860815955e-05,
+        "p99_ratio_full_over_simple": 3.6733338994434153,
+        "relative_mse_change": -0.004478687532743597,
+        "throughput_ratio_full_over_simple": 0.6897076681276424
+      },
+      {
+        "dataset": "beijing",
+        "entity": 3,
+        "mse_delta_full_minus_simple": -0.00023412120692418298,
+        "p99_ratio_full_over_simple": 4.18776290969633,
+        "relative_mse_change": -0.023118247857813128,
+        "throughput_ratio_full_over_simple": 0.6881284779744807
+      },
+      {
+        "dataset": "bike",
+        "entity": 0,
+        "mse_delta_full_minus_simple": -0.0007190473400221177,
+        "p99_ratio_full_over_simple": 4.2626163228037655,
+        "relative_mse_change": -0.08507923566354966,
+        "throughput_ratio_full_over_simple": 0.6775345527794809
+      }
+    ],
+    "quality_p99_ratio_median": 4.18776290969633,
+    "quality_pairs": 5,
+    "quality_throughput_ratio_median": 0.6858990227495485,
+    "workload_id": "shift30-dwell4-width4"
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "account": {
+    "active_overlay_capacity": 16,
+    "budget_bytes": 131072,
+    "complete_transient_bound_bytes": 70314,
+    "fact_catalog_bytes": 6400,
+    "history_metadata_bytes": 4096,
+    "history_physical_array_bytes": 10148,
+    "physical_overlay_capacity": 16,
+    "resident_reserved_bytes": 24740,
+    "service_control_reserved_bytes": 4096,
+    "snapshot_envelope_bytes": 13826,
+    "snapshot_payload_bytes": 13738,
+    "transient_three_envelope_bytes": 41478,
+    "two_slot_steady_bytes": 27652,
+    "within_budget": true,
+    "workspace_bytes": 4096
+  },
+  "active_seconds": 1.6143449580995366,
+  "allocation": "dynamic",
+  "by_operation": {
+    "delete": {
+      "count": 4973,
+      "maximum": 1.511625,
+      "p50": 0.001,
+      "p95": 0.001375,
+      "p99": 0.0015832799999999996,
+      "p99_9": 1.3897156760000033
+    },
+    "fact_read": {
+      "count": 4962,
+      "maximum": 0.002,
+      "p50": 0.000625,
+      "p95": 0.000958,
+      "p99": 0.001041,
+      "p99_9": 0.0015435990000000274
+    },
+    "history_query": {
+      "count": 69762,
+      "maximum": 0.045667,
+      "p50": 0.009083,
+      "p95": 0.024875,
+      "p99": 0.028792,
+      "p99_9": 0.031375
+    },
+    "observe": {
+      "count": 145256,
+      "maximum": 1.610666,
+      "p50": 0.001083,
+      "p95": 0.00125,
+      "p99": 0.056292,
+      "p99_9": 1.387364545000001
+    },
+    "put": {
+      "count": 25047,
+      "maximum": 1.571542,
+      "p50": 0.000917,
+      "p95": 0.001292,
+      "p99": 0.001416,
+      "p99_9": 1.387579182
+    }
+  },
+  "checkpoint_bytes_per_measured_mutation": 27.328630274538444,
+  "checkpoint_phases_ms": {
+    "capture_ms": {
+      "count": 0,
+      "maximum": null,
+      "p50": null,
+      "p95": null,
+      "p99": null,
+      "p99_9": null
+    },
+    "persist_ms": {
+      "count": 0,
+      "maximum": null,
+      "p50": null,
+      "p95": null,
+      "p99": null,
+      "p99_9": null
+    },
+    "total_ms": {
+      "count": 351,
+      "maximum": 1.607792,
+      "p50": 1.385583,
+      "p95": 1.5005625,
+      "p99": 1.5683125,
+      "p99_9": 1.5958045000000012
+    },
+    "validation_ms": {
+      "count": 0,
+      "maximum": null,
+      "p50": null,
+      "p95": null,
+      "p99": null,
+      "p99_9": null
+    }
+  },
+  "checkpoint_records_retained": 351,
+  "clients": 1,
+  "diagnostic": false,
+  "drain_seconds": 0.001411292003467679,
+  "durability": "sync",
+  "errors": [],
+  "fact_roundtrip": true,
+  "final_prefix": 190276,
+  "history_roundtrip": true,
+  "latency_ms": {
+    "count": 250000,
+    "maximum": 1.610666,
+    "p50": 0.001125,
+    "p95": 0.017375,
+    "p99": 0.053708,
+    "p99_9": 1.3757501250000024
+  },
+  "maximum_gap": 499,
+  "measurement_array_bytes": 2250000,
+  "operations": 250000,
+  "restored_prefix": 190276,
+  "rss_end_bytes": 65159168,
+  "rss_peak_bytes": 65241088,
+  "rss_start_bytes": 65159168,
+  "seed": 20261104,
+  "throughput_ops_s": 154861.57326269892,
+  "verify_capture": true
+}

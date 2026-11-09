@@ -1,0 +1,2144 @@
+[
+  {
+    "index": 0,
+    "budget": 65536,
+    "reach": 512,
+    "method": "h1",
+    "h": 1,
+    "k": 1,
+    "key": [
+      "native",
+      512,
+      1,
+      1
+    ],
+    "array_bytes": 11588,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 17732,
+    "charged_bytes": 61388,
+    "tail_capacity": null
+  },
+  {
+    "index": 1,
+    "budget": 65536,
+    "reach": 512,
+    "method": "h4",
+    "h": 4,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      4,
+      5
+    ],
+    "array_bytes": 9348,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 15492,
+    "charged_bytes": 54668,
+    "tail_capacity": null
+  },
+  {
+    "index": 2,
+    "budget": 65536,
+    "reach": 512,
+    "method": "h8",
+    "h": 8,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      8,
+      5
+    ],
+    "array_bytes": 5892,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 12036,
+    "charged_bytes": 44300,
+    "tail_capacity": null
+  },
+  {
+    "index": 3,
+    "budget": 65536,
+    "reach": 512,
+    "method": "h16",
+    "h": 16,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      16,
+      5
+    ],
+    "array_bytes": 4164,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 10308,
+    "charged_bytes": 39116,
+    "tail_capacity": null
+  },
+  {
+    "index": 4,
+    "budget": 65536,
+    "reach": 512,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      512,
+      128,
+      0
+    ],
+    "array_bytes": 2392,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8536,
+    "charged_bytes": 33800,
+    "tail_capacity": null
+  },
+  {
+    "index": 5,
+    "budget": 65536,
+    "reach": 512,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      512,
+      512
+    ],
+    "array_bytes": 12288,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18432,
+    "charged_bytes": 63488,
+    "tail_capacity": 512
+  },
+  {
+    "index": 6,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "h1",
+    "h": 1,
+    "k": 1,
+    "key": [
+      "native",
+      1024,
+      1,
+      1
+    ],
+    "array_bytes": 11764,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 17908,
+    "charged_bytes": 61916,
+    "tail_capacity": null
+  },
+  {
+    "index": 7,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "h4",
+    "h": 4,
+    "k": 7,
+    "key": [
+      "native",
+      1024,
+      4,
+      7
+    ],
+    "array_bytes": 11860,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18004,
+    "charged_bytes": 62204,
+    "tail_capacity": null
+  },
+  {
+    "index": 8,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "h8",
+    "h": 8,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      8,
+      9
+    ],
+    "array_bytes": 8436,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14580,
+    "charged_bytes": 51932,
+    "tail_capacity": null
+  },
+  {
+    "index": 9,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "h16",
+    "h": 16,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      16,
+      9
+    ],
+    "array_bytes": 5556,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11700,
+    "charged_bytes": 43292,
+    "tail_capacity": null
+  },
+  {
+    "index": 10,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      1024,
+      128,
+      0
+    ],
+    "array_bytes": 2568,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8712,
+    "charged_bytes": 34328,
+    "tail_capacity": null
+  },
+  {
+    "index": 11,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      1024,
+      540
+    ],
+    "array_bytes": 12960,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19104,
+    "charged_bytes": 65504,
+    "tail_capacity": 540
+  },
+  {
+    "index": 12,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "h1",
+    "h": 1,
+    "k": 1,
+    "key": [
+      "native",
+      2048,
+      1,
+      1
+    ],
+    "array_bytes": 12116,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18260,
+    "charged_bytes": 62972,
+    "tail_capacity": null
+  },
+  {
+    "index": 13,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "h4",
+    "h": 4,
+    "k": 7,
+    "key": [
+      "native",
+      2048,
+      4,
+      7
+    ],
+    "array_bytes": 12212,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18356,
+    "charged_bytes": 63260,
+    "tail_capacity": null
+  },
+  {
+    "index": 14,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "h8",
+    "h": 8,
+    "k": 16,
+    "key": [
+      "native",
+      2048,
+      8,
+      16
+    ],
+    "array_bytes": 12932,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19076,
+    "charged_bytes": 65420,
+    "tail_capacity": null
+  },
+  {
+    "index": 15,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "h16",
+    "h": 16,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      16,
+      17
+    ],
+    "array_bytes": 8340,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14484,
+    "charged_bytes": 51644,
+    "tail_capacity": null
+  },
+  {
+    "index": 16,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      2048,
+      128,
+      0
+    ],
+    "array_bytes": 2920,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9064,
+    "charged_bytes": 35384,
+    "tail_capacity": null
+  },
+  {
+    "index": 17,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      2048,
+      540
+    ],
+    "array_bytes": 12960,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19104,
+    "charged_bytes": 65504,
+    "tail_capacity": 540
+  },
+  {
+    "index": 18,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "h1",
+    "h": 1,
+    "k": 1,
+    "key": [
+      "native",
+      4096,
+      1,
+      1
+    ],
+    "array_bytes": 12820,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18964,
+    "charged_bytes": 65084,
+    "tail_capacity": null
+  },
+  {
+    "index": 19,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "h4",
+    "h": 4,
+    "k": 7,
+    "key": [
+      "native",
+      4096,
+      4,
+      7
+    ],
+    "array_bytes": 12916,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19060,
+    "charged_bytes": 65372,
+    "tail_capacity": null
+  },
+  {
+    "index": 20,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "h8",
+    "h": 8,
+    "k": 14,
+    "key": [
+      "native",
+      4096,
+      8,
+      14
+    ],
+    "array_bytes": 12452,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18596,
+    "charged_bytes": 63980,
+    "tail_capacity": null
+  },
+  {
+    "index": 21,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "h16",
+    "h": 16,
+    "k": 29,
+    "key": [
+      "native",
+      4096,
+      16,
+      29
+    ],
+    "array_bytes": 12692,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18836,
+    "charged_bytes": 64700,
+    "tail_capacity": null
+  },
+  {
+    "index": 22,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      4096,
+      128,
+      0
+    ],
+    "array_bytes": 3624,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9768,
+    "charged_bytes": 37496,
+    "tail_capacity": null
+  },
+  {
+    "index": 23,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      4096,
+      540
+    ],
+    "array_bytes": 12960,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19104,
+    "charged_bytes": 65504,
+    "tail_capacity": 540
+  },
+  {
+    "index": 24,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "h1",
+    "h": 1,
+    "k": 0,
+    "key": [
+      "native",
+      8192,
+      1,
+      0
+    ],
+    "array_bytes": 9604,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 15748,
+    "charged_bytes": 55436,
+    "tail_capacity": null
+  },
+  {
+    "index": 25,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "h4",
+    "h": 4,
+    "k": 5,
+    "key": [
+      "native",
+      8192,
+      4,
+      5
+    ],
+    "array_bytes": 11988,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18132,
+    "charged_bytes": 62588,
+    "tail_capacity": null
+  },
+  {
+    "index": 26,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "h8",
+    "h": 8,
+    "k": 12,
+    "key": [
+      "native",
+      8192,
+      8,
+      12
+    ],
+    "array_bytes": 12676,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18820,
+    "charged_bytes": 64652,
+    "tail_capacity": null
+  },
+  {
+    "index": 27,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "h16",
+    "h": 16,
+    "k": 25,
+    "key": [
+      "native",
+      8192,
+      16,
+      25
+    ],
+    "array_bytes": 12884,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19028,
+    "charged_bytes": 65276,
+    "tail_capacity": null
+  },
+  {
+    "index": 28,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      8192,
+      128,
+      0
+    ],
+    "array_bytes": 5032,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11176,
+    "charged_bytes": 41720,
+    "tail_capacity": null
+  },
+  {
+    "index": 29,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      8192,
+      540
+    ],
+    "array_bytes": 12960,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19104,
+    "charged_bytes": 65504,
+    "tail_capacity": 540
+  },
+  {
+    "index": 30,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "h1",
+    "h": 1,
+    "k": 0,
+    "key": [
+      "native",
+      16384,
+      1,
+      0
+    ],
+    "array_bytes": 12420,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18564,
+    "charged_bytes": 63884,
+    "tail_capacity": null
+  },
+  {
+    "index": 31,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "h4",
+    "h": 4,
+    "k": 3,
+    "key": [
+      "native",
+      16384,
+      4,
+      3
+    ],
+    "array_bytes": 12468,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18612,
+    "charged_bytes": 64028,
+    "tail_capacity": null
+  },
+  {
+    "index": 32,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "h8",
+    "h": 8,
+    "k": 7,
+    "key": [
+      "native",
+      16384,
+      8,
+      7
+    ],
+    "array_bytes": 12532,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18676,
+    "charged_bytes": 64220,
+    "tail_capacity": null
+  },
+  {
+    "index": 33,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "h16",
+    "h": 16,
+    "k": 16,
+    "key": [
+      "native",
+      16384,
+      16,
+      16
+    ],
+    "array_bytes": 12964,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19108,
+    "charged_bytes": 65516,
+    "tail_capacity": null
+  },
+  {
+    "index": 34,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      16384,
+      128,
+      0
+    ],
+    "array_bytes": 7848,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 13992,
+    "charged_bytes": 50168,
+    "tail_capacity": null
+  },
+  {
+    "index": 35,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      16384,
+      540
+    ],
+    "array_bytes": 12960,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19104,
+    "charged_bytes": 65504,
+    "tail_capacity": 540
+  },
+  {
+    "index": 36,
+    "budget": 131072,
+    "reach": 512,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      1,
+      5
+    ],
+    "array_bytes": 30084,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 36228,
+    "charged_bytes": 116876,
+    "tail_capacity": null
+  },
+  {
+    "index": 37,
+    "budget": 131072,
+    "reach": 512,
+    "method": "h4",
+    "h": 4,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      4,
+      5
+    ],
+    "array_bytes": 9348,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 15492,
+    "charged_bytes": 54668,
+    "tail_capacity": null
+  },
+  {
+    "index": 38,
+    "budget": 131072,
+    "reach": 512,
+    "method": "h8",
+    "h": 8,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      8,
+      5
+    ],
+    "array_bytes": 5892,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 12036,
+    "charged_bytes": 44300,
+    "tail_capacity": null
+  },
+  {
+    "index": 39,
+    "budget": 131072,
+    "reach": 512,
+    "method": "h16",
+    "h": 16,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      16,
+      5
+    ],
+    "array_bytes": 4164,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 10308,
+    "charged_bytes": 39116,
+    "tail_capacity": null
+  },
+  {
+    "index": 40,
+    "budget": 131072,
+    "reach": 512,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      512,
+      128,
+      0
+    ],
+    "array_bytes": 2392,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8536,
+    "charged_bytes": 33800,
+    "tail_capacity": null
+  },
+  {
+    "index": 41,
+    "budget": 131072,
+    "reach": 512,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      512,
+      512
+    ],
+    "array_bytes": 12288,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18432,
+    "charged_bytes": 63488,
+    "tail_capacity": 512
+  },
+  {
+    "index": 42,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      1024,
+      1,
+      5
+    ],
+    "array_bytes": 30260,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 36404,
+    "charged_bytes": 117404,
+    "tail_capacity": null
+  },
+  {
+    "index": 43,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "h4",
+    "h": 4,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      4,
+      9
+    ],
+    "array_bytes": 14196,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 20340,
+    "charged_bytes": 69212,
+    "tail_capacity": null
+  },
+  {
+    "index": 44,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "h8",
+    "h": 8,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      8,
+      9
+    ],
+    "array_bytes": 8436,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14580,
+    "charged_bytes": 51932,
+    "tail_capacity": null
+  },
+  {
+    "index": 45,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "h16",
+    "h": 16,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      16,
+      9
+    ],
+    "array_bytes": 5556,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11700,
+    "charged_bytes": 43292,
+    "tail_capacity": null
+  },
+  {
+    "index": 46,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      1024,
+      128,
+      0
+    ],
+    "array_bytes": 2568,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8712,
+    "charged_bytes": 34328,
+    "tail_capacity": null
+  },
+  {
+    "index": 47,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      1024,
+      1024
+    ],
+    "array_bytes": 24576,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 30720,
+    "charged_bytes": 100352,
+    "tail_capacity": 1024
+  },
+  {
+    "index": 48,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      2048,
+      1,
+      5
+    ],
+    "array_bytes": 30612,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 36756,
+    "charged_bytes": 118460,
+    "tail_capacity": null
+  },
+  {
+    "index": 49,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "h4",
+    "h": 4,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      4,
+      17
+    ],
+    "array_bytes": 23892,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 30036,
+    "charged_bytes": 98300,
+    "tail_capacity": null
+  },
+  {
+    "index": 50,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "h8",
+    "h": 8,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      8,
+      17
+    ],
+    "array_bytes": 13524,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19668,
+    "charged_bytes": 67196,
+    "tail_capacity": null
+  },
+  {
+    "index": 51,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "h16",
+    "h": 16,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      16,
+      17
+    ],
+    "array_bytes": 8340,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14484,
+    "charged_bytes": 51644,
+    "tail_capacity": null
+  },
+  {
+    "index": 52,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      2048,
+      128,
+      0
+    ],
+    "array_bytes": 2920,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9064,
+    "charged_bytes": 35384,
+    "tail_capacity": null
+  },
+  {
+    "index": 53,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      2048,
+      1450
+    ],
+    "array_bytes": 34800,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40944,
+    "charged_bytes": 131024,
+    "tail_capacity": 1450
+  },
+  {
+    "index": 54,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      4096,
+      1,
+      5
+    ],
+    "array_bytes": 31316,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 37460,
+    "charged_bytes": 120572,
+    "tail_capacity": null
+  },
+  {
+    "index": 55,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "h4",
+    "h": 4,
+    "k": 25,
+    "key": [
+      "native",
+      4096,
+      4,
+      25
+    ],
+    "array_bytes": 33940,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40084,
+    "charged_bytes": 128444,
+    "tail_capacity": null
+  },
+  {
+    "index": 56,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "h8",
+    "h": 8,
+    "k": 33,
+    "key": [
+      "native",
+      4096,
+      8,
+      33
+    ],
+    "array_bytes": 23700,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 29844,
+    "charged_bytes": 97724,
+    "tail_capacity": null
+  },
+  {
+    "index": 57,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "h16",
+    "h": 16,
+    "k": 33,
+    "key": [
+      "native",
+      4096,
+      16,
+      33
+    ],
+    "array_bytes": 13908,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 20052,
+    "charged_bytes": 68348,
+    "tail_capacity": null
+  },
+  {
+    "index": 58,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      4096,
+      128,
+      0
+    ],
+    "array_bytes": 3624,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9768,
+    "charged_bytes": 37496,
+    "tail_capacity": null
+  },
+  {
+    "index": 59,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      4096,
+      1450
+    ],
+    "array_bytes": 34800,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40944,
+    "charged_bytes": 131024,
+    "tail_capacity": 1450
+  },
+  {
+    "index": 60,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      8192,
+      1,
+      5
+    ],
+    "array_bytes": 32724,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 38868,
+    "charged_bytes": 124796,
+    "tail_capacity": null
+  },
+  {
+    "index": 61,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "h4",
+    "h": 4,
+    "k": 24,
+    "key": [
+      "native",
+      8192,
+      4,
+      24
+    ],
+    "array_bytes": 34180,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40324,
+    "charged_bytes": 129164,
+    "tail_capacity": null
+  },
+  {
+    "index": 62,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "h8",
+    "h": 8,
+    "k": 49,
+    "key": [
+      "native",
+      8192,
+      8,
+      49
+    ],
+    "array_bytes": 34580,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40724,
+    "charged_bytes": 130364,
+    "tail_capacity": null
+  },
+  {
+    "index": 63,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "h16",
+    "h": 16,
+    "k": 65,
+    "key": [
+      "native",
+      8192,
+      16,
+      65
+    ],
+    "array_bytes": 25044,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 31188,
+    "charged_bytes": 101756,
+    "tail_capacity": null
+  },
+  {
+    "index": 64,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      8192,
+      128,
+      0
+    ],
+    "array_bytes": 5032,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11176,
+    "charged_bytes": 41720,
+    "tail_capacity": null
+  },
+  {
+    "index": 65,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      8192,
+      1450
+    ],
+    "array_bytes": 34800,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40944,
+    "charged_bytes": 131024,
+    "tail_capacity": 1450
+  },
+  {
+    "index": 66,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "h1",
+    "h": 1,
+    "k": 4,
+    "key": [
+      "native",
+      16384,
+      1,
+      4
+    ],
+    "array_bytes": 30916,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 37060,
+    "charged_bytes": 119372,
+    "tail_capacity": null
+  },
+  {
+    "index": 67,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "h4",
+    "h": 4,
+    "k": 22,
+    "key": [
+      "native",
+      16384,
+      4,
+      22
+    ],
+    "array_bytes": 34660,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40804,
+    "charged_bytes": 130604,
+    "tail_capacity": null
+  },
+  {
+    "index": 68,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "h8",
+    "h": 8,
+    "k": 44,
+    "key": [
+      "native",
+      16384,
+      8,
+      44
+    ],
+    "array_bytes": 34436,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40580,
+    "charged_bytes": 129932,
+    "tail_capacity": null
+  },
+  {
+    "index": 69,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "h16",
+    "h": 16,
+    "k": 87,
+    "key": [
+      "native",
+      16384,
+      16,
+      87
+    ],
+    "array_bytes": 34548,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40692,
+    "charged_bytes": 130268,
+    "tail_capacity": null
+  },
+  {
+    "index": 70,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      16384,
+      128,
+      0
+    ],
+    "array_bytes": 7848,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 13992,
+    "charged_bytes": 50168,
+    "tail_capacity": null
+  },
+  {
+    "index": 71,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      16384,
+      1450
+    ],
+    "array_bytes": 34800,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40944,
+    "charged_bytes": 131024,
+    "tail_capacity": 1450
+  },
+  {
+    "index": 72,
+    "budget": 262144,
+    "reach": 512,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      1,
+      5
+    ],
+    "array_bytes": 30084,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 36228,
+    "charged_bytes": 116876,
+    "tail_capacity": null
+  },
+  {
+    "index": 73,
+    "budget": 262144,
+    "reach": 512,
+    "method": "h4",
+    "h": 4,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      4,
+      5
+    ],
+    "array_bytes": 9348,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 15492,
+    "charged_bytes": 54668,
+    "tail_capacity": null
+  },
+  {
+    "index": 74,
+    "budget": 262144,
+    "reach": 512,
+    "method": "h8",
+    "h": 8,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      8,
+      5
+    ],
+    "array_bytes": 5892,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 12036,
+    "charged_bytes": 44300,
+    "tail_capacity": null
+  },
+  {
+    "index": 75,
+    "budget": 262144,
+    "reach": 512,
+    "method": "h16",
+    "h": 16,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      16,
+      5
+    ],
+    "array_bytes": 4164,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 10308,
+    "charged_bytes": 39116,
+    "tail_capacity": null
+  },
+  {
+    "index": 76,
+    "budget": 262144,
+    "reach": 512,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      512,
+      128,
+      0
+    ],
+    "array_bytes": 2392,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8536,
+    "charged_bytes": 33800,
+    "tail_capacity": null
+  },
+  {
+    "index": 77,
+    "budget": 262144,
+    "reach": 512,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      512,
+      512
+    ],
+    "array_bytes": 12288,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18432,
+    "charged_bytes": 63488,
+    "tail_capacity": 512
+  },
+  {
+    "index": 78,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "h1",
+    "h": 1,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      1,
+      9
+    ],
+    "array_bytes": 48756,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 54900,
+    "charged_bytes": 172892,
+    "tail_capacity": null
+  },
+  {
+    "index": 79,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "h4",
+    "h": 4,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      4,
+      9
+    ],
+    "array_bytes": 14196,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 20340,
+    "charged_bytes": 69212,
+    "tail_capacity": null
+  },
+  {
+    "index": 80,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "h8",
+    "h": 8,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      8,
+      9
+    ],
+    "array_bytes": 8436,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14580,
+    "charged_bytes": 51932,
+    "tail_capacity": null
+  },
+  {
+    "index": 81,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "h16",
+    "h": 16,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      16,
+      9
+    ],
+    "array_bytes": 5556,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11700,
+    "charged_bytes": 43292,
+    "tail_capacity": null
+  },
+  {
+    "index": 82,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      1024,
+      128,
+      0
+    ],
+    "array_bytes": 2568,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8712,
+    "charged_bytes": 34328,
+    "tail_capacity": null
+  },
+  {
+    "index": 83,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      1024,
+      1024
+    ],
+    "array_bytes": 24576,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 30720,
+    "charged_bytes": 100352,
+    "tail_capacity": 1024
+  },
+  {
+    "index": 84,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "h1",
+    "h": 1,
+    "k": 15,
+    "key": [
+      "native",
+      2048,
+      1,
+      15
+    ],
+    "array_bytes": 76852,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 82996,
+    "charged_bytes": 257180,
+    "tail_capacity": null
+  },
+  {
+    "index": 85,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "h4",
+    "h": 4,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      4,
+      17
+    ],
+    "array_bytes": 23892,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 30036,
+    "charged_bytes": 98300,
+    "tail_capacity": null
+  },
+  {
+    "index": 86,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "h8",
+    "h": 8,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      8,
+      17
+    ],
+    "array_bytes": 13524,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19668,
+    "charged_bytes": 67196,
+    "tail_capacity": null
+  },
+  {
+    "index": 87,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "h16",
+    "h": 16,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      16,
+      17
+    ],
+    "array_bytes": 8340,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14484,
+    "charged_bytes": 51644,
+    "tail_capacity": null
+  },
+  {
+    "index": 88,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      2048,
+      128,
+      0
+    ],
+    "array_bytes": 2920,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9064,
+    "charged_bytes": 35384,
+    "tail_capacity": null
+  },
+  {
+    "index": 89,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      2048,
+      2048
+    ],
+    "array_bytes": 49152,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 55296,
+    "charged_bytes": 174080,
+    "tail_capacity": 2048
+  },
+  {
+    "index": 90,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "h1",
+    "h": 1,
+    "k": 15,
+    "key": [
+      "native",
+      4096,
+      1,
+      15
+    ],
+    "array_bytes": 77556,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 83700,
+    "charged_bytes": 259292,
+    "tail_capacity": null
+  },
+  {
+    "index": 91,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "h4",
+    "h": 4,
+    "k": 33,
+    "key": [
+      "native",
+      4096,
+      4,
+      33
+    ],
+    "array_bytes": 43284,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 49428,
+    "charged_bytes": 156476,
+    "tail_capacity": null
+  },
+  {
+    "index": 92,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "h8",
+    "h": 8,
+    "k": 33,
+    "key": [
+      "native",
+      4096,
+      8,
+      33
+    ],
+    "array_bytes": 23700,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 29844,
+    "charged_bytes": 97724,
+    "tail_capacity": null
+  },
+  {
+    "index": 93,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "h16",
+    "h": 16,
+    "k": 33,
+    "key": [
+      "native",
+      4096,
+      16,
+      33
+    ],
+    "array_bytes": 13908,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 20052,
+    "charged_bytes": 68348,
+    "tail_capacity": null
+  },
+  {
+    "index": 94,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      4096,
+      128,
+      0
+    ],
+    "array_bytes": 3624,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9768,
+    "charged_bytes": 37496,
+    "tail_capacity": null
+  },
+  {
+    "index": 95,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      4096,
+      3271
+    ],
+    "array_bytes": 78504,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 84648,
+    "charged_bytes": 262136,
+    "tail_capacity": 3271
+  },
+  {
+    "index": 96,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "h1",
+    "h": 1,
+    "k": 14,
+    "key": [
+      "native",
+      8192,
+      1,
+      14
+    ],
+    "array_bytes": 74340,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 80484,
+    "charged_bytes": 249644,
+    "tail_capacity": null
+  },
+  {
+    "index": 97,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "h4",
+    "h": 4,
+    "k": 61,
+    "key": [
+      "native",
+      8192,
+      4,
+      61
+    ],
+    "array_bytes": 77396,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 83540,
+    "charged_bytes": 258812,
+    "tail_capacity": null
+  },
+  {
+    "index": 98,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "h8",
+    "h": 8,
+    "k": 65,
+    "key": [
+      "native",
+      8192,
+      8,
+      65
+    ],
+    "array_bytes": 44052,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 50196,
+    "charged_bytes": 158780,
+    "tail_capacity": null
+  },
+  {
+    "index": 99,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "h16",
+    "h": 16,
+    "k": 65,
+    "key": [
+      "native",
+      8192,
+      16,
+      65
+    ],
+    "array_bytes": 25044,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 31188,
+    "charged_bytes": 101756,
+    "tail_capacity": null
+  },
+  {
+    "index": 100,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      8192,
+      128,
+      0
+    ],
+    "array_bytes": 5032,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11176,
+    "charged_bytes": 41720,
+    "tail_capacity": null
+  },
+  {
+    "index": 101,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      8192,
+      3271
+    ],
+    "array_bytes": 78504,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 84648,
+    "charged_bytes": 262136,
+    "tail_capacity": 3271
+  },
+  {
+    "index": 102,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "h1",
+    "h": 1,
+    "k": 14,
+    "key": [
+      "native",
+      16384,
+      1,
+      14
+    ],
+    "array_bytes": 77156,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 83300,
+    "charged_bytes": 258092,
+    "tail_capacity": null
+  },
+  {
+    "index": 103,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "h4",
+    "h": 4,
+    "k": 59,
+    "key": [
+      "native",
+      16384,
+      4,
+      59
+    ],
+    "array_bytes": 77876,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 84020,
+    "charged_bytes": 260252,
+    "tail_capacity": null
+  },
+  {
+    "index": 104,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "h8",
+    "h": 8,
+    "k": 118,
+    "key": [
+      "native",
+      16384,
+      8,
+      118
+    ],
+    "array_bytes": 78244,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 84388,
+    "charged_bytes": 261356,
+    "tail_capacity": null
+  },
+  {
+    "index": 105,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "h16",
+    "h": 16,
+    "k": 129,
+    "key": [
+      "native",
+      16384,
+      16,
+      129
+    ],
+    "array_bytes": 47316,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 53460,
+    "charged_bytes": 168572,
+    "tail_capacity": null
+  },
+  {
+    "index": 106,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      16384,
+      128,
+      0
+    ],
+    "array_bytes": 7848,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 13992,
+    "charged_bytes": 50168,
+    "tail_capacity": null
+  },
+  {
+    "index": 107,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      16384,
+      3271
+    ],
+    "array_bytes": 78504,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 84648,
+    "charged_bytes": 262136,
+    "tail_capacity": 3271
+  }
+]

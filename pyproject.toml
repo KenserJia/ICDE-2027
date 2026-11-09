@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mt-memory-icde-artifact"
+version = "0.2.0"
+description = "Current-manuscript reproducibility artifact for bounded certified stream state"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = ["numpy==2.5.4", "psutil==7.2.2"]
+
+[project.optional-dependencies]
+test = ["pytest==9.2.0"]
+figures = ["matplotlib==3.11.2", "Pillow==13.0.0"]
+sql = ["duckdb==2.0.0"]
+
+[project.scripts]
+mtmem-artifact = "mtmemory_artifact.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["mtmemory_icde*", "mtmemory_artifact*", "mtmemory*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

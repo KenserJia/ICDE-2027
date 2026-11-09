@@ -1,0 +1,5384 @@
+[
+  {
+    "index": 0,
+    "budget": 65536,
+    "reach": 512,
+    "method": "h1",
+    "h": 1,
+    "k": 1,
+    "key": [
+      "native",
+      512,
+      1,
+      1
+    ],
+    "array_bytes": 11588,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 17732,
+    "charged_bytes": 61388,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.015384615384615385,
+    "exact_ci95": [
+      0.0031968031968031972,
+      0.03756243756243756
+    ],
+    "approximate": 0.2703296703296703,
+    "approximate_ci95": [
+      0.24815184815184815,
+      0.28251748251748243
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.03114073426573427,
+    "common_exact_ci95": [
+      0.012412587412587411,
+      0.06614947552447552
+    ],
+    "common_nrmse": 0.3728229919520895,
+    "common_nrmse_ci95": [
+      0.3578194115758598,
+      0.3906927734859688
+    ]
+  },
+  {
+    "index": 1,
+    "budget": 65536,
+    "reach": 512,
+    "method": "h4",
+    "h": 4,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      4,
+      5
+    ],
+    "array_bytes": 9348,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 15492,
+    "charged_bytes": 54668,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.0718781218781219,
+    "exact_ci95": [
+      0.06418581418581419,
+      0.07832167832167833
+    ],
+    "approximate": 0.21383616383616386,
+    "approximate_ci95": [
+      0.2073926073926074,
+      0.22152847152847155
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 2,
+    "budget": 65536,
+    "reach": 512,
+    "method": "h8",
+    "h": 8,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      8,
+      5
+    ],
+    "array_bytes": 5892,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 12036,
+    "charged_bytes": 44300,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.03394105894105895,
+    "exact_ci95": [
+      0.029170204795204796,
+      0.038561438561438566
+    ],
+    "approximate": 0.2517732267732268,
+    "approximate_ci95": [
+      0.2471528471528472,
+      0.2565440809190809
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 3,
+    "budget": 65536,
+    "reach": 512,
+    "method": "h16",
+    "h": 16,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      16,
+      5
+    ],
+    "array_bytes": 4164,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 10308,
+    "charged_bytes": 39116,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.016158841158841163,
+    "exact_ci95": [
+      0.013786213786213789,
+      0.01853146853146853
+    ],
+    "approximate": 0.26955544455544456,
+    "approximate_ci95": [
+      0.26718281718281717,
+      0.27192807192807184
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 4,
+    "budget": 65536,
+    "reach": 512,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      512,
+      128,
+      0
+    ],
+    "array_bytes": 2392,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8536,
+    "charged_bytes": 33800,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.0,
+    "exact_ci95": [
+      0.0,
+      0.0
+    ],
+    "approximate": 0.28571428571428564,
+    "approximate_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 5,
+    "budget": 65536,
+    "reach": 512,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      512,
+      512
+    ],
+    "array_bytes": 12288,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18432,
+    "charged_bytes": 63488,
+    "tail_capacity": 512,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.28571428571428564,
+    "exact_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 6,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "h1",
+    "h": 1,
+    "k": 1,
+    "key": [
+      "native",
+      1024,
+      1,
+      1
+    ],
+    "array_bytes": 11764,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 17908,
+    "charged_bytes": 61916,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.015384615384615385,
+    "exact_ci95": [
+      0.0031968031968031972,
+      0.03756243756243756
+    ],
+    "approximate": 0.4131868131868132,
+    "approximate_ci95": [
+      0.391008991008991,
+      0.4253746253746253
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.03114073426573427,
+    "common_exact_ci95": [
+      0.012412587412587411,
+      0.06614947552447552
+    ],
+    "common_nrmse": 0.3728229919520895,
+    "common_nrmse_ci95": [
+      0.3578194115758598,
+      0.3906927734859688
+    ]
+  },
+  {
+    "index": 7,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "h4",
+    "h": 4,
+    "k": 7,
+    "key": [
+      "native",
+      1024,
+      4,
+      7
+    ],
+    "array_bytes": 11860,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18004,
+    "charged_bytes": 62204,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.10477022977022978,
+    "exact_ci95": [
+      0.09865134865134866,
+      0.11156530969030967
+    ],
+    "approximate": 0.3238011988011988,
+    "approximate_ci95": [
+      0.31700611888111885,
+      0.32992007992007993
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 8,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "h8",
+    "h": 8,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      8,
+      9
+    ],
+    "array_bytes": 8436,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14580,
+    "charged_bytes": 51932,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.05467032967032967,
+    "exact_ci95": [
+      0.04955044955044956,
+      0.05954045954045954
+    ],
+    "approximate": 0.37390109890109896,
+    "approximate_ci95": [
+      0.36903096903096905,
+      0.37902097902097903
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 9,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "h16",
+    "h": 16,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      16,
+      9
+    ],
+    "array_bytes": 5556,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11700,
+    "charged_bytes": 43292,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.025324675324675326,
+    "exact_ci95": [
+      0.02232642357642358,
+      0.028421578421578424
+    ],
+    "approximate": 0.40324675324675324,
+    "approximate_ci95": [
+      0.40014985014985016,
+      0.40624500499500504
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 10,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      1024,
+      128,
+      0
+    ],
+    "array_bytes": 2568,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8712,
+    "charged_bytes": 34328,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.0,
+    "exact_ci95": [
+      0.0,
+      0.0
+    ],
+    "approximate": 0.4285714285714286,
+    "approximate_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 11,
+    "budget": 65536,
+    "reach": 1024,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      1024,
+      540
+    ],
+    "array_bytes": 12960,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19104,
+    "charged_bytes": 65504,
+    "tail_capacity": 540,
+    "answered": 0.29450549450549446,
+    "answered_ci95": [
+      0.2925074925074925,
+      0.29650349650349644
+    ],
+    "exact": 0.29450549450549446,
+    "exact_ci95": [
+      0.2925074925074925,
+      0.29650349650349644
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.7054945054945054,
+    "unavailable_ci95": [
+      0.7034965034965036,
+      0.7074925074925076
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 12,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "h1",
+    "h": 1,
+    "k": 1,
+    "key": [
+      "native",
+      2048,
+      1,
+      1
+    ],
+    "array_bytes": 12116,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18260,
+    "charged_bytes": 62972,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.015784215784215787,
+    "exact_ci95": [
+      0.003796203796203796,
+      0.03776223776223776
+    ],
+    "approximate": 0.5556443556443557,
+    "approximate_ci95": [
+      0.5336663336663336,
+      0.5676323676323677
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.03114073426573427,
+    "common_exact_ci95": [
+      0.012412587412587411,
+      0.06614947552447552
+    ],
+    "common_nrmse": 0.3728229919520895,
+    "common_nrmse_ci95": [
+      0.3578194115758598,
+      0.3906927734859688
+    ]
+  },
+  {
+    "index": 13,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "h4",
+    "h": 4,
+    "k": 7,
+    "key": [
+      "native",
+      2048,
+      4,
+      7
+    ],
+    "array_bytes": 12212,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18356,
+    "charged_bytes": 63260,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.10516983016983018,
+    "exact_ci95": [
+      0.09877622377622378,
+      0.11208791208791208
+    ],
+    "approximate": 0.46625874125874134,
+    "approximate_ci95": [
+      0.4593406593406594,
+      0.47265234765234765
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 14,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "h8",
+    "h": 8,
+    "k": 16,
+    "key": [
+      "native",
+      2048,
+      8,
+      16
+    ],
+    "array_bytes": 12932,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19076,
+    "charged_bytes": 65420,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.07302697302697304,
+    "exact_ci95": [
+      0.06653346653346653,
+      0.07992007992007993
+    ],
+    "approximate": 0.4984015984015983,
+    "approximate_ci95": [
+      0.4915084915084915,
+      0.5048951048951049
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 15,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "h16",
+    "h": 16,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      16,
+      17
+    ],
+    "array_bytes": 8340,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14484,
+    "charged_bytes": 51644,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.03331668331668332,
+    "exact_ci95": [
+      0.029720279720279724,
+      0.03676323676323677
+    ],
+    "approximate": 0.5381118881118881,
+    "approximate_ci95": [
+      0.5346653346653346,
+      0.5417082917082916
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 16,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      2048,
+      128,
+      0
+    ],
+    "array_bytes": 2920,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9064,
+    "charged_bytes": 35384,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.0003996003996003996,
+    "exact_ci95": [
+      0.0,
+      0.000999000999000999
+    ],
+    "approximate": 0.5710289710289709,
+    "approximate_ci95": [
+      0.5704295704295703,
+      0.5714285714285713
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 17,
+    "budget": 65536,
+    "reach": 2048,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      2048,
+      540
+    ],
+    "array_bytes": 12960,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19104,
+    "charged_bytes": 65504,
+    "tail_capacity": 540,
+    "answered": 0.29450549450549446,
+    "answered_ci95": [
+      0.2925074925074925,
+      0.29650349650349644
+    ],
+    "exact": 0.29450549450549446,
+    "exact_ci95": [
+      0.2925074925074925,
+      0.29650349650349644
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.7054945054945054,
+    "unavailable_ci95": [
+      0.7034965034965036,
+      0.7074925074925076
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 18,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "h1",
+    "h": 1,
+    "k": 1,
+    "key": [
+      "native",
+      4096,
+      1,
+      1
+    ],
+    "array_bytes": 12820,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18964,
+    "charged_bytes": 65084,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.015984015984015984,
+    "exact_ci95": [
+      0.003796203796203796,
+      0.03796203796203796
+    ],
+    "approximate": 0.6983016983016983,
+    "approximate_ci95": [
+      0.6763236763236763,
+      0.7104895104895105
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.03114073426573427,
+    "common_exact_ci95": [
+      0.012412587412587411,
+      0.06614947552447552
+    ],
+    "common_nrmse": 0.3728229919520895,
+    "common_nrmse_ci95": [
+      0.3578194115758598,
+      0.3906927734859688
+    ]
+  },
+  {
+    "index": 19,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "h4",
+    "h": 4,
+    "k": 7,
+    "key": [
+      "native",
+      4096,
+      4,
+      7
+    ],
+    "array_bytes": 12916,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19060,
+    "charged_bytes": 65372,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.10536963036963037,
+    "exact_ci95": [
+      0.09890109890109891,
+      0.1122877122877123
+    ],
+    "approximate": 0.6089160839160838,
+    "approximate_ci95": [
+      0.6019980019980019,
+      0.6153846153846153
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 20,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "h8",
+    "h": 8,
+    "k": 14,
+    "key": [
+      "native",
+      4096,
+      8,
+      14
+    ],
+    "array_bytes": 12452,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18596,
+    "charged_bytes": 63980,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.07082917082917084,
+    "exact_ci95": [
+      0.06433316683316682,
+      0.07762237762237764
+    ],
+    "approximate": 0.6434565434565435,
+    "approximate_ci95": [
+      0.6366633366633366,
+      0.6499525474525475
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 21,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "h16",
+    "h": 16,
+    "k": 29,
+    "key": [
+      "native",
+      4096,
+      16,
+      29
+    ],
+    "array_bytes": 12692,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18836,
+    "charged_bytes": 64700,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.039510489510489515,
+    "exact_ci95": [
+      0.03536463536463537,
+      0.043556443556443565
+    ],
+    "approximate": 0.6747752247752248,
+    "approximate_ci95": [
+      0.6707292707292708,
+      0.6789210789210789
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 22,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      4096,
+      128,
+      0
+    ],
+    "array_bytes": 3624,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9768,
+    "charged_bytes": 37496,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.0005994005994005994,
+    "exact_ci95": [
+      0.0,
+      0.0015984015984015984
+    ],
+    "approximate": 0.7136863136863136,
+    "approximate_ci95": [
+      0.7126873126873127,
+      0.7142857142857142
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 23,
+    "budget": 65536,
+    "reach": 4096,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      4096,
+      540
+    ],
+    "array_bytes": 12960,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19104,
+    "charged_bytes": 65504,
+    "tail_capacity": 540,
+    "answered": 0.29450549450549446,
+    "answered_ci95": [
+      0.2925074925074925,
+      0.29650349650349644
+    ],
+    "exact": 0.29450549450549446,
+    "exact_ci95": [
+      0.2925074925074925,
+      0.29650349650349644
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.7054945054945054,
+    "unavailable_ci95": [
+      0.7034965034965036,
+      0.7074925074925076
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 24,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "h1",
+    "h": 1,
+    "k": 0,
+    "key": [
+      "native",
+      8192,
+      1,
+      0
+    ],
+    "array_bytes": 9604,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 15748,
+    "charged_bytes": 55436,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.0007992007992007992,
+    "exact_ci95": [
+      0.0,
+      0.0017982017982017982
+    ],
+    "approximate": 0.8563436563436564,
+    "approximate_ci95": [
+      0.8553446553446554,
+      0.8571428571428572
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 25,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "h4",
+    "h": 4,
+    "k": 5,
+    "key": [
+      "native",
+      8192,
+      4,
+      5
+    ],
+    "array_bytes": 11988,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18132,
+    "charged_bytes": 62588,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.0866133866133866,
+    "exact_ci95": [
+      0.08051948051948052,
+      0.0929070929070929
+    ],
+    "approximate": 0.7705294705294706,
+    "approximate_ci95": [
+      0.7642357642357643,
+      0.7766233766233767
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 26,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "h8",
+    "h": 8,
+    "k": 12,
+    "key": [
+      "native",
+      8192,
+      8,
+      12
+    ],
+    "array_bytes": 12676,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18820,
+    "charged_bytes": 64652,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.06603396603396604,
+    "exact_ci95": [
+      0.06043956043956045,
+      0.07182817182817183
+    ],
+    "approximate": 0.791108891108891,
+    "approximate_ci95": [
+      0.7853146853146854,
+      0.7967032967032966
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 27,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "h16",
+    "h": 16,
+    "k": 25,
+    "key": [
+      "native",
+      8192,
+      16,
+      25
+    ],
+    "array_bytes": 12884,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19028,
+    "charged_bytes": 65276,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.03731268731268732,
+    "exact_ci95": [
+      0.03371628371628372,
+      0.04105894105894106
+    ],
+    "approximate": 0.8198301698301699,
+    "approximate_ci95": [
+      0.8160839160839163,
+      0.8234265734265735
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 28,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      8192,
+      128,
+      0
+    ],
+    "array_bytes": 5032,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11176,
+    "charged_bytes": 41720,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.0007992007992007992,
+    "exact_ci95": [
+      0.0,
+      0.0017982017982017982
+    ],
+    "approximate": 0.8563436563436564,
+    "approximate_ci95": [
+      0.8553446553446554,
+      0.8571428571428572
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 29,
+    "budget": 65536,
+    "reach": 8192,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      8192,
+      540
+    ],
+    "array_bytes": 12960,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19104,
+    "charged_bytes": 65504,
+    "tail_capacity": 540,
+    "answered": 0.29450549450549446,
+    "answered_ci95": [
+      0.2925074925074925,
+      0.29650349650349644
+    ],
+    "exact": 0.29450549450549446,
+    "exact_ci95": [
+      0.2925074925074925,
+      0.29650349650349644
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.7054945054945054,
+    "unavailable_ci95": [
+      0.7034965034965036,
+      0.7074925074925076
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 30,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "h1",
+    "h": 1,
+    "k": 0,
+    "key": [
+      "native",
+      16384,
+      1,
+      0
+    ],
+    "array_bytes": 12420,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18564,
+    "charged_bytes": 63884,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.0011988011988011988,
+    "exact_ci95": [
+      0.0,
+      0.002597402597402598
+    ],
+    "approximate": 0.9988011988011988,
+    "approximate_ci95": [
+      0.9974025974025973,
+      1.0
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 31,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "h4",
+    "h": 4,
+    "k": 3,
+    "key": [
+      "native",
+      16384,
+      4,
+      3
+    ],
+    "array_bytes": 12468,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18612,
+    "charged_bytes": 64028,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.05989010989010989,
+    "exact_ci95": [
+      0.054345654345654346,
+      0.06513486513486513
+    ],
+    "approximate": 0.94010989010989,
+    "approximate_ci95": [
+      0.934865134865135,
+      0.9456543456543455
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.17694493006993003,
+    "common_exact_ci95": [
+      0.16818181818181818,
+      0.18817799388111894
+    ],
+    "common_nrmse": 0.15428795979258864,
+    "common_nrmse_ci95": [
+      0.1275751419400266,
+      0.17599827644719118
+    ]
+  },
+  {
+    "index": 32,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "h8",
+    "h": 8,
+    "k": 7,
+    "key": [
+      "native",
+      16384,
+      8,
+      7
+    ],
+    "array_bytes": 12532,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18676,
+    "charged_bytes": 64220,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.05187312687312688,
+    "exact_ci95": [
+      0.04752622377622378,
+      0.056518481518481524
+    ],
+    "approximate": 0.948126873126873,
+    "approximate_ci95": [
+      0.9434815184815185,
+      0.9524737762237762
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 33,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "h16",
+    "h": 16,
+    "k": 16,
+    "key": [
+      "native",
+      16384,
+      16,
+      16
+    ],
+    "array_bytes": 12964,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19108,
+    "charged_bytes": 65516,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.03411588411588412,
+    "exact_ci95": [
+      0.030969030969030975,
+      0.037162837162837165
+    ],
+    "approximate": 0.9658841158841158,
+    "approximate_ci95": [
+      0.9628371628371629,
+      0.9690309690309689
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 34,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      16384,
+      128,
+      0
+    ],
+    "array_bytes": 7848,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 13992,
+    "charged_bytes": 50168,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.0011988011988011988,
+    "exact_ci95": [
+      0.0,
+      0.002597402597402598
+    ],
+    "approximate": 0.9988011988011988,
+    "approximate_ci95": [
+      0.9974025974025973,
+      1.0
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 35,
+    "budget": 65536,
+    "reach": 16384,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      16384,
+      540
+    ],
+    "array_bytes": 12960,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19104,
+    "charged_bytes": 65504,
+    "tail_capacity": 540,
+    "answered": 0.29450549450549446,
+    "answered_ci95": [
+      0.2925074925074925,
+      0.29650349650349644
+    ],
+    "exact": 0.29450549450549446,
+    "exact_ci95": [
+      0.2925074925074925,
+      0.29650349650349644
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.7054945054945054,
+    "unavailable_ci95": [
+      0.7034965034965036,
+      0.7074925074925076
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 36,
+    "budget": 131072,
+    "reach": 512,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      1,
+      5
+    ],
+    "array_bytes": 30084,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 36228,
+    "charged_bytes": 116876,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.28571428571428564,
+    "exact_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 37,
+    "budget": 131072,
+    "reach": 512,
+    "method": "h4",
+    "h": 4,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      4,
+      5
+    ],
+    "array_bytes": 9348,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 15492,
+    "charged_bytes": 54668,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.0718781218781219,
+    "exact_ci95": [
+      0.06418581418581419,
+      0.07832167832167833
+    ],
+    "approximate": 0.21383616383616386,
+    "approximate_ci95": [
+      0.2073926073926074,
+      0.22152847152847155
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 38,
+    "budget": 131072,
+    "reach": 512,
+    "method": "h8",
+    "h": 8,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      8,
+      5
+    ],
+    "array_bytes": 5892,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 12036,
+    "charged_bytes": 44300,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.03394105894105895,
+    "exact_ci95": [
+      0.029170204795204796,
+      0.038561438561438566
+    ],
+    "approximate": 0.2517732267732268,
+    "approximate_ci95": [
+      0.2471528471528472,
+      0.2565440809190809
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 39,
+    "budget": 131072,
+    "reach": 512,
+    "method": "h16",
+    "h": 16,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      16,
+      5
+    ],
+    "array_bytes": 4164,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 10308,
+    "charged_bytes": 39116,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.016158841158841163,
+    "exact_ci95": [
+      0.013786213786213789,
+      0.01853146853146853
+    ],
+    "approximate": 0.26955544455544456,
+    "approximate_ci95": [
+      0.26718281718281717,
+      0.27192807192807184
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 40,
+    "budget": 131072,
+    "reach": 512,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      512,
+      128,
+      0
+    ],
+    "array_bytes": 2392,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8536,
+    "charged_bytes": 33800,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.0,
+    "exact_ci95": [
+      0.0,
+      0.0
+    ],
+    "approximate": 0.28571428571428564,
+    "approximate_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 41,
+    "budget": 131072,
+    "reach": 512,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      512,
+      512
+    ],
+    "array_bytes": 12288,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18432,
+    "charged_bytes": 63488,
+    "tail_capacity": 512,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.28571428571428564,
+    "exact_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 42,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      1024,
+      1,
+      5
+    ],
+    "array_bytes": 30260,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 36404,
+    "charged_bytes": 117404,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.32937062937062933,
+    "exact_ci95": [
+      0.3226773226773227,
+      0.33636363636363636
+    ],
+    "approximate": 0.0992007992007992,
+    "approximate_ci95": [
+      0.09220779220779221,
+      0.10589410589410587
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 43,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "h4",
+    "h": 4,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      4,
+      9
+    ],
+    "array_bytes": 14196,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 20340,
+    "charged_bytes": 69212,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.11276223776223776,
+    "exact_ci95": [
+      0.10556943056943058,
+      0.11988011988011987
+    ],
+    "approximate": 0.3158091908091908,
+    "approximate_ci95": [
+      0.3086913086913087,
+      0.32300199800199797
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 44,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "h8",
+    "h": 8,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      8,
+      9
+    ],
+    "array_bytes": 8436,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14580,
+    "charged_bytes": 51932,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.05467032967032967,
+    "exact_ci95": [
+      0.04955044955044956,
+      0.05954045954045954
+    ],
+    "approximate": 0.37390109890109896,
+    "approximate_ci95": [
+      0.36903096903096905,
+      0.37902097902097903
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 45,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "h16",
+    "h": 16,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      16,
+      9
+    ],
+    "array_bytes": 5556,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11700,
+    "charged_bytes": 43292,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.025324675324675326,
+    "exact_ci95": [
+      0.02232642357642358,
+      0.028421578421578424
+    ],
+    "approximate": 0.40324675324675324,
+    "approximate_ci95": [
+      0.40014985014985016,
+      0.40624500499500504
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 46,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      1024,
+      128,
+      0
+    ],
+    "array_bytes": 2568,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8712,
+    "charged_bytes": 34328,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.0,
+    "exact_ci95": [
+      0.0,
+      0.0
+    ],
+    "approximate": 0.4285714285714286,
+    "approximate_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 47,
+    "budget": 131072,
+    "reach": 1024,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      1024,
+      1024
+    ],
+    "array_bytes": 24576,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 30720,
+    "charged_bytes": 100352,
+    "tail_capacity": 1024,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.4285714285714286,
+    "exact_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 48,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      2048,
+      1,
+      5
+    ],
+    "array_bytes": 30612,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 36756,
+    "charged_bytes": 118460,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.32977022977022974,
+    "exact_ci95": [
+      0.322977022977023,
+      0.336963036963037
+    ],
+    "approximate": 0.24165834165834163,
+    "approximate_ci95": [
+      0.23446553446553445,
+      0.2484515484515484
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 49,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "h4",
+    "h": 4,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      4,
+      17
+    ],
+    "array_bytes": 23892,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 30036,
+    "charged_bytes": 98300,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.15504495504495502,
+    "exact_ci95": [
+      0.14765234765234764,
+      0.16323676323676323
+    ],
+    "approximate": 0.4163836163836164,
+    "approximate_ci95": [
+      0.40819180819180817,
+      0.42377622377622376
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 50,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "h8",
+    "h": 8,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      8,
+      17
+    ],
+    "array_bytes": 13524,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19668,
+    "charged_bytes": 67196,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.07302697302697304,
+    "exact_ci95": [
+      0.06653346653346653,
+      0.07992007992007993
+    ],
+    "approximate": 0.4984015984015983,
+    "approximate_ci95": [
+      0.4915084915084915,
+      0.5048951048951049
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 51,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "h16",
+    "h": 16,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      16,
+      17
+    ],
+    "array_bytes": 8340,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14484,
+    "charged_bytes": 51644,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.03331668331668332,
+    "exact_ci95": [
+      0.029720279720279724,
+      0.03676323676323677
+    ],
+    "approximate": 0.5381118881118881,
+    "approximate_ci95": [
+      0.5346653346653346,
+      0.5417082917082916
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 52,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      2048,
+      128,
+      0
+    ],
+    "array_bytes": 2920,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9064,
+    "charged_bytes": 35384,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.0003996003996003996,
+    "exact_ci95": [
+      0.0,
+      0.000999000999000999
+    ],
+    "approximate": 0.5710289710289709,
+    "approximate_ci95": [
+      0.5704295704295703,
+      0.5714285714285713
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 53,
+    "budget": 131072,
+    "reach": 2048,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      2048,
+      1450
+    ],
+    "array_bytes": 34800,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40944,
+    "charged_bytes": 131024,
+    "tail_capacity": 1450,
+    "answered": 0.486038961038961,
+    "answered_ci95": [
+      0.48064435564435565,
+      0.49170829170829167
+    ],
+    "exact": 0.486038961038961,
+    "exact_ci95": [
+      0.48064435564435565,
+      0.49170829170829167
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.513961038961039,
+    "unavailable_ci95": [
+      0.5082917082917082,
+      0.5193556443556443
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 54,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      4096,
+      1,
+      5
+    ],
+    "array_bytes": 31316,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 37460,
+    "charged_bytes": 120572,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.32997002997002994,
+    "exact_ci95": [
+      0.32307692307692304,
+      0.33736263736263733
+    ],
+    "approximate": 0.38431568431568436,
+    "approximate_ci95": [
+      0.37692307692307697,
+      0.3912087912087912
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 55,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "h4",
+    "h": 4,
+    "k": 25,
+    "key": [
+      "native",
+      4096,
+      4,
+      25
+    ],
+    "array_bytes": 33940,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40084,
+    "charged_bytes": 128444,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.1732017982017982,
+    "exact_ci95": [
+      0.164985014985015,
+      0.18241758241758238
+    ],
+    "approximate": 0.541083916083916,
+    "approximate_ci95": [
+      0.5318681318681319,
+      0.5493006993006992
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 56,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "h8",
+    "h": 8,
+    "k": 33,
+    "key": [
+      "native",
+      4096,
+      8,
+      33
+    ],
+    "array_bytes": 23700,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 29844,
+    "charged_bytes": 97724,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.08741258741258742,
+    "exact_ci95": [
+      0.07992007992007993,
+      0.0953046953046953
+    ],
+    "approximate": 0.6268731268731269,
+    "approximate_ci95": [
+      0.618981018981019,
+      0.6343656343656344
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 57,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "h16",
+    "h": 16,
+    "k": 33,
+    "key": [
+      "native",
+      4096,
+      16,
+      33
+    ],
+    "array_bytes": 13908,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 20052,
+    "charged_bytes": 68348,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.04070929070929071,
+    "exact_ci95": [
+      0.036513486513486515,
+      0.045154845154845163
+    ],
+    "approximate": 0.6735764235764236,
+    "approximate_ci95": [
+      0.669130869130869,
+      0.6777722277722279
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 58,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      4096,
+      128,
+      0
+    ],
+    "array_bytes": 3624,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9768,
+    "charged_bytes": 37496,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.0005994005994005994,
+    "exact_ci95": [
+      0.0,
+      0.0015984015984015984
+    ],
+    "approximate": 0.7136863136863136,
+    "approximate_ci95": [
+      0.7126873126873127,
+      0.7142857142857142
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 59,
+    "budget": 131072,
+    "reach": 4096,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      4096,
+      1450
+    ],
+    "array_bytes": 34800,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40944,
+    "charged_bytes": 131024,
+    "tail_capacity": 1450,
+    "answered": 0.486038961038961,
+    "answered_ci95": [
+      0.48064435564435565,
+      0.49170829170829167
+    ],
+    "exact": 0.486038961038961,
+    "exact_ci95": [
+      0.48064435564435565,
+      0.49170829170829167
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.513961038961039,
+    "unavailable_ci95": [
+      0.5082917082917082,
+      0.5193556443556443
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 60,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      8192,
+      1,
+      5
+    ],
+    "array_bytes": 32724,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 38868,
+    "charged_bytes": 124796,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.33016983016983015,
+    "exact_ci95": [
+      0.32317682317682317,
+      0.3375624375624375
+    ],
+    "approximate": 0.526973026973027,
+    "approximate_ci95": [
+      0.5195804195804197,
+      0.533966033966034
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 61,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "h4",
+    "h": 4,
+    "k": 24,
+    "key": [
+      "native",
+      8192,
+      4,
+      24
+    ],
+    "array_bytes": 34180,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40324,
+    "charged_bytes": 129164,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.17220279720279721,
+    "exact_ci95": [
+      0.1644105894105894,
+      0.18121878121878124
+    ],
+    "approximate": 0.6849400599400599,
+    "approximate_ci95": [
+      0.675924075924076,
+      0.6927322677322678
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 62,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "h8",
+    "h": 8,
+    "k": 49,
+    "key": [
+      "native",
+      8192,
+      8,
+      49
+    ],
+    "array_bytes": 34580,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40724,
+    "charged_bytes": 130364,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.09735264735264736,
+    "exact_ci95": [
+      0.09000999000999,
+      0.1044955044955045
+    ],
+    "approximate": 0.7597902097902097,
+    "approximate_ci95": [
+      0.7526473526473526,
+      0.7671328671328671
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 63,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "h16",
+    "h": 16,
+    "k": 65,
+    "key": [
+      "native",
+      8192,
+      16,
+      65
+    ],
+    "array_bytes": 25044,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 31188,
+    "charged_bytes": 101756,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.05224775224775225,
+    "exact_ci95": [
+      0.04775224775224776,
+      0.05714535464535462
+    ],
+    "approximate": 0.804895104895105,
+    "approximate_ci95": [
+      0.7999975024975025,
+      0.8093906093906096
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 64,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      8192,
+      128,
+      0
+    ],
+    "array_bytes": 5032,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11176,
+    "charged_bytes": 41720,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.0007992007992007992,
+    "exact_ci95": [
+      0.0,
+      0.0017982017982017982
+    ],
+    "approximate": 0.8563436563436564,
+    "approximate_ci95": [
+      0.8553446553446554,
+      0.8571428571428572
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 65,
+    "budget": 131072,
+    "reach": 8192,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      8192,
+      1450
+    ],
+    "array_bytes": 34800,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40944,
+    "charged_bytes": 131024,
+    "tail_capacity": 1450,
+    "answered": 0.486038961038961,
+    "answered_ci95": [
+      0.48064435564435565,
+      0.49170829170829167
+    ],
+    "exact": 0.486038961038961,
+    "exact_ci95": [
+      0.48064435564435565,
+      0.49170829170829167
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.513961038961039,
+    "unavailable_ci95": [
+      0.5082917082917082,
+      0.5193556443556443
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 66,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "h1",
+    "h": 1,
+    "k": 4,
+    "key": [
+      "native",
+      16384,
+      1,
+      4
+    ],
+    "array_bytes": 30916,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 37060,
+    "charged_bytes": 119372,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.2956543456543457,
+    "exact_ci95": [
+      0.29190809190809186,
+      0.30074925074925074
+    ],
+    "approximate": 0.7043456543456543,
+    "approximate_ci95": [
+      0.6992507492507494,
+      0.7080919080919081
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 67,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "h4",
+    "h": 4,
+    "k": 22,
+    "key": [
+      "native",
+      16384,
+      4,
+      22
+    ],
+    "array_bytes": 34660,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40804,
+    "charged_bytes": 130604,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.1676073926073926,
+    "exact_ci95": [
+      0.16021416083916085,
+      0.17599962537462538
+    ],
+    "approximate": 0.8323926073926073,
+    "approximate_ci95": [
+      0.8240003746253746,
+      0.8397858391608393
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 68,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "h8",
+    "h": 8,
+    "k": 44,
+    "key": [
+      "native",
+      16384,
+      8,
+      44
+    ],
+    "array_bytes": 34436,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40580,
+    "charged_bytes": 129932,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.09517982017982018,
+    "exact_ci95": [
+      0.08831168831168831,
+      0.10244755244755242
+    ],
+    "approximate": 0.9048201798201798,
+    "approximate_ci95": [
+      0.8975524475524476,
+      0.9116883116883115
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 69,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "h16",
+    "h": 16,
+    "k": 87,
+    "key": [
+      "native",
+      16384,
+      16,
+      87
+    ],
+    "array_bytes": 34548,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40692,
+    "charged_bytes": 130268,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.05564435564435565,
+    "exact_ci95": [
+      0.051148851148851156,
+      0.06043956043956044
+    ],
+    "approximate": 0.9443556443556443,
+    "approximate_ci95": [
+      0.9395604395604396,
+      0.9488511488511489
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 70,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      16384,
+      128,
+      0
+    ],
+    "array_bytes": 7848,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 13992,
+    "charged_bytes": 50168,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.0011988011988011988,
+    "exact_ci95": [
+      0.0,
+      0.002597402597402598
+    ],
+    "approximate": 0.9988011988011988,
+    "approximate_ci95": [
+      0.9974025974025973,
+      1.0
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 71,
+    "budget": 131072,
+    "reach": 16384,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      16384,
+      1450
+    ],
+    "array_bytes": 34800,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 40944,
+    "charged_bytes": 131024,
+    "tail_capacity": 1450,
+    "answered": 0.486038961038961,
+    "answered_ci95": [
+      0.48064435564435565,
+      0.49170829170829167
+    ],
+    "exact": 0.486038961038961,
+    "exact_ci95": [
+      0.48064435564435565,
+      0.49170829170829167
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.513961038961039,
+    "unavailable_ci95": [
+      0.5082917082917082,
+      0.5193556443556443
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 72,
+    "budget": 262144,
+    "reach": 512,
+    "method": "h1",
+    "h": 1,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      1,
+      5
+    ],
+    "array_bytes": 30084,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 36228,
+    "charged_bytes": 116876,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.28571428571428564,
+    "exact_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 73,
+    "budget": 262144,
+    "reach": 512,
+    "method": "h4",
+    "h": 4,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      4,
+      5
+    ],
+    "array_bytes": 9348,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 15492,
+    "charged_bytes": 54668,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.0718781218781219,
+    "exact_ci95": [
+      0.06418581418581419,
+      0.07832167832167833
+    ],
+    "approximate": 0.21383616383616386,
+    "approximate_ci95": [
+      0.2073926073926074,
+      0.22152847152847155
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 74,
+    "budget": 262144,
+    "reach": 512,
+    "method": "h8",
+    "h": 8,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      8,
+      5
+    ],
+    "array_bytes": 5892,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 12036,
+    "charged_bytes": 44300,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.03394105894105895,
+    "exact_ci95": [
+      0.029170204795204796,
+      0.038561438561438566
+    ],
+    "approximate": 0.2517732267732268,
+    "approximate_ci95": [
+      0.2471528471528472,
+      0.2565440809190809
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 75,
+    "budget": 262144,
+    "reach": 512,
+    "method": "h16",
+    "h": 16,
+    "k": 5,
+    "key": [
+      "native",
+      512,
+      16,
+      5
+    ],
+    "array_bytes": 4164,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 10308,
+    "charged_bytes": 39116,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.016158841158841163,
+    "exact_ci95": [
+      0.013786213786213789,
+      0.01853146853146853
+    ],
+    "approximate": 0.26955544455544456,
+    "approximate_ci95": [
+      0.26718281718281717,
+      0.27192807192807184
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 76,
+    "budget": 262144,
+    "reach": 512,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      512,
+      128,
+      0
+    ],
+    "array_bytes": 2392,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8536,
+    "charged_bytes": 33800,
+    "tail_capacity": null,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.0,
+    "exact_ci95": [
+      0.0,
+      0.0
+    ],
+    "approximate": 0.28571428571428564,
+    "approximate_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 77,
+    "budget": 262144,
+    "reach": 512,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      512,
+      512
+    ],
+    "array_bytes": 12288,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 18432,
+    "charged_bytes": 63488,
+    "tail_capacity": 512,
+    "answered": 0.28571428571428564,
+    "answered_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "exact": 0.28571428571428564,
+    "exact_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.7142857142857142,
+    "unavailable_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 78,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "h1",
+    "h": 1,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      1,
+      9
+    ],
+    "array_bytes": 48756,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 54900,
+    "charged_bytes": 172892,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.4285714285714286,
+    "exact_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 79,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "h4",
+    "h": 4,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      4,
+      9
+    ],
+    "array_bytes": 14196,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 20340,
+    "charged_bytes": 69212,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.11276223776223776,
+    "exact_ci95": [
+      0.10556943056943058,
+      0.11988011988011987
+    ],
+    "approximate": 0.3158091908091908,
+    "approximate_ci95": [
+      0.3086913086913087,
+      0.32300199800199797
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 80,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "h8",
+    "h": 8,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      8,
+      9
+    ],
+    "array_bytes": 8436,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14580,
+    "charged_bytes": 51932,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.05467032967032967,
+    "exact_ci95": [
+      0.04955044955044956,
+      0.05954045954045954
+    ],
+    "approximate": 0.37390109890109896,
+    "approximate_ci95": [
+      0.36903096903096905,
+      0.37902097902097903
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 81,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "h16",
+    "h": 16,
+    "k": 9,
+    "key": [
+      "native",
+      1024,
+      16,
+      9
+    ],
+    "array_bytes": 5556,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11700,
+    "charged_bytes": 43292,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.025324675324675326,
+    "exact_ci95": [
+      0.02232642357642358,
+      0.028421578421578424
+    ],
+    "approximate": 0.40324675324675324,
+    "approximate_ci95": [
+      0.40014985014985016,
+      0.40624500499500504
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 82,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      1024,
+      128,
+      0
+    ],
+    "array_bytes": 2568,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 8712,
+    "charged_bytes": 34328,
+    "tail_capacity": null,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.0,
+    "exact_ci95": [
+      0.0,
+      0.0
+    ],
+    "approximate": 0.4285714285714286,
+    "approximate_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 83,
+    "budget": 262144,
+    "reach": 1024,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      1024,
+      1024
+    ],
+    "array_bytes": 24576,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 30720,
+    "charged_bytes": 100352,
+    "tail_capacity": 1024,
+    "answered": 0.4285714285714286,
+    "answered_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "exact": 0.4285714285714286,
+    "exact_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.5714285714285713,
+    "unavailable_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 84,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "h1",
+    "h": 1,
+    "k": 15,
+    "key": [
+      "native",
+      2048,
+      1,
+      15
+    ],
+    "array_bytes": 76852,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 82996,
+    "charged_bytes": 257180,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.5566433566433566,
+    "exact_ci95": [
+      0.5528471528471528,
+      0.5604395604395603
+    ],
+    "approximate": 0.014785214785214785,
+    "approximate_ci95": [
+      0.01098901098901099,
+      0.018581418581418582
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 85,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "h4",
+    "h": 4,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      4,
+      17
+    ],
+    "array_bytes": 23892,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 30036,
+    "charged_bytes": 98300,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.15504495504495502,
+    "exact_ci95": [
+      0.14765234765234764,
+      0.16323676323676323
+    ],
+    "approximate": 0.4163836163836164,
+    "approximate_ci95": [
+      0.40819180819180817,
+      0.42377622377622376
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 86,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "h8",
+    "h": 8,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      8,
+      17
+    ],
+    "array_bytes": 13524,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 19668,
+    "charged_bytes": 67196,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.07302697302697304,
+    "exact_ci95": [
+      0.06653346653346653,
+      0.07992007992007993
+    ],
+    "approximate": 0.4984015984015983,
+    "approximate_ci95": [
+      0.4915084915084915,
+      0.5048951048951049
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 87,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "h16",
+    "h": 16,
+    "k": 17,
+    "key": [
+      "native",
+      2048,
+      16,
+      17
+    ],
+    "array_bytes": 8340,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 14484,
+    "charged_bytes": 51644,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.03331668331668332,
+    "exact_ci95": [
+      0.029720279720279724,
+      0.03676323676323677
+    ],
+    "approximate": 0.5381118881118881,
+    "approximate_ci95": [
+      0.5346653346653346,
+      0.5417082917082916
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 88,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      2048,
+      128,
+      0
+    ],
+    "array_bytes": 2920,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9064,
+    "charged_bytes": 35384,
+    "tail_capacity": null,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.0003996003996003996,
+    "exact_ci95": [
+      0.0,
+      0.000999000999000999
+    ],
+    "approximate": 0.5710289710289709,
+    "approximate_ci95": [
+      0.5704295704295703,
+      0.5714285714285713
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 89,
+    "budget": 262144,
+    "reach": 2048,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      2048,
+      2048
+    ],
+    "array_bytes": 49152,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 55296,
+    "charged_bytes": 174080,
+    "tail_capacity": 2048,
+    "answered": 0.5714285714285713,
+    "answered_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "exact": 0.5714285714285713,
+    "exact_ci95": [
+      0.5714285714285713,
+      0.5714285714285713
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.4285714285714286,
+    "unavailable_ci95": [
+      0.4285714285714286,
+      0.4285714285714286
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 90,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "h1",
+    "h": 1,
+    "k": 15,
+    "key": [
+      "native",
+      4096,
+      1,
+      15
+    ],
+    "array_bytes": 77556,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 83700,
+    "charged_bytes": 259292,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.5568431568431568,
+    "exact_ci95": [
+      0.5528471528471529,
+      0.5606393606393606
+    ],
+    "approximate": 0.15744255744255742,
+    "approximate_ci95": [
+      0.15364635364635365,
+      0.16143856143856142
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 91,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "h4",
+    "h": 4,
+    "k": 33,
+    "key": [
+      "native",
+      4096,
+      4,
+      33
+    ],
+    "array_bytes": 43284,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 49428,
+    "charged_bytes": 156476,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.1867882117882118,
+    "exact_ci95": [
+      0.17774725274725275,
+      0.19640359640359642
+    ],
+    "approximate": 0.5274975024975025,
+    "approximate_ci95": [
+      0.5178821178821179,
+      0.5365384615384615
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 92,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "h8",
+    "h": 8,
+    "k": 33,
+    "key": [
+      "native",
+      4096,
+      8,
+      33
+    ],
+    "array_bytes": 23700,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 29844,
+    "charged_bytes": 97724,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.08741258741258742,
+    "exact_ci95": [
+      0.07992007992007993,
+      0.0953046953046953
+    ],
+    "approximate": 0.6268731268731269,
+    "approximate_ci95": [
+      0.618981018981019,
+      0.6343656343656344
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 93,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "h16",
+    "h": 16,
+    "k": 33,
+    "key": [
+      "native",
+      4096,
+      16,
+      33
+    ],
+    "array_bytes": 13908,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 20052,
+    "charged_bytes": 68348,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.04070929070929071,
+    "exact_ci95": [
+      0.036513486513486515,
+      0.045154845154845163
+    ],
+    "approximate": 0.6735764235764236,
+    "approximate_ci95": [
+      0.669130869130869,
+      0.6777722277722279
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 94,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      4096,
+      128,
+      0
+    ],
+    "array_bytes": 3624,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 9768,
+    "charged_bytes": 37496,
+    "tail_capacity": null,
+    "answered": 0.7142857142857142,
+    "answered_ci95": [
+      0.7142857142857142,
+      0.7142857142857142
+    ],
+    "exact": 0.0005994005994005994,
+    "exact_ci95": [
+      0.0,
+      0.0015984015984015984
+    ],
+    "approximate": 0.7136863136863136,
+    "approximate_ci95": [
+      0.7126873126873127,
+      0.7142857142857142
+    ],
+    "unavailable": 0.28571428571428564,
+    "unavailable_ci95": [
+      0.28571428571428564,
+      0.28571428571428564
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 95,
+    "budget": 262144,
+    "reach": 4096,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      4096,
+      3271
+    ],
+    "array_bytes": 78504,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 84648,
+    "charged_bytes": 262136,
+    "tail_capacity": 3271,
+    "answered": 0.6659340659340659,
+    "answered_ci95": [
+      0.658141858141858,
+      0.6757242757242756
+    ],
+    "exact": 0.6659340659340659,
+    "exact_ci95": [
+      0.658141858141858,
+      0.6757242757242756
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.33406593406593404,
+    "unavailable_ci95": [
+      0.32427572427572426,
+      0.34185814185814195
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 96,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "h1",
+    "h": 1,
+    "k": 14,
+    "key": [
+      "native",
+      8192,
+      1,
+      14
+    ],
+    "array_bytes": 74340,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 80484,
+    "charged_bytes": 249644,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.5388611388611388,
+    "exact_ci95": [
+      0.533061938061938,
+      0.5458541458541458
+    ],
+    "approximate": 0.3182817182817183,
+    "approximate_ci95": [
+      0.31128871128871133,
+      0.32408091908091907
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 97,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "h4",
+    "h": 4,
+    "k": 61,
+    "key": [
+      "native",
+      8192,
+      4,
+      61
+    ],
+    "array_bytes": 77396,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 83540,
+    "charged_bytes": 258812,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.21868131868131865,
+    "exact_ci95": [
+      0.20979020979020982,
+      0.22777222777222775
+    ],
+    "approximate": 0.6384615384615385,
+    "approximate_ci95": [
+      0.6293706293706294,
+      0.6473526473526474
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 98,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "h8",
+    "h": 8,
+    "k": 65,
+    "key": [
+      "native",
+      8192,
+      8,
+      65
+    ],
+    "array_bytes": 44052,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 50196,
+    "charged_bytes": 158780,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.10671828171828174,
+    "exact_ci95": [
+      0.0985014985014985,
+      0.11451111388611389
+    ],
+    "approximate": 0.7504245754245752,
+    "approximate_ci95": [
+      0.7426317432567432,
+      0.7586413586413586
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 99,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "h16",
+    "h": 16,
+    "k": 65,
+    "key": [
+      "native",
+      8192,
+      16,
+      65
+    ],
+    "array_bytes": 25044,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 31188,
+    "charged_bytes": 101756,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.05224775224775225,
+    "exact_ci95": [
+      0.04775224775224776,
+      0.05714535464535462
+    ],
+    "approximate": 0.804895104895105,
+    "approximate_ci95": [
+      0.7999975024975025,
+      0.8093906093906096
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 100,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      8192,
+      128,
+      0
+    ],
+    "array_bytes": 5032,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 11176,
+    "charged_bytes": 41720,
+    "tail_capacity": null,
+    "answered": 0.8571428571428572,
+    "answered_ci95": [
+      0.8571428571428572,
+      0.8571428571428572
+    ],
+    "exact": 0.0007992007992007992,
+    "exact_ci95": [
+      0.0,
+      0.0017982017982017982
+    ],
+    "approximate": 0.8563436563436564,
+    "approximate_ci95": [
+      0.8553446553446554,
+      0.8571428571428572
+    ],
+    "unavailable": 0.14285714285714282,
+    "unavailable_ci95": [
+      0.14285714285714282,
+      0.14285714285714282
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 101,
+    "budget": 262144,
+    "reach": 8192,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      8192,
+      3271
+    ],
+    "array_bytes": 78504,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 84648,
+    "charged_bytes": 262136,
+    "tail_capacity": 3271,
+    "answered": 0.6659340659340659,
+    "answered_ci95": [
+      0.658141858141858,
+      0.6757242757242756
+    ],
+    "exact": 0.6659340659340659,
+    "exact_ci95": [
+      0.658141858141858,
+      0.6757242757242756
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.33406593406593404,
+    "unavailable_ci95": [
+      0.32427572427572426,
+      0.34185814185814195
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 102,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "h1",
+    "h": 1,
+    "k": 14,
+    "key": [
+      "native",
+      16384,
+      1,
+      14
+    ],
+    "array_bytes": 77156,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 83300,
+    "charged_bytes": 258092,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.5392607392607393,
+    "exact_ci95": [
+      0.5332667332667332,
+      0.5462537462537462
+    ],
+    "approximate": 0.46073926073926075,
+    "approximate_ci95": [
+      0.45374625374625377,
+      0.46673326673326676
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "index": 103,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "h4",
+    "h": 4,
+    "k": 59,
+    "key": [
+      "native",
+      16384,
+      4,
+      59
+    ],
+    "array_bytes": 77876,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 84020,
+    "charged_bytes": 260252,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.2176823176823177,
+    "exact_ci95": [
+      0.20939060939060938,
+      0.22647352647352648
+    ],
+    "approximate": 0.7823176823176824,
+    "approximate_ci95": [
+      0.7735264735264736,
+      0.7906093906093907
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.24023164335664335,
+    "common_exact_ci95": [
+      0.23201486013986017,
+      0.24807692307692308
+    ],
+    "common_nrmse": 0.017383862122018846,
+    "common_nrmse_ci95": [
+      0.015524871271527331,
+      0.019966530599556852
+    ]
+  },
+  {
+    "index": 104,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "h8",
+    "h": 8,
+    "k": 118,
+    "key": [
+      "native",
+      16384,
+      8,
+      118
+    ],
+    "array_bytes": 78244,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 84388,
+    "charged_bytes": 261356,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.12147852147852146,
+    "exact_ci95": [
+      0.11448551448551449,
+      0.12867132867132866
+    ],
+    "approximate": 0.8785214785214787,
+    "approximate_ci95": [
+      0.8713286713286714,
+      0.8855144855144854
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.11984265734265734,
+    "common_exact_ci95": [
+      0.10838723776223776,
+      0.13435533216783216
+    ],
+    "common_nrmse": 0.04617122758256724,
+    "common_nrmse_ci95": [
+      0.04077058627080171,
+      0.053613354217295746
+    ]
+  },
+  {
+    "index": 105,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "h16",
+    "h": 16,
+    "k": 129,
+    "key": [
+      "native",
+      16384,
+      16,
+      129
+    ],
+    "array_bytes": 47316,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 53460,
+    "charged_bytes": 168572,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.060239760239760236,
+    "exact_ci95": [
+      0.05624375624375625,
+      0.06423576423576424
+    ],
+    "approximate": 0.9397602397602396,
+    "approximate_ci95": [
+      0.9357642357642357,
+      0.9437562437562436
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.057583041958041946,
+    "common_exact_ci95": [
+      0.05069930069930069,
+      0.06400786713286713
+    ],
+    "common_nrmse": 0.1134470505971566,
+    "common_nrmse_ci95": [
+      0.1039931995670459,
+      0.12572851604908813
+    ]
+  },
+  {
+    "index": 106,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "coarse",
+    "h": 128,
+    "k": 0,
+    "key": [
+      "native",
+      16384,
+      128,
+      0
+    ],
+    "array_bytes": 7848,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 13992,
+    "charged_bytes": 50168,
+    "tail_capacity": null,
+    "answered": 1.0,
+    "answered_ci95": [
+      1.0,
+      1.0
+    ],
+    "exact": 0.0011988011988011988,
+    "exact_ci95": [
+      0.0,
+      0.002597402597402598
+    ],
+    "approximate": 0.9988011988011988,
+    "approximate_ci95": [
+      0.9974025974025973,
+      1.0
+    ],
+    "unavailable": 0.0,
+    "unavailable_ci95": [
+      0.0,
+      0.0
+    ],
+    "common_exact": 0.0019230769230769234,
+    "common_exact_ci95": [
+      0.001048951048951049,
+      0.002972027972027972
+    ],
+    "common_nrmse": 0.39881686349668566,
+    "common_nrmse_ci95": [
+      0.3832404287617062,
+      0.41765077335564643
+    ]
+  },
+  {
+    "index": 107,
+    "budget": 262144,
+    "reach": 16384,
+    "method": "tail",
+    "h": null,
+    "k": null,
+    "key": [
+      "tail",
+      16384,
+      3271
+    ],
+    "array_bytes": 78504,
+    "metadata_bytes": 6144,
+    "workspace_bytes": 8192,
+    "snapshot_slot_bytes": 84648,
+    "charged_bytes": 262136,
+    "tail_capacity": 3271,
+    "answered": 0.6659340659340659,
+    "answered_ci95": [
+      0.658141858141858,
+      0.6757242757242756
+    ],
+    "exact": 0.6659340659340659,
+    "exact_ci95": [
+      0.658141858141858,
+      0.6757242757242756
+    ],
+    "approximate": 0.0,
+    "approximate_ci95": [
+      0.0,
+      0.0
+    ],
+    "unavailable": 0.33406593406593404,
+    "unavailable_ci95": [
+      0.32427572427572426,
+      0.34185814185814195
+    ],
+    "common_exact": 1.0,
+    "common_exact_ci95": [
+      1.0,
+      1.0
+    ],
+    "common_nrmse": 0.0,
+    "common_nrmse_ci95": [
+      0.0,
+      0.0
+    ]
+  }
+]

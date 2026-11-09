@@ -1,0 +1,15 @@
+{
+  "current_wording_supported": true,
+  "exact_tail_coverage_longest": 0.0,
+  "exact_tail_coverage_shortest": 1.0,
+  "interpretation": "The frozen range scan exposes an empirical coverage/precision frontier.",
+  "longest_over_shortest_nrmse_ratio": 7.857527512096232,
+  "minimum_test_coverage": 1.0,
+  "observed_log2_reach_nrmse_slope": 0.02545475679063715,
+  "paired_longest_minus_shortest_bootstrap95": [
+    0.1095011185468673,
+    0.14266542934616794
+  ],
+  "paired_longest_minus_shortest_nrmse_mean": 0.1271139474991605,
+  "recommended_wording": "Under fixed memory, how do historical coverage and query precision trade off?"
+}
