@@ -1,0 +1,23 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption",
+  "doi": "10.24432/C58K54",
+  "license": "CC BY4.0",
+  "raw_sha256": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+  "channels": [
+    "Global_active_power",
+    "Global_reactive_power",
+    "Voltage",
+    "Global_intensity"
+  ],
+  "counts": [
+    1245155,
+    415052,
+    415052
+  ],
+  "missing_cells": 103916,
+  "imputation": "causal forward fill across chronological splits; initial zero only if leading value missing",
+  "normalization": "training mean/std only",
+  "first": "16/12/2006 17:24:00",
+  "last": "26/11/2010 21:02:00",
+  "interval_minutes": 1
+}

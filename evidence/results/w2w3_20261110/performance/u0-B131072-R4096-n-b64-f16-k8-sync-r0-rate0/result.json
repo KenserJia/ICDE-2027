@@ -1,0 +1,105 @@
+{
+  "cid": "u0-B131072-R4096-n-b64-f16-k8",
+  "mode": "sync",
+  "rep": 0,
+  "rate": 0,
+  "clients": 8,
+  "N": 30000,
+  "name": "u0-B131072-R4096-n-b64-f16-k8-sync-r0-rate0",
+  "config": {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "protocol": "random_uniform",
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.03174042150730384,
+      "nrmse": 0.17815841706156615,
+      "exact": 0.0006510416666666666,
+      "bound": 0.846605539948735,
+      "G": {
+        "0.01": 0.0006510416666666666,
+        "0.05": 0.008463541666666666,
+        "0.1": 0.041666666666666664,
+        "0.2": 0.16796875
+      },
+      "U": {
+        "0.01": 0.005859375,
+        "0.05": 0.21614583333333334,
+        "0.1": 0.5065104166666666,
+        "0.2": 0.791015625
+      }
+    },
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "objective": "mse",
+    "objectives": [
+      "mse"
+    ]
+  },
+  "seconds": 0.7270052920794114,
+  "throughput": 41265.17416976804,
+  "query_rps": 39105.63005488351,
+  "G01": 0.03236018290538164,
+  "certified_goodput": 1265.46534120622,
+  "certified_goodput_5ms": 1265.46534120622,
+  "certified_goodput_20ms": 1265.46534120622,
+  "query_p99_ms": 0.03516697324812412,
+  "scheduled_query_p99_ms": 0.03516697324812412,
+  "scheduled_query_p999_ms": 0.05955816118513116,
+  "backlog_drain_seconds": 0.0,
+  "final_checkpoint_drain_seconds": 0.0005666669458150864,
+  "exact_fraction": 0.0015476609215617305,
+  "query_count": 28430,
+  "max_gap": 499,
+  "checkpoints": 4,
+  "checkpoint_bytes": 90533,
+  "exact_oracle_checks": 299,
+  "restored_all_arrays": true,
+  "ledger": {
+    "array_bytes": 21460,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 0,
+    "resident_reservation_bytes": 29652,
+    "envelope_reservation_bytes": 29740,
+    "workspace_bytes": 8192,
+    "charged_bytes": 127064,
+    "budget_bytes": 131072,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 22546,
+    "snapshot_metadata_bytes": 1086,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 22634
+  },
+  "test_observations": 1273,
+  "source_cycles": 0
+}

@@ -1,0 +1,35 @@
+Core conclusion
+Certification fraction, timely certified completion rate, and whole-query tail
+feasibility are separate properties at the tested offered-load points.
+
+Archetype quantitative grid. ICDE double-column, Python/matplotlib only,
+7.1x2.25in, editable PDF/SVG plus600dpi TIFF/PNG preview. Minimum glyph5pt.
+The panel for scheduled p99 has slightly more width as the feasibility test.
+
+Panel a reports certification fraction G(.1), with median and full technical-run
+range for every method/load point. It answers what fraction can be certified.
+Panel b reports scheduled query p99 on a positive log axis with a20ms reference.
+It answers whether all-query tail feasibility holds in each repeated run.
+Panel c reports timely certified queries per second with the same aggregation.
+It answers how many individually valid and timely completions the service yields.
+
+Three methods, three shared load settings, three technical repeats per setting.
+Use all27 primary observations. No population confidence intervals or p-values.
+Methods have fixed colors and redundant marker shapes in every panel. Points
+are grouped categorically by tested base/burst load; horizontal method offsets
+distinguish matched conditions. Do not connect points or shade an interpolated
+capacity region. The table separately reports alpha_max=min-repeat G only when
+all3 p99 measurements meet20ms; this is a finite-horizon observed condition.
+
+Source data is exported directly from complete load_records.json. Missing runs
+block plotting. There are no microscopy images, external templates, synthetic
+measurement values, smoothing, data exclusions or outlier removals. Source and
+rendered-PDF font audits plus final-size panel/whole-figure visual checks follow.
+
+Review risks
+Three technical repeats are not independent deployments. Grouped categorical
+positions must not be read as equally spaced numerical request rates. A high
+timely-certified rate does not imply a p99 deadline guarantee. Same-age methods
+can have overlapping quality; offsets must make that visible without exaggerating
+differences. Span-certificate kernel timings and previous long runs are separate
+experiments and do not enter this figure.

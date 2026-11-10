@@ -1,0 +1,250 @@
+{
+  "denominator": "all history queries, including uncertified queries",
+  "deadline_ms": 20,
+  "latency": "scheduled end-to-end latency including queue delay",
+  "records": [
+    {
+      "name": "recent-b900-r1",
+      "method": "recent",
+      "rep": 1,
+      "base": 900,
+      "queries": 76918,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.6553992563509191
+    },
+    {
+      "name": "recent-b900-r0",
+      "method": "recent",
+      "rep": 0,
+      "base": 900,
+      "queries": 77001,
+      "timely_query_fraction_20ms": 0.9999090920897131,
+      "timely_certified_query_fraction_20ms": 0.6577317177698991
+    },
+    {
+      "name": "hist-b6300-r2",
+      "method": "hist",
+      "rep": 2,
+      "base": 6300,
+      "queries": 538982,
+      "timely_query_fraction_20ms": 0.5173679269437569,
+      "timely_certified_query_fraction_20ms": 0.02329947938892208
+    },
+    {
+      "name": "age-b6300-r1",
+      "method": "age",
+      "rep": 1,
+      "base": 6300,
+      "queries": 538859,
+      "timely_query_fraction_20ms": 0.477072852081899,
+      "timely_certified_query_fraction_20ms": 0.312410110993785
+    },
+    {
+      "name": "recent-b2700-r0",
+      "method": "recent",
+      "rep": 0,
+      "base": 2700,
+      "queries": 230990,
+      "timely_query_fraction_20ms": 0.9999696956578207,
+      "timely_certified_query_fraction_20ms": 0.6573834365124032
+    },
+    {
+      "name": "recent-b2700-r1",
+      "method": "recent",
+      "rep": 1,
+      "base": 2700,
+      "queries": 230931,
+      "timely_query_fraction_20ms": 0.9999913394044109,
+      "timely_certified_query_fraction_20ms": 0.6557196738419702
+    },
+    {
+      "name": "hist-b2700-r0",
+      "method": "hist",
+      "rep": 0,
+      "base": 2700,
+      "queries": 230990,
+      "timely_query_fraction_20ms": 0.9999653664660808,
+      "timely_certified_query_fraction_20ms": 0.048521581020823414
+    },
+    {
+      "name": "age-b2700-r1",
+      "method": "age",
+      "rep": 1,
+      "base": 2700,
+      "queries": 230931,
+      "timely_query_fraction_20ms": 0.9999437061286705,
+      "timely_certified_query_fraction_20ms": 0.6556720405662297
+    },
+    {
+      "name": "recent-b900-r2",
+      "method": "recent",
+      "rep": 2,
+      "base": 900,
+      "queries": 76975,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.6582007145177006
+    },
+    {
+      "name": "hist-b6300-r1",
+      "method": "hist",
+      "rep": 1,
+      "base": 6300,
+      "queries": 538859,
+      "timely_query_fraction_20ms": 0.5062882869173568,
+      "timely_certified_query_fraction_20ms": 0.02261445016228735
+    },
+    {
+      "name": "recent-b6300-r0",
+      "method": "recent",
+      "rep": 0,
+      "base": 6300,
+      "queries": 538955,
+      "timely_query_fraction_20ms": 0.4719392157044651,
+      "timely_certified_query_fraction_20ms": 0.3094506962547894
+    },
+    {
+      "name": "age-b2700-r2",
+      "method": "age",
+      "rep": 2,
+      "base": 2700,
+      "queries": 231044,
+      "timely_query_fraction_20ms": 0.9999437336611208,
+      "timely_certified_query_fraction_20ms": 0.6559919322726407
+    },
+    {
+      "name": "recent-b6300-r2",
+      "method": "recent",
+      "rep": 2,
+      "base": 6300,
+      "queries": 538982,
+      "timely_query_fraction_20ms": 0.46959082121480866,
+      "timely_certified_query_fraction_20ms": 0.3084370164495289
+    },
+    {
+      "name": "hist-b2700-r2",
+      "method": "hist",
+      "rep": 2,
+      "base": 2700,
+      "queries": 231044,
+      "timely_query_fraction_20ms": 0.9999047800418968,
+      "timely_certified_query_fraction_20ms": 0.04967019269056976
+    },
+    {
+      "name": "age-b2700-r0",
+      "method": "age",
+      "rep": 0,
+      "base": 2700,
+      "queries": 230990,
+      "timely_query_fraction_20ms": 0.9999783540413005,
+      "timely_certified_query_fraction_20ms": 0.6573661197454436
+    },
+    {
+      "name": "recent-b6300-r1",
+      "method": "recent",
+      "rep": 1,
+      "base": 6300,
+      "queries": 538859,
+      "timely_query_fraction_20ms": 0.46719271646200583,
+      "timely_certified_query_fraction_20ms": 0.30591304961038046
+    },
+    {
+      "name": "hist-b900-r1",
+      "method": "hist",
+      "rep": 1,
+      "base": 900,
+      "queries": 76918,
+      "timely_query_fraction_20ms": 0.9999869991419433,
+      "timely_certified_query_fraction_20ms": 0.042590810993525574
+    },
+    {
+      "name": "age-b6300-r2",
+      "method": "age",
+      "rep": 2,
+      "base": 6300,
+      "queries": 538982,
+      "timely_query_fraction_20ms": 0.47351859616833214,
+      "timely_certified_query_fraction_20ms": 0.31095101506172745
+    },
+    {
+      "name": "hist-b6300-r0",
+      "method": "hist",
+      "rep": 0,
+      "base": 6300,
+      "queries": 538955,
+      "timely_query_fraction_20ms": 0.5063298420090732,
+      "timely_certified_query_fraction_20ms": 0.022434154985110075
+    },
+    {
+      "name": "age-b900-r1",
+      "method": "age",
+      "rep": 1,
+      "base": 900,
+      "queries": 76918,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.6553992563509191
+    },
+    {
+      "name": "age-b900-r2",
+      "method": "age",
+      "rep": 2,
+      "base": 900,
+      "queries": 76975,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.6581877232867814
+    },
+    {
+      "name": "age-b6300-r0",
+      "method": "age",
+      "rep": 0,
+      "base": 6300,
+      "queries": 538955,
+      "timely_query_fraction_20ms": 0.48309042498909927,
+      "timely_certified_query_fraction_20ms": 0.3167258862057129
+    },
+    {
+      "name": "hist-b2700-r1",
+      "method": "hist",
+      "rep": 1,
+      "base": 2700,
+      "queries": 230931,
+      "timely_query_fraction_20ms": 0.9999783485110271,
+      "timely_certified_query_fraction_20ms": 0.04884575912285488
+    },
+    {
+      "name": "hist-b900-r0",
+      "method": "hist",
+      "rep": 0,
+      "base": 900,
+      "queries": 77001,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.04168777028869755
+    },
+    {
+      "name": "recent-b2700-r2",
+      "method": "recent",
+      "rep": 2,
+      "base": 2700,
+      "queries": 231044,
+      "timely_query_fraction_20ms": 0.999878810962414,
+      "timely_certified_query_fraction_20ms": 0.6559789477328993
+    },
+    {
+      "name": "hist-b900-r2",
+      "method": "hist",
+      "rep": 2,
+      "base": 900,
+      "queries": 76975,
+      "timely_query_fraction_20ms": 0.99970120168886,
+      "timely_certified_query_fraction_20ms": 0.041961675868788566
+    },
+    {
+      "name": "age-b900-r0",
+      "method": "age",
+      "rep": 0,
+      "base": 900,
+      "queries": 77001,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.6577706783028792
+    }
+  ]
+}

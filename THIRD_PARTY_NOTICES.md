@@ -6,7 +6,7 @@ The root `LICENSE` applies to original MT-Memory software, experiment/analysis w
 
 ## UCI observations and derived data: CC BY 4.0
 
-`data/raw`, `data/real`, recorded query truth/predictions and data-derived evidence reuse the Bike Sharing and Beijing Multi-Site Air Quality datasets. These are distributed with attribution under CC BY 4.0, independently of the software license. `data/README.md` gives creators, DOIs, URLs, selected variables and modifications. `licenses/CC-BY-4.0.txt` preserves the terms. Project-generated experimental records are shared under CC BY 4.0 so the evidence archive has a consistent attribution route; no exclusive ownership over underlying third-party facts is claimed.
+`data/raw`, `data/real`, recorded query truth/predictions and data-derived evidence reuse the Bike Sharing, Beijing Multi-Site Air Quality and Individual Household Electric Power Consumption datasets. These are distributed with attribution under CC BY 4.0, independently of the software license. `data/README.md` gives creators, DOIs, URLs, selected variables and modifications. `licenses/CC-BY-4.0.txt` preserves the terms. Project-generated experimental records are shared under CC BY 4.0 so the evidence archive has a consistent attribution route; no exclusive ownership over underlying third-party facts is claimed.
 
 ## Scotty: Apache 2.0
 

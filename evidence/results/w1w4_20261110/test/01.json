@@ -1,0 +1,1422 @@
+[
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "recent-b128-f8-k4",
+    "variant": "recent",
+    "config": {
+      "id": "recent-b128-f8-k4",
+      "family": "native",
+      "variant": "recent",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 4,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 22340,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 30532,
+        "envelope_reservation_bytes": 30620,
+        "workspace_bytes": 8192,
+        "charged_bytes": 130584,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.8146922183700859,
+      0.3333333333333333,
+      1.8530857359916635
+    ],
+    "objective": "mse",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.08640984426811649,
+      "nrmse": 0.29395551386795915,
+      "exact": 0.005208333333333333,
+      "bound": 1.1239256234778192,
+      "G": {
+        "0.01": 0.0234375,
+        "0.05": 0.23177083333333334,
+        "0.1": 0.3033854166666667,
+        "0.2": 0.3346354166666667
+      },
+      "U": {
+        "0.01": 0.17057291666666666,
+        "0.05": 0.357421875,
+        "0.1": 0.455078125,
+        "0.2": 0.650390625
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.05654840663110562,
+      "nrmse": 0.23779908860828,
+      "exact": 0.007161458333333333,
+      "bound": 1.055078707290788,
+      "G": {
+        "0.01": 0.026909722222222224,
+        "0.05": 0.2339409722222222,
+        "0.1": 0.3049045138888889,
+        "0.2": 0.3355034722222222
+      },
+      "U": {
+        "0.01": 0.1662326388888889,
+        "0.05": 0.3650173611111111,
+        "0.1": 0.4763454861111111,
+        "0.2": 0.6885850694444444
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "recent-b128-f8-k4",
+    "variant": "recent",
+    "config": {
+      "id": "recent-b128-f8-k4",
+      "family": "native",
+      "variant": "recent",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 4,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 22340,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 30532,
+        "envelope_reservation_bytes": 30620,
+        "workspace_bytes": 8192,
+        "charged_bytes": 130584,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.8146922183700859,
+      0.3333333333333333,
+      1.8530857359916635
+    ],
+    "objective": "g01",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.08640984426811649,
+      "nrmse": 0.29395551386795915,
+      "exact": 0.005208333333333333,
+      "bound": 1.1239256234778192,
+      "G": {
+        "0.01": 0.0234375,
+        "0.05": 0.23177083333333334,
+        "0.1": 0.3033854166666667,
+        "0.2": 0.3346354166666667
+      },
+      "U": {
+        "0.01": 0.17057291666666666,
+        "0.05": 0.357421875,
+        "0.1": 0.455078125,
+        "0.2": 0.650390625
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.05654840663110562,
+      "nrmse": 0.23779908860828,
+      "exact": 0.007161458333333333,
+      "bound": 1.055078707290788,
+      "G": {
+        "0.01": 0.026909722222222224,
+        "0.05": 0.2339409722222222,
+        "0.1": 0.3049045138888889,
+        "0.2": 0.3355034722222222
+      },
+      "U": {
+        "0.01": 0.1662326388888889,
+        "0.05": 0.3650173611111111,
+        "0.1": 0.4763454861111111,
+        "0.2": 0.6885850694444444
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "sse-b128-q2",
+    "variant": "sse",
+    "config": {
+      "id": "sse-b128-q2",
+      "family": "histogram",
+      "variant": "sse",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072,
+        "hist_variant": "sse",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.7442147150801719,
+      1.0,
+      1.8910788122002884
+    ],
+    "objective": "mse",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.03625876449668145,
+      "nrmse": 0.1904173428029665,
+      "exact": 0.0,
+      "bound": 0.9693354843491147,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.0026041666666666665,
+        "0.1": 0.008463541666666666,
+        "0.2": 0.038411458333333336
+      },
+      "U": {
+        "0.01": 0.006510416666666667,
+        "0.05": 0.17903645833333334,
+        "0.1": 0.4720052083333333,
+        "0.2": 0.798828125
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.029740597342653177,
+      "nrmse": 0.1724546238761898,
+      "exact": 0.00021701388888888888,
+      "bound": 0.9366001633007122,
+      "G": {
+        "0.01": 0.00021701388888888888,
+        "0.05": 0.0030381944444444445,
+        "0.1": 0.013888888888888888,
+        "0.2": 0.044921875
+      },
+      "U": {
+        "0.01": 0.005859375,
+        "0.05": 0.2133246527777778,
+        "0.1": 0.5240885416666666,
+        "0.2": 0.8140190972222222
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "sse-b128-q2",
+    "variant": "sse",
+    "config": {
+      "id": "sse-b128-q2",
+      "family": "histogram",
+      "variant": "sse",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072,
+        "hist_variant": "sse",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.7442147150801719,
+      1.0,
+      1.8910788122002884
+    ],
+    "objective": "g01",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.03625876449668145,
+      "nrmse": 0.1904173428029665,
+      "exact": 0.0,
+      "bound": 0.9693354843491147,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.0026041666666666665,
+        "0.1": 0.008463541666666666,
+        "0.2": 0.038411458333333336
+      },
+      "U": {
+        "0.01": 0.006510416666666667,
+        "0.05": 0.17903645833333334,
+        "0.1": 0.4720052083333333,
+        "0.2": 0.798828125
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.029740597342653177,
+      "nrmse": 0.1724546238761898,
+      "exact": 0.00021701388888888888,
+      "bound": 0.9366001633007122,
+      "G": {
+        "0.01": 0.00021701388888888888,
+        "0.05": 0.0030381944444444445,
+        "0.1": 0.013888888888888888,
+        "0.2": 0.044921875
+      },
+      "U": {
+        "0.01": 0.005859375,
+        "0.05": 0.2133246527777778,
+        "0.1": 0.5240885416666666,
+        "0.2": 0.8140190972222222
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "bound-b128-q1",
+    "variant": "bound",
+    "config": {
+      "id": "bound-b128-q1",
+      "family": "histogram",
+      "variant": "bound",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 1,
+        "max_reach": 4096,
+        "budget": 131072,
+        "hist_variant": "bound",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 14276,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 22468,
+        "envelope_reservation_bytes": 22556,
+        "workspace_bytes": 8192,
+        "charged_bytes": 98328,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      1.149073919608578,
+      0.0,
+      2.496591794478208
+    ],
+    "objective": "mse",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.1305908962138039,
+      "nrmse": 0.3613736238440362,
+      "exact": 0.0,
+      "bound": 1.6653836966582862,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.0006510416666666666,
+        "0.1": 0.0013020833333333333,
+        "0.2": 0.004557291666666667
+      },
+      "U": {
+        "0.01": 0.0006510416666666666,
+        "0.05": 0.05859375,
+        "0.1": 0.17252604166666666,
+        "0.2": 0.4674479166666667
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.09035863461286511,
+      "nrmse": 0.3005971298465226,
+      "exact": 0.0,
+      "bound": 1.5697736522887324,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.00043402777777777775,
+        "0.1": 0.0013020833333333333,
+        "0.2": 0.008029513888888888
+      },
+      "U": {
+        "0.01": 0.0013020833333333333,
+        "0.05": 0.060546875,
+        "0.1": 0.2126736111111111,
+        "0.2": 0.5260416666666666
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "bound-b128-q1",
+    "variant": "bound",
+    "config": {
+      "id": "bound-b128-q1",
+      "family": "histogram",
+      "variant": "bound",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 1,
+        "max_reach": 4096,
+        "budget": 131072,
+        "hist_variant": "bound",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 14276,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 22468,
+        "envelope_reservation_bytes": 22556,
+        "workspace_bytes": 8192,
+        "charged_bytes": 98328,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      1.149073919608578,
+      0.0,
+      2.496591794478208
+    ],
+    "objective": "g01",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.1305908962138039,
+      "nrmse": 0.3613736238440362,
+      "exact": 0.0,
+      "bound": 1.6653836966582862,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.0006510416666666666,
+        "0.1": 0.0013020833333333333,
+        "0.2": 0.004557291666666667
+      },
+      "U": {
+        "0.01": 0.0006510416666666666,
+        "0.05": 0.05859375,
+        "0.1": 0.17252604166666666,
+        "0.2": 0.4674479166666667
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.09035863461286511,
+      "nrmse": 0.3005971298465226,
+      "exact": 0.0,
+      "bound": 1.5697736522887324,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.00043402777777777775,
+        "0.1": 0.0013020833333333333,
+        "0.2": 0.008029513888888888
+      },
+      "U": {
+        "0.01": 0.0013020833333333333,
+        "0.05": 0.060546875,
+        "0.1": 0.2126736111111111,
+        "0.2": 0.5260416666666666
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "fixed-b128-q2",
+    "variant": "fixed",
+    "config": {
+      "id": "fixed-b128-q2",
+      "family": "histogram",
+      "variant": "fixed",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072,
+        "hist_variant": "fixed",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 8192,
+        "charged_bytes": 116808,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.7442147150801719,
+      1.0,
+      1.8910788122002884
+    ],
+    "objective": "mse",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.052493257992667186,
+      "nrmse": 0.22911407183063512,
+      "exact": 0.0,
+      "bound": 0.8372342004805106,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.0032552083333333335,
+        "0.1": 0.01171875,
+        "0.2": 0.04296875
+      },
+      "U": {
+        "0.01": 0.005859375,
+        "0.05": 0.17903645833333334,
+        "0.1": 0.4440104166666667,
+        "0.2": 0.7467447916666666
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.04099571716396692,
+      "nrmse": 0.20247399116933887,
+      "exact": 0.00021701388888888888,
+      "bound": 0.8096727279577595,
+      "G": {
+        "0.01": 0.00021701388888888888,
+        "0.05": 0.002170138888888889,
+        "0.1": 0.009765625,
+        "0.2": 0.03927951388888889
+      },
+      "U": {
+        "0.01": 0.005425347222222222,
+        "0.05": 0.20225694444444445,
+        "0.1": 0.474609375,
+        "0.2": 0.7664930555555556
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "id": "fixed-b128-q2",
+    "variant": "fixed",
+    "config": {
+      "id": "fixed-b128-q2",
+      "family": "histogram",
+      "variant": "fixed",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072,
+        "hist_variant": "fixed",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 8192,
+        "charged_bytes": 116808,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.7442147150801719,
+      1.0,
+      1.8910788122002884
+    ],
+    "objective": "g01",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.052493257992667186,
+      "nrmse": 0.22911407183063512,
+      "exact": 0.0,
+      "bound": 0.8372342004805106,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.0032552083333333335,
+        "0.1": 0.01171875,
+        "0.2": 0.04296875
+      },
+      "U": {
+        "0.01": 0.005859375,
+        "0.05": 0.17903645833333334,
+        "0.1": 0.4440104166666667,
+        "0.2": 0.7467447916666666
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.04099571716396692,
+      "nrmse": 0.20247399116933887,
+      "exact": 0.00021701388888888888,
+      "bound": 0.8096727279577595,
+      "G": {
+        "0.01": 0.00021701388888888888,
+        "0.05": 0.002170138888888889,
+        "0.1": 0.009765625,
+        "0.2": 0.03927951388888889
+      },
+      "U": {
+        "0.01": 0.005425347222222222,
+        "0.05": 0.20225694444444445,
+        "0.1": 0.474609375,
+        "0.2": 0.7664930555555556
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "recent-b128-f8-k16",
+    "variant": "recent",
+    "config": {
+      "id": "recent-b128-f8-k16",
+      "family": "native",
+      "variant": "recent",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.4726050993191338,
+      0.6666666666666666,
+      1.203762648326103
+    ],
+    "objective": "mse",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.036238801359344965,
+      "nrmse": 0.19036491615535966,
+      "exact": 0.010416666666666666,
+      "bound": 0.6271356783540133,
+      "G": {
+        "0.01": 0.04296875,
+        "0.05": 0.4654947916666667,
+        "0.1": 0.6028645833333334,
+        "0.2": 0.6614583333333334
+      },
+      "U": {
+        "0.01": 0.3287760416666667,
+        "0.05": 0.650390625,
+        "0.1": 0.703125,
+        "0.2": 0.8040364583333334
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.04974641730007052,
+      "nrmse": 0.22303904864955815,
+      "exact": 0.013020833333333334,
+      "bound": 0.5882363049439933,
+      "G": {
+        "0.01": 0.04774305555555555,
+        "0.05": 0.4709201388888889,
+        "0.1": 0.6124131944444444,
+        "0.2": 0.6625434027777778
+      },
+      "U": {
+        "0.01": 0.3305121527777778,
+        "0.05": 0.6555989583333334,
+        "0.1": 0.7141927083333334,
+        "0.2": 0.8118489583333334
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "recent-b128-f8-k16",
+    "variant": "recent",
+    "config": {
+      "id": "recent-b128-f8-k16",
+      "family": "native",
+      "variant": "recent",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.4726050993191338,
+      0.6666666666666666,
+      1.203762648326103
+    ],
+    "objective": "g01",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.036238801359344965,
+      "nrmse": 0.19036491615535966,
+      "exact": 0.010416666666666666,
+      "bound": 0.6271356783540133,
+      "G": {
+        "0.01": 0.04296875,
+        "0.05": 0.4654947916666667,
+        "0.1": 0.6028645833333334,
+        "0.2": 0.6614583333333334
+      },
+      "U": {
+        "0.01": 0.3287760416666667,
+        "0.05": 0.650390625,
+        "0.1": 0.703125,
+        "0.2": 0.8040364583333334
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.04974641730007052,
+      "nrmse": 0.22303904864955815,
+      "exact": 0.013020833333333334,
+      "bound": 0.5882363049439933,
+      "G": {
+        "0.01": 0.04774305555555555,
+        "0.05": 0.4709201388888889,
+        "0.1": 0.6124131944444444,
+        "0.2": 0.6625434027777778
+      },
+      "U": {
+        "0.01": 0.3305121527777778,
+        "0.05": 0.6555989583333334,
+        "0.1": 0.7141927083333334,
+        "0.2": 0.8118489583333334
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "sse-b256-q4",
+    "variant": "sse",
+    "config": {
+      "id": "sse-b256-q4",
+      "family": "histogram",
+      "variant": "sse",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144,
+        "hist_variant": "sse",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.7442147150801719,
+      1.0,
+      1.8910788122002884
+    ],
+    "objective": "mse",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.031131628473243956,
+      "nrmse": 0.17644157226883864,
+      "exact": 0.001953125,
+      "bound": 1.0583482753298499,
+      "G": {
+        "0.01": 0.001953125,
+        "0.05": 0.0026041666666666665,
+        "0.1": 0.009765625,
+        "0.2": 0.029947916666666668
+      },
+      "U": {
+        "0.01": 0.007161458333333333,
+        "0.05": 0.17513020833333334,
+        "0.1": 0.4518229166666667,
+        "0.2": 0.7936197916666666
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.025833334507124932,
+      "nrmse": 0.16072751620939868,
+      "exact": 0.0,
+      "bound": 0.9719258237187761,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.002170138888888889,
+        "0.1": 0.008463541666666666,
+        "0.2": 0.036675347222222224
+      },
+      "U": {
+        "0.01": 0.005208333333333333,
+        "0.05": 0.19032118055555555,
+        "0.1": 0.4976128472222222,
+        "0.2": 0.8287760416666666
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "sse-b256-q4",
+    "variant": "sse",
+    "config": {
+      "id": "sse-b256-q4",
+      "family": "histogram",
+      "variant": "sse",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144,
+        "hist_variant": "sse",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.7442147150801719,
+      1.0,
+      1.8910788122002884
+    ],
+    "objective": "g01",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.031131628473243956,
+      "nrmse": 0.17644157226883864,
+      "exact": 0.001953125,
+      "bound": 1.0583482753298499,
+      "G": {
+        "0.01": 0.001953125,
+        "0.05": 0.0026041666666666665,
+        "0.1": 0.009765625,
+        "0.2": 0.029947916666666668
+      },
+      "U": {
+        "0.01": 0.007161458333333333,
+        "0.05": 0.17513020833333334,
+        "0.1": 0.4518229166666667,
+        "0.2": 0.7936197916666666
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.025833334507124932,
+      "nrmse": 0.16072751620939868,
+      "exact": 0.0,
+      "bound": 0.9719258237187761,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.002170138888888889,
+        "0.1": 0.008463541666666666,
+        "0.2": 0.036675347222222224
+      },
+      "U": {
+        "0.01": 0.005208333333333333,
+        "0.05": 0.19032118055555555,
+        "0.1": 0.4976128472222222,
+        "0.2": 0.8287760416666666
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "bound-b256-q4",
+    "variant": "bound",
+    "config": {
+      "id": "bound-b256-q4",
+      "family": "histogram",
+      "variant": "bound",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144,
+        "hist_variant": "bound",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 48244,
+        "charged_bytes": 249372,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.7442147150801719,
+      1.0,
+      1.8910788122002884
+    ],
+    "objective": "mse",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.036234158567154034,
+      "nrmse": 0.19035272131139444,
+      "exact": 0.0,
+      "bound": 0.8328395565183694,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.001953125,
+        "0.1": 0.009114583333333334,
+        "0.2": 0.041666666666666664
+      },
+      "U": {
+        "0.01": 0.00390625,
+        "0.05": 0.18619791666666666,
+        "0.1": 0.486328125,
+        "0.2": 0.77734375
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.03510316115510781,
+      "nrmse": 0.1873583761147891,
+      "exact": 0.0,
+      "bound": 0.7824335849600925,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.001953125,
+        "0.1": 0.008680555555555556,
+        "0.2": 0.036675347222222224
+      },
+      "U": {
+        "0.01": 0.004774305555555556,
+        "0.05": 0.21223958333333334,
+        "0.1": 0.5212673611111112,
+        "0.2": 0.8094618055555556
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "bound-b256-q4",
+    "variant": "bound",
+    "config": {
+      "id": "bound-b256-q4",
+      "family": "histogram",
+      "variant": "bound",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144,
+        "hist_variant": "bound",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 48244,
+        "charged_bytes": 249372,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.7442147150801719,
+      1.0,
+      1.8910788122002884
+    ],
+    "objective": "g01",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.036234158567154034,
+      "nrmse": 0.19035272131139444,
+      "exact": 0.0,
+      "bound": 0.8328395565183694,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.001953125,
+        "0.1": 0.009114583333333334,
+        "0.2": 0.041666666666666664
+      },
+      "U": {
+        "0.01": 0.00390625,
+        "0.05": 0.18619791666666666,
+        "0.1": 0.486328125,
+        "0.2": 0.77734375
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.03510316115510781,
+      "nrmse": 0.1873583761147891,
+      "exact": 0.0,
+      "bound": 0.7824335849600925,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.001953125,
+        "0.1": 0.008680555555555556,
+        "0.2": 0.036675347222222224
+      },
+      "U": {
+        "0.01": 0.004774305555555556,
+        "0.05": 0.21223958333333334,
+        "0.1": 0.5212673611111112,
+        "0.2": 0.8094618055555556
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "fixed-b128-q2",
+    "variant": "fixed",
+    "config": {
+      "id": "fixed-b128-q2",
+      "family": "histogram",
+      "variant": "fixed",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 16384,
+        "budget": 262144,
+        "hist_variant": "fixed",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 41936,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50128,
+        "envelope_reservation_bytes": 50216,
+        "workspace_bytes": 8192,
+        "charged_bytes": 208968,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.7442147150801719,
+      1.0,
+      1.8910788122002884
+    ],
+    "objective": "mse",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.05919959993092933,
+      "nrmse": 0.24330967888396518,
+      "exact": 0.0,
+      "bound": 0.8845732460038235,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.004557291666666667,
+        "0.1": 0.010416666666666666,
+        "0.2": 0.039713541666666664
+      },
+      "U": {
+        "0.01": 0.005859375,
+        "0.05": 0.16080729166666666,
+        "0.1": 0.4186197916666667,
+        "0.2": 0.6979166666666666
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.0496653923001682,
+      "nrmse": 0.22285733603075306,
+      "exact": 0.00043402777777777775,
+      "bound": 0.829202661379164,
+      "G": {
+        "0.01": 0.00043402777777777775,
+        "0.05": 0.003689236111111111,
+        "0.1": 0.009982638888888888,
+        "0.2": 0.039496527777777776
+      },
+      "U": {
+        "0.01": 0.006944444444444444,
+        "0.05": 0.185546875,
+        "0.1": 0.4468315972222222,
+        "0.2": 0.7456597222222222
+      }
+    }
+  },
+  {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "id": "fixed-b128-q2",
+    "variant": "fixed",
+    "config": {
+      "id": "fixed-b128-q2",
+      "family": "histogram",
+      "variant": "fixed",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 16384,
+        "budget": 262144,
+        "hist_variant": "fixed",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 41936,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50128,
+        "envelope_reservation_bytes": 50216,
+        "workspace_bytes": 8192,
+        "charged_bytes": 208968,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "features": [
+      1.0,
+      0.7442147150801719,
+      1.0,
+      1.8910788122002884
+    ],
+    "objective": "g01",
+    "validation_metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.05919959993092933,
+      "nrmse": 0.24330967888396518,
+      "exact": 0.0,
+      "bound": 0.8845732460038235,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.004557291666666667,
+        "0.1": 0.010416666666666666,
+        "0.2": 0.039713541666666664
+      },
+      "U": {
+        "0.01": 0.005859375,
+        "0.05": 0.16080729166666666,
+        "0.1": 0.4186197916666667,
+        "0.2": 0.6979166666666666
+      }
+    },
+    "test": {
+      "n": 4608,
+      "coverage": 1.0,
+      "mse": 0.0496653923001682,
+      "nrmse": 0.22285733603075306,
+      "exact": 0.00043402777777777775,
+      "bound": 0.829202661379164,
+      "G": {
+        "0.01": 0.00043402777777777775,
+        "0.05": 0.003689236111111111,
+        "0.1": 0.009982638888888888,
+        "0.2": 0.039496527777777776
+      },
+      "U": {
+        "0.01": 0.006944444444444444,
+        "0.05": 0.185546875,
+        "0.1": 0.4468315972222222,
+        "0.2": 0.7456597222222222
+      }
+    }
+  }
+]

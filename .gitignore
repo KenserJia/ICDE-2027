@@ -9,7 +9,12 @@ runs/
 downloads/
 .cache/
 .DS_Store
-# Installed raw Release evidence is intentionally outside normal Git history.
-evidence/results/**/*.npz
-evidence/results/**/*.chk
-evidence/results/**/*.pending
+# Installed raw Release members are excluded from Git. Explicit immutable
+# partition inputs below belong to the source/data snapshot and remain tracked.
+/evidence/results/**/*.npz
+/evidence/results/**/*.chk
+/evidence/results/**/*.pending
+/evidence/results/**/*.bin
+/evidence/results/**/*.lock
+!/evidence/results/**/cache/**/*.npz
+!/evidence/results/**/partition_cache/**/*.npz

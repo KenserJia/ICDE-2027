@@ -1,0 +1,25 @@
+\begin{table*}[t]\centering\small
+\caption{Same-statistic certificate and age-allocation controls. Fixed span/sum uses layouts frozen in the preceding study; sum retuned independently maximizes validation $G(.1)$ in each family. All cells report test results. Bike+Beijing is a descriptive macro mean over 13 units; Household is the third source. The newly added age rollup has no preceding-study selection. Budgets 128/256 KiB use $R=4096/16{,}384$.}\label{tab:certage}
+\begin{tabular}{@{}lrlrrrr@{}}\toprule
+Source & KiB & Representation & Fixed span/sum $G(.1)$ (\%) & Retuned sum $G(.1)$ (\%) & NRMSE & Charge (KiB)\\\midrule
+Bike+Beijing & 128 & Recent & 30.15 / 31.49 & 31.49 & 0.240 & 127.52\\
+Bike+Beijing & 128 & SSE bins & 1.12 / 2.23 & 2.23 & 0.165 & 127.65\\
+Bike+Beijing & 128 & Bound bins & 0.17 / 0.42 & 0.42 & 0.298 & 96.02\\
+Bike+Beijing & 128 & Fixed two-level & 0.96 / 2.09 & 2.09 & 0.195 & 114.07\\
+Bike+Beijing & 128 & Age rollup & -- & 31.49 & 0.240 & 121.77\\
+Bike+Beijing & 256 & Recent & 60.21 / 62.47 & 62.50 & 0.218 & 240.50\\
+Bike+Beijing & 256 & SSE bins & 1.13 / 2.33 & 2.34 & 0.172 & 219.49\\
+Bike+Beijing & 256 & Bound bins & 0.91 / 2.13 & 2.12 & 0.171 & 237.79\\
+Bike+Beijing & 256 & Fixed two-level & 0.95 / 2.05 & 2.05 & 0.207 & 204.07\\
+Bike+Beijing & 256 & Age rollup & -- & 62.50 & 0.218 & 240.16\\
+Household & 128 & Recent & 34.31 / 35.09 & 35.09 & 0.228 & 127.52\\
+Household & 128 & SSE bins & 5.60 / 7.12 & 7.12 & 0.154 & 127.65\\
+Household & 128 & Bound bins & 4.08 / 4.32 & 4.32 & 0.271 & 96.02\\
+Household & 128 & Fixed two-level & 5.23 / 6.47 & 6.47 & 0.180 & 114.07\\
+Household & 128 & Age rollup & -- & 35.09 & 0.228 & 121.77\\
+Household & 256 & Recent & 64.61 / 66.06 & 66.06 & 0.220 & 222.52\\
+Household & 256 & SSE bins & 5.30 / 6.75 & 6.75 & 0.141 & 241.52\\
+Household & 256 & Bound bins & 5.45 / 7.01 & 7.16 & 0.149 & 243.53\\
+Household & 256 & Fixed two-level & 5.21 / 6.34 & 6.34 & 0.176 & 204.07\\
+Household & 256 & Age rollup & -- & 66.06 & 0.220 & 223.02\\
+\bottomrule\end{tabular}\end{table*}

@@ -1,0 +1,144 @@
+{
+  "choices": {
+    "recent": {
+      "id": "recent-b256-f8-k8",
+      "family": "native",
+      "variant": "recent",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 8,
+        "overlay_capacity": 8,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 46660,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 54852,
+        "envelope_reservation_bytes": 54940,
+        "workspace_bytes": 8192,
+        "charged_bytes": 227864,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "age": {
+      "id": "age-b256-f8-k8",
+      "family": "rollup",
+      "variant": "age",
+      "options": {
+        "engine": "histogram",
+        "bins": 1,
+        "base_width": 256,
+        "fine_width": 8,
+        "overlay_capacity": 8,
+        "max_reach": 16384,
+        "budget": 262144,
+        "age_rollup": true
+      },
+      "ledger": {
+        "array_bytes": 46788,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 54980,
+        "envelope_reservation_bytes": 55068,
+        "workspace_bytes": 8192,
+        "charged_bytes": 228376,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "hist": {
+      "id": "sse-b256-q4",
+      "family": "histogram",
+      "variant": "sse",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144,
+        "hist_variant": "sse",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  "selection_sha256": "e990a0dee739bf77446347d0bcf0271b876641298031d72e2abb20187444f505",
+  "certificate_mode": "sum",
+  "quality_selection": "Household validation G(.1), family independent; strongest histogram also selected only by validation",
+  "pilot_requests": 10000,
+  "relative_rates": [
+    0.05,
+    0.15,
+    0.35
+  ],
+  "base_cap": 8000,
+  "base_floor": 100,
+  "rate_step": 100,
+  "burst_multiplier": 4,
+  "duration": 60,
+  "bursts": [
+    [
+      20,
+      25
+    ],
+    [
+      45,
+      50
+    ]
+  ],
+  "clients": 8,
+  "K": 500,
+  "request_fractions": [
+    0.95,
+    0.04,
+    0.01
+  ],
+  "technical_repeats": 3,
+  "source": {
+    "repro/cert_age_slo_20261110/load_points.py": "372e15d2b2622805b5a7e3e7548e44e9a987709fa2bb37c59e2ef747be21200e",
+    "repro/cert_age_slo_20261110/common.py": "77ce54f387a6c796f064c0cfb19156499324c0d2548c3e6e04f586ee4c0de2fa",
+    "src/mtmemory_icde/core/__init__.py": "adb834d6143b5cf3d07ada8edc5adcd234dcae1b777f5f50e42ac451e53e164d",
+    "src/mtmemory_icde/core/age_rollup.py": "cc16683a51e08f2a41aef812cfe6b60c064cc5c4bd719f7f11160de5b82b38cc",
+    "src/mtmemory_icde/core/baselines.py": "a3c87dc666879e58b3cc4fa20e552d3b04f20e6f6fed038fcafc5f599225b300",
+    "src/mtmemory_icde/core/certified.py": "dbfdb9cac4ad84d8d4613b10e5a956cfe236ad38d27fea83b126dca71c23d202",
+    "src/mtmemory_icde/core/checkpoint.py": "753661bb9865f384322f566e41fb20eda36e9c57934f8f68e5f92e5467037c34",
+    "src/mtmemory_icde/core/evidence_service.py": "deaf08c2ddc92f51ab7a03864947c67d175be5d1ad7c58e02ffe0b9cff700f62",
+    "src/mtmemory_icde/core/histogram.py": "9badabd6d42379fda6f0e85168d831efd06d9e5fe78bbae517fcb204959d099b",
+    "src/mtmemory_icde/core/history.py": "57a42c6370250e4b8acf726a0d0432de3ce9e6df81cdcfad139976180f873794",
+    "src/mtmemory_icde/core/joint.py": "1b6e5eb7e82c997f699bd54e4b005379d5396e76b60ddb29ba336e5225f15def",
+    "src/mtmemory_icde/core/joint_history.py": "90b4e4b33c208711b1451cfcbc61c1fe350d784eccd5cba4f157d849135a1c82",
+    "src/mtmemory_icde/core/numerics.py": "14cfe301a799fd29beb20f31bb7014ffff7693aeeb8f29ebcf81106e9f1c19f3",
+    "src/mtmemory_icde/core/replay.py": "6264e12cac4b6433b0587c9b7a13834a90685ef3035d6c683f0c696f43e6033c",
+    "src/mtmemory_icde/core/rpo.py": "2912abfc8958a90fa946693d3b749fb5606866eee724c6f60a26d2b6a62e945e",
+    "src/mtmemory_icde/core/service.py": "1f15df1fb2fff4d71b40bf80aa35b381255a42b4912db0f5a8e88d1f1d42df5a",
+    "src/mtmemory_icde/core/strong_baselines.py": "d9984b5455d04a0038ca2f0e5e21842d1c4ea66dc9e72e7c4d7bb8b81d64f083",
+    "src/mtmemory_icde/core/sum_aware.py": "70a6787bdc8996f731a0ee111c0feb9dd3d704417c2bba33d2b58bbf085ed07a"
+  }
+}

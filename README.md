@@ -1,88 +1,58 @@
-# MT-Memory: current-paper reproducibility artifact
+# MT-Memory: ICDE 2027 reproducibility artifact
 
-Repository: https://github.com/KenserJia/ICDE-2027 · Versioned release: [v0.2.0](https://github.com/KenserJia/ICDE-2027/releases/tag/v0.2.0).
-
-[Download complete raw evidence](https://github.com/KenserJia/ICDE-2027/releases/download/v0.2.0/mt-memory-raw-evidence-20261109.tar.gz) · [中文说明](README_zh.md). The source code, processed datasets and compact records are below; large raw traces are attached to the versioned release.
-
-This is the data/code snapshot supporting **Bounded State Management for Mutable Facts and Historical Stream Queries with Strict Recovery Bounds**. The manuscript snapshot is identified in `provenance/PAPER.json`. The package covers all five research questions, the six body tables, four body figures, and the complete recorded experiments supporting the stated claims. It does not include reviewer reports, manuscript-edit scripts, private environments, or unrelated neural-model explorations.
+This **v0.3.0** package targets the current manuscript, *Bounded State Management for Mutable Facts and Historical Stream Queries with Strict Recovery Bounds*. It includes original code, three public data sources (14 entities), current and prior recorded experiments, and 28 isolated reproduction protocols. `provenance/PAPER.json` identifies the manuscript snapshot by SHA-256. The dated source/data ZIP and complete raw-evidence archive are available from the [v0.3.0 Release](https://github.com/KenserJia/ICDE-2027/releases/tag/v0.3.0).
 
 ## Quick start
 
-Python 3.12+ is required; the recorded environment is Python 3.14.5/macOS/arm64. A POSIX system is required for local file locking, process signals and fsync. Linux execution is supported by the code but original Linux timing measurements are not claimed.
+Use Python 3.12 or newer. Local validation uses Python 3.14.5 on macOS/arm64 with the exact dependency pins in `requirements.txt`.
 
 ```sh
-python3 -m venv .venv
-. .venv/bin/activate
+python -m venv .venv
+source .venv/bin/activate
 python -m pip install -e '.[test,figures,sql]'
 python reproduce.py verify
-python -m pytest -q tests repro/review6_20261109/test_optimized.py
+make test
 python reproduce.py smoke --output runs/smoke
+python reproduce.py prepare-data --output runs/rebuilt-data
 python reproduce.py tables --output runs/tables
 python reproduce.py figures --output runs/figures
-```
-
-Use a new output directory each time. The runner refuses existing destinations and never resumes from the published records. Run timing experiments serially, without other experiments competing for the machine.
-
-## Three reproduction levels
-
-1. **Inspect/rebuild recorded evidence**: `verify`, `tables`, and `figures` validate the supplied files and recompute the body displays. This does not remeasure performance.
-2. **Behavioral validation**: `smoke` and the tests exercise the actual service, exact-oracle certificates, active boundaries, cache invalidation, coherent images and recovery controls. A smoke run is not a full scientific run.
-3. **Full scientific reruns**: `run EXPERIMENT --output DIR` executes the original protocol in an isolated workspace, with only its declared reference inputs preloaded. New selections and timings are generated from source. Deterministic quality/counts can be checked against the supplied records; throughput, interleavings, process memory and wall-clock operation counts are machine-specific.
-
-```sh
 python reproduce.py list
-python reproduce.py run joint-quality --output runs/joint-quality
-python reproduce.py run joint-faults --output runs/joint-faults
-python reproduce.py run joint-performance --output runs/joint-performance
-python reproduce.py run rq2-controlled --output runs/rq2-controlled
-python reproduce.py run rq3-symmetric --output runs/rq3-symmetric
-python reproduce.py run rq3-kernel --output runs/rq3-kernel
 ```
 
-`experiments/catalog.json` provides every entry point, protocol command, reference input, output location and RQ. `docs/EXPERIMENTS.md` maps all entries to the paper. Full layout selection, kernel sensitivity and the 30-minute study can take substantial time; timings are not inferred from smoke checks. The Java Scotty baseline separately requires JDK/java/javac, Maven and Maven Central access. The SQL baseline uses the `sql` extra.
+Run from the extracted repository root. Output destinations must be new. Integrity checks require no network. The smoke run checks certificate containment, active/wrapped restoration, and the recovery gate; it is not a throughput experiment. `tables` reconstructs all six current body tables from per-entity/per-run records and checks their displayed cells. `figures` regenerates the two current figures; font/platform differences may change pixels.
 
-## Repository layout
+## Contents and complete evidence
 
-```text
-src/mtmemory_icde/core/   scientific service, certificates, summaries, checkpoints
-src/mtmemory_artifact/    portable CLI, data preparation, evidence IO and checks
-experiments/catalog.json runnable protocols grouped by research question
-repro/                   low-level protocol drivers; historical IDs retained for traceability
-data/raw/                exact UCI source archives
-data/real/               exact processed/split arrays used by the paper
-evidence/                indexed final entity/run records and raw-data manifest
-analysis/                display regeneration and table definitions
-figures/recorded/        four current body figures in editable/vector formats
-docs/                    protocol guide, data dictionary, theory and upload instructions
-provenance/              source identity, copy/portability audit and validation report
-licenses/                dataset and third-party licenses
-tests/                   scientific and artifact-contract regression tests
-```
+| Directory | Role |
+| --- | --- |
+| `src/mtmemory_icde/core/` | Bounded history, certificates, service state and checkpoint mechanisms; 16 original modules |
+| `src/mtmemory_artifact/` | Portable runner, data preparation, evidence loading and reconstruction |
+| `repro/` | Frozen scientific experiment drivers, organized by study |
+| `experiments/catalog.json` | 28 protocols with commands, explicit reference inputs and output destinations |
+| `data/raw/`, `data/real/` | Three UCI source archives, processed arrays and source/transform metadata |
+| `evidence/` | Indexed immutable records, protocols, text summaries and deterministic partition inputs |
+| `analysis/recorded/`, `figures/recorded/` | Current paper display sources and explicitly retained older displays |
+| `tests/` | Behavioral and artifact integrity tests |
+| `provenance/`, `docs/`, `licenses/` | Snapshot hashes, validation scope, reuse notices and reproduction instructions |
 
-The old protocol IDs under `repro/` are implementation locations, not required user-facing execution order. Public entry points and the paper-evidence map are the navigation layer. Core scientific modules are byte-identical to the recorded final implementation; wrapper portability changes are documented in `provenance/PORTABILITY_PATCHES.json`.
-
-## Complete raw evidence
-
-The repository includes all final plain-text run/entity records; large text files are losslessly gzip-compressed and transparently read by the evidence loader. Per-request arrays, query truth/predictions, validation states and actual checkpoint images are supplied as a separate GitHub Release asset, **mt-memory-raw-evidence-20261109.tar.gz**. Nothing is synthesized to replace missing raw evidence. The manifest enumerates each file, size and SHA-256.
+The source/data package supports verification, preprocessing, current tables/figures and new quality runs without the large binary archive. Complete checkpoints, per-request arrays and raw binary traces are a separate Release asset: **`mt-memory-raw-evidence-20261110.tar.gz`**. It contains 7,131 files, listed with sizes and hashes in `evidence/RAW_MANIFEST.json`.
 
 ```sh
-# Download the accompanying asset, then verify and import it:
-python reproduce.py install-raw --archive /path/to/mt-memory-raw-evidence-20261109.tar.gz
+python reproduce.py install-raw --archive ../mt-memory-raw-evidence-20261110.tar.gz
 python reproduce.py verify --full
-# An actual published HTTPS asset URL can also be supplied:
-python reproduce.py fetch-raw --url ACTUAL_RELEASE_ASSET_URL --download-to downloads/raw-evidence.tar.gz
+python reproduce.py audit-raw --output runs/raw-completion-audit
 ```
 
-Full reruns do not need this large archive: their reference inputs and real observations are already in the repository. The raw asset is required to inspect every original per-request binary and validate `--full`. After import these large files are ignored by Git; publish them as a Release asset rather than adding them to Git history.
+Source/data ZIP and raw-evidence TAR.GZ are complementary parts of the complete artifact. Do not substitute the old dated archive for the current manifest. No login, personal webpage, tracking callback or API key is needed for the bundled evidence.
 
-## Data and licenses
+## Current controls and scope
 
-Original software and associated project documentation use the **MIT License**. Reused UCI data and data-derived records retain **CC BY 4.0** with citations and transformations described in `data/README.md`. The frozen Scotty source retains **Apache 2.0**. The repository MIT license does not replace those licenses; see `THIRD_PARTY_NOTICES.md`.
+The package retains same-statistic SPAN/SUM controls, the lightweight age-matched rollup, and quality selection separated from load/p99 feasibility. New records include 780 frozen quality choices, 228 fixed-layout controls, 78 matched-age cases, and 27 paired SUM service runs. These are controlled local workloads. The high-load infeasible points, age-matched ties, workload reversals and measured certificate costs remain available; the repository does not infer a production SLO or uniform method dominance.
 
-## Interpretation and scope
+Current quality and timing claims are distinguished in [the experiment map](docs/EXPERIMENTS.md). Detailed commands, dependencies, resource scope and hardware-sensitive results are in [REPRODUCIBILITY](docs/REPRODUCIBILITY.md). Prior display generators remain for historical traceability and are not relabeled as the current paper.
 
-The joint ledger reserves resident payload, extrema/facts/control metadata, two durable images, one pending image, workspace and optional cache payload. It is not an OS RAM cap. Queries are ingestion-order range means; certified history is append-only. The K loss bound requires the latest completed valid image; older corruption fallback can exceed K. Twelve Beijing stations are correlated. All wins, losses, ties and technical repeats remain in the evidence. History-only and joint-service ledgers, native-only scheduling diagnostics and joint timing are separate studies.
+## Reuse and upload
 
-## GitHub publication
+Original project software/documentation is **MIT**. UCI data and data-derived records are **CC BY 4.0**; the bundled unmodified Scotty source is **Apache 2.0**. Preserve `LICENSE`, `THIRD_PARTY_NOTICES.md`, `LICENSES.json`, dataset citations and vendor notices. The MIT software license does not replace third-party terms.
 
-Follow `docs/GITHUB_UPLOAD.md`. Upload this directory as the repository content, attach the raw-evidence archive to the same versioned Release, and then replace the availability placeholder using `docs/AVAILABILITY.md`. No public URL, DOI, publication acceptance or individual author identity has been invented. See `CITATION.cff` and fill personal authors only after confirming them.
+See [publication details](PUBLICATION.md), the [ICDE supplemental-material audit](docs/ICDE_SUPPLEMENTAL_CHECKLIST.md), and [中文说明](README_zh.md). The preparation and manual-upload documents preserve the provenance of the local package. No artifact DOI has been assigned.

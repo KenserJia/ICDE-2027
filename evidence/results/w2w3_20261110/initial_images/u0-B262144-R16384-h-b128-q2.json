@@ -1,0 +1,76 @@
+{
+  "config": {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "protocol": "random_uniform",
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.030658420527897908,
+      "nrmse": 0.17509546135849366,
+      "exact": 0.0,
+      "bound": 1.3847572877787229,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.0013020833333333333,
+        "0.1": 0.006510416666666667,
+        "0.2": 0.020182291666666668
+      },
+      "U": {
+        "0.01": 0.0032552083333333335,
+        "0.05": 0.12044270833333333,
+        "0.1": 0.423828125,
+        "0.2": 0.7916666666666666
+      }
+    },
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 16384,
+        "budget": 262144
+      },
+      "ledger": {
+        "array_bytes": 41936,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50128,
+        "envelope_reservation_bytes": 50216,
+        "workspace_bytes": 22100,
+        "charged_bytes": 222876,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "objective": "g01",
+    "objectives": [
+      "g01"
+    ]
+  },
+  "account": {
+    "array_bytes": 41936,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 0,
+    "resident_reservation_bytes": 50128,
+    "envelope_reservation_bytes": 50216,
+    "workspace_bytes": 22100,
+    "charged_bytes": 222876,
+    "budget_bytes": 262144,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 42591,
+    "snapshot_metadata_bytes": 655,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 42679
+  },
+  "sha256": "f8d4d4e3138eff2e346a5b522347cec25c7ee90ac0a7158c410f5df1048c87eb"
+}

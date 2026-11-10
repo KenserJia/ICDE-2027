@@ -1,0 +1,105 @@
+{
+  "cid": "u1-B262144-R16384-n-b256-f8-k8",
+  "mode": "sync",
+  "rep": 1,
+  "rate": 5000,
+  "clients": 8,
+  "N": 20000,
+  "name": "u1-B262144-R16384-n-b256-f8-k8-sync-r1-rate5000",
+  "config": {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "protocol": "random_uniform",
+    "id": "n-b256-f8-k8",
+    "family": "native",
+    "metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.052033183375571924,
+      "nrmse": 0.2281078326021173,
+      "exact": 0.009765625,
+      "bound": 0.9200804617160684,
+      "G": {
+        "0.01": 0.046875,
+        "0.05": 0.4557291666666667,
+        "0.1": 0.6002604166666666,
+        "0.2": 0.66015625
+      },
+      "U": {
+        "0.01": 0.3359375,
+        "0.05": 0.6373697916666666,
+        "0.1": 0.6731770833333334,
+        "0.2": 0.7513020833333334
+      }
+    },
+    "config": {
+      "id": "n-b256-f8-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 8,
+        "overlay_capacity": 8,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 46660,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 54852,
+        "envelope_reservation_bytes": 54940,
+        "workspace_bytes": 8192,
+        "charged_bytes": 227864,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "objective": "g01",
+    "objectives": [
+      "g01"
+    ]
+  },
+  "seconds": 4.000120208016597,
+  "throughput": 4999.849744494733,
+  "query_rps": 4738.107610370434,
+  "G01": 0.604178757980267,
+  "certified_goodput": 2862.6639712104593,
+  "certified_goodput_5ms": 2861.414008774336,
+  "certified_goodput_20ms": 2862.6639712104593,
+  "query_p99_ms": 0.16272316221147762,
+  "scheduled_query_p99_ms": 0.508103147149086,
+  "scheduled_query_p999_ms": 1.3254199633377506,
+  "backlog_drain_seconds": 0.00012020801659673452,
+  "final_checkpoint_drain_seconds": 0.0014342500362545252,
+  "exact_fraction": 0.012082519917691131,
+  "query_count": 18953,
+  "max_gap": 499,
+  "checkpoints": 3,
+  "checkpoint_bytes": 143526,
+  "exact_oracle_checks": 198,
+  "restored_all_arrays": true,
+  "ledger": {
+    "array_bytes": 46660,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 0,
+    "resident_reservation_bytes": 54852,
+    "envelope_reservation_bytes": 54940,
+    "workspace_bytes": 8192,
+    "charged_bytes": 227864,
+    "budget_bytes": 262144,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 47755,
+    "snapshot_metadata_bytes": 1095,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 47843
+  },
+  "test_observations": 831,
+  "source_cycles": 0
+}

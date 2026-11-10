@@ -1,0 +1,136 @@
+{
+  "choices": {
+    "recent": {
+      "id": "recent-b256-f8-k8",
+      "family": "native",
+      "variant": "recent",
+      "options": {
+        "engine": "certified",
+        "base_width": 256,
+        "fine_width": 8,
+        "overlay_capacity": 8,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 46660,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 54852,
+        "envelope_reservation_bytes": 54940,
+        "workspace_bytes": 8192,
+        "charged_bytes": 227864,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "strong": {
+      "id": "sse-b256-q4",
+      "family": "histogram",
+      "variant": "sse",
+      "options": {
+        "engine": "histogram",
+        "base_width": 256,
+        "bins": 4,
+        "max_reach": 16384,
+        "budget": 262144,
+        "hist_variant": "sse",
+        "prior_widths": [
+          16,
+          17,
+          31,
+          32,
+          63,
+          64,
+          127,
+          128
+        ]
+      },
+      "ledger": {
+        "array_bytes": 42024,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 50216,
+        "envelope_reservation_bytes": 50304,
+        "workspace_bytes": 46188,
+        "charged_bytes": 247316,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    }
+  },
+  "baseline_selection": "highest household validation G(.1) among SSE/bound/fixed",
+  "K": 500,
+  "budget": 262144,
+  "R": 16384,
+  "clients": 8,
+  "query_fraction": 0.95,
+  "observation_fraction": 0.04,
+  "fact_fraction": 0.01,
+  "jobs": [
+    {
+      "method": "recent",
+      "rep": 0,
+      "duration": 600,
+      "base": 8000,
+      "burst": 40000,
+      "name": "recent-r0-10min"
+    },
+    {
+      "method": "strong",
+      "rep": 1,
+      "duration": 600,
+      "base": 8000,
+      "burst": 40000,
+      "name": "strong-r1-10min"
+    },
+    {
+      "method": "strong",
+      "rep": 2,
+      "duration": 600,
+      "base": 8000,
+      "burst": 40000,
+      "name": "strong-r2-10min"
+    },
+    {
+      "method": "strong",
+      "rep": 0,
+      "duration": 600,
+      "base": 8000,
+      "burst": 40000,
+      "name": "strong-r0-10min"
+    },
+    {
+      "method": "recent",
+      "rep": 1,
+      "duration": 600,
+      "base": 8000,
+      "burst": 40000,
+      "name": "recent-r1-10min"
+    },
+    {
+      "method": "recent",
+      "rep": 2,
+      "duration": 600,
+      "base": 8000,
+      "burst": 40000,
+      "name": "recent-r2-10min"
+    },
+    {
+      "method": "recent",
+      "rep": 3,
+      "duration": 1800,
+      "base": 4000,
+      "burst": 20000,
+      "name": "recent-30min"
+    }
+  ],
+  "scope": "six10min matched runs and one30min descriptive run, fixed load and two10s bursts, no capacity optimum or productionSLO claim",
+  "source": {
+    "repro/w1w4_20261110/longrun.py": "6eef67d23b37616e8a3e0d936799ebbf80099f2fc0dd00ac5800c637c18a36c6",
+    "src/mtmemory_icde/core/strong_baselines.py": "d9984b5455d04a0038ca2f0e5e21842d1c4ea66dc9e72e7c4d7bb8b81d64f083"
+  }
+}

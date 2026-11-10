@@ -1,0 +1,214 @@
+[
+  {
+    "domain": "original",
+    "B": 131072,
+    "variant": "recent",
+    "n": 13,
+    "retuned_G": 0.3148704594017094,
+    "retuned_nrmse": 0.23995359425458082,
+    "charge_kib": 127.5234375,
+    "fixed_span_G": 0.30146567841880345,
+    "fixed_sum_G": 0.3148704594017094
+  },
+  {
+    "domain": "original",
+    "B": 131072,
+    "variant": "sse",
+    "n": 13,
+    "retuned_G": 0.022302350427350428,
+    "retuned_nrmse": 0.16527254749904438,
+    "charge_kib": 127.65234375,
+    "fixed_span_G": 0.011184561965811966,
+    "fixed_sum_G": 0.022302350427350428
+  },
+  {
+    "domain": "original",
+    "B": 131072,
+    "variant": "bound",
+    "n": 13,
+    "retuned_G": 0.004206730769230769,
+    "retuned_nrmse": 0.2981048354642391,
+    "charge_kib": 96.0234375,
+    "fixed_span_G": 0.001719417735042735,
+    "fixed_sum_G": 0.004206730769230769
+  },
+  {
+    "domain": "original",
+    "B": 131072,
+    "variant": "fixed",
+    "n": 13,
+    "retuned_G": 0.020850026709401708,
+    "retuned_nrmse": 0.19490843801770638,
+    "charge_kib": 114.0703125,
+    "fixed_span_G": 0.00959869123931624,
+    "fixed_sum_G": 0.020850026709401708
+  },
+  {
+    "domain": "original",
+    "B": 131072,
+    "variant": "age",
+    "n": 13,
+    "retuned_G": 0.3148704594017094,
+    "retuned_nrmse": 0.23995359425458082,
+    "charge_kib": 121.7734375
+  },
+  {
+    "domain": "original",
+    "B": 262144,
+    "variant": "recent",
+    "n": 13,
+    "retuned_G": 0.6249833066239316,
+    "retuned_nrmse": 0.2183046957077186,
+    "charge_kib": 240.50420673076923,
+    "fixed_span_G": 0.602096688034188,
+    "fixed_sum_G": 0.6246828258547008
+  },
+  {
+    "domain": "original",
+    "B": 262144,
+    "variant": "sse",
+    "n": 13,
+    "retuned_G": 0.023370726495726496,
+    "retuned_nrmse": 0.17238860106136658,
+    "charge_kib": 219.48828125,
+    "fixed_span_G": 0.011318108974358974,
+    "fixed_sum_G": 0.023253872863247864
+  },
+  {
+    "domain": "original",
+    "B": 262144,
+    "variant": "bound",
+    "n": 13,
+    "retuned_G": 0.02123397435897436,
+    "retuned_nrmse": 0.17137691731498808,
+    "charge_kib": 237.78876201923077,
+    "fixed_span_G": 0.009081196581196582,
+    "fixed_sum_G": 0.021284054487179488
+  },
+  {
+    "domain": "original",
+    "B": 262144,
+    "variant": "fixed",
+    "n": 13,
+    "retuned_G": 0.020532852564102564,
+    "retuned_nrmse": 0.20711042217663958,
+    "charge_kib": 204.0703125,
+    "fixed_span_G": 0.009531917735042736,
+    "fixed_sum_G": 0.020532852564102564
+  },
+  {
+    "domain": "original",
+    "B": 262144,
+    "variant": "age",
+    "n": 13,
+    "retuned_G": 0.6249833066239316,
+    "retuned_nrmse": 0.2183046957077186,
+    "charge_kib": 240.1580528846154
+  },
+  {
+    "domain": "household",
+    "B": 131072,
+    "variant": "recent",
+    "n": 1,
+    "retuned_G": 0.3509114583333333,
+    "retuned_nrmse": 0.22752990187945868,
+    "charge_kib": 127.5234375,
+    "fixed_span_G": 0.3430989583333333,
+    "fixed_sum_G": 0.3509114583333333
+  },
+  {
+    "domain": "household",
+    "B": 131072,
+    "variant": "sse",
+    "n": 1,
+    "retuned_G": 0.07118055555555555,
+    "retuned_nrmse": 0.15405015430197103,
+    "charge_kib": 127.65234375,
+    "fixed_span_G": 0.055989583333333336,
+    "fixed_sum_G": 0.07118055555555555
+  },
+  {
+    "domain": "household",
+    "B": 131072,
+    "variant": "bound",
+    "n": 1,
+    "retuned_G": 0.04318576388888889,
+    "retuned_nrmse": 0.27111243869389656,
+    "charge_kib": 96.0234375,
+    "fixed_span_G": 0.04079861111111111,
+    "fixed_sum_G": 0.04318576388888889
+  },
+  {
+    "domain": "household",
+    "B": 131072,
+    "variant": "fixed",
+    "n": 1,
+    "retuned_G": 0.0646701388888889,
+    "retuned_nrmse": 0.1803554777243661,
+    "charge_kib": 114.0703125,
+    "fixed_span_G": 0.052300347222222224,
+    "fixed_sum_G": 0.0646701388888889
+  },
+  {
+    "domain": "household",
+    "B": 131072,
+    "variant": "age",
+    "n": 1,
+    "retuned_G": 0.3509114583333333,
+    "retuned_nrmse": 0.22752990187945868,
+    "charge_kib": 121.7734375
+  },
+  {
+    "domain": "household",
+    "B": 262144,
+    "variant": "recent",
+    "n": 1,
+    "retuned_G": 0.6605902777777778,
+    "retuned_nrmse": 0.22011254573490735,
+    "charge_kib": 222.5234375,
+    "fixed_span_G": 0.6460503472222222,
+    "fixed_sum_G": 0.6605902777777778
+  },
+  {
+    "domain": "household",
+    "B": 262144,
+    "variant": "sse",
+    "n": 1,
+    "retuned_G": 0.06749131944444445,
+    "retuned_nrmse": 0.14055168077036692,
+    "charge_kib": 241.51953125,
+    "fixed_span_G": 0.05295138888888889,
+    "fixed_sum_G": 0.06749131944444445
+  },
+  {
+    "domain": "household",
+    "B": 262144,
+    "variant": "bound",
+    "n": 1,
+    "retuned_G": 0.07161458333333333,
+    "retuned_nrmse": 0.1486909688634224,
+    "charge_kib": 243.52734375,
+    "fixed_span_G": 0.05447048611111111,
+    "fixed_sum_G": 0.0700954861111111
+  },
+  {
+    "domain": "household",
+    "B": 262144,
+    "variant": "fixed",
+    "n": 1,
+    "retuned_G": 0.06336805555555555,
+    "retuned_nrmse": 0.17614214916177864,
+    "charge_kib": 204.0703125,
+    "fixed_span_G": 0.052083333333333336,
+    "fixed_sum_G": 0.06336805555555555
+  },
+  {
+    "domain": "household",
+    "B": 262144,
+    "variant": "age",
+    "n": 1,
+    "retuned_G": 0.6605902777777778,
+    "retuned_nrmse": 0.22011254573490735,
+    "charge_kib": 223.0234375
+  }
+]

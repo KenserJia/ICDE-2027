@@ -1,0 +1,78 @@
+{
+  "config": {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 262144,
+    "R": 16384,
+    "protocol": "random_uniform",
+    "id": "n-b128-f8-k16",
+    "family": "native",
+    "metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.03700720239126315,
+      "nrmse": 0.19237256128033725,
+      "exact": 0.009765625,
+      "bound": 0.6052184212630254,
+      "G": {
+        "0.01": 0.046875,
+        "0.05": 0.4557291666666667,
+        "0.1": 0.6002604166666666,
+        "0.2": 0.662109375
+      },
+      "U": {
+        "0.01": 0.3365885416666667,
+        "0.05": 0.646484375,
+        "0.1": 0.7024739583333334,
+        "0.2": 0.8072916666666666
+      }
+    },
+    "config": {
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 16,
+        "max_reach": 16384,
+        "budget": 262144,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 52100,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 60292,
+        "envelope_reservation_bytes": 60380,
+        "workspace_bytes": 8192,
+        "charged_bytes": 249624,
+        "budget_bytes": 262144,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "objective": "mse",
+    "objectives": [
+      "mse"
+    ]
+  },
+  "account": {
+    "array_bytes": 52100,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 0,
+    "resident_reservation_bytes": 60292,
+    "envelope_reservation_bytes": 60380,
+    "workspace_bytes": 8192,
+    "charged_bytes": 249624,
+    "budget_bytes": 262144,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 53197,
+    "snapshot_metadata_bytes": 1097,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 53285
+  },
+  "sha256": "a76decffa63d559c905334d3dd9bcbf1f6e3fc8fdaf49da56454c27913046cac"
+}

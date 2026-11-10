@@ -1,11 +1,15 @@
-# 使用说明
+# MT-Memory 实验包（v0.3.0）
 
-本包对应当前正文的五个RQ、六张表和四张图。自有代码及文档为MIT；UCI数据及其处理版本保留CC BY 4.0；Scotty源代码保留Apache 2.0。
+本包对应当前论文，包含模块化代码、三套UCI原始及处理后数据、完整实验记录索引、28个独立复现协议。当前六张表和两张图有专用重建入口。论文版本由 `provenance/PAPER.json` 的摘要值确定。代码与数据目录已更新；完整附件见v0.3.0 Release，发布说明见PUBLICATION.md。论文文件及其中的旧Release网址未改动。
 
-1. 按英文README安装固定依赖，运行`verify`与测试。
-2. `tables`重建正文数值表；`figures`重建四张主图。这两项使用记录数据，不是新的性能实验。
-3. `smoke`验证服务行为；`run`从头运行正式协议。每次使用新输出目录，计时实验串行运行。
-4. 主仓库包含预处理数据、UCI源压缩包及所有最终文本记录；完整逐请求数组、查询真值和恢复镜像位于另附原始证据包。用`install-raw`导入后，`verify --full`逐文件校验。
-5. 参考`docs/GITHUB_UPLOAD_zh.md`：将主仓库目录上传GitHub，把大证据包放到同一版本Release附件。不要把本机虚拟环境、运行输出或该大压缩包直接提交到Git。
+`src/mtmemory_icde/core/` 保留16个原科学模块；数据处理、证据读取和复现调度单独放在 `src/mtmemory_artifact/`。实验驱动按研究批次保留在 `repro/`，通过 `experiments/catalog.json` 统一调用。这样可以整理工程结构，同时保持原实验代码及已记录结果的来源可追踪。
 
-正文和原项目没有被本次打包修改。待你建立真实GitHub仓库和Release后，再用`docs/AVAILABILITY.md`中的模板替换正文占位符。发布前验证记录见`provenance/VALIDATION.json`。数值与结论以原始实验记录为准，未承诺跨机器时延逐位相同。
+安装、快速核验、数据重建和图表重建命令见英文 `README.md`。先运行 `verify`、`make test`、`smoke`、`prepare-data`、`tables`、`figures`，再按需要运行 `list` 中的完整实验。所有输出目录必须是新目录，运行器不会把已有结果作为断点续跑目录。
+
+完整交付有两个互补文件：源码和数据 ZIP，以及 `mt-memory-raw-evidence-20261110.tar.gz`（7,131份二进制原始记录）。后者作为GitHub Release附件上传，安装后运行 `verify --full`。源码包本身已经包含图表重建所需记录及确定性分区输入；原始记录包额外提供逐请求数组和检查点镜像等审计材料。
+
+代码和项目文档采用MIT；UCI数据及派生记录采用CC BY 4.0；Scotty保留Apache 2.0。请保留全部许可证及数据归属，不要把第三方资产一并标为MIT。三套数据的来源、DOI、处理方式和数组结构见 `data/README.md`。
+
+完整记录保留高负载不满足20ms约束、年龄匹配平局、不同请求先验下的性能反转等结果。图表重建、快速功能检查和重新测量是不同验证层次，本次整理不声称重新测量所有长时实验。详见 `provenance/VALIDATION.json`。
+
+人工上传步骤见 `docs/GITHUB_UPLOAD_zh.md`；ICDE核对见 `docs/ICDE_SUPPLEMENTAL_CHECKLIST.md`。目标仓库：https://github.com/KenserJia/ICDE-2027 。

@@ -1,0 +1,381 @@
+original: original.tex
+revised:  paper/IEEE-conference-template-062824.tex
+
+== Invariants (must be unchanged unless the change is intended and reported) ==
+  numbers                            CHANGED (892 -> 939)
+    removed or changed:
+      13  x1  [line 23: ...lid completed checkpoint. Evaluation on >>13<< real entities connects this design to f...; line 205: ...licies independently select on the same >>13<<-layout grid from ⟨M⟩, retaining only ⟨M...]
+      138  x1  [line 23: ...stinguished from the loss bound. Across >>138<< timing runs, segment fusion improved th...; line 224: ...hread interleaving is uncontrolled. The >>138<< runs provide 13.8 million measured requ...]
+      2027  x1  [line 390: ... \url{https://github.com/KenserJia/ICDE->>2027<<}. Release v0.2.0 provides the fixed sna...; line 390: ... \url{https://github.com/KenserJia/ICDE->>2027<</releases/tag/v0.2.0}. The reused UCI da...]
+      216  x1  [line 23: ...479,232 exact-oracle quality checks and >>216<< fault scenarios, with corruption fallba...; line 226: ...rruption and malformed-image cases give >>216<< trials. Recovered prefixes determine in...]
+      28  x1  [line 222: The joint timing matrix crosses >>28<</95\% history queries, 1/8 clients, sync...; line 235: ...refix-specific fact-version checks. The >>28<< regression cases passed.]
+      384  x1  [line 203: Six further queries use fixed near (>>384<<--512), middle (1,536--2,048), and far (...; line 245: ...Test NRMSE on the fixed near panel (age >>384<<--512). At ⟨M⟩, each ⟨M⟩ uses its maximu...]
+      479,232  x1  [line 23: ... error. The joint implementation passed >>479,232<< exact-oracle quality checks and 216 fau...; line 212: ...test queries from three seeds, yielding >>479,232<< exact-oracle checks. Near/middle panels...]
+      512  x1  [line 203: ...ix further queries use fixed near (384-->>512<<), middle (1,536--2,048), and far (6,144...; line 203: ...put estimate. A control fixes ages 144-->>512<< and the same width distribution while b...]
+      60.2  x1  [line 23: ..., segment fusion improved throughput by >>60.2<<--62.7\% for wide recent queries; bounde...]
+      62.7%  x1  [line 23: ...ent fusion improved throughput by 60.2-->>62.7\%<< for wide recent queries; bounded cachin...; line 335: ...ghputs in \mbox{Table~ } gives gains of >>62.7\%<< with synchronous checkpoints and 60.2\%...]
+      64  x1  [line 147: Absolute signed >>64<<-bit segment IDs distinguish ring positi...; line 201: RQ2 crosses >>64<</128/256 KiB history ledgers, ⟨M⟩, ⟨M⟩, ...]
+      95%  x1  [line 222: The joint timing matrix crosses 28/>>95\%<< history queries, 1/8 clients, synchrono...; line 222: ...0\%-query native/reference controls and >>95\%<<-query eight-shape hotspots give 102 run...]
+    added:
+      0  x1  [line 81: ...nnel, with ⟨M⟩. Query ⟨M⟩ has true mean >>0<<. Its fine cell returns 0; the coarse su...; line 81: ... has true mean 0. Its fine cell returns >>0<<; the coarse summary returns 5. Evicting...]
+      0.07  x1  [line 372: ...ertified queries/s within 20 ms, versus >>0.07<<--0.25 thousand/s for the utility-select...]
+      0.1  x2  [line 23: ...% versus 1.02\% at normalized tolerance >>0.1<<, while the histogram has lower empirica...; line 233: ...ies with normalized total bound at most >>0.1<< per elapsed second; timely goodput requ...]
+      0.1811  x1  [line 294: ...ility 60.01\%/1.02\%, with NRMSE 0.2382/>>0.1811<<. Recent MSE selection instead gives NRM...]
+      0.1913  x1  [line 294: ...ecent MSE selection instead gives NRMSE >>0.1913<< and utility 44.95\%; optimizing utility...]
+      0.20  x1  [line 368: ....44 thousand certified queries/s versus >>0.20<<--0.48 thousand/s. Thus raw request spee...]
+      0.2382  x1  [line 294: ...test utility 60.01\%/1.02\%, with NRMSE >>0.2382<</0.1811. Recent MSE selection instead gi...]
+      0.25  x1  [line 372: ...ed queries/s within 20 ms, versus 0.07-->>0.25<< thousand/s for the utility-selected his...]
+      0.48  x1  [line 368: ...ousand certified queries/s versus 0.20-->>0.48<< thousand/s. Thus raw request speed and ...]
+      1%  x1  [line 233: ..., 4\% noncycling test observations, and >>1\%<< fact mutations. Training/validation ima...]
+      1.02%  x2  [line 23: ...lity yields test utility 60.01\% versus >>1.02\%<< at normalized tolerance 0.1, while the ...; line 294: ...s Recent/histogram test utility 60.01\%/>>1.02\%<<, with NRMSE 0.2382/0.1811. Recent MSE s...]
+      1.05%  x1  [line 294: ...utility selection changes it to 30.05\%/>>1.05\%<<. These results establish advantages aga...]
+      1.08%  x1  [line 292: ...1.71\%; utility remains 44.95\%, versus >>1.08\%<< for the histogram. The certification ad...]
+      1.15%  x1  [line 294: ...h/start MSE-selected utility is 16.87\%/>>1.15\%<<; utility selection changes it to 30.05\...]
+      1.71%  x1  [line 292: ...ndom widths further reduce exactness to >>1.71\%<<; utility remains 44.95\%, versus 1.08\%...]
+      10,752  x1  [line 215: ...ed the exact binary32 oracle. A further >>10,752<< queries matched live-service prediction...]
+      11.69  x1  [line 372: ...,000 requests/s, Recent completes 4.33-->>11.69<< thousand certified queries/s within 20 ...]
+      128  x2  [line 148: ...ly service. The joint service retains a >>128<<-entry demand buffer and 128 query shape...; line 148: ...e retains a 128-entry demand buffer and >>128<< query shapes; checkpoint diagnostics us...]
+      13.38  x1  [line 368: ...with utility selection, Recent delivers >>13.38<<--17.44 thousand certified queries/s ver...]
+      16  x1  [line 202: ...t-age bins and two width strata. Widths >>16<</32/64/128 use 16-aligned starts; widths...; line 202: ...o width strata. Widths 16/32/64/128 use >>16<<-aligned starts; widths 17/31/63/127 use...]
+      16,384  x1  [line 23: ...optimal histogram. At 256 KiB and reach >>16,384<<, independently selecting both families ...; line 202: ...g residues modulo 256 after observation >>16,384<<. Twelve global queries cover six oldest...]
+      16.87%  x1  [line 294: ...dom-width/start MSE-selected utility is >>16.87\%<</1.15\%; utility selection changes it to...]
+      17.44  x1  [line 368: ...ility selection, Recent delivers 13.38-->>17.44<< thousand certified queries/s versus 0.2...]
+      17.88  x1  [line 372: ...20 ms; the largest technical-run p99 is >>17.88<< ms. These four-second loads do not loca...]
+      180  x2  [line 233: ... within 20 ms of scheduled arrival. The >>180<< runs share request-generation seeds, wi...; line 372: ...d 72,168 exact-oracle checks across all >>180<< joint timing runs; every final image re...]
+      2,354,688  x1  [line 215: ...08 requests from three query seeds. The >>2,354,688<< unique reconstructed queries passed the...]
+      20  x3  [line 233: ...mely goodput requires completion within >>20<< ms of scheduled arrival. The 180 runs s...; line 372: ....69 thousand certified queries/s within >>20<< ms, versus 0.07--0.25 thousand/s for th...]
+      20,000  x2  [line 233: ...ree four-second paced runs at 5,000 and >>20,000<< requests/s. Scheduled latency includes ...; line 372: ...nd backlog in the certified service. At >>20,000<< requests/s, Recent completes 4.33--11.6...]
+      256  x1  [line 23: ...t-matched block V-optimal histogram. At >>256<< KiB and reach 16,384, independently sel...; line 45: ...tus. Integrated recovery uses a bounded >>256<<-key catalog.]
+      30,000  x1  [line 233: ...ng. Sync and strict use ⟨M⟩, with three >>30,000<<-request closed-loop runs per configurat...]
+      ... 18 more
+  citations                          unchanged (81)
+  cross-references and labels        CHANGED (48 -> 47)
+    removed or changed:
+      label:fig:operating  x1  [line 350]
+      label:fig:rq2tradeoff  x1  [line 245]
+      ref:fig:operating  x1  [line 346]
+      ref:fig:rq2tradeoff  x1  [line 241]
+    added:
+      ref:tab:alignment  x1  [line 292]
+      ref:tab:goodput  x1  [line 368]
+      ref:tab:paced  x1  [line 372]
+  math                               CHANGED (196 -> 202 segments)
+    removed or changed:
+      x1  $k$
+      x1  $h$
+      x1  $b=128$
+    added:
+      x4  $G(0.1)$
+      x2  $K=500$
+      x2  $R=4096$
+      x1  $R=16{,}384$
+  formal statements                  unchanged (0)
+  preamble                           unchanged
+
+  RESULT: differences found; revert each unintended one and list intended ones in the report
+
+== Conservation warnings (do not affect the exit status) ==
+  qualifiers and concessions: 3 -> 3
+  capitalized terms not in the original: 12
+      Objective-dependent (line 23), Comparing (line 33), Whole-segment (line 38), Same-contract (line 39), Validation-frozen (line 39), Sync (line 233), Utility-selected (line 233), Scheduled (line 233), Certified-query (line 233), MSE-selected (line 294), Random-start (line 400), Objective-matched (line 400)
+  quoted strings not in the original: 0
+  sentences: 494 of 548 unchanged; 11 changed, 11 merged or split, 57 added, 26 removed
+
+== Changed sentences (match each to a rule in the report) ==
+  C1 [changed] original line 23
+    - Bounded stream services must retain exact current facts and useful history while giving acknowledged updates a precise recovery meaning.
+    + Bounded stream services must answer historical queries with a useful error guarantee while preserving exact current facts and an explicit recovery boundary.
+  C2 [changed] original line 23
+    - MT-Memory coordinates these requirements through mandatory coarse coverage, replaceable fine overlays, and coherent local checkpoints.
+    + MT-Memory coordinates mandatory coarse coverage, replaceable fine overlays, numerical error certificates, and coherent local checkpoints under one payload ledger.
+  C3 [removed] original line 23
+    - Each historical range mean carries a certificate that combines a distribution-free approximation bound with an outward-evaluated floating-point allowance.
+  C4 [merged] original line 23
+    - Certificate state, facts, retention metadata, and persistence images share one payload ledger and one captured prefix.
+    - A mutation-admission invariant bounds acknowledged loss relative to the latest valid completed checkpoint.
+    + Its certificate encloses both partial-cell approximation and floating-point evaluation; mutation admission bounds acknowledged loss relative to the latest valid completed image.
+  C5 [added] revised line 23
+    + We compare representations by the rate of queries that satisfy a specified error tolerance under common coverage, budget, and recovery constraints.
+  C6 [merged] original line 23
+    - Evaluation on 13 real entities connects this design to feasible coverage and precision choices.
+    - Independent validation tuning against a budget-matched histogram identifies distinct advantages in exact answerability, certificate tightness, and empirical error.
+    + Across 13 entities from two data sources, random-start, random-width queries retain a certificate-supported utility advantage over a budget-matched block V-optimal histogram.
+  C7 [added] revised line 23
+    + At 256 KiB and reach 16,384, independently selecting both families for validation utility yields test utility 60.01% versus 1.02% at normalized tolerance 0.1, while the histogram has lower empirical error.
+  C8 [merged] original line 23
+    - The joint implementation passed 479,232 exact-oracle quality checks and 216 fault scenarios, with corruption fallback distinguished from the loss bound.
+    - Across 138 timing runs, segment fusion improved throughput by 60.2--62.7% for wide recent queries; bounded caching benefited repeated demand.
+    + The real-data closed-loop comparison yields 7.11--65.62 times the histogram's certified-query goodput despite lower raw throughput.
+  C9 [split] original line 23
+    - MT-Memory makes historical answerability, numerical error, and acknowledged loss explicit at a common local state boundary.
+    + Objective-dependent precision loss and dynamic-retention reversals delimit the advantage.
+    + MT-Memory provides a bounded single-host range-mean service and evidence for selecting its representation under explicit accuracy and recovery requirements.
+  C10 [added] revised line 33
+    + A representation with low empirical error can still certify few queries at a required tolerance.
+  C11 [added] revised line 33
+    + Retaining additional fine history competes with extrema and checkpoint images under a fixed allocation.
+  C12 [merged] original line 32
+    - Their coordination requires a service to preserve queryable history when precision changes, attach an error meaning to each answer, and connect admitted updates to completed persistence.
+    - The historical layout also determines certificate state and image-construction costs.
+    + Comparing representations therefore requires both a common state contract and the completed-query rate at the desired tolerance.
+  C13 [changed] original line 34
+    - The contributions are:
+    + We study the resulting design through three contributions:
+  C14 [added] revised line 37
+    + A shared ledger charges historical precision, certificate metadata, facts, and persistence images before a layout is selected.
+  C15 [removed] original line 36
+    - Controlled allocation experiments identify configurations that preserve queried precision as declared reach grows.
+  C16 [added] revised line 38
+    + The same certificate applies to fixed cells and variable-width histogram bins.
+  C17 [split] original line 37
+    - Segment fusion and bounded caching reduce execution cost under identifiable query conditions.
+    + Whole-segment readout and bounded caching reduce execution cost under measured access conditions.
+    + Same-contract service comparison.
+  C18 [removed] original line 38
+    - Joint state and bounded local recovery.
+  C19 [merged] original line 38
+    - Facts, history, certificate metadata, and retention control share a budgeted checkpoint image.
+    - An admission invariant establishes a mutation-count loss bound, verified through concurrent execution and process-failure experiments.
+    + Facts, history, certificate metadata, and retention control share a coherent checkpoint image with a mutation-count loss bound.
+  C20 [added] revised line 39
+    + Validation-frozen alignment and objective controls separate certification benefits from query alignment; real-data execution measures certified-query goodput and scheduled latency under matching budget, reach, and recovery constraints.
+  C21 [added] revised line 41
+    + The service is evaluated by how many queries it can certify and complete under the stated constraints.
+  C22 [removed] original line 40
+    - Matched-budget summaries and symmetric policy tuning connect these mechanisms to configuration choices.
+  C23 [split] original line 40
+    - Reporting empirical error, exact answerability, and certificate tightness separately exposes the distinct choices available under the same budget.
+    + Empirical error, structural exactness, and certification utility remain separate objectives.
+    + The experiments retain histogram accuracy advantages, dynamic-retention reversals, and checkpoint scheduling costs.
+  C24 [added] revised line 215
+    + Alignment controls compare the original mixed queries with random-phase requests using the same widths, and random-width/start requests with widths uniformly drawn from 16 to 128.
+  C25 [added] revised line 215
+    + Age panels remain unchanged.
+  C26 [added] revised line 215
+    + Both families independently select by validation MSE, ⟨M⟩, or mean normalized total bound, breaking ties by charge and layout ID.
+  C27 [added] revised line 215
+    + All 936 choices were frozen before testing.
+  C28 [added] revised line 215
+    + Each choice has 4,608 requests from three query seeds.
+  C29 [added] revised line 215
+    + The 2,354,688 unique reconstructed queries passed the exact binary32 oracle.
+  C30 [added] revised line 215
+    + A further 10,752 queries matched live-service predictions and total certificates exactly.
+  C31 [added] revised line 215
+    + These controls reuse the chronological holdout rather than adding independent datasets.
+  C32 [added] revised line 233
+    + The real-data goodput study prespecifies Bike and Beijing station 0, 128 KiB/⟨M⟩, and 256 KiB/⟨M⟩.
+  C33 [added] revised line 233
+    + Both MSE- and ⟨M⟩-selected layouts remain available.
+  C34 [added] revised line 233
+    + Eight clients issue 95% random-width/start queries, 4% noncycling test observations, and 1% fact mutations.
+  C35 [added] revised line 233
+    + Training/validation images precede timing.
+  C36 [added] revised line 233
+    + Sync and strict use ⟨M⟩, with three 30,000-request closed-loop runs per configuration.
+  C37 [added] revised line 233
+    + Utility-selected layouts also receive three four-second paced runs at 5,000 and 20,000 requests/s.
+  C38 [added] revised line 233
+    + Scheduled latency includes waiting and backlog, and all arrivals drain.
+  C39 [added] revised line 233
+    + Certified-query goodput counts queries with normalized total bound at most 0.1 per elapsed second; timely goodput requires completion within 20 ms of scheduled arrival.
+  C40 [added] revised line 233
+    + The 180 runs share request-generation seeds, with uncontrolled thread interleavings.
+  C41 [added] revised line 233
+    + They check reservations, observed loss, sampled prefix-specific queries/facts, and complete final-image restoration.
+  C42 [added] revised line 233
+    + Final checkpoint drain is timed separately.
+  C43 [changed] original line 241
+    - All tested history-only layouts preserved answerability for tested queries within their declared reach (Fig. [ref]).
+    + All tested history-only layouts preserved answerability for tested queries within their declared reach.
+  C44 [removed] original line 245
+    - § Phase-controlled RQ2.
+  C45 [removed] original line 245
+    - Rows use 64/128/256 KiB history-only ledgers.
+  C46 [removed] original line 245
+    - Columns show global answerability, global structural exactness, and Test NRMSE on the fixed near panel (age 384--512).
+  C47 [removed] original line 245
+    - At ⟨M⟩, each ⟨M⟩ uses its maximum feasible ⟨M⟩.
+  C48 [removed] original line 245
+    - All coverage curves coincide and are drawn once; other coincident curves are not offset.
+  C49 [removed] original line 245
+    - Lines average 13 entities and three query seeds; shading spans the three seed-level entity means, not a confidence interval.
+  C50 [removed] original line 245
+    - Twelve entities are correlated stations.
+  C51 [removed] original line 245
+    - Width strata, age panels, and other layouts remain separate in the source data.
+  C52 [removed] original line 245
+    - Points are measured without smoothing.
+  C53 [added] revised line 292
+    + Alignment and objective controls.
+  C54 [added] revised line 292
+    + Table [ref] separates query alignment from certification utility at the longer reach.
+  C55 [added] revised line 292
+    + With MSE selection, removing start alignment while preserving widths reduces Recent structural exactness from 31.82% to 4.25%, and ⟨M⟩ from 55.78% to 47.67%.
+  C56 [added] revised line 292
+    + Uniform random widths further reduce exactness to 1.71%; utility remains 44.95%, versus 1.08% for the histogram.
+  C57 [added] revised line 292
+    + The certification advantage therefore persists when exact cell alignment is rare in this demand distribution.
+  C58 [added] revised line 294
+    + Both families also select directly for certification.
+  C59 [added] revised line 294
+    + Under random widths/starts, validation-⟨M⟩ selection gives Recent/histogram test utility 60.01%/1.02%, with NRMSE 0.2382/0.1811.
+  C60 [added] revised line 294
+    + Recent MSE selection instead gives NRMSE 0.1913 and utility 44.95%; optimizing utility sacrifices empirical precision.
+  C61 [added] revised line 294
+    + Minimizing mean bound gives Recent utility 34.82% despite a smaller average bound, because a mean and a tolerance crossing are different objectives.
+  C62 [added] revised line 294
+    + Histogram validation utility does not consistently transfer to test, and the 128 KiB/long-reach configurations still tie.
+  C63 [added] revised line 294
+    + At 128 KiB/⟨M⟩, random-width/start MSE-selected utility is 16.87%/1.15%; utility selection changes it to 30.05%/1.05%.
+  C64 [added] revised line 294
+    + These results establish advantages against the evaluated block-histogram grid, with all counterexamples retained.
+  C65 [changed] original line 346
+    - Figure [ref] places certified query costs in the joint checkpoint service.
+    + The fixed-geometry joint study isolates certified query costs in the checkpoint service; its complete plots remain in the accompanying artifact.
+  C66 [changed] original line 346
+    - Query p99 and the full repeat ranges remain visible alongside throughput.
+    + The artifact retains query p99, throughput, and all technical repeats.
+  C67 [removed] original line 350
+    - § Joint operating conditions at 128 KiB.
+  C68 [removed] original line 350
+    - (a,d) Throughput and query p99 at eight clients, 28/95% queries, and synchronous/strict checkpoints.
+  C69 [removed] original line 350
+    - (b) Fused/reference throughput ratios on the separately matched short-random and wide-recent controls.
+  C70 [removed] original line 350
+    - (c) Hotspot/random throughput ratios at 95% queries and eight clients; a hotspot has eight interval shapes.
+  C71 [removed] original line 350
+    - Ratios in (b,c) pair repeats by seed.
+  C72 [removed] original line 350
+    - Points and bars show three technical-run medians and complete ranges; small points retain all repeats.
+  C73 [removed] original line 350
+    - The p99 axis is logarithmic.
+  C74 [removed] original line 350
+    - The methods use fixed performance geometries, rather than matched empirical error.
+  C75 [added] revised line 368
+    + Certified-query goodput under common constraints.
+  C76 [added] revised line 368
+    + Table [ref] measures the MSE-selected and utility-selected configurations on real test observations with the same reach, payload cap, fact catalog, and ⟨M⟩ recovery contract.
+  C77 [added] revised line 368
+    + Across the two prespecified entities, both budget/reach cases, both selectors, and both checkpoint policies, Recent certified-query goodput is 7.11--65.62 times the histogram's, using ratios of the three-run medians.
+  C78 [added] revised line 368
+    + This gain comes from a larger fraction of useful answers: the histogram's raw closed-loop throughput is higher, and its query p99 is lower.
+  C79 [added] revised line 368
+    + At 256 KiB with utility selection, Recent delivers 13.38--17.44 thousand certified queries/s versus 0.20--0.48 thousand/s.
+  C80 [added] revised line 368
+    + Thus raw request speed and the completed-query rate at a required error tolerance rank these configurations differently.
+  C81 [added] revised line 372
+    + Scheduled completion.
+  C82 [added] revised line 372
+    + Table [ref] retains arrival waiting and backlog in the certified service.
+  C83 [added] revised line 372
+    + At 20,000 requests/s, Recent completes 4.33--11.69 thousand certified queries/s within 20 ms, versus 0.07--0.25 thousand/s for the utility-selected histogram.
+  C84 [added] revised line 372
+    + All 96 paced runs have scheduled query p99 below 20 ms; the largest technical-run p99 is 17.88 ms.
+  C85 [added] revised line 372
+    + These four-second loads do not locate saturation or establish sustained-load stability.
+  C86 [added] revised line 372
+    + Strict/sync latency ordering changes with entity and arrival rate, and isolated latency increases remain in the repeat ranges.
+  C87 [added] revised line 372
+    + Sampled prefix-specific queries passed 72,168 exact-oracle checks across all 180 joint timing runs; every final image restored all arrays, met its payload reservation, and respected an observed mutation gap at most 500.
+  C88 [changed] original line 364
+    - Reserve coverage, extrema, facts, and persistence images before choosing fine width, retained span, and query history.
+    + Reserve coverage, extrema, facts, and persistence images before selecting fine width and retained span.
+  C89 [added] revised line 378
+    + Select layouts for the required objective: empirical error, mean bound, and certification utility can favor different allocations.
+  C90 [added] revised line 378
+    + Certified-query goodput combines utility with execution cost; scheduled-to-completion latency determines whether that capacity is useful at an intended arrival rate.
+  C91 [removed] original line 364
+    - Controlled demand and held-out selection identify useful allocations.
+  C92 [changed] original line 364
+    - Full-segment fusion targets wide intervals; caching targets repeated demand between observations.
+    + Full-segment fusion targets wide intervals, while caching targets repeated demand between observations.
+  C93 [removed] original line 364
+    - A service should measure scheduled-to-completion tails at its intended arrival rate as well as closed-loop throughput.
+  C94 [added] revised line 380
+    + The new joint goodput study covers two prespecified entities and four-second paced arrivals; it does not establish sustained production-load behavior.
+  C95 [merged] original line 366
+    - The matched histogram demonstrates that lower empirical error can coexist with less exact answerability and looser certificates.
+    - Selecting among those capabilities is the measured design choice.
+    + The matched histogram can provide lower empirical error even when Recent has greater certification utility.
+  C96 [added] revised line 380
+    + Randomized query geometry and objective-matched selection preserve this distinction in the tested grid; broader histogram designs and unseen applications remain to be evaluated.
+  C97 [changed] original line 387
+    - MT-Memory coordinates coarse historical coverage, replaceable precision, per-query error certificates, and native checkpoints within explicit payload reservations.
+    + MT-Memory combines coverage-preserving historical summaries, numerical error certificates, and coherent local recovery under explicit payload reservations.
+  C98 [changed] original line 387
+    - The joint image preserves facts, extrema, and retention state at one local prefix, while strict admission bounds acknowledged loss under the latest-valid-image condition.
+    + Its shared state boundary preserves exact facts, extrema, and retention state, while mutation admission bounds acknowledged loss when the latest completed image remains valid.
+  C99 [added] revised line 400
+    + Random-start and random-width controls show that certification utility can remain higher than a block V-optimal comparator even when structural exactness is rare and empirical error favors the histogram.
+  C100 [removed] original line 387
+    - Controlled allocation and contract-matched summaries identify distinct choices among reach, exact answerability, empirical error, and certificate tightness.
+  C101 [split] original line 387
+    - Wide-interval fusion and bounded caching improve execution under measured access conditions.
+    + Objective-matched selection and real-data joint execution connect this representation choice to certified-query goodput and scheduled completion.
+    + The results support selecting a service by useful certified completions under common constraints, with precision costs and workload dependence retained as operating limits.
+  C102 [removed] original line 387
+    - The resulting design gives a single-host range-mean service explicit answer status, a checkable error enclosure, and a counted recovery boundary.
+  C103 [removed] original line 390
+    - The code, processed data, experimental protocols, numerical derivations, complete run tables, and figure-generation scripts are available at .
+  C104 [split] original line 390
+    - Release v0.2.0 provides the fixed snapshot, complete per-query/request records, checkpoint images, and SHA-256 checksums at .
+    + Release v0.2.0 at archives the original implementation, processed data, numerical derivations, and prior joint experiments.
+    + The accompanying revision artifact contains the additional alignment/objective and goodput experiments, frozen selections, per-request records, and checksums.
+  C105 [changed] original line 390
+    - The reused UCI datasets are identified in Section [ref].
+    + UCI sources are identified in Section [ref].
+
+  1 conservation warning group(s): check that each listed item is intended
+
+== AI-tell candidates (IEEE-conference-template-062824.tex) ==
+  [verify] scope                  17 -> 22  establish x7, optimal x5, guarantee x3, guarantees x3, proves x2, optimality x1, consistently x1
+  [verify] worklog                12 -> 10  seeds x4, fallback x2, seed x2, audit x1, fallbacks x1
+  no remove-type candidates
+
+== Evidence placeholders to fill ==
+  count 0 -> 0
+  none
+
+== Coined labels (SKILL.md Rule 2; keep established terms, replace or report the rest) ==
+  no definition or citation: 1 -> 1
+      rollback-recovery protocol     x1  line 395: Distributed snapshots and >>rollback-recovery protocols<< define consistent recovery states and d...
+  defined, cross-referenced, or cited: logging mechanism x1
+
+== Sentence patterns (candidates; see SKILL.md Rule 4) ==
+  adjacent sentences with one skeleton (4.3)                 8 -> 10 adjacent pairs; runs of 3+ listed
+  paragraph opens with a comment, no referent (4.7)          0 -> 0
+  consecutive paragraphs opening with a signpost (4.8)       0 -> 0
+  paragraphs crowded with semicolons or asides (Rule 3)      14 -> 16
+      line 60: 0 semicolon(s), 5 aside(s): Five research questions assess query semantics and certif...
+      line 68: 2 semicolon(s), 3 aside(s): (a) Observations and fact mutations pass strict admission...
+      line 148: 2 semicolon(s), 0 aside(s): Absolute signed 64-bit segment IDs distinguish ring posit...
+      line 213: 2 semicolon(s), 0 aside(s): Both families independently select by validation MSE at 1...
+      line 225: 2 semicolon(s), 0 aside(s): The joint timing matrix crosses 28/95% history queries, 1...
+      line 244: 2 semicolon(s), 0 aside(s): Certificate usefulness depends on retained variation. Com...
+      line 294: 2 semicolon(s), 0 aside(s): Both families also select directly for certification. Und...
+      line 304: 2 semicolon(s), 3 aside(s): (a) Shared-layout distance--dwell calibration at ⟨M⟩; ent...
+      line 307: 3 semicolon(s), 0 aside(s): Symmetric layout selection. Independent validation select...
+      line 354: 2 semicolon(s), 0 aside(s): Locality and concurrency. The fixed-geometry joint study ...
+      line 372: 2 semicolon(s), 0 aside(s): Scheduled completion. Table [ref] retains arrival waiting...
+      line 380: 2 semicolon(s), 0 aside(s): The evidence supports ingestion-order range means on one ...
+      line 383: 2 semicolon(s), 0 aside(s): Incremental aggregation, Scotty's slicing, and LightSaber...
+      line 385: 3 semicolon(s), 0 aside(s): SummaryStore retains queryable time-decayed summaries [ci...
+      line 388: 2 semicolon(s), 0 aside(s): Reservoir sampling and online aggregation underpin approx...
+      ... 1 more
+  line ending in a colon before a list (4.2; verify)         1 -> 1
+      line 35: MT-Memory maintains exact current facts beside a mandatory coarse h...
+  ordinal headings, 3+ in a row (4.6; not manuscript numbering) 0 -> 0
+
+== Dashes used as punctuation ==
+  count 0 -> 0
+  none
+
+== Sentences ==
+  over 35 words: 0 -> 0
+  runs of 3+ sentences under 9 words: 1
+      line 264: Macro means over 13 entities; exactness is structural. | Bound is mean normalized total certificate. | With...
+  consecutive sentences opening with additive connectives: 0
+
+== Structure ==
+  top-level headings in main text: 10

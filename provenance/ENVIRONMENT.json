@@ -3,23 +3,12 @@
   "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
   "machine": "arm64",
   "packages": {
-    "kiwisolver": "1.5.1",
-    "packaging": "26.3",
-    "pygments": "2.21.0",
-    "iniconfig": "2.3.1",
     "numpy": "2.5.4",
-    "duckdb": "2.0.0",
-    "pillow": "13.0.0",
-    "contourpy": "1.4.0",
-    "pluggy": "1.7.0",
-    "matplotlib": "3.11.2",
-    "pytest": "9.2.0",
-    "cycler": "0.12.1",
-    "fonttools": "4.68.0",
-    "tzdata": "2026.6",
-    "python-dateutil": "4.0.0",
     "psutil": "7.2.2",
-    "pyparsing": "3.3.3"
+    "pytest": "9.2.0",
+    "matplotlib": "3.11.2",
+    "Pillow": "13.0.0",
+    "duckdb": "2.0.0"
   },
-  "note": "Recorded environment; runtime values and image pixels are not promised identical on different hardware or fonts; no Linux timing confirmation"
+  "scope": "Packaging verification only; full historical timing studies not remeasured; inherited prior environment is archived separately"
 }

@@ -1,0 +1,43 @@
+{
+  "cases": [
+    [
+      131072,
+      4096
+    ],
+    [
+      262144,
+      16384
+    ]
+  ],
+  "families": [
+    "recent",
+    "sse",
+    "bound",
+    "fixed",
+    "age"
+  ],
+  "certificate_modes": [
+    "span",
+    "sum"
+  ],
+  "objectives": [
+    "mse",
+    "g01"
+  ],
+  "eps": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "primary": "all14 original units; original equal-age-panel requests, paired with prior study",
+  "secondary": "far-heavy(.1,.1,.8) and uniform full reach on prespecified bike0/beijing0/household0; skip Bike/R16384 uniform validation because insufficient prefix",
+  "geometry": "b128/256,f8/16,k0/4/8/16; q1/2/4; retain all feasible candidates; no test-driven grid changes",
+  "selection": "all validation choices globally freeze before test; independently by family/mode/objective/prior",
+  "source": {
+    "repro/cert_age_slo_20261110/quality.py": "6f99db798cad03eb83c96ac47b6e2a08c4ff346a7dc55bc0678b6f285860d65c",
+    "src/mtmemory_icde/core/sum_aware.py": "70a6787bdc8996f731a0ee111c0feb9dd3d704417c2bba33d2b58bbf085ed07a",
+    "src/mtmemory_icde/core/age_rollup.py": "cc16683a51e08f2a41aef812cfe6b60c064cc5c4bd719f7f11160de5b82b38cc",
+    "src/mtmemory_icde/core/evidence_service.py": "deaf08c2ddc92f51ab7a03864947c67d175be5d1ad7c58e02ffe0b9cff700f62"
+  }
+}

@@ -1,14 +1,25 @@
 cff-version: 1.2.0
 message: "Please cite the accompanying manuscript and the original UCI datasets when using this artifact."
-title: "MT-Memory: bounded certified stream state and coherent local checkpoints"
+title: "Bounded State Management for Mutable Facts and Historical Stream Queries with Strict Recovery Bounds: reproducibility artifact"
 type: software
-version: 0.2.0
-date-released: 2026-11-09
+version: 0.3.0
+date-released: 2026-11-10
 license: MIT
-authors:
-  - name: "MT-Memory contributors"
-abstract: >-
-  Current-manuscript code, data provenance, complete recorded evidence and isolated
-  reproduction protocols for five research questions on bounded stream state.
 repository-code: "https://github.com/KenserJia/ICDE-2027"
-url: "https://github.com/KenserJia/ICDE-2027/releases/tag/v0.2.0"
+authors:
+  - name: "Kunze Jia"
+  - name: "Muning An"
+  - name: "Yuxiang Wang"
+  - name: "Zihui Huang"
+  - name: "Tang Yuanhua"
+  - name: "Xinyi Guan"
+  - name: "Huanhuan Peng"
+  - name: "Xiaofei Qi"
+  - name: "Mingliang Wang"
+  - name: "Xiaoqing Wang"
+  - name: "Zijian Chen"
+  - name: "Kai Pan"
+abstract: >-
+  Code, three attributed public data sources, recorded results and isolated
+  reproduction protocols for bounded certified stream state and local recovery.
+  Original software is MIT; data and third-party assets retain separate licenses.

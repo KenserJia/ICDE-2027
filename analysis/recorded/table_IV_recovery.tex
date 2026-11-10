@@ -1,0 +1,10 @@
+\begin{table}[t]\caption{Joint recovery evidence. Three certified variants share the image and admission contract. Faults are process termination or deliberate corruption.}\label{tab:recoverycontracts}\centering
+\begin{tabular}{@{}p{.37\columnwidth}rp{.44\columnwidth}@{}}\toprule
+Condition & Cases & Observed outcome\\\midrule
+Five commit-point stops & 135 & Prior/new coherent prefix; loss $\leq K$.\\
+Admission boundary & 27 & Loss exactly $K$.\\
+Offset target & 27 & Loss 7--13; within $K$.\\
+Newest-slot corruption & 9 & Older prefix; loss 199 at $K=100$.\\
+Both slots corrupt & 9 & Explicit rejection.\\
+Malformed service image & 9 & Explicit rejection.\\\bottomrule
+\end{tabular}\end{table}

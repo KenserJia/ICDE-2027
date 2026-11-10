@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "scope": "License boundaries; root MIT does not relicense data or vendor archives",
+  "rules": [
+    {
+      "paths": [
+        "src/**",
+        "repro/**",
+        "tests/**",
+        "docs/**",
+        "README*",
+        "analysis/*.py",
+        "figures/*.py",
+        ".github/**",
+        "reproduce.py",
+        "pyproject.toml",
+        "Makefile"
+      ],
+      "license": "MIT",
+      "exception": "Unmodified Scotty ZIPs retain Apache-2.0"
+    },
+    {
+      "paths": [
+        "data/**",
+        "evidence/**",
+        "analysis/recorded/**",
+        "figures/recorded/**"
+      ],
+      "license": "CC-BY-4.0",
+      "attribution": "data/README.md and THIRD_PARTY_NOTICES.md; preserve cited UCI creators/DOIs and preprocessing"
+    },
+    {
+      "paths": [
+        "repro/round73_74/scotty-master.zip",
+        "third_party/scotty/scotty-source.zip"
+      ],
+      "license": "Apache-2.0",
+      "attribution": "third_party/scotty/PROVENANCE.json and original archive notices"
+    },
+    {
+      "paths": [
+        "provenance/**",
+        "experiments/**",
+        "requirements/**",
+        "requirements.txt",
+        "CITATION.cff"
+      ],
+      "license": "MIT",
+      "exception": "Any referenced third-party observations retain their own license"
+    }
+  ],
+  "license_texts": [
+    "LICENSE",
+    "licenses/CC-BY-4.0.txt",
+    "licenses/Apache-2.0.txt"
+  ],
+  "dependencies": "Installed dependencies retain their own licenses and are not bundled/relicensed"
+}

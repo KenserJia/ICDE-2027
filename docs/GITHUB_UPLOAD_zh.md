@@ -1,23 +1,11 @@
-# GitHub 上传说明
+# 手动上传说明
 
-此包尚未发布到任何公开仓库，正文也尚未填写 GitHub 链接。
+目标：https://github.com/KenserJia/ICDE-2027 。本次只在本地准备v0.3.0，没有修改远程仓库。
 
-## 上传步骤
+1. 用Git或GitHub Desktop将 `mt-memory-icde-artifact-20261110/` 目录内的内容更新到仓库根目录，包含隐藏的 `.github/` 和 `.gitignore`。Household处理后数据文件为26,543,937字节，超过网页单文件25MiB限制，应通过Git提交。两个完整压缩包都不要提交进Git历史。
+2. 在新提交上建立v0.3.0 Release，把源码数据ZIP、完整原始证据TAR.GZ及SHA256校验文件作为附件上传。两包合起来才是完整实验包。保留旧Release和旧附件。
+3. 论文当前仍链接旧的v0.2.0 Release，按你的要求本轮不改网址。为使该网址也能访问新增实验，请将本次两个带20261110日期的附件及校验文件同时追加到旧Release，在说明中注明“2026-11-10补充实验快照”。不要覆盖旧附件或移动旧标签。旧Release自动生成的“Source code”仍是旧代码，提醒审稿人下载明确命名的新实验ZIP。以后若更新论文版本，可再改成新Release直链。
+4. 上传后从未登录浏览器下载两包，在新目录解压源码ZIP，按照README核验，再导入对应原始记录包并运行 `verify --full`。提交系统填写实际可访问的链接和对应版本。发布前，当前公开v0.2.0不能替代这次新增材料。
+5. 保留根MIT、第三方声明、CC BY4.0数据归属、Apache2.0条款及原Scotty来源。代码MIT不等于整个目录内所有第三方材料都是MIT。
 
-1. 解压 `mt-memory-icde-artifact-20261109.zip`，使用 GitHub Desktop 或 Git，将解压目录中的文件作为仓库内容上传，保留 `.github`、`.gitignore`、`LICENSE`。不要只把 ZIP 当作仓库内容上传。
-2. 创建版本标签和对应 Release，例如 `v0.2.0`。将 `mt-memory-raw-evidence-20261109.tar.gz` 及对应 `.sha256` 文件放在该 Release 的附件中，不要加入 Git 历史。
-3. 主仓库包括源代码、公开原始数据压缩包、论文使用的处理数据、全部最终文本实验记录、图表代码和四张正文图。大附件包括逐查询/请求数组、验证状态及真实检查点镜像。两部分共同组成完整证据。
-4. 按英文 README 安装和验证。导入大附件后运行 `python reproduce.py verify --full`，应显示 5307 个原始文件均已安装且无校验差异。`tables`、`figures` 是基于记录重建，`run` 才是重新实验；计时实验请串行运行，每次使用新的输出目录。
-5. 确认仓库和 Release 能公开访问后，使用 `docs/AVAILABILITY.md` 模板填写真实仓库 URL、版本标签、提交 SHA 和 Release 附件链接，再修改正文。CITATION.cff 暂用原项目已有的集体署名；请在确认作者身份后再填写个人作者。不要编造 DOI 或使用尚不存在的链接。
-
-## 许可证
-
-自有代码和文档使用 MIT，保留原项目版权声明。UCI 数据、处理数据及数据衍生实验记录保留 CC BY 4.0，引用和加工说明位于 `data/README.md` 与 `data/CITATIONS.bib`。Scotty 保留 Apache 2.0。MIT 不能替代第三方许可证；上传时一并保留 `THIRD_PARTY_NOTICES.md` 和 `licenses/`。
-
-## 已验证与范围
-
-在重新创建的 macOS/arm64 环境及异目录解压副本中完成了独立安装、28 项测试、六张正文表、四张正文图和三种服务变体的冒烟验证。两套数据共 65 个数组精确重建。RQ2 的 8385 条主记录和 2808 条相位控制记录完全复现；联合质量的 104 个配置、479232 次查询检查与原记录一致；216 个故障案例、120 个支持算术检查、8000 次融合诊断检查和 138 次联合性能运行也已完成。原始大附件的 5307 个成员逐文件校验通过。
-
-性能复跑完成了 1380 万次请求，预算、最终全数组恢复及 K 间隔检查通过。新计时结果单独位于 `provenance/validation/`，没有替换论文原记录。性能数值、线程交错和内存受环境影响，不承诺逐位一致。本轮没有重跑 30 分钟旧组件实验、全部旧调优/并发网格或 Java/SQL 基线；相应源代码、协议和原始结果已经提供。未声称 Linux/x86 实验已验证。完整验收记录见 `provenance/VALIDATION.json`。
-
-本次只建立新的 releases 打包目录；原项目受保护的 6117 个文件及当前 11 个正文相关文件均保持原校验值，见 `provenance/validation/original-protection.json`。
+可直接参考 `docs/RELEASE_NOTES.md` 编写发布说明；完整目录、记录范围和验证结果见README及 `provenance/VALIDATION.json`。ICDE核对见 `docs/ICDE_SUPPLEMENTAL_CHECKLIST.md`。官方GitHub依据见同目录英文上传说明。

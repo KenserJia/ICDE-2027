@@ -1,0 +1,8 @@
+\begin{table}[t]\centering\small
+\caption{Joint feasibility and timely completion, sum-aware certificates. Cells are $\alpha_{\max}/T_{20}$ (\%): minimum certified fraction when all three p99 values meet 20 ms (-- if infeasible), and median percentage of all queries completed within 20 ms, including uncertified queries. Rates are base/burst in thousands/s. Figure~\ref{fig:loadpoints} reports the other metrics.}\label{tab:loadpoints}
+\begin{tabular}{@{}lrrr@{}}\toprule
+Load (k/s) & Recent & Age rollup & SSE bins\\\midrule
+0.9/3.6 & 65.54/100.00 & 65.54/100.00 & 4.17/100.00\\
+2.7/10.8 & 65.57/100.00 & 65.57/99.99 & 4.85/100.00\\
+6.3/25.2 & --/46.96 & --/47.71 & --/50.63\\
+\bottomrule\end{tabular}\end{table}

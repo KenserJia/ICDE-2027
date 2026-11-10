@@ -1,0 +1,78 @@
+{
+  "config": {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "protocol": "random_uniform",
+    "id": "n-b128-f8-k4",
+    "family": "native",
+    "metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.05778482894175385,
+      "nrmse": 0.24038475212808705,
+      "exact": 0.005208333333333333,
+      "bound": 1.353918971419331,
+      "G": {
+        "0.01": 0.007161458333333333,
+        "0.05": 0.11588541666666667,
+        "0.1": 0.23111979166666666,
+        "0.2": 0.3053385416666667
+      },
+      "U": {
+        "0.01": 0.06315104166666667,
+        "0.05": 0.3014322916666667,
+        "0.1": 0.408203125,
+        "0.2": 0.6236979166666666
+      }
+    },
+    "config": {
+      "id": "n-b128-f8-k4",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 4,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 22340,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 30532,
+        "envelope_reservation_bytes": 30620,
+        "workspace_bytes": 8192,
+        "charged_bytes": 130584,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "objective": "g01",
+    "objectives": [
+      "g01"
+    ]
+  },
+  "account": {
+    "array_bytes": 22340,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 0,
+    "resident_reservation_bytes": 30532,
+    "envelope_reservation_bytes": 30620,
+    "workspace_bytes": 8192,
+    "charged_bytes": 130584,
+    "budget_bytes": 131072,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 23423,
+    "snapshot_metadata_bytes": 1083,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 23511
+  },
+  "sha256": "b350d673f199aff6618a9a974503d6e2fd0261d62112dec999a7a0e8793a3720"
+}

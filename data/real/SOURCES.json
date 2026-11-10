@@ -54,5 +54,34 @@
       747
     ],
     "scope": "real hourly observations + controlled query/policy load; no actual policy CDC trace"
+  },
+  {
+    "name": "household",
+    "url": "https://archive.ics.uci.edu/static/public/235/individual+household+electric+power+consumption.zip",
+    "sha256": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+    "entities": 1,
+    "rows": 2075259,
+    "channels": [
+      "Global_active_power",
+      "Global_reactive_power",
+      "Voltage",
+      "Global_intensity"
+    ],
+    "counts": [
+      1245155,
+      415052,
+      415052
+    ],
+    "missing_cells": 103916,
+    "imputation": "causal forward fill across chronological splits; initial zero only if leading value missing",
+    "normalization": "training mean/std only",
+    "license": "CC-BY-4.0",
+    "doi": "10.24432/C58K54",
+    "creators": [
+      "Georges Hebrail",
+      "Alice Berard"
+    ],
+    "year": 2006,
+    "scope": "One household; controlled query/fact schedules, not production requests"
   }
 ]

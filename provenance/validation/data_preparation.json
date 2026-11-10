@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "dataset": "bike",
+      "entities": 1,
+      "arrays": 5,
+      "all_arrays_bitwise_equal": true
+    },
+    {
+      "dataset": "beijing",
+      "entities": 12,
+      "arrays": 60,
+      "all_arrays_bitwise_equal": true
+    },
+    {
+      "dataset": "household",
+      "entities": 1,
+      "arrays": 6,
+      "all_arrays_bitwise_equal": true
+    }
+  ],
+  "beijing_stations": [
+    {
+      "entity": 0,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Aotizhongxin_20130301-20170228.csv",
+      "filled_values": 979
+    },
+    {
+      "entity": 1,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Changping_20130301-20170228.csv",
+      "filled_values": 920
+    },
+    {
+      "entity": 2,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Dingling_20130301-20170228.csv",
+      "filled_values": 925
+    },
+    {
+      "entity": 3,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Dongsi_20130301-20170228.csv",
+      "filled_values": 804
+    },
+    {
+      "entity": 4,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Guanyuan_20130301-20170228.csv",
+      "filled_values": 670
+    },
+    {
+      "entity": 5,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Gucheng_20130301-20170228.csv",
+      "filled_values": 789
+    },
+    {
+      "entity": 6,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Huairou_20130301-20170228.csv",
+      "filled_values": 1106
+    },
+    {
+      "entity": 7,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Nongzhanguan_20130301-20170228.csv",
+      "filled_values": 682
+    },
+    {
+      "entity": 8,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Shunyi_20130301-20170228.csv",
+      "filled_values": 1059
+    },
+    {
+      "entity": 9,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Tiantan_20130301-20170228.csv",
+      "filled_values": 731
+    },
+    {
+      "entity": 10,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Wanliu_20130301-20170228.csv",
+      "filled_values": 436
+    },
+    {
+      "entity": 11,
+      "source_member": "PRSA_Data_20130301-20170228/PRSA_Data_Wanshouxigong_20130301-20170228.csv",
+      "filled_values": 747
+    }
+  ],
+  "household_missing_values": 103916,
+  "normalization": "training mean/std only; minimum std1e-6; chronological60/20/20",
+  "causal_fill": "forward fill all nonfinite values; zero until first finite observation",
+  "time": "ingestion-index distance; no civil-hour gap insertion"
+}

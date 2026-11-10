@@ -1,0 +1,31 @@
+{
+  "records": [
+    {
+      "method": "recent",
+      "requests": 10000,
+      "seconds": 0.5519380839541554,
+      "rps": 18117.974263270098,
+      "validation_observations": 417
+    },
+    {
+      "method": "age",
+      "requests": 10000,
+      "seconds": 0.5446607919875532,
+      "rps": 18360.051149465744,
+      "validation_observations": 417
+    },
+    {
+      "method": "hist",
+      "requests": 10000,
+      "seconds": 0.4716181659605354,
+      "rps": 21203.59375816917,
+      "validation_observations": 417
+    }
+  ],
+  "base_rates": [
+    900,
+    2700,
+    6300
+  ],
+  "scope": "validation-only serial throughput calibration; offered-load points, not capacity guarantees"
+}

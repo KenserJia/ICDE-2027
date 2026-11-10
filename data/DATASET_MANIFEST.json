@@ -41,6 +41,30 @@
         "WSPM"
       ],
       "preprocessing": "data/README.md"
+    },
+    {
+      "name": "household",
+      "creator": [
+        "Georges Hebrail",
+        "Alice Berard"
+      ],
+      "year": "2006",
+      "title": "Individual Household Electric Power Consumption",
+      "doi": "10.24432/C58K54",
+      "landing_page": "https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption",
+      "license": "CC-BY-4.0",
+      "raw_archive": "data/raw/household.zip",
+      "raw_sha256": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+      "raw_url": "https://archive.ics.uci.edu/static/public/235/individual+household+electric+power+consumption.zip",
+      "processed_archive": "data/real/household.npz",
+      "processed_sha256": "f5bfba6933b9c4bddb780a187e356114237393c240eb3263fb35eb4cfa92d88e",
+      "channels": [
+        "Global_active_power",
+        "Global_reactive_power",
+        "Voltage",
+        "Global_intensity"
+      ],
+      "preprocessing": "data/README.md"
     }
   ],
   "license_file": "licenses/CC-BY-4.0.txt",

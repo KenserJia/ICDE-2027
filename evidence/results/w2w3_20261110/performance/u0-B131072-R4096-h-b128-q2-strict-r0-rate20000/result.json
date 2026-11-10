@@ -1,0 +1,104 @@
+{
+  "cid": "u0-B131072-R4096-h-b128-q2",
+  "mode": "strict",
+  "rep": 0,
+  "rate": 20000,
+  "clients": 8,
+  "N": 80000,
+  "name": "u0-B131072-R4096-h-b128-q2-strict-r0-rate20000",
+  "config": {
+    "unit": 0,
+    "dataset": "bike",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "protocol": "random_uniform",
+    "id": "h-b128-q2",
+    "family": "histogram",
+    "metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.033081826971771526,
+      "nrmse": 0.1818841033103095,
+      "exact": 0.0,
+      "bound": 1.3781627806158692,
+      "G": {
+        "0.01": 0.0,
+        "0.05": 0.0,
+        "0.1": 0.004557291666666667,
+        "0.2": 0.016927083333333332
+      },
+      "U": {
+        "0.01": 0.001953125,
+        "0.05": 0.10026041666666667,
+        "0.1": 0.3834635416666667,
+        "0.2": 0.7688802083333334
+      }
+    },
+    "config": {
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "options": {
+        "engine": "histogram",
+        "base_width": 128,
+        "bins": 2,
+        "max_reach": 4096,
+        "budget": 131072
+      },
+      "ledger": {
+        "array_bytes": 18896,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 27088,
+        "envelope_reservation_bytes": 27176,
+        "workspace_bytes": 22100,
+        "charged_bytes": 130716,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "objective": "mse",
+    "objectives": [
+      "mse",
+      "g01"
+    ]
+  },
+  "seconds": 4.000084375031292,
+  "throughput": 19999.57813374228,
+  "query_rps": 18971.349822941258,
+  "G01": 0.003821471398263207,
+  "certified_goodput": 72.49847073481577,
+  "certified_goodput_5ms": 72.49847073481577,
+  "certified_goodput_20ms": 72.49847073481577,
+  "query_p99_ms": 0.05679114954546094,
+  "scheduled_query_p99_ms": 0.9125889511778951,
+  "scheduled_query_p999_ms": 2.5499110436067047,
+  "backlog_drain_seconds": 8.437503129243851e-05,
+  "final_checkpoint_drain_seconds": 0.000711916945874691,
+  "exact_fraction": 0.00030308221434501297,
+  "query_count": 75887,
+  "max_gap": 500,
+  "checkpoints": 9,
+  "checkpoint_bytes": 176750,
+  "exact_oracle_checks": 794,
+  "restored_all_arrays": true,
+  "ledger": {
+    "array_bytes": 18896,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 0,
+    "resident_reservation_bytes": 27088,
+    "envelope_reservation_bytes": 27176,
+    "workspace_bytes": 22100,
+    "charged_bytes": 130716,
+    "budget_bytes": 131072,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 19551,
+    "snapshot_metadata_bytes": 655,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 19639
+  },
+  "test_observations": 3303,
+  "source_cycles": 0
+}

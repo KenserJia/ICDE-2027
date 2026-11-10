@@ -1,0 +1,16 @@
+{
+  "coefficients": [
+    1.0472267591704507,
+    0.9129279380190606,
+    -0.09902845776116062,
+    -0.8149337628331931
+  ],
+  "training_units": 13,
+  "training_rows": 598,
+  "features": [
+    "intercept",
+    "mean log1p(h/w)",
+    "fine-coverage fraction",
+    "mean log1p((h/w)*training-roughness/.1)"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "date": "2026-11-09",
+  "environment": "Fresh virtual environment; pinned dependencies installed independently; macOS/arm64 Python3.14.5",
+  "validation_scope": "Core data/service verification and latest joint protocols; recorded displays rebuilt separately. All code/protocols are packaged, but not every older study has been rerun during packaging.",
+  "checks": {
+    "fresh_install": true,
+    "source_archives_sha256": true,
+    "processed_arrays_exact": 65,
+    "joint_quality_configurations": 104,
+    "joint_quality_exact_oracle_checks": 479232,
+    "quality_metrics_exact_match": true,
+    "joint_fault_cases": 216,
+    "supported_numerical_checks": 120,
+    "fusion_exact_oracle_checks": 8000,
+    "joint_performance_runs": 138,
+    "joint_performance_measured_requests": 13800000,
+    "tables_rebuilt": 6,
+    "main_figures_rebuilt": 4,
+    "smoke_variants": 3,
+    "private_path_and_key_scan": "passed",
+    "pytest_passed": 28,
+    "rq2_record_exact_match": {
+      "rq2_records.json": 8385,
+      "phase_only.json": 2808
+    },
+    "original_protected_files_unchanged": 6117,
+    "original_paper_files_unchanged": 11,
+    "portable_framework_geometry_issues": 0
+  },
+  "not_reexecuted": [
+    "30-minute component soak",
+    "full older layout/kernel/concurrency grids",
+    "Scotty Java/Maven and SQL baseline matrices",
+    "Linux/x86 experiments"
+  ],
+  "reports": "provenance/validation/",
+  "original_manuscript_unchanged": true,
+  "relocated_checkout_validation": {
+    "passed": true,
+    "independently_installed": true,
+    "source_imports_from_relocated_checkout": true,
+    "pytest_passed": 28,
+    "repository_integrity": true,
+    "raw_members_verified": 5307,
+    "six_tables_rebuilt": true,
+    "four_main_figures_rebuilt": true,
+    "three_variant_smoke_passed": true,
+    "scope": "Extracted distribution tested from an unrelated path. Final packaging adds only this validation metadata and Chinese publication notes; scientific modules, protocols, datasets and recorded evidence remain the tested bytes."
+  }
+}

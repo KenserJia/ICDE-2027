@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "manuscript": "provenance/PAPER.json",
+  "body_displays": [
+    {
+      "display": "Figure 1",
+      "rqs": [
+        "RQ1",
+        "RQ4"
+      ],
+      "protocols": [
+        "joint-quality",
+        "joint-faults"
+      ],
+      "records": [],
+      "interpretation": "Joint architecture: diagram generated from code; not an experimental measurement."
+    },
+    {
+      "display": "Figure 2 and Table I",
+      "rqs": [
+        "RQ2"
+      ],
+      "protocols": [
+        "rq2-controlled"
+      ],
+      "records": [
+        {
+          "runtime_path": "results/review4_20261109/rq2_records.json",
+          "stored_path": "evidence/results/review4_20261109/rq2_records.json.gz",
+          "transport": "gzip"
+        }
+      ],
+      "interpretation": "History-only ledger; fixed query age/width/phase controls; 13 entities and three seeds; selected layouts chosen on validation. Do not treat this as the joint service ledger."
+    },
+    {
+      "display": "Table II",
+      "rqs": [
+        "RQ1",
+        "RQ2",
+        "RQ4"
+      ],
+      "protocols": [
+        "joint-quality"
+      ],
+      "records": [
+        {
+          "runtime_path": "results/review7_20261109/quality_test.json",
+          "stored_path": "evidence/results/review7_20261109/quality_test.json",
+          "transport": "plain"
+        }
+      ],
+      "interpretation": "104 validation-frozen choices; 479232 exact-oracle query checks. Compare native and histogram within budget/reach. Cross-reach far panels differ."
+    },
+    {
+      "display": "Table III",
+      "rqs": [
+        "RQ2"
+      ],
+      "protocols": [
+        "rq2-model-ablation"
+      ],
+      "records": [
+        {
+          "runtime_path": "results/review4_20261109/baseline_records.json",
+          "stored_path": "evidence/results/review4_20261109/baseline_records.json.gz",
+          "transport": "gzip"
+        }
+      ],
+      "interpretation": "History-only polynomial/L2 versus certified representation, independent validation selection."
+    },
+    {
+      "display": "Figure 3",
+      "rqs": [
+        "RQ3"
+      ],
+      "protocols": [
+        "rq3-calibration",
+        "rq3-symmetric"
+      ],
+      "records": [
+        {
+          "runtime_path": "results/frozen/rq_closure/rq3_boundary/calibration_summary.json",
+          "stored_path": "evidence/results/frozen/rq_closure/rq3_boundary/calibration_summary.json",
+          "transport": "plain"
+        },
+        {
+          "runtime_path": "results/rq3_symmetric_20261107/selected_results.json",
+          "stored_path": "evidence/results/rq3_symmetric_20261107/selected_results.json",
+          "transport": "plain"
+        }
+      ],
+      "interpretation": "Shared-layout calibration is separate from symmetric validation layout selection. All 13 paired entities retained; stations are correlated."
+    },
+    {
+      "display": "Table IV",
+      "rqs": [
+        "RQ3"
+      ],
+      "protocols": [
+        "rq3-kernel"
+      ],
+      "records": [
+        {
+          "runtime_path": "results/review6_20261109/sensitivity_selected_entities.csv",
+          "stored_path": "evidence/results/review6_20261109/sensitivity_selected_entities.csv",
+          "transport": "plain"
+        }
+      ],
+      "interpretation": "Fixed layout, kernel bandwidth/history selection on validation; preserve every win/tie/loss."
+    },
+    {
+      "display": "Table V",
+      "rqs": [
+        "RQ4"
+      ],
+      "protocols": [
+        "joint-faults"
+      ],
+      "records": [
+        {
+          "runtime_path": "results/review7_20261109/fault_records.json",
+          "stored_path": "evidence/results/review7_20261109/fault_records.json",
+          "transport": "plain"
+        }
+      ],
+      "interpretation": "216 process-stop/corruption/format cases; K bound requires latest completed image valid. Older fallback and explicit errors separate."
+    },
+    {
+      "display": "Figure 4 and Table VI",
+      "rqs": [
+        "RQ5"
+      ],
+      "protocols": [
+        "joint-performance"
+      ],
+      "records": [
+        {
+          "runtime_path": "results/review7_20261109/performance_records.json",
+          "stored_path": "evidence/results/review7_20261109/performance_records.json",
+          "transport": "plain"
+        },
+        {
+          "runtime_path": "results/review7_20261109/cost_control_records.json",
+          "stored_path": "evidence/results/review7_20261109/cost_control_records.json",
+          "transport": "plain"
+        },
+        {
+          "runtime_path": "results/review7_20261109/cost_wide_records.json",
+          "stored_path": "evidence/results/review7_20261109/cost_wide_records.json",
+          "transport": "plain"
+        }
+      ],
+      "interpretation": "138 runs, 13.8 million measured requests; technical repeats, fixed performance geometry. Compare cost controls within interval group; timing is machine-dependent."
+    }
+  ],
+  "all_protocols": "experiments/catalog.json",
+  "additional_evidence": "INDEX.json",
+  "binary_evidence": "RAW_MANIFEST.json",
+  "ledgers": {
+    "history-only": "representation + image/workspace reserves under history-only formula",
+    "joint-service": "history + facts + extrema/control + two durable images + pending image + workspace/cache",
+    "native-components": "separate checkpoint/concurrency/whole-process diagnostics"
+  },
+  "supplemental_rq2": {
+    "fixed_width": "results/rq2_precision_20261107/",
+    "fixed_demand_triptychs": "results/rq2_tradeoff_20261107/",
+    "note": "All original curves, age composition records and measurements retained, including ties, nonmonotonic error and losses. Distinguish these older controls from the phase-controlled main display."
+  }
+}

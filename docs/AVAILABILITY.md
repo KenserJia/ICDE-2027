@@ -1,11 +1,13 @@
-# Data and Code Availability: fill after actual publication
+# Availability and provenance
 
-The repository and Release links below are unresolved until you upload the package. Replace every angle-bracket field with a real value; do not insert this template into a submission with placeholders.
+Target public repository: https://github.com/KenserJia/ICDE-2027 . This dated v0.3.0 package is locally prepared and not asserted to be published. The user requested that the current manuscript's artifact URL remain unchanged; no manuscript file or URL is edited here. Follow `GITHUB_UPLOAD.md` to make the dated source/data and complete evidence assets accessible from that existing release page as well as the new release.
 
-## English manuscript wording
+The source/data ZIP includes code, processed data, source archives, indexed text evidence, protocols and display reconstruction. The separate raw archive provides complete checkpoints and per-request binary records listed in `evidence/RAW_MANIFEST.json`. Readers need both for complete raw inspection; record-based tables/figures and core data preparation work from the source/data ZIP alone.
 
-The implementation, data-preparation scripts, experiment protocols, figure/table code, and recorded results are available at <GITHUB_REPOSITORY_URL> (release <RELEASE_TAG>, commit <COMMIT_SHA>). The repository includes the processed data used in the experiments and integrity-checked source archives. Complete per-query and per-request records, validation states, and checkpoint images are provided in the raw-evidence asset attached to the same release at <RELEASE_ASSET_URL>. The reused Bike Sharing and Beijing Multi-Site Air Quality datasets are available from the UCI Machine Learning Repository at https://doi.org/10.24432/C5W894 and https://doi.org/10.24432/C5RK5G, respectively. Original project code is released under the MIT License; reused data and third-party software retain the licenses and attributions documented in the repository.
+Reused datasets are Bike Sharing (https://doi.org/10.24432/C5W894), Beijing Multi-Site Air Quality (https://doi.org/10.24432/C5RK5G), and Individual Household Electric Power Consumption (https://doi.org/10.24432/C58K54). Creators, source URLs, units, preprocessing and license boundaries are in `data/README.md`, `DATASET_MANIFEST.json`, and `THIRD_PARTY_NOTICES.md`. No controlled access is imposed on the bundled public observations or recorded measurements.
+
+After manual publication, record the actual release tag, commit and asset URLs in the submission form. A DOI may be added only after a persistent archive actually issues one. Do not insert a guessed URL/DOI or replace the paper URL without author direction.
 
 ## 中文核对
 
-须填入真实GitHub仓库、Release标签、提交SHA及原始证据附件链接。两个数据DOI已对照UCI官方页面。代码MIT不改变UCI数据CC BY4.0或Scotty Apache2.0许可。无虚构仓库/DOI，无“根据请求提供”的替代说法。此文件不修改正文，也不声称本包已在线公开。
+已区分本地完整材料和线上公开状态；未编造DOI、标签提交或下载链接。代码与数据许可分别列出，三套来源都有可核验归属。公开前需确认新附件可从论文现有网址下载。

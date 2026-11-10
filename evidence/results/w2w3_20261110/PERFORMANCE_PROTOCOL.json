@@ -1,0 +1,2468 @@
+{
+  "configs": {
+    "u0-B131072-R4096-n-b64-f16-k8": {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "protocol": "random_uniform",
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03174042150730384,
+        "nrmse": 0.17815841706156615,
+        "exact": 0.0006510416666666666,
+        "bound": 0.846605539948735,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.008463541666666666,
+          "0.1": 0.041666666666666664,
+          "0.2": 0.16796875
+        },
+        "U": {
+          "0.01": 0.005859375,
+          "0.05": 0.21614583333333334,
+          "0.1": 0.5065104166666666,
+          "0.2": 0.791015625
+        }
+      },
+      "config": {
+        "id": "n-b64-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21460,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29652,
+          "envelope_reservation_bytes": 29740,
+          "workspace_bytes": 8192,
+          "charged_bytes": 127064,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "mse",
+      "objectives": [
+        "mse"
+      ]
+    },
+    "u0-B131072-R4096-n-b128-f8-k4": {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "protocol": "random_uniform",
+      "id": "n-b128-f8-k4",
+      "family": "native",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.05778482894175385,
+        "nrmse": 0.24038475212808705,
+        "exact": 0.005208333333333333,
+        "bound": 1.353918971419331,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.11588541666666667,
+          "0.1": 0.23111979166666666,
+          "0.2": 0.3053385416666667
+        },
+        "U": {
+          "0.01": 0.06315104166666667,
+          "0.05": 0.3014322916666667,
+          "0.1": 0.408203125,
+          "0.2": 0.6236979166666666
+        }
+      },
+      "config": {
+        "id": "n-b128-f8-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "g01",
+      "objectives": [
+        "g01"
+      ]
+    },
+    "u0-B131072-R4096-h-b128-q2": {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "protocol": "random_uniform",
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.033081826971771526,
+        "nrmse": 0.1818841033103095,
+        "exact": 0.0,
+        "bound": 1.3781627806158692,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.004557291666666667,
+          "0.2": 0.016927083333333332
+        },
+        "U": {
+          "0.01": 0.001953125,
+          "0.05": 0.10026041666666667,
+          "0.1": 0.3834635416666667,
+          "0.2": 0.7688802083333334
+        }
+      },
+      "config": {
+        "id": "h-b128-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "mse",
+      "objectives": [
+        "mse",
+        "g01"
+      ]
+    },
+    "u0-B262144-R16384-n-b128-f8-k16": {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "protocol": "random_uniform",
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.02127832235905514,
+        "nrmse": 0.14587091005751376,
+        "exact": 0.010416666666666666,
+        "bound": 0.6830821579998646,
+        "G": {
+          "0.01": 0.016276041666666668,
+          "0.05": 0.2526041666666667,
+          "0.1": 0.4856770833333333,
+          "0.2": 0.619140625
+        },
+        "U": {
+          "0.01": 0.14192708333333334,
+          "0.05": 0.587890625,
+          "0.1": 0.7057291666666666,
+          "0.2": 0.84765625
+        }
+      },
+      "config": {
+        "id": "n-b128-f8-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52100,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60292,
+          "envelope_reservation_bytes": 60380,
+          "workspace_bytes": 8192,
+          "charged_bytes": 249624,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "mse",
+      "objectives": [
+        "mse"
+      ]
+    },
+    "u0-B262144-R16384-n-b256-f8-k8": {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "protocol": "random_uniform",
+      "id": "n-b256-f8-k8",
+      "family": "native",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03076757673923126,
+        "nrmse": 0.17540688926006387,
+        "exact": 0.010416666666666666,
+        "bound": 0.9704964173231433,
+        "G": {
+          "0.01": 0.016276041666666668,
+          "0.05": 0.2526041666666667,
+          "0.1": 0.4856770833333333,
+          "0.2": 0.619140625
+        },
+        "U": {
+          "0.01": 0.14192708333333334,
+          "0.05": 0.5794270833333334,
+          "0.1": 0.6803385416666666,
+          "0.2": 0.8046875
+        }
+      },
+      "config": {
+        "id": "n-b256-f8-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 46660,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 54852,
+          "envelope_reservation_bytes": 54940,
+          "workspace_bytes": 8192,
+          "charged_bytes": 227864,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "g01",
+      "objectives": [
+        "g01"
+      ]
+    },
+    "u0-B262144-R16384-h-b256-q4": {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "protocol": "random_uniform",
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.030137234963981175,
+        "nrmse": 0.1736007921162788,
+        "exact": 0.0006510416666666666,
+        "bound": 1.6157381688309893,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.001953125,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.015625
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.107421875,
+          "0.1": 0.390625,
+          "0.2": 0.7897135416666666
+        }
+      },
+      "config": {
+        "id": "h-b256-q4",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "mse",
+      "objectives": [
+        "mse"
+      ]
+    },
+    "u0-B262144-R16384-h-b128-q2": {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "protocol": "random_uniform",
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.030658420527897908,
+        "nrmse": 0.17509546135849366,
+        "exact": 0.0,
+        "bound": 1.3847572877787229,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0013020833333333333,
+          "0.1": 0.006510416666666667,
+          "0.2": 0.020182291666666668
+        },
+        "U": {
+          "0.01": 0.0032552083333333335,
+          "0.05": 0.12044270833333333,
+          "0.1": 0.423828125,
+          "0.2": 0.7916666666666666
+        }
+      },
+      "config": {
+        "id": "h-b128-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 22100,
+          "charged_bytes": 222876,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "g01",
+      "objectives": [
+        "g01"
+      ]
+    },
+    "u1-B131072-R4096-n-b64-f16-k8": {
+      "unit": 1,
+      "dataset": "beijing",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "protocol": "random_uniform",
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03394717324440081,
+        "nrmse": 0.18424758666388638,
+        "exact": 0.0026041666666666665,
+        "bound": 0.5907418629853336,
+        "G": {
+          "0.01": 0.0026041666666666665,
+          "0.05": 0.048828125,
+          "0.1": 0.15625,
+          "0.2": 0.2884114583333333
+        },
+        "U": {
+          "0.01": 0.044270833333333336,
+          "0.05": 0.3776041666666667,
+          "0.1": 0.6315104166666666,
+          "0.2": 0.8411458333333334
+        }
+      },
+      "config": {
+        "id": "n-b64-f16-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 64,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21460,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29652,
+          "envelope_reservation_bytes": 29740,
+          "workspace_bytes": 8192,
+          "charged_bytes": 127064,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "mse",
+      "objectives": [
+        "mse"
+      ]
+    },
+    "u1-B131072-R4096-n-b128-f8-k4": {
+      "unit": 1,
+      "dataset": "beijing",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "protocol": "random_uniform",
+      "id": "n-b128-f8-k4",
+      "family": "native",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08147067090288897,
+        "nrmse": 0.28543067595451294,
+        "exact": 0.005208333333333333,
+        "bound": 1.0818527379137242,
+        "G": {
+          "0.01": 0.01953125,
+          "0.05": 0.21744791666666666,
+          "0.1": 0.3014322916666667,
+          "0.2": 0.3359375
+        },
+        "U": {
+          "0.01": 0.16015625,
+          "0.05": 0.34765625,
+          "0.1": 0.4544270833333333,
+          "0.2": 0.6731770833333334
+        }
+      },
+      "config": {
+        "id": "n-b128-f8-k4",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "g01",
+      "objectives": [
+        "g01"
+      ]
+    },
+    "u1-B131072-R4096-h-b128-q2": {
+      "unit": 1,
+      "dataset": "beijing",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "protocol": "random_uniform",
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03375936648325842,
+        "nrmse": 0.18373722113555757,
+        "exact": 0.0,
+        "bound": 0.9483922743383507,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0032552083333333335,
+          "0.1": 0.010416666666666666,
+          "0.2": 0.047526041666666664
+        },
+        "U": {
+          "0.01": 0.0026041666666666665,
+          "0.05": 0.189453125,
+          "0.1": 0.4765625,
+          "0.2": 0.78125
+        }
+      },
+      "config": {
+        "id": "h-b128-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "mse",
+      "objectives": [
+        "mse",
+        "g01"
+      ]
+    },
+    "u1-B262144-R16384-n-b128-f8-k16": {
+      "unit": 1,
+      "dataset": "beijing",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "protocol": "random_uniform",
+      "id": "n-b128-f8-k16",
+      "family": "native",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03700720239126315,
+        "nrmse": 0.19237256128033725,
+        "exact": 0.009765625,
+        "bound": 0.6052184212630254,
+        "G": {
+          "0.01": 0.046875,
+          "0.05": 0.4557291666666667,
+          "0.1": 0.6002604166666666,
+          "0.2": 0.662109375
+        },
+        "U": {
+          "0.01": 0.3365885416666667,
+          "0.05": 0.646484375,
+          "0.1": 0.7024739583333334,
+          "0.2": 0.8072916666666666
+        }
+      },
+      "config": {
+        "id": "n-b128-f8-k16",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52100,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60292,
+          "envelope_reservation_bytes": 60380,
+          "workspace_bytes": 8192,
+          "charged_bytes": 249624,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "mse",
+      "objectives": [
+        "mse"
+      ]
+    },
+    "u1-B262144-R16384-n-b256-f8-k8": {
+      "unit": 1,
+      "dataset": "beijing",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "protocol": "random_uniform",
+      "id": "n-b256-f8-k8",
+      "family": "native",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.052033183375571924,
+        "nrmse": 0.2281078326021173,
+        "exact": 0.009765625,
+        "bound": 0.9200804617160684,
+        "G": {
+          "0.01": 0.046875,
+          "0.05": 0.4557291666666667,
+          "0.1": 0.6002604166666666,
+          "0.2": 0.66015625
+        },
+        "U": {
+          "0.01": 0.3359375,
+          "0.05": 0.6373697916666666,
+          "0.1": 0.6731770833333334,
+          "0.2": 0.7513020833333334
+        }
+      },
+      "config": {
+        "id": "n-b256-f8-k8",
+        "family": "native",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 46660,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 54852,
+          "envelope_reservation_bytes": 54940,
+          "workspace_bytes": 8192,
+          "charged_bytes": 227864,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "g01",
+      "objectives": [
+        "g01"
+      ]
+    },
+    "u1-B262144-R16384-h-b256-q4": {
+      "unit": 1,
+      "dataset": "beijing",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "protocol": "random_uniform",
+      "id": "h-b256-q4",
+      "family": "histogram",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.02936378506451594,
+        "nrmse": 0.17135864442370108,
+        "exact": 0.0,
+        "bound": 1.0054846259570052,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.007161458333333333,
+          "0.2": 0.038411458333333336
+        },
+        "U": {
+          "0.01": 0.0026041666666666665,
+          "0.05": 0.18098958333333334,
+          "0.1": 0.4811197916666667,
+          "0.2": 0.8125
+        }
+      },
+      "config": {
+        "id": "h-b256-q4",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "mse",
+      "objectives": [
+        "mse"
+      ]
+    },
+    "u1-B262144-R16384-h-b128-q2": {
+      "unit": 1,
+      "dataset": "beijing",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "protocol": "random_uniform",
+      "id": "h-b128-q2",
+      "family": "histogram",
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.037335443148813326,
+        "nrmse": 0.19322381605432454,
+        "exact": 0.0,
+        "bound": 0.9883426686201897,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0032552083333333335,
+          "0.1": 0.007161458333333333,
+          "0.2": 0.041666666666666664
+        },
+        "U": {
+          "0.01": 0.0026041666666666665,
+          "0.05": 0.171875,
+          "0.1": 0.4505208333333333,
+          "0.2": 0.755859375
+        }
+      },
+      "config": {
+        "id": "h-b128-q2",
+        "family": "histogram",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 22100,
+          "charged_bytes": 222876,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "objective": "g01",
+      "objectives": [
+        "g01"
+      ]
+    }
+  },
+  "jobs": [
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-sync-r1-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-h-b128-q2-sync-r0-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b128-q2-sync-r2-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-strict-r0-rate20000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-sync-r0-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-strict-r2-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-h-b128-q2-sync-r0-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-h-b128-q2-strict-r2-rate20000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b64-f16-k8",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b64-f16-k8-sync-r2-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-h-b128-q2-strict-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-h-b128-q2-sync-r2-rate20000"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-h-b128-q2-strict-r1-rate20000"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-h-b128-q2-sync-r1-rate5000"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-strict-r2-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-sync-r1-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b128-f8-k16",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b128-f8-k16-strict-r2-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-h-b128-q2-strict-r2-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b256-q4",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b256-q4-strict-r1-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-strict-r2-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-h-b128-q2-strict-r0-rate5000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-h-b128-q2-sync-r1-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-strict-r1-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-h-b128-q2-strict-r2-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-strict-r2-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-strict-r0-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b256-q4",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b256-q4-strict-r1-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b128-q2-sync-r0-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-h-b128-q2-sync-r2-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-h-b128-q2-sync-r0-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-sync-r2-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-sync-r0-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-h-b128-q2-strict-r1-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-h-b128-q2-sync-r2-rate20000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-strict-r1-rate5000"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-sync-r1-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-h-b128-q2-sync-r2-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-sync-r2-rate5000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-h-b128-q2-strict-r1-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-h-b128-q2-sync-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-sync-r2-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-h-b128-q2-strict-r1-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-h-b128-q2-strict-r0-rate20000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-strict-r1-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b128-f8-k16",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b128-f8-k16-strict-r0-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-h-b128-q2-strict-r2-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-strict-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-strict-r0-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-h-b128-q2-sync-r1-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-sync-r2-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-strict-r2-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-sync-r0-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b128-f8-k16",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b128-f8-k16-sync-r1-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-sync-r0-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-h-b128-q2-strict-r2-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b64-f16-k8",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b64-f16-k8-sync-r1-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-h-b128-q2-sync-r0-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-h-b128-q2-sync-r0-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-sync-r1-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-h-b128-q2-sync-r1-rate5000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b256-q4",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b256-q4-sync-r2-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-h-b128-q2-strict-r0-rate20000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-strict-r0-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b128-f8-k16",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b128-f8-k16-strict-r0-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b128-f8-k16",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b128-f8-k16-sync-r0-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b256-q4",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b256-q4-strict-r2-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-h-b128-q2-strict-r1-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-h-b128-q2-sync-r1-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-strict-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b64-f16-k8",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b64-f16-k8-strict-r1-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-sync-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-strict-r1-rate5000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b256-q4",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b256-q4-sync-r0-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-h-b128-q2-sync-r2-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b128-f8-k16",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b128-f8-k16-sync-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-sync-r0-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b128-q2-strict-r2-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-sync-r1-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b128-f8-k16",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b128-f8-k16-sync-r2-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b128-q2-strict-r1-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-sync-r2-rate20000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b64-f16-k8",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b64-f16-k8-strict-r0-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b64-f16-k8",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b64-f16-k8-strict-r2-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-h-b128-q2-strict-r2-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b256-q4",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b256-q4-sync-r0-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-h-b128-q2-strict-r0-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-strict-r0-rate5000"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-strict-r2-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-strict-r0-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-strict-r1-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-strict-r2-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b64-f16-k8",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b64-f16-k8-sync-r0-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b128-q2-sync-r0-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b256-q4",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b256-q4-sync-r2-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b64-f16-k8",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b64-f16-k8-sync-r1-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-sync-r2-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-h-b128-q2-sync-r0-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-sync-r1-rate5000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-h-b128-q2-strict-r2-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b128-f8-k16",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b128-f8-k16-sync-r0-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-sync-r0-rate5000"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-strict-r0-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-h-b128-q2-strict-r0-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-sync-r0-rate5000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-h-b128-q2-sync-r2-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-sync-r0-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-h-b128-q2-sync-r0-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b256-q4",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b256-q4-sync-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b64-f16-k8",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b64-f16-k8-strict-r0-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-h-b128-q2-strict-r2-rate5000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-h-b128-q2-sync-r2-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-strict-r0-rate5000"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b64-f16-k8",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b64-f16-k8-sync-r2-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-h-b128-q2-sync-r0-rate5000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-h-b128-q2-strict-r1-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b256-q4",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b256-q4-strict-r0-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b128-q2-sync-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-sync-r0-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-h-b128-q2-strict-r0-rate5000"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-sync-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-strict-r0-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-h-b128-q2-strict-r1-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-strict-r2-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-h-b128-q2-sync-r0-rate20000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b64-f16-k8",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b64-f16-k8-strict-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-h-b128-q2-sync-r1-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-strict-r2-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-sync-r2-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b256-q4",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b256-q4-strict-r2-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b256-q4",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b256-q4-strict-r0-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-sync-r1-rate5000"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-sync-r0-rate5000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-h-b128-q2-strict-r0-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-strict-r2-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-strict-r2-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B131072-R4096-h-b128-q2-sync-r1-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-sync-r2-rate5000"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-strict-r2-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b128-q2-strict-r0-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-h-b128-q2-sync-r2-rate5000"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-strict-r1-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-sync-r1-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b128-f8-k16",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b128-f8-k16-strict-r2-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-strict-r1-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-sync-r2-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-h-b128-q2-strict-r0-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b128-q2-sync-r2-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-strict-r1-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-n-b128-f8-k4",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B131072-R4096-n-b128-f8-k4-strict-r0-rate5000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b256-q4",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b256-q4-sync-r1-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-strict-r1-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-h-b128-q2-strict-r2-rate20000"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B131072-R4096-h-b128-q2-strict-r2-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-sync-r1-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-sync-r0-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-h-b128-q2-strict-r1-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-h-b128-q2-strict-r1-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b128-q2-strict-r2-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-strict-r0-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-sync-r2-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-h-b128-q2-sync-r0-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-strict-r1-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b64-f16-k8",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b64-f16-k8-sync-r0-rate0"
+    },
+    {
+      "cid": "u0-B131072-R4096-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B131072-R4096-h-b128-q2-strict-r0-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-h-b128-q2-sync-r1-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b128-f8-k4",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B131072-R4096-n-b128-f8-k4-sync-r2-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-sync-r0-rate5000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b128-f8-k16",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b128-f8-k16-strict-r1-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b128-q2-strict-r1-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b256-f8-k8",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-n-b256-f8-k8-strict-r0-rate5000"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u0-B262144-R16384-h-b128-q2-strict-r0-rate20000"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 20000,
+      "clients": 8,
+      "N": 80000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-sync-r1-rate20000"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b128-f8-k16",
+      "mode": "strict",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b128-f8-k16-strict-r1-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "strict",
+      "rep": 0,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-h-b128-q2-strict-r0-rate0"
+    },
+    {
+      "cid": "u1-B131072-R4096-n-b64-f16-k8",
+      "mode": "strict",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-n-b64-f16-k8-strict-r2-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u1-B262144-R16384-h-b128-q2-sync-r2-rate5000"
+    },
+    {
+      "cid": "u1-B131072-R4096-h-b128-q2",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B131072-R4096-h-b128-q2-sync-r2-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-n-b256-f8-k8",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-n-b256-f8-k8-sync-r2-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-n-b128-f8-k16",
+      "mode": "sync",
+      "rep": 2,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u0-B262144-R16384-n-b128-f8-k16-sync-r2-rate0"
+    },
+    {
+      "cid": "u1-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 0,
+      "clients": 8,
+      "N": 30000,
+      "name": "u1-B262144-R16384-h-b128-q2-sync-r1-rate0"
+    },
+    {
+      "cid": "u0-B262144-R16384-h-b128-q2",
+      "mode": "sync",
+      "rep": 1,
+      "rate": 5000,
+      "clients": 8,
+      "N": 20000,
+      "name": "u0-B262144-R16384-h-b128-q2-sync-r1-rate5000"
+    }
+  ],
+  "K": 500,
+  "query_fraction": 0.95,
+  "observation_fraction": 0.04,
+  "fact_fraction": 0.01,
+  "selection": "validation-only mse and G(0.1); all selected configurations retained",
+  "query_geometry": "random_uniform; widths uniform16..128; equal near/middle/far panels",
+  "units": "Bike and first Beijing station, fixed before timing; no claim over all13",
+  "arrival": "8 closed-loop clients or deterministic paced tickets at5k/20k per second for4s; scheduled-to-completion includes backlog",
+  "source_hashes": {
+    "repro/w2w3_20261110/performance.py": "cd81e1125f8658c7ea98b115ef3b361b5a424e547f521b00a453e652798d5fc7",
+    "src/mtmemory_icde/core/__init__.py": "adb834d6143b5cf3d07ada8edc5adcd234dcae1b777f5f50e42ac451e53e164d",
+    "src/mtmemory_icde/core/baselines.py": "a3c87dc666879e58b3cc4fa20e552d3b04f20e6f6fed038fcafc5f599225b300",
+    "src/mtmemory_icde/core/certified.py": "dbfdb9cac4ad84d8d4613b10e5a956cfe236ad38d27fea83b126dca71c23d202",
+    "src/mtmemory_icde/core/checkpoint.py": "753661bb9865f384322f566e41fb20eda36e9c57934f8f68e5f92e5467037c34",
+    "src/mtmemory_icde/core/histogram.py": "9badabd6d42379fda6f0e85168d831efd06d9e5fe78bbae517fcb204959d099b",
+    "src/mtmemory_icde/core/history.py": "57a42c6370250e4b8acf726a0d0432de3ce9e6df81cdcfad139976180f873794",
+    "src/mtmemory_icde/core/joint.py": "1b6e5eb7e82c997f699bd54e4b005379d5396e76b60ddb29ba336e5225f15def",
+    "src/mtmemory_icde/core/joint_history.py": "90b4e4b33c208711b1451cfcbc61c1fe350d784eccd5cba4f157d849135a1c82",
+    "src/mtmemory_icde/core/numerics.py": "14cfe301a799fd29beb20f31bb7014ffff7693aeeb8f29ebcf81106e9f1c19f3",
+    "src/mtmemory_icde/core/replay.py": "6264e12cac4b6433b0587c9b7a13834a90685ef3035d6c683f0c696f43e6033c",
+    "src/mtmemory_icde/core/rpo.py": "2912abfc8958a90fa946693d3b749fb5606866eee724c6f60a26d2b6a62e945e",
+    "src/mtmemory_icde/core/service.py": "1f15df1fb2fff4d71b40bf80aa35b381255a42b4912db0f5a8e88d1f1d42df5a"
+  },
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.5 (v3.14.5:5607950ef23, May 10 2026, 07:38:09) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "numpy": "2.5.4"
+}

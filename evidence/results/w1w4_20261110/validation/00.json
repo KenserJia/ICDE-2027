@@ -1,0 +1,4119 @@
+{
+  "selected": [
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8062533107270756,
+        0.3333333333333333,
+        2.080225028860348
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06408630609243732,
+        "nrmse": 0.2531527329870038,
+        "exact": 0.005208333333333333,
+        "bound": 1.3942560694612507,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.10807291666666667,
+          "0.1": 0.23828125,
+          "0.2": 0.3098958333333333
+        },
+        "U": {
+          "0.01": 0.07356770833333333,
+          "0.05": 0.3125,
+          "0.1": 0.412109375,
+          "0.2": 0.6178385416666666
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8062533107270756,
+        0.3333333333333333,
+        2.080225028860348
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06408630609243732,
+        "nrmse": 0.2531527329870038,
+        "exact": 0.005208333333333333,
+        "bound": 1.3942560694612507,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.10807291666666667,
+          "0.1": 0.23828125,
+          "0.2": 0.3098958333333333
+        },
+        "U": {
+          "0.01": 0.07356770833333333,
+          "0.05": 0.3125,
+          "0.1": 0.412109375,
+          "0.2": 0.6178385416666666
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "sse-b128-q2",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q2",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.036181766355340206,
+        "nrmse": 0.19021505310220801,
+        "exact": 0.0006510416666666666,
+        "bound": 1.4085270475253766,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.001953125,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.018229166666666668
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.11197916666666667,
+          "0.1": 0.3802083333333333,
+          "0.2": 0.7513020833333334
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "sse-b128-q2",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q2",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.036181766355340206,
+        "nrmse": 0.19021505310220801,
+        "exact": 0.0006510416666666666,
+        "bound": 1.4085270475253766,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.001953125,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.018229166666666668
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.11197916666666667,
+          "0.1": 0.3802083333333333,
+          "0.2": 0.7513020833333334
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "bound-b128-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08728160049373718,
+        "nrmse": 0.29543459625748086,
+        "exact": 0.0006510416666666666,
+        "bound": 2.130277695047958,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0006510416666666666,
+          "0.2": 0.0032552083333333335
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.030598958333333332,
+          "0.1": 0.14322916666666666,
+          "0.2": 0.4609375
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "bound-b128-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08728160049373718,
+        "nrmse": 0.29543459625748086,
+        "exact": 0.0006510416666666666,
+        "bound": 2.130277695047958,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0006510416666666666,
+          "0.2": 0.0032552083333333335
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.030598958333333332,
+          "0.1": 0.14322916666666666,
+          "0.2": 0.4609375
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 8192,
+          "charged_bytes": 116808,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.044433326674542396,
+        "nrmse": 0.21079214112994513,
+        "exact": 0.0006510416666666666,
+        "bound": 1.2102187113772849,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.013671875
+        },
+        "U": {
+          "0.01": 0.0026041666666666665,
+          "0.05": 0.10091145833333333,
+          "0.1": 0.3736979166666667,
+          "0.2": 0.724609375
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 8192,
+          "charged_bytes": 116808,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.044433326674542396,
+        "nrmse": 0.21079214112994513,
+        "exact": 0.0006510416666666666,
+        "bound": 1.2102187113772849,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.013671875
+        },
+        "U": {
+          "0.01": 0.0026041666666666665,
+          "0.05": 0.10091145833333333,
+          "0.1": 0.3736979166666667,
+          "0.2": 0.724609375
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k16",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k16",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52100,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60292,
+          "envelope_reservation_bytes": 60380,
+          "workspace_bytes": 8192,
+          "charged_bytes": 249624,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.46675626849998464,
+        0.6666666666666666,
+        1.3837842831216232
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.019961282044859613,
+        "nrmse": 0.14128440141861054,
+        "exact": 0.013671875,
+        "bound": 0.6898683872158106,
+        "G": {
+          "0.01": 0.017578125,
+          "0.05": 0.240234375,
+          "0.1": 0.4876302083333333,
+          "0.2": 0.615234375
+        },
+        "U": {
+          "0.01": 0.13932291666666666,
+          "0.05": 0.5852864583333334,
+          "0.1": 0.712890625,
+          "0.2": 0.8470052083333334
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k16",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k16",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52100,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60292,
+          "envelope_reservation_bytes": 60380,
+          "workspace_bytes": 8192,
+          "charged_bytes": 249624,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.46675626849998464,
+        0.6666666666666666,
+        1.3837842831216232
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.019961282044859613,
+        "nrmse": 0.14128440141861054,
+        "exact": 0.013671875,
+        "bound": 0.6898683872158106,
+        "G": {
+          "0.01": 0.017578125,
+          "0.05": 0.240234375,
+          "0.1": 0.4876302083333333,
+          "0.2": 0.615234375
+        },
+        "U": {
+          "0.01": 0.13932291666666666,
+          "0.05": 0.5852864583333334,
+          "0.1": 0.712890625,
+          "0.2": 0.8470052083333334
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b256-q4",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q4",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03150950250859813,
+        "nrmse": 0.17750916193459412,
+        "exact": 0.0,
+        "bound": 1.641282687805458,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.001953125,
+          "0.1": 0.005208333333333333,
+          "0.2": 0.016276041666666668
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.099609375,
+          "0.1": 0.3984375,
+          "0.2": 0.77734375
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b256-q4",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q4",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03150950250859813,
+        "nrmse": 0.17750916193459412,
+        "exact": 0.0,
+        "bound": 1.641282687805458,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.001953125,
+          "0.1": 0.005208333333333333,
+          "0.2": 0.016276041666666668
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.099609375,
+          "0.1": 0.3984375,
+          "0.2": 0.77734375
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b256-q4",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q4",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 48244,
+          "charged_bytes": 249372,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.0323579678979728,
+        "nrmse": 0.17988320644732084,
+        "exact": 0.0,
+        "bound": 1.1752615882365591,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0013020833333333333,
+          "0.1": 0.005208333333333333,
+          "0.2": 0.018229166666666668
+        },
+        "U": {
+          "0.01": 0.001953125,
+          "0.05": 0.13802083333333334,
+          "0.1": 0.466796875,
+          "0.2": 0.79296875
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b256-q4",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q4",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 48244,
+          "charged_bytes": 249372,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.0323579678979728,
+        "nrmse": 0.17988320644732084,
+        "exact": 0.0,
+        "bound": 1.1752615882365591,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0013020833333333333,
+          "0.1": 0.005208333333333333,
+          "0.2": 0.018229166666666668
+        },
+        "U": {
+          "0.01": 0.001953125,
+          "0.05": 0.13802083333333334,
+          "0.1": 0.466796875,
+          "0.2": 0.79296875
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 8192,
+          "charged_bytes": 208968,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03842918470531051,
+        "nrmse": 0.19603363176015767,
+        "exact": 0.0013020833333333333,
+        "bound": 1.2152419179006009,
+        "G": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.001953125,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.013671875
+        },
+        "U": {
+          "0.01": 0.0032552083333333335,
+          "0.05": 0.109375,
+          "0.1": 0.408203125,
+          "0.2": 0.7545572916666666
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 8192,
+          "charged_bytes": 208968,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03842918470531051,
+        "nrmse": 0.19603363176015767,
+        "exact": 0.0013020833333333333,
+        "bound": 1.2152419179006009,
+        "G": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.001953125,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.013671875
+        },
+        "U": {
+          "0.01": 0.0032552083333333335,
+          "0.05": 0.109375,
+          "0.1": 0.408203125,
+          "0.2": 0.7545572916666666
+        }
+      },
+      "objective": "g01"
+    }
+  ],
+  "candidates": [
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f8-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15876,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 24068,
+          "envelope_reservation_bytes": 24156,
+          "workspace_bytes": 8192,
+          "charged_bytes": 104728,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08728160049373718,
+        "nrmse": 0.29543459625748086,
+        "exact": 0.0006510416666666666,
+        "bound": 2.130277695047958,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0006510416666666666,
+          "0.2": 0.0032552083333333335
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.030598958333333332,
+          "0.1": 0.14322916666666666,
+          "0.2": 0.4609375
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8062533107270756,
+        0.3333333333333333,
+        2.080225028860348
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06408630609243732,
+        "nrmse": 0.2531527329870038,
+        "exact": 0.005208333333333333,
+        "bound": 1.3942560694612507,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.10807291666666667,
+          "0.1": 0.23828125,
+          "0.2": 0.3098958333333333
+        },
+        "U": {
+          "0.01": 0.07356770833333333,
+          "0.05": 0.3125,
+          "0.1": 0.412109375,
+          "0.2": 0.6178385416666666
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f16-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15076,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 23268,
+          "envelope_reservation_bytes": 23356,
+          "workspace_bytes": 8192,
+          "charged_bytes": 101528,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08728160049373718,
+        "nrmse": 0.29543459625748086,
+        "exact": 0.0006510416666666666,
+        "bound": 2.130277695047958,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0006510416666666666,
+          "0.2": 0.0032552083333333335
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.030598958333333332,
+          "0.1": 0.14322916666666666,
+          "0.2": 0.4609375
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f16-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 18340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 26532,
+          "envelope_reservation_bytes": 26620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 114584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8439844841008702,
+        0.3333333333333333,
+        2.2090652092081
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06670297385948777,
+        "nrmse": 0.2582691890082878,
+        "exact": 0.0013020833333333333,
+        "bound": 1.4540739258249296,
+        "G": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.0078125,
+          "0.1": 0.037760416666666664,
+          "0.2": 0.17057291666666666
+        },
+        "U": {
+          "0.01": 0.01171875,
+          "0.05": 0.18489583333333334,
+          "0.1": 0.3587239583333333,
+          "0.2": 0.6009114583333334
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f16-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21604,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29796,
+          "envelope_reservation_bytes": 29884,
+          "workspace_bytes": 8192,
+          "charged_bytes": 127640,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8439844841008702,
+        0.3333333333333333,
+        2.2090652092081
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06670297385948777,
+        "nrmse": 0.2582691890082878,
+        "exact": 0.0013020833333333333,
+        "bound": 1.4540739258249296,
+        "G": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.0078125,
+          "0.1": 0.037760416666666664,
+          "0.2": 0.17057291666666666
+        },
+        "U": {
+          "0.01": 0.01171875,
+          "0.05": 0.18489583333333334,
+          "0.1": 0.3587239583333333,
+          "0.2": 0.6009114583333334
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "sse-b128-q1",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q1",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08728160049373718,
+        "nrmse": 0.29543459625748086,
+        "exact": 0.0006510416666666666,
+        "bound": 2.130277695047958,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0006510416666666666,
+          "0.2": 0.0032552083333333335
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.030598958333333332,
+          "0.1": 0.14322916666666666,
+          "0.2": 0.4609375
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "sse-b128-q2",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q2",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.036181766355340206,
+        "nrmse": 0.19021505310220801,
+        "exact": 0.0006510416666666666,
+        "bound": 1.4085270475253766,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.001953125,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.018229166666666668
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.11197916666666667,
+          "0.1": 0.3802083333333333,
+          "0.2": 0.7513020833333334
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "bound-b128-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08728160049373718,
+        "nrmse": 0.29543459625748086,
+        "exact": 0.0006510416666666666,
+        "bound": 2.130277695047958,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0006510416666666666,
+          "0.2": 0.0032552083333333335
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.030598958333333332,
+          "0.1": 0.14322916666666666,
+          "0.2": 0.4609375
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "fixed-b128-q1",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q1",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08728160049373718,
+        "nrmse": 0.29543459625748086,
+        "exact": 0.0006510416666666666,
+        "bound": 2.130277695047958,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0006510416666666666,
+          "0.2": 0.0032552083333333335
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.030598958333333332,
+          "0.1": 0.14322916666666666,
+          "0.2": 0.4609375
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 8192,
+          "charged_bytes": 116808,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.044433326674542396,
+        "nrmse": 0.21079214112994513,
+        "exact": 0.0006510416666666666,
+        "bound": 1.2102187113772849,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.013671875
+        },
+        "U": {
+          "0.01": 0.0026041666666666665,
+          "0.05": 0.10091145833333333,
+          "0.1": 0.3736979166666667,
+          "0.2": 0.724609375
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b256-f8-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f8-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15748,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 23940,
+          "envelope_reservation_bytes": 24028,
+          "workspace_bytes": 8192,
+          "charged_bytes": 104216,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6394590718143682,
+        0.0,
+        3.428638582519199
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.13837108436471093,
+        "nrmse": 0.371982640236775,
+        "exact": 0.0,
+        "bound": 3.0910543138477764,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0
+        },
+        "U": {
+          "0.01": 0.0,
+          "0.05": 0.0013020833333333333,
+          "0.1": 0.036458333333333336,
+          "0.2": 0.23828125
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b256-f16-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 14148,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22340,
+          "envelope_reservation_bytes": 22428,
+          "workspace_bytes": 8192,
+          "charged_bytes": 97816,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6394590718143682,
+        0.0,
+        3.428638582519199
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.13837108436471093,
+        "nrmse": 0.371982640236775,
+        "exact": 0.0,
+        "bound": 3.0910543138477764,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0
+        },
+        "U": {
+          "0.01": 0.0,
+          "0.05": 0.0013020833333333333,
+          "0.1": 0.036458333333333336,
+          "0.2": 0.23828125
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b256-f16-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 20612,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 28804,
+          "envelope_reservation_bytes": 28892,
+          "workspace_bytes": 8192,
+          "charged_bytes": 123672,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.179584041115224,
+        0.3333333333333333,
+        2.6472797384258047
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.09878496096087386,
+        "nrmse": 0.3143007495308233,
+        "exact": 0.0006510416666666666,
+        "bound": 2.079946734888843,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.007161458333333333,
+          "0.1": 0.037109375,
+          "0.2": 0.16731770833333334
+        },
+        "U": {
+          "0.01": 0.010416666666666666,
+          "0.05": 0.16341145833333334,
+          "0.1": 0.2942708333333333,
+          "0.2": 0.4772135416666667
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "sse-b256-q1",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q1",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14596,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22788,
+          "envelope_reservation_bytes": 22876,
+          "workspace_bytes": 8192,
+          "charged_bytes": 99608,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6394590718143682,
+        0.0,
+        3.428638582519199
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.13837108436471093,
+        "nrmse": 0.371982640236775,
+        "exact": 0.0,
+        "bound": 3.0910543138477764,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0
+        },
+        "U": {
+          "0.01": 0.0,
+          "0.05": 0.0013020833333333333,
+          "0.1": 0.036458333333333336,
+          "0.2": 0.23828125
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "bound-b256-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14596,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22788,
+          "envelope_reservation_bytes": 22876,
+          "workspace_bytes": 8192,
+          "charged_bytes": 99608,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6394590718143682,
+        0.0,
+        3.428638582519199
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.13837108436471093,
+        "nrmse": 0.371982640236775,
+        "exact": 0.0,
+        "bound": 3.0910543138477764,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0
+        },
+        "U": {
+          "0.01": 0.0,
+          "0.05": 0.0013020833333333333,
+          "0.1": 0.036458333333333336,
+          "0.2": 0.23828125
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "fixed-b256-q1",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b256-q1",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14596,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22788,
+          "envelope_reservation_bytes": 22876,
+          "workspace_bytes": 8192,
+          "charged_bytes": 99608,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6394590718143682,
+        0.0,
+        3.428638582519199
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.13837108436471093,
+        "nrmse": 0.371982640236775,
+        "exact": 0.0,
+        "bound": 3.0910543138477764,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0
+        },
+        "U": {
+          "0.01": 0.0,
+          "0.05": 0.0013020833333333333,
+          "0.1": 0.036458333333333336,
+          "0.2": 0.23828125
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 26244,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 34436,
+          "envelope_reservation_bytes": 34524,
+          "workspace_bytes": 8192,
+          "charged_bytes": 146200,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.07584238366610203,
+        "nrmse": 0.2753949596772463,
+        "exact": 0.0006510416666666666,
+        "bound": 2.126770375214534,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0013020833333333333,
+          "0.2": 0.0026041666666666665
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.02734375,
+          "0.1": 0.16536458333333334,
+          "0.2": 0.51171875
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 32708,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 40900,
+          "envelope_reservation_bytes": 40988,
+          "workspace_bytes": 8192,
+          "charged_bytes": 172056,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8062533107270756,
+        0.3333333333333333,
+        2.080225028860348
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.05264708926480216,
+        "nrmse": 0.22944953555978412,
+        "exact": 0.005208333333333333,
+        "bound": 1.3907487496278268,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.10807291666666667,
+          "0.1": 0.23893229166666666,
+          "0.2": 0.3092447916666667
+        },
+        "U": {
+          "0.01": 0.07356770833333333,
+          "0.05": 0.3092447916666667,
+          "0.1": 0.4342447916666667,
+          "0.2": 0.6686197916666666
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 39172,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 47364,
+          "envelope_reservation_bytes": 47452,
+          "workspace_bytes": 8192,
+          "charged_bytes": 197912,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8062533107270756,
+        0.3333333333333333,
+        2.080225028860348
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.05264708926480216,
+        "nrmse": 0.22944953555978412,
+        "exact": 0.005208333333333333,
+        "bound": 1.3907487496278268,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.10807291666666667,
+          "0.1": 0.23893229166666666,
+          "0.2": 0.3092447916666667
+        },
+        "U": {
+          "0.01": 0.07356770833333333,
+          "0.05": 0.3092447916666667,
+          "0.1": 0.4342447916666667,
+          "0.2": 0.6686197916666666
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k16",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k16",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52100,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60292,
+          "envelope_reservation_bytes": 60380,
+          "workspace_bytes": 8192,
+          "charged_bytes": 249624,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.46675626849998464,
+        0.6666666666666666,
+        1.3837842831216232
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.019961282044859613,
+        "nrmse": 0.14128440141861054,
+        "exact": 0.013671875,
+        "bound": 0.6898683872158106,
+        "G": {
+          "0.01": 0.017578125,
+          "0.05": 0.240234375,
+          "0.1": 0.4876302083333333,
+          "0.2": 0.615234375
+        },
+        "U": {
+          "0.01": 0.13932291666666666,
+          "0.05": 0.5852864583333334,
+          "0.1": 0.712890625,
+          "0.2": 0.8470052083333334
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f16-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 25444,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 33636,
+          "envelope_reservation_bytes": 33724,
+          "workspace_bytes": 8192,
+          "charged_bytes": 143000,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.07584238366610203,
+        "nrmse": 0.2753949596772463,
+        "exact": 0.0006510416666666666,
+        "bound": 2.126770375214534,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0013020833333333333,
+          "0.2": 0.0026041666666666665
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.02734375,
+          "0.1": 0.16536458333333334,
+          "0.2": 0.51171875
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f16-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 28708,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36900,
+          "envelope_reservation_bytes": 36988,
+          "workspace_bytes": 8192,
+          "charged_bytes": 156056,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8439844841008702,
+        0.3333333333333333,
+        2.2090652092081
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.05526375703185262,
+        "nrmse": 0.23508244753875202,
+        "exact": 0.0013020833333333333,
+        "bound": 1.4505666059915054,
+        "G": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.0078125,
+          "0.1": 0.038411458333333336,
+          "0.2": 0.169921875
+        },
+        "U": {
+          "0.01": 0.01171875,
+          "0.05": 0.181640625,
+          "0.1": 0.380859375,
+          "0.2": 0.6516927083333334
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f16-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 31972,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 40164,
+          "envelope_reservation_bytes": 40252,
+          "workspace_bytes": 8192,
+          "charged_bytes": 169112,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8439844841008702,
+        0.3333333333333333,
+        2.2090652092081
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.05526375703185262,
+        "nrmse": 0.23508244753875202,
+        "exact": 0.0013020833333333333,
+        "bound": 1.4505666059915054,
+        "G": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.0078125,
+          "0.1": 0.038411458333333336,
+          "0.2": 0.169921875
+        },
+        "U": {
+          "0.01": 0.01171875,
+          "0.05": 0.181640625,
+          "0.1": 0.380859375,
+          "0.2": 0.6516927083333334
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f16-k16",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k16",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 38500,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 46692,
+          "envelope_reservation_bytes": 46780,
+          "workspace_bytes": 8192,
+          "charged_bytes": 195224,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.5442163318611963,
+        0.6666666666666666,
+        1.6436385691662572
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.025510253447754223,
+        "nrmse": 0.15971929594776577,
+        "exact": 0.005208333333333333,
+        "bound": 0.8086266027794533,
+        "G": {
+          "0.01": 0.005208333333333333,
+          "0.05": 0.024088541666666668,
+          "0.1": 0.09114583333333333,
+          "0.2": 0.3463541666666667
+        },
+        "U": {
+          "0.01": 0.026692708333333332,
+          "0.05": 0.3509114583333333,
+          "0.1": 0.6100260416666666,
+          "0.2": 0.8125
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b128-q1",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q1",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 24644,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 32836,
+          "envelope_reservation_bytes": 32924,
+          "workspace_bytes": 8192,
+          "charged_bytes": 139800,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.07584238366610203,
+        "nrmse": 0.2753949596772463,
+        "exact": 0.0006510416666666666,
+        "bound": 2.126770375214534,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0013020833333333333,
+          "0.2": 0.0026041666666666665
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.02734375,
+          "0.1": 0.16536458333333334,
+          "0.2": 0.51171875
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b128-q2",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q2",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 22100,
+          "charged_bytes": 222876,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03190496903747586,
+        "nrmse": 0.17861962126367692,
+        "exact": 0.0006510416666666666,
+        "bound": 1.416219211642269,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.001953125,
+          "0.1": 0.00390625,
+          "0.2": 0.017578125
+        },
+        "U": {
+          "0.01": 0.001953125,
+          "0.05": 0.12239583333333333,
+          "0.1": 0.4186197916666667,
+          "0.2": 0.7890625
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b128-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 24644,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 32836,
+          "envelope_reservation_bytes": 32924,
+          "workspace_bytes": 8192,
+          "charged_bytes": 139800,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.07584238366610203,
+        "nrmse": 0.2753949596772463,
+        "exact": 0.0006510416666666666,
+        "bound": 2.126770375214534,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0013020833333333333,
+          "0.2": 0.0026041666666666665
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.02734375,
+          "0.1": 0.16536458333333334,
+          "0.2": 0.51171875
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b128-q2",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q2",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 23132,
+          "charged_bytes": 223908,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.035980545782778865,
+        "nrmse": 0.18968538650543895,
+        "exact": 0.0006510416666666666,
+        "bound": 1.1940979151614233,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.001953125,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.016276041666666668
+        },
+        "U": {
+          "0.01": 0.0032552083333333335,
+          "0.05": 0.12760416666666666,
+          "0.1": 0.4283854166666667,
+          "0.2": 0.7760416666666666
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b128-q1",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q1",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 24644,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 32836,
+          "envelope_reservation_bytes": 32924,
+          "workspace_bytes": 8192,
+          "charged_bytes": 139800,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        0.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.07584238366610203,
+        "nrmse": 0.2753949596772463,
+        "exact": 0.0006510416666666666,
+        "bound": 2.126770375214534,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0013020833333333333,
+          "0.2": 0.0026041666666666665
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.02734375,
+          "0.1": 0.16536458333333334,
+          "0.2": 0.51171875
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 8192,
+          "charged_bytes": 208968,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03842918470531051,
+        "nrmse": 0.19603363176015767,
+        "exact": 0.0013020833333333333,
+        "bound": 1.2152419179006009,
+        "G": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.001953125,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.013671875
+        },
+        "U": {
+          "0.01": 0.0032552083333333335,
+          "0.05": 0.109375,
+          "0.1": 0.408203125,
+          "0.2": 0.7545572916666666
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f8-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f8-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 20932,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29124,
+          "envelope_reservation_bytes": 29212,
+          "workspace_bytes": 8192,
+          "charged_bytes": 124952,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6394590718143682,
+        0.0,
+        3.428638582519199
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.12217849539428698,
+        "nrmse": 0.34954040629828886,
+        "exact": 0.0,
+        "bound": 3.075567411807455,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0
+        },
+        "U": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0026041666666666665,
+          "0.1": 0.048177083333333336,
+          "0.2": 0.2962239583333333
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 33796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 41988,
+          "envelope_reservation_bytes": 42076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 176408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1418528677414297,
+        0.3333333333333333,
+        2.5184395580780525
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.0799757042233994,
+        "nrmse": 0.28279976022104175,
+        "exact": 0.004557291666666667,
+        "bound": 2.0046419764848413,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.107421875,
+          "0.1": 0.23763020833333334,
+          "0.2": 0.306640625
+        },
+        "U": {
+          "0.01": 0.07291666666666667,
+          "0.05": 0.2923177083333333,
+          "0.1": 0.359375,
+          "0.2": 0.5520833333333334
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f8-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f8-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 46660,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 54852,
+          "envelope_reservation_bytes": 54940,
+          "workspace_bytes": 8192,
+          "charged_bytes": 227864,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.6336553558845386,
+        0.6666666666666666,
+        1.6026820746451174
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.02836428271539891,
+        "nrmse": 0.16841699074416944,
+        "exact": 0.013671875,
+        "bound": 0.9730966817387486,
+        "G": {
+          "0.01": 0.017578125,
+          "0.05": 0.240234375,
+          "0.1": 0.4869791666666667,
+          "0.2": 0.6145833333333334
+        },
+        "U": {
+          "0.01": 0.13932291666666666,
+          "0.05": 0.5787760416666666,
+          "0.1": 0.6673177083333334,
+          "0.2": 0.80859375
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f16-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 19332,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27524,
+          "envelope_reservation_bytes": 27612,
+          "workspace_bytes": 8192,
+          "charged_bytes": 118552,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6394590718143682,
+        0.0,
+        3.428638582519199
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.12217849539428698,
+        "nrmse": 0.34954040629828886,
+        "exact": 0.0,
+        "bound": 3.075567411807455,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0
+        },
+        "U": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0026041666666666665,
+          "0.1": 0.048177083333333336,
+          "0.2": 0.2962239583333333
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f16-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 25796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 33988,
+          "envelope_reservation_bytes": 34076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 144408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.179584041115224,
+        0.3333333333333333,
+        2.6472797384258047
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08259237199044986,
+        "nrmse": 0.2873888866210525,
+        "exact": 0.0006510416666666666,
+        "bound": 2.0644598328485224,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.007161458333333333,
+          "0.1": 0.037109375,
+          "0.2": 0.16731770833333334
+        },
+        "U": {
+          "0.01": 0.011067708333333334,
+          "0.05": 0.16471354166666666,
+          "0.1": 0.3059895833333333,
+          "0.2": 0.53515625
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f16-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 32260,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 40452,
+          "envelope_reservation_bytes": 40540,
+          "workspace_bytes": 8192,
+          "charged_bytes": 170264,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7111154192457502,
+        0.6666666666666666,
+        1.8625363606897511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.033913254118293525,
+        "nrmse": 0.1841555163039016,
+        "exact": 0.005208333333333333,
+        "bound": 1.0918548973023956,
+        "G": {
+          "0.01": 0.005208333333333333,
+          "0.05": 0.024088541666666668,
+          "0.1": 0.09049479166666667,
+          "0.2": 0.345703125
+        },
+        "U": {
+          "0.01": 0.026692708333333332,
+          "0.05": 0.3444010416666667,
+          "0.1": 0.564453125,
+          "0.2": 0.7740885416666666
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f16-k16",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k16",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 45188,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 53380,
+          "envelope_reservation_bytes": 53468,
+          "workspace_bytes": 8192,
+          "charged_bytes": 221976,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7111154192457502,
+        0.6666666666666666,
+        1.8625363606897511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.033913254118293525,
+        "nrmse": 0.1841555163039016,
+        "exact": 0.005208333333333333,
+        "bound": 1.0918548973023956,
+        "G": {
+          "0.01": 0.005208333333333333,
+          "0.05": 0.024088541666666668,
+          "0.1": 0.09049479166666667,
+          "0.2": 0.345703125
+        },
+        "U": {
+          "0.01": 0.026692708333333332,
+          "0.05": 0.3444010416666667,
+          "0.1": 0.564453125,
+          "0.2": 0.7740885416666666
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b256-q1",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q1",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 19780,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27972,
+          "envelope_reservation_bytes": 28060,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120344,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6394590718143682,
+        0.0,
+        3.428638582519199
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.12217849539428698,
+        "nrmse": 0.34954040629828886,
+        "exact": 0.0,
+        "bound": 3.075567411807455,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0
+        },
+        "U": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0026041666666666665,
+          "0.1": 0.048177083333333336,
+          "0.2": 0.2962239583333333
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b256-q2",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q2",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 28624,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36816,
+          "envelope_reservation_bytes": 36904,
+          "workspace_bytes": 40020,
+          "charged_bytes": 187548,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        1.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06533088920023884,
+        "nrmse": 0.2555990792805103,
+        "exact": 0.0,
+        "bound": 2.3236422365144924,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0032552083333333335
+        },
+        "U": {
+          "0.01": 0.0,
+          "0.05": 0.024088541666666668,
+          "0.1": 0.16927083333333334,
+          "0.2": 0.5390625
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b256-q4",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q4",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03150950250859813,
+        "nrmse": 0.17750916193459412,
+        "exact": 0.0,
+        "bound": 1.641282687805458,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.001953125,
+          "0.1": 0.005208333333333333,
+          "0.2": 0.016276041666666668
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.099609375,
+          "0.1": 0.3984375,
+          "0.2": 0.77734375
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b256-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 19780,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27972,
+          "envelope_reservation_bytes": 28060,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120344,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6394590718143682,
+        0.0,
+        3.428638582519199
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.12217849539428698,
+        "nrmse": 0.34954040629828886,
+        "exact": 0.0,
+        "bound": 3.075567411807455,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0
+        },
+        "U": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0026041666666666665,
+          "0.1": 0.048177083333333336,
+          "0.2": 0.2962239583333333
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b256-q2",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q2",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 28624,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36816,
+          "envelope_reservation_bytes": 36904,
+          "workspace_bytes": 42076,
+          "charged_bytes": 189604,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        1.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.07174143460008485,
+        "nrmse": 0.2678459160441494,
+        "exact": 0.0,
+        "bound": 2.089648751903564,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0013020833333333333
+        },
+        "U": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.029947916666666668,
+          "0.1": 0.17122395833333334,
+          "0.2": 0.5325520833333334
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b256-q4",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q4",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 48244,
+          "charged_bytes": 249372,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.0323579678979728,
+        "nrmse": 0.17988320644732084,
+        "exact": 0.0,
+        "bound": 1.1752615882365591,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0013020833333333333,
+          "0.1": 0.005208333333333333,
+          "0.2": 0.018229166666666668
+        },
+        "U": {
+          "0.01": 0.001953125,
+          "0.05": 0.13802083333333334,
+          "0.1": 0.466796875,
+          "0.2": 0.79296875
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b256-q1",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b256-q1",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 19780,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27972,
+          "envelope_reservation_bytes": 28060,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120344,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6394590718143682,
+        0.0,
+        3.428638582519199
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.12217849539428698,
+        "nrmse": 0.34954040629828886,
+        "exact": 0.0,
+        "bound": 3.075567411807455,
+        "G": {
+          "0.01": 0.0,
+          "0.05": 0.0,
+          "0.1": 0.0,
+          "0.2": 0.0
+        },
+        "U": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0026041666666666665,
+          "0.1": 0.048177083333333336,
+          "0.2": 0.2962239583333333
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b256-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b256-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 28624,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36816,
+          "envelope_reservation_bytes": 36904,
+          "workspace_bytes": 8192,
+          "charged_bytes": 155720,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.136639483127089,
+        1.0,
+        2.771405388623068
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.07584238366610203,
+        "nrmse": 0.2753949596772463,
+        "exact": 0.0006510416666666666,
+        "bound": 2.1267703752145724,
+        "G": {
+          "0.01": 0.0006510416666666666,
+          "0.05": 0.0006510416666666666,
+          "0.1": 0.0013020833333333333,
+          "0.2": 0.0026041666666666665
+        },
+        "U": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.02734375,
+          "0.1": 0.16536458333333334,
+          "0.2": 0.51171875
+        }
+      }
+    },
+    {
+      "unit": 0,
+      "dataset": "bike",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b256-q4",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b256-q4",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 8192,
+          "charged_bytes": 209320,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7348538807828212,
+        1.0,
+        2.1458251823937857
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03842918470531051,
+        "nrmse": 0.19603363176015767,
+        "exact": 0.0013020833333333333,
+        "bound": 1.2152419179006355,
+        "G": {
+          "0.01": 0.0013020833333333333,
+          "0.05": 0.001953125,
+          "0.1": 0.0032552083333333335,
+          "0.2": 0.013671875
+        },
+        "U": {
+          "0.01": 0.0032552083333333335,
+          "0.05": 0.109375,
+          "0.1": 0.408203125,
+          "0.2": 0.7545572916666666
+        }
+      }
+    }
+  ]
+}

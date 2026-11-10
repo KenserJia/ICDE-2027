@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "method": "recent",
+      "requests": 10000,
+      "seconds": 0.2640725839883089,
+      "rps": 37868.37637201567,
+      "validation_observations": 393
+    },
+    {
+      "method": "strong",
+      "requests": 10000,
+      "seconds": 0.19379545806441456,
+      "rps": 51600.79652989678,
+      "validation_observations": 393
+    }
+  ],
+  "base": 8000,
+  "burst": 40000,
+  "selection": "pilot validation data; capped to avoid cycling test data; not a capacity guarantee"
+}

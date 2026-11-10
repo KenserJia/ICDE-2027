@@ -17,7 +17,14 @@ def verify(full=False,root=ROOT):
    installed+=1
    if sha256(p)!=x['sha256']:bad.append(x['path'])
   elif full:bad.append(x['path'])
- result=dict(passed=not bad,repository_files=len(manifest['files']),raw_files_installed=installed,raw_files_available=len(raw['files']),mismatches=bad)
+ source_checks=0
+ for name in ['QUALITY_PROTOCOL.json','PILOT_PROTOCOL.json','LOAD_PROTOCOL.json']:
+  from .io import load_json
+  protocol=load_json('results/cert_age_slo_20261110/'+name,root)
+  for path,digest in protocol['source'].items():
+   source_checks+=1
+   if sha256(root/path)!=digest:bad.append('frozen-source:'+path)
+ result=dict(passed=not bad,frozen_source_checks=source_checks,repository_files=len(manifest['files']),raw_files_installed=installed,raw_files_available=len(raw['files']),mismatches=bad)
  if bad:raise RuntimeError(json.dumps(result))
  return result
 
@@ -25,13 +32,13 @@ def workspace(output,inputs=(),evidence_all=False):
  out=Path(output).expanduser().resolve()
  if out.exists():raise FileExistsError(f'refusing to overwrite existing output: {out}')
  # Explicitly protect packaged code, datasets, and evidence from being run targets.
- for p in [ROOT/'src',ROOT/'data',ROOT/'evidence',ROOT/'repro',ROOT/'figures',ROOT/'provenance']:
+ for p in [ROOT/n for n in ['src','data','evidence','repro','figures','provenance','analysis','experiments','docs','licenses','tests','third_party']]:
   if p.resolve()==out or p.resolve() in out.parents:raise ValueError('output must not be inside packaged inputs')
  out.mkdir(parents=True);work=out/'workspace';work.mkdir()
  for name in ['src','repro']:
   shutil.copytree(ROOT/name,work/name,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
  shutil.copytree(ROOT/'data/real',work/'data/real')
- for name in ['review7_20261109','review6_20261109','review4_20261109','review3_20261104','review2_20261104','review_revision_20261104','rq3_symmetric_20261107','rq2_precision_20261107','rq2_tradeoff_20261107','review4_paper_20261109','review7_paper_20261109','framework_20261109']:(work/'results'/name).mkdir(parents=True,exist_ok=True)
+ for name in ['review7_20261109','review6_20261109','review4_20261109','review3_20261104','review2_20261104','review_revision_20261104','rq3_symmetric_20261107','rq2_precision_20261107','rq2_tradeoff_20261107','review4_paper_20261109','review7_paper_20261109','framework_20261109','w2w3_20261110','w1w4_20261110','cert_age_slo_20261110']:(work/'results'/name).mkdir(parents=True,exist_ok=True)
  (work/'paper/IEEE-conference-template-062824/figures').mkdir(parents=True)
  if evidence_all:materialize(work)
  elif inputs:materialize(work,inputs)
@@ -53,7 +60,7 @@ def run(id,output):
  out,work=workspace(output,spec['reference_inputs']);write(out/'PROTOCOL.json',spec);commands=execute(spec['commands'],out,work)
  result=dict(status='complete',experiment=id,scientific_rerun=True,workspace='workspace',commands=commands,comparison='Compare deterministic quality/counts to recorded evidence; remeasure performance, do not expect timing equality.');write(out/'RUN.json',result);return result
 
-def figures(output):
+def legacy_figures(output):
  needed=['results/review4_20261109/rq2_records.json','results/rq3_symmetric_20261107/summary.json','results/rq3_symmetric_20261107/selected_results.json','results/rq3_symmetric_20261107/layouts.json','results/rq3_symmetric_20261107/same_layout_summary.json','results/frozen/rq_closure/rq3_boundary/calibration_summary.json','results/review7_20261109/performance_records.json','results/review7_20261109/cost_control_records.json','results/review7_20261109/cost_wide_records.json']
  out,work=workspace(output,needed);commands=execute([dict(cwd='repro/review4_paper_20261109',argv=['{python}','figures.py']),dict(cwd='repro/rq3_symmetric_20261107',argv=['{python}','figures.py']),dict(cwd='repro/review7_paper_20261109',argv=['{python}','figures.py'])],out,work)
  src=work/'paper/IEEE-conference-template-062824/figures';target=out/'figures';target.mkdir()
@@ -70,7 +77,7 @@ def install_raw(archive):
  expected={x['path']:x for x in meta['files']}
  with tarfile.open(p,'r:gz') as t:
   members=t.getmembers()
-  if {m.name for m in members}!=set(expected):raise ValueError('raw archive inventory differs')
+  if len(members)!=len(expected) or {m.name for m in members}!=set(expected):raise ValueError('raw archive inventory differs')
   for m in members:
    dst=safe_path(ROOT,m.name)
    if not m.isfile():raise ValueError('raw archive contains a nonregular member')
@@ -86,7 +93,7 @@ def main(argv=None):
  p=argparse.ArgumentParser(description='MT-Memory current-manuscript reproducibility artifact');sub=p.add_subparsers(dest='command',required=True)
  sub.add_parser('list');v=sub.add_parser('verify');v.add_argument('--full',action='store_true')
  r=sub.add_parser('run');r.add_argument('experiment',choices=[x['id'] for x in catalog()]);r.add_argument('--output',type=Path,required=True)
- for name in ['smoke','tables','figures','prepare-data']:
+ for name in ['smoke','tables','figures','prepare-data','audit-raw']:
   x=sub.add_parser(name);x.add_argument('--output',type=Path,required=True)
  x=sub.add_parser('install-raw');x.add_argument('--archive',type=Path,required=True)
  x=sub.add_parser('fetch-raw');x.add_argument('--url',required=True);x.add_argument('--download-to',type=Path,required=True)
@@ -100,12 +107,17 @@ def main(argv=None):
   from .prepare import prepare
   result=prepare(args.output)
  elif args.command=='tables':
-  from .analysis import tables
+  from .current import tables
   result=tables(args.output)
  elif args.command=='smoke':
-  from .checks import smoke
+  from .current import smoke
   result=smoke(args.output)
- elif args.command=='figures':result=figures(args.output)
+ elif args.command=='figures':
+  from .current import figures
+  result=figures(args.output)
+ elif args.command=='audit-raw':
+  from .current import audit_raw
+  result=audit_raw(args.output)
  elif args.command=='install-raw':result=install_raw(args.archive)
  else:
   if not args.url.startswith('https://'):raise ValueError('use an HTTPS Release asset URL')

@@ -1,0 +1,78 @@
+{
+  "config": {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "protocol": "random_uniform",
+    "id": "n-b128-f8-k4",
+    "family": "native",
+    "metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.08147067090288897,
+      "nrmse": 0.28543067595451294,
+      "exact": 0.005208333333333333,
+      "bound": 1.0818527379137242,
+      "G": {
+        "0.01": 0.01953125,
+        "0.05": 0.21744791666666666,
+        "0.1": 0.3014322916666667,
+        "0.2": 0.3359375
+      },
+      "U": {
+        "0.01": 0.16015625,
+        "0.05": 0.34765625,
+        "0.1": 0.4544270833333333,
+        "0.2": 0.6731770833333334
+      }
+    },
+    "config": {
+      "id": "n-b128-f8-k4",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 128,
+        "fine_width": 8,
+        "overlay_capacity": 4,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 22340,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 30532,
+        "envelope_reservation_bytes": 30620,
+        "workspace_bytes": 8192,
+        "charged_bytes": 130584,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "objective": "g01",
+    "objectives": [
+      "g01"
+    ]
+  },
+  "account": {
+    "array_bytes": 22340,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 0,
+    "resident_reservation_bytes": 30532,
+    "envelope_reservation_bytes": 30620,
+    "workspace_bytes": 8192,
+    "charged_bytes": 130584,
+    "budget_bytes": 131072,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 23423,
+    "snapshot_metadata_bytes": 1083,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 23511
+  },
+  "sha256": "a61c1836e71eec1c3f31215eb9dd6d7af2e39a41f382f43afc48b64c37db70a5"
+}

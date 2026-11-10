@@ -1,0 +1,226 @@
+{
+  "passed": true,
+  "scientific_rerun": false,
+  "run_count": 27,
+  "requests": 8019000,
+  "denominator": "all history queries including uncertified queries",
+  "latency": "scheduled end-to-end including queue delay",
+  "records": [
+    {
+      "name": "recent-b900-r1",
+      "queries": 76918,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.6553992563509191,
+      "G01": 0.6553992563509191,
+      "scheduled_query_p99_ms": 2.602170497816179
+    },
+    {
+      "name": "recent-b900-r0",
+      "queries": 77001,
+      "timely_query_fraction_20ms": 0.9999090920897131,
+      "timely_certified_query_fraction_20ms": 0.6577317177698991,
+      "G01": 0.6577706783028792,
+      "scheduled_query_p99_ms": 2.598472230343152
+    },
+    {
+      "name": "hist-b6300-r2",
+      "queries": 538982,
+      "timely_query_fraction_20ms": 0.5173679269437569,
+      "timely_certified_query_fraction_20ms": 0.02329947938892208,
+      "G01": 0.04725018646262769,
+      "scheduled_query_p99_ms": 1349.7934251559825
+    },
+    {
+      "name": "age-b6300-r1",
+      "queries": 538859,
+      "timely_query_fraction_20ms": 0.477072852081899,
+      "timely_certified_query_fraction_20ms": 0.312410110993785,
+      "G01": 0.6544606288472494,
+      "scheduled_query_p99_ms": 2372.288554833405
+    },
+    {
+      "name": "recent-b2700-r0",
+      "queries": 230990,
+      "timely_query_fraction_20ms": 0.9999696956578207,
+      "timely_certified_query_fraction_20ms": 0.6573834365124032,
+      "G01": 0.6574094116628425,
+      "scheduled_query_p99_ms": 1.4396728357306872
+    },
+    {
+      "name": "recent-b2700-r1",
+      "queries": 230931,
+      "timely_query_fraction_20ms": 0.9999913394044109,
+      "timely_certified_query_fraction_20ms": 0.6557196738419702,
+      "G01": 0.6557240041397647,
+      "scheduled_query_p99_ms": 1.768717432326745
+    },
+    {
+      "name": "hist-b2700-r0",
+      "queries": 230990,
+      "timely_query_fraction_20ms": 0.9999653664660808,
+      "timely_certified_query_fraction_20ms": 0.048521581020823414,
+      "G01": 0.048521581020823414,
+      "scheduled_query_p99_ms": 2.221466539703371
+    },
+    {
+      "name": "age-b2700-r1",
+      "queries": 230931,
+      "timely_query_fraction_20ms": 0.9999437061286705,
+      "timely_certified_query_fraction_20ms": 0.6556720405662297,
+      "G01": 0.6557110132463809,
+      "scheduled_query_p99_ms": 1.7529774451196671
+    },
+    {
+      "name": "recent-b900-r2",
+      "queries": 76975,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.6582007145177006,
+      "G01": 0.6582007145177006,
+      "scheduled_query_p99_ms": 4.274390192993174
+    },
+    {
+      "name": "hist-b6300-r1",
+      "queries": 538859,
+      "timely_query_fraction_20ms": 0.5062882869173568,
+      "timely_certified_query_fraction_20ms": 0.02261445016228735,
+      "G01": 0.04608441169211241,
+      "scheduled_query_p99_ms": 1578.6017343336032
+    },
+    {
+      "name": "recent-b6300-r0",
+      "queries": 538955,
+      "timely_query_fraction_20ms": 0.4719392157044651,
+      "timely_certified_query_fraction_20ms": 0.3094506962547894,
+      "G01": 0.6557374919984044,
+      "scheduled_query_p99_ms": 2441.102177047691
+    },
+    {
+      "name": "age-b2700-r2",
+      "queries": 231044,
+      "timely_query_fraction_20ms": 0.9999437336611208,
+      "timely_certified_query_fraction_20ms": 0.6559919322726407,
+      "G01": 0.6560352140717786,
+      "scheduled_query_p99_ms": 1.1190904635055434
+    },
+    {
+      "name": "recent-b6300-r2",
+      "queries": 538982,
+      "timely_query_fraction_20ms": 0.46959082121480866,
+      "timely_certified_query_fraction_20ms": 0.3084370164495289,
+      "G01": 0.6553725356319877,
+      "scheduled_query_p99_ms": 2499.608983796005
+    },
+    {
+      "name": "hist-b2700-r2",
+      "queries": 231044,
+      "timely_query_fraction_20ms": 0.9999047800418968,
+      "timely_certified_query_fraction_20ms": 0.04967019269056976,
+      "G01": 0.049674520870483546,
+      "scheduled_query_p99_ms": 2.509453769143568
+    },
+    {
+      "name": "age-b2700-r0",
+      "queries": 230990,
+      "timely_query_fraction_20ms": 0.9999783540413005,
+      "timely_certified_query_fraction_20ms": 0.6573661197454436,
+      "G01": 0.6573834365124032,
+      "scheduled_query_p99_ms": 1.0526817775675203
+    },
+    {
+      "name": "recent-b6300-r1",
+      "queries": 538859,
+      "timely_query_fraction_20ms": 0.46719271646200583,
+      "timely_certified_query_fraction_20ms": 0.30591304961038046,
+      "G01": 0.6545014558539433,
+      "scheduled_query_p99_ms": 2540.2393011031754
+    },
+    {
+      "name": "hist-b900-r1",
+      "queries": 76918,
+      "timely_query_fraction_20ms": 0.9999869991419433,
+      "timely_certified_query_fraction_20ms": 0.042590810993525574,
+      "G01": 0.042590810993525574,
+      "scheduled_query_p99_ms": 4.2885674265366625
+    },
+    {
+      "name": "age-b6300-r2",
+      "queries": 538982,
+      "timely_query_fraction_20ms": 0.47351859616833214,
+      "timely_certified_query_fraction_20ms": 0.31095101506172745,
+      "G01": 0.6553632588843412,
+      "scheduled_query_p99_ms": 2337.8513821391307
+    },
+    {
+      "name": "hist-b6300-r0",
+      "queries": 538955,
+      "timely_query_fraction_20ms": 0.5063298420090732,
+      "timely_certified_query_fraction_20ms": 0.022434154985110075,
+      "G01": 0.04592220129695429,
+      "scheduled_query_p99_ms": 1571.4789977071637
+    },
+    {
+      "name": "age-b900-r1",
+      "queries": 76918,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.6553992563509191,
+      "G01": 0.6553992563509191,
+      "scheduled_query_p99_ms": 4.257599749219382
+    },
+    {
+      "name": "age-b900-r2",
+      "queries": 76975,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.6581877232867814,
+      "G01": 0.6581877232867814,
+      "scheduled_query_p99_ms": 4.194416544408671
+    },
+    {
+      "name": "age-b6300-r0",
+      "queries": 538955,
+      "timely_query_fraction_20ms": 0.48309042498909927,
+      "timely_certified_query_fraction_20ms": 0.3167258862057129,
+      "G01": 0.6557189375736379,
+      "scheduled_query_p99_ms": 2181.3913207024157
+    },
+    {
+      "name": "hist-b2700-r1",
+      "queries": 230931,
+      "timely_query_fraction_20ms": 0.9999783485110271,
+      "timely_certified_query_fraction_20ms": 0.04884575912285488,
+      "G01": 0.04884575912285488,
+      "scheduled_query_p99_ms": 1.560475380092219
+    },
+    {
+      "name": "hist-b900-r0",
+      "queries": 77001,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.04168777028869755,
+      "G01": 0.04168777028869755,
+      "scheduled_query_p99_ms": 2.5241249194367654
+    },
+    {
+      "name": "recent-b2700-r2",
+      "queries": 231044,
+      "timely_query_fraction_20ms": 0.999878810962414,
+      "timely_certified_query_fraction_20ms": 0.6559789477328993,
+      "G01": 0.6560611831512613,
+      "scheduled_query_p99_ms": 1.114270935245436
+    },
+    {
+      "name": "hist-b900-r2",
+      "queries": 76975,
+      "timely_query_fraction_20ms": 0.99970120168886,
+      "timely_certified_query_fraction_20ms": 0.041961675868788566,
+      "G01": 0.0419746670997077,
+      "scheduled_query_p99_ms": 4.033029648994952
+    },
+    {
+      "name": "age-b900-r0",
+      "queries": 77001,
+      "timely_query_fraction_20ms": 1.0,
+      "timely_certified_query_fraction_20ms": 0.6577706783028792,
+      "G01": 0.6577706783028792,
+      "scheduled_query_p99_ms": 4.248722916365466
+    }
+  ]
+}

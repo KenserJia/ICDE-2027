@@ -1,0 +1,8 @@
+\begin{table}[t]\caption{Joint certificate cost at 70\% queries, eight clients. Median k requests/s across three technical runs; each group shares its intervals and geometry. The native cost reference has no certificate.}\label{tab:jointcost}\centering
+\begin{tabular}{@{}llrrr@{}}\toprule
+Intervals & Checkpoint & Native & Reference & Fused\\\midrule
+Short random & Sync & 91.58 & 40.36 & 40.52\\
+Short random & Strict & 81.39 & 39.16 & 38.60\\
+Wide recent & Sync & 34.52 & 14.95 & 24.33\\
+Wide recent & Strict & 33.85 & 14.87 & 23.81\\\bottomrule
+\end{tabular}\end{table}

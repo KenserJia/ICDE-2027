@@ -1,0 +1,39 @@
+{
+  "cases": [
+    [
+      131072,
+      4096
+    ],
+    [
+      262144,
+      16384
+    ]
+  ],
+  "families": [
+    "recent",
+    "sse",
+    "bound",
+    "fixed"
+  ],
+  "query_prior": [
+    16,
+    17,
+    31,
+    32,
+    63,
+    64,
+    127,
+    128
+  ],
+  "selection": "validation MSE and G(.1), independently per family",
+  "rule": "linear least squares on old-domain validation G using training roughness and query geometry; frozen before household validation/test",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "hashes": {
+    "repro/w1w4_20261110/quality.py": "eaaaadf353678d62fd7a75ef58c4a2bc97c512d06c6f056687aead04dfba0f96",
+    "src/mtmemory_icde/core/strong_baselines.py": "d9984b5455d04a0038ca2f0e5e21842d1c4ea66dc9e72e7c4d7bb8b81d64f083"
+  }
+}

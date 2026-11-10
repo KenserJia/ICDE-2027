@@ -1,0 +1,36 @@
+[
+  {
+    "method": "recent",
+    "checkpoints": 31,
+    "scope": "pooled descriptive short-diagnostic checkpoints; not prolonged-run cost percentiles",
+    "capture_ms": {
+      "median": 0.063833,
+      "p99": 0.078025
+    },
+    "persist_ms": {
+      "median": 0.643916,
+      "p99": 2.072249799999999
+    },
+    "total_ms": {
+      "median": 0.71125,
+      "p99": 2.131033099999999
+    }
+  },
+  {
+    "method": "strong",
+    "checkpoints": 31,
+    "scope": "pooled descriptive short-diagnostic checkpoints; not prolonged-run cost percentiles",
+    "capture_ms": {
+      "median": 0.047291,
+      "p99": 0.0550544
+    },
+    "persist_ms": {
+      "median": 0.618083,
+      "p99": 0.8302626
+    },
+    "total_ms": {
+      "median": 0.6694990000000001,
+      "p99": 0.8760583
+    }
+  }
+]

@@ -575,6 +575,179 @@
       "reference_inputs": [],
       "output_prefixes": [],
       "note": "A wall-clock study: operation count and throughput vary with hardware. Includes initialization under the component protocol."
+    },
+    {
+      "id": "alignment-quality",
+      "title": "936 validation-frozen alignment/objective controls and exact/live audit",
+      "rqs": [
+        "RQ1",
+        "RQ2"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/w2w3_20261110",
+          "argv": [
+            "{python}",
+            "quality.py"
+          ]
+        },
+        {
+          "cwd": "repro/w2w3_20261110",
+          "argv": [
+            "{python}",
+            "validate.py"
+          ]
+        }
+      ],
+      "reference_inputs": [],
+      "output_prefixes": [
+        "results/w2w3_20261110"
+      ],
+      "note": "Uses the frozen grid on the same chronological holdouts; no fresh independent domains."
+    },
+    {
+      "id": "alignment-performance",
+      "title": "180 real-data closed-loop/paced span-certificate comparisons",
+      "rqs": [
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/w2w3_20261110",
+          "argv": [
+            "{python}",
+            "performance.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/w2w3_20261110/SELECTIONS.json",
+        "results/w2w3_20261110/quality_records.json"
+      ],
+      "output_prefixes": [
+        "results/w2w3_20261110"
+      ],
+      "note": "Fresh timing and actual test observations; saved validation selections are declared reference inputs. No recorded timings or checkpoints are preloaded."
+    },
+    {
+      "id": "strong-quality",
+      "title": "Fixed/SSE/bound-targeted layouts and independent Household source",
+      "rqs": [
+        "RQ1",
+        "RQ2"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/w1w4_20261110",
+          "argv": [
+            "{python}",
+            "quality.py"
+          ]
+        },
+        {
+          "cwd": "repro/w1w4_20261110",
+          "argv": [
+            "{python}",
+            "application.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/w1w4_20261110/cache/"
+      ],
+      "output_prefixes": [
+        "results/w1w4_20261110"
+      ],
+      "note": "Immutable block-local partitions are reused as declared reference inputs, not recorded validation choices or test metrics. Raw-source preprocessing is available via prepare-data."
+    },
+    {
+      "id": "household-long",
+      "title": "Seven prolonged Household span-certificate executions",
+      "rqs": [
+        "RQ4",
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/w1w4_20261110",
+          "argv": [
+            "{python}",
+            "longrun.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/w1w4_20261110/SELECTIONS.json",
+        "results/w1w4_20261110/EXACT_AUDIT.json"
+      ],
+      "output_prefixes": [
+        "results/w1w4_20261110"
+      ],
+      "note": "Six10min matched runs plus one30min lower-load descriptive run. New validation pilot and timings; approximately90min plus setup/drain. Run alone."
+    },
+    {
+      "id": "sum-age-quality",
+      "title": "780 frozen choices,228 fixed controls,78 matched-age cases, exact/live validation",
+      "rqs": [
+        "RQ1",
+        "RQ2"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/cert_age_slo_20261110",
+          "argv": [
+            "{python}",
+            "quality.py"
+          ]
+        },
+        {
+          "cwd": "repro/cert_age_slo_20261110",
+          "argv": [
+            "{python}",
+            "audit.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/w1w4_20261110/cache/",
+        "results/w1w4_20261110/quality_records.json"
+      ],
+      "output_prefixes": [
+        "results/cert_age_slo_20261110"
+      ],
+      "note": "Original layouts/partitions are declared comparison inputs. All new validation/test destinations are empty, so no published choices or outcomes resume the new study."
+    },
+    {
+      "id": "paired-load",
+      "title": "27 Household SUM paired load points and separate span/sum kernel diagnostic",
+      "rqs": [
+        "RQ4",
+        "RQ5"
+      ],
+      "kind": "formal",
+      "commands": [
+        {
+          "cwd": "repro/cert_age_slo_20261110",
+          "argv": [
+            "{python}",
+            "load_points.py"
+          ]
+        }
+      ],
+      "reference_inputs": [
+        "results/cert_age_slo_20261110/SELECTIONS.json",
+        "results/cert_age_slo_20261110/AUDIT.json"
+      ],
+      "output_prefixes": [
+        "results/cert_age_slo_20261110"
+      ],
+      "note": "Quality is frozen on validation before timing; new validation pilot calibrates rates on the rerun machine.27x60s plus setup/drain; no old pilot, timings or images are preloaded."
     }
-  ]
+  ],
+  "version": "0.3.0"
 }

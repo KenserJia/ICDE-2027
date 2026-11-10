@@ -1,0 +1,789 @@
+{
+  "passed": true,
+  "reconstructed_files": 246,
+  "sampled_queries": 7872,
+  "certificates_checked_per_sample": 2,
+  "live_queries": 1320,
+  "live_certificate_checks": 2640,
+  "live_cases": [
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "recent-b128-f8-k4",
+      "t": 14250,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "recent-b128-f8-k4",
+      "t": 15641,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "recent-b128-f8-k4",
+      "t": 17031,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "sse-b128-q2",
+      "t": 14250,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "sse-b128-q2",
+      "t": 15641,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "sse-b128-q2",
+      "t": 17031,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "bound-b128-q1",
+      "t": 14250,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "bound-b128-q1",
+      "t": 15641,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "bound-b128-q1",
+      "t": 17031,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "fixed-b128-q2",
+      "t": 14250,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "fixed-b128-q2",
+      "t": 15641,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "fixed-b128-q2",
+      "t": 17031,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "age-b128-f8-k4",
+      "t": 14250,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "age-b128-f8-k4",
+      "t": 15641,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 131072,
+      "id": "age-b128-f8-k4",
+      "t": 17031,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "recent-b128-f8-k16",
+      "t": 14250,
+      "queries": 12,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "recent-b128-f8-k16",
+      "t": 15641,
+      "queries": 12,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "recent-b128-f8-k16",
+      "t": 17031,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "sse-b256-q4",
+      "t": 14250,
+      "queries": 12,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "sse-b256-q4",
+      "t": 15641,
+      "queries": 12,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "sse-b256-q4",
+      "t": 17031,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "bound-b256-q4",
+      "t": 14250,
+      "queries": 12,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "bound-b256-q4",
+      "t": 15641,
+      "queries": 12,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "bound-b256-q4",
+      "t": 17031,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "fixed-b128-q2",
+      "t": 14250,
+      "queries": 12,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "fixed-b128-q2",
+      "t": 15641,
+      "queries": 12,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "fixed-b128-q2",
+      "t": 17031,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "age-b128-f8-k16",
+      "t": 14250,
+      "queries": 12,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "age-b128-f8-k16",
+      "t": 15641,
+      "queries": 12,
+      "restored": true
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "id": "age-b128-f8-k16",
+      "t": 17031,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "recent-b128-f8-k4",
+      "t": 28752,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "recent-b128-f8-k4",
+      "t": 31557,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "recent-b128-f8-k4",
+      "t": 34362,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "sse-b128-q2",
+      "t": 28752,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "sse-b128-q2",
+      "t": 31557,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "sse-b128-q2",
+      "t": 34362,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "bound-b128-q1",
+      "t": 28752,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "bound-b128-q1",
+      "t": 31557,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "bound-b128-q1",
+      "t": 34362,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "fixed-b128-q2",
+      "t": 28752,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "fixed-b128-q2",
+      "t": 31557,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "fixed-b128-q2",
+      "t": 34362,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "age-b128-f8-k4",
+      "t": 28752,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "age-b128-f8-k4",
+      "t": 31557,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "id": "age-b128-f8-k4",
+      "t": 34362,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "recent-b128-f8-k16",
+      "t": 28752,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "recent-b128-f8-k16",
+      "t": 31557,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "recent-b128-f8-k16",
+      "t": 34362,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "sse-b128-q2",
+      "t": 28752,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "sse-b128-q2",
+      "t": 31557,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "sse-b128-q2",
+      "t": 34362,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "bound-b256-q4",
+      "t": 28752,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "bound-b256-q4",
+      "t": 31557,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "bound-b256-q4",
+      "t": 34362,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "fixed-b128-q2",
+      "t": 28752,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "fixed-b128-q2",
+      "t": 31557,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "fixed-b128-q2",
+      "t": 34362,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "age-b128-f8-k16",
+      "t": 28752,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "age-b128-f8-k16",
+      "t": 31557,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "id": "age-b128-f8-k16",
+      "t": 34362,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "recent-b128-f8-k4",
+      "t": 1701712,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "recent-b128-f8-k4",
+      "t": 1867733,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "recent-b128-f8-k4",
+      "t": 2033753,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "sse-b128-q2",
+      "t": 1701712,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "sse-b128-q2",
+      "t": 1867733,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "sse-b128-q2",
+      "t": 2033753,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "bound-b128-q1",
+      "t": 1701712,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "bound-b128-q1",
+      "t": 1867733,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "bound-b128-q1",
+      "t": 2033753,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "fixed-b128-q2",
+      "t": 1701712,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "fixed-b128-q2",
+      "t": 1867733,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "fixed-b128-q2",
+      "t": 2033753,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "age-b128-f8-k4",
+      "t": 1701712,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "age-b128-f8-k4",
+      "t": 1867733,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "id": "age-b128-f8-k4",
+      "t": 2033753,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "recent-b256-f8-k8",
+      "t": 1701712,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "recent-b256-f8-k8",
+      "t": 1867733,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "recent-b256-f8-k8",
+      "t": 2033753,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "sse-b256-q4",
+      "t": 1701712,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "sse-b256-q4",
+      "t": 1867733,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "sse-b256-q4",
+      "t": 2033753,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "bound-b256-q4",
+      "t": 1701712,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "bound-b256-q4",
+      "t": 1867733,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "bound-b256-q4",
+      "t": 2033753,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "fixed-b128-q2",
+      "t": 1701712,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "fixed-b128-q2",
+      "t": 1867733,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "fixed-b128-q2",
+      "t": 2033753,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "age-b256-f8-k8",
+      "t": 1701712,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "age-b256-f8-k8",
+      "t": 1867733,
+      "queries": 15,
+      "restored": true
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "id": "age-b256-f8-k8",
+      "t": 2033753,
+      "queries": 15,
+      "restored": true
+    }
+  ],
+  "matched_age_cases": [
+    {
+      "unit": 0,
+      "B": 131072,
+      "recent_id": "recent-b128-f8-k4",
+      "age_id": "age-b128-f8-k4",
+      "queries": 5,
+      "recent_charge": 130584,
+      "age_charge": 124696
+    },
+    {
+      "unit": 0,
+      "B": 262144,
+      "recent_id": "recent-b128-f8-k16",
+      "age_id": "age-b128-f8-k16",
+      "queries": 4,
+      "recent_charge": 249624,
+      "age_charge": 249112
+    },
+    {
+      "unit": 1,
+      "B": 131072,
+      "recent_id": "recent-b128-f8-k4",
+      "age_id": "age-b128-f8-k4",
+      "queries": 5,
+      "recent_charge": 130584,
+      "age_charge": 124696
+    },
+    {
+      "unit": 1,
+      "B": 262144,
+      "recent_id": "recent-b128-f8-k16",
+      "age_id": "age-b128-f8-k16",
+      "queries": 5,
+      "recent_charge": 249624,
+      "age_charge": 249112
+    },
+    {
+      "unit": 13,
+      "B": 131072,
+      "recent_id": "recent-b128-f8-k4",
+      "age_id": "age-b128-f8-k4",
+      "queries": 5,
+      "recent_charge": 130584,
+      "age_charge": 124696
+    },
+    {
+      "unit": 13,
+      "B": 262144,
+      "recent_id": "recent-b256-f8-k8",
+      "age_id": "age-b256-f8-k8",
+      "queries": 5,
+      "recent_charge": 227864,
+      "age_charge": 228376
+    }
+  ],
+  "max_live_offline_prediction_difference": 0.0,
+  "max_live_offline_bound_difference": 0.0,
+  "scope": "sampled exact rational reconstruction audit; live active/sealed/wrapped states and continued restored observations; not all reconstructed queries exact-checked"
+}

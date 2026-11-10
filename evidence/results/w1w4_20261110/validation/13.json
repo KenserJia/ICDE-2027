@@ -1,0 +1,4367 @@
+{
+  "selected": [
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8129158336576466,
+        0.3333333333333333,
+        1.435855881921108
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06234504009050304,
+        "nrmse": 0.24968988842422835,
+        "exact": 0.006510416666666667,
+        "bound": 0.9496024336717039,
+        "G": {
+          "0.01": 0.08333333333333333,
+          "0.05": 0.2884114583333333,
+          "0.1": 0.3333333333333333,
+          "0.2": 0.353515625
+        },
+        "U": {
+          "0.01": 0.20442708333333334,
+          "0.05": 0.376953125,
+          "0.1": 0.498046875,
+          "0.2": 0.6998697916666666
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8129158336576466,
+        0.3333333333333333,
+        1.435855881921108
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06234504009050304,
+        "nrmse": 0.24968988842422835,
+        "exact": 0.006510416666666667,
+        "bound": 0.9496024336717039,
+        "G": {
+          "0.01": 0.08333333333333333,
+          "0.05": 0.2884114583333333,
+          "0.1": 0.3333333333333333,
+          "0.2": 0.353515625
+        },
+        "U": {
+          "0.01": 0.20442708333333334,
+          "0.05": 0.376953125,
+          "0.1": 0.498046875,
+          "0.2": 0.6998697916666666
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "sse-b128-q2",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q2",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.030430310688264465,
+        "nrmse": 0.17444285835253565,
+        "exact": 0.0,
+        "bound": 0.7794649365258607,
+        "G": {
+          "0.01": 0.014322916666666666,
+          "0.05": 0.020833333333333332,
+          "0.1": 0.032552083333333336,
+          "0.2": 0.078125
+        },
+        "U": {
+          "0.01": 0.025390625,
+          "0.05": 0.2584635416666667,
+          "0.1": 0.5247395833333334,
+          "0.2": 0.8170572916666666
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "sse-b128-q2",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q2",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.030430310688264465,
+        "nrmse": 0.17444285835253565,
+        "exact": 0.0,
+        "bound": 0.7794649365258607,
+        "G": {
+          "0.01": 0.014322916666666666,
+          "0.05": 0.020833333333333332,
+          "0.1": 0.032552083333333336,
+          "0.2": 0.078125
+        },
+        "U": {
+          "0.01": 0.025390625,
+          "0.05": 0.2584635416666667,
+          "0.1": 0.5247395833333334,
+          "0.2": 0.8170572916666666
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "bound-b128-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08969617443281201,
+        "nrmse": 0.2994931966692874,
+        "exact": 0.0,
+        "bound": 1.402661001963999,
+        "G": {
+          "0.01": 0.014322916666666666,
+          "0.05": 0.014973958333333334,
+          "0.1": 0.017578125,
+          "0.2": 0.026692708333333332
+        },
+        "U": {
+          "0.01": 0.018880208333333332,
+          "0.05": 0.07747395833333333,
+          "0.1": 0.240234375,
+          "0.2": 0.5377604166666666
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "bound-b128-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08969617443281201,
+        "nrmse": 0.2994931966692874,
+        "exact": 0.0,
+        "bound": 1.402661001963999,
+        "G": {
+          "0.01": 0.014322916666666666,
+          "0.05": 0.014973958333333334,
+          "0.1": 0.017578125,
+          "0.2": 0.026692708333333332
+        },
+        "U": {
+          "0.01": 0.018880208333333332,
+          "0.05": 0.07747395833333333,
+          "0.1": 0.240234375,
+          "0.2": 0.5377604166666666
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 8192,
+          "charged_bytes": 116808,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03686357019701684,
+        "nrmse": 0.19199888116591282,
+        "exact": 0.0006510416666666666,
+        "bound": 0.7082871142869119,
+        "G": {
+          "0.01": 0.014973958333333334,
+          "0.05": 0.01953125,
+          "0.1": 0.027994791666666668,
+          "0.2": 0.07486979166666667
+        },
+        "U": {
+          "0.01": 0.028645833333333332,
+          "0.05": 0.22265625,
+          "0.1": 0.505859375,
+          "0.2": 0.783203125
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 8192,
+          "charged_bytes": 116808,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03686357019701684,
+        "nrmse": 0.19199888116591282,
+        "exact": 0.0006510416666666666,
+        "bound": 0.7082871142869119,
+        "G": {
+          "0.01": 0.014973958333333334,
+          "0.05": 0.01953125,
+          "0.1": 0.027994791666666668,
+          "0.2": 0.07486979166666667
+        },
+        "U": {
+          "0.01": 0.028645833333333332,
+          "0.05": 0.22265625,
+          "0.1": 0.505859375,
+          "0.2": 0.783203125
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8129158336576466,
+        0.3333333333333333,
+        1.435855881921108
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06234504009050304,
+        "nrmse": 0.24968988842422835,
+        "exact": 0.006510416666666667,
+        "bound": 0.9496024336717039,
+        "G": {
+          "0.01": 0.08333333333333333,
+          "0.05": 0.2884114583333333,
+          "0.1": 0.3333333333333333,
+          "0.2": 0.353515625
+        },
+        "U": {
+          "0.01": 0.20442708333333334,
+          "0.05": 0.376953125,
+          "0.1": 0.498046875,
+          "0.2": 0.6998697916666666
+        }
+      },
+      "objective": "frozen_rule"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8129158336576466,
+        0.3333333333333333,
+        1.435855881921108
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06234504009050304,
+        "nrmse": 0.24968988842422835,
+        "exact": 0.006510416666666667,
+        "bound": 0.9496024336717039,
+        "G": {
+          "0.01": 0.08333333333333333,
+          "0.05": 0.2884114583333333,
+          "0.1": 0.3333333333333333,
+          "0.2": 0.353515625
+        },
+        "U": {
+          "0.01": 0.20442708333333334,
+          "0.05": 0.376953125,
+          "0.1": 0.498046875,
+          "0.2": 0.6998697916666666
+        }
+      },
+      "objective": "validation_global"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k16",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k16",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52100,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60292,
+          "envelope_reservation_bytes": 60380,
+          "workspace_bytes": 8192,
+          "charged_bytes": 249624,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.47428160484047477,
+        0.6666666666666666,
+        0.8938269094638994
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03108516281797259,
+        "nrmse": 0.17630984930787447,
+        "exact": 0.012369791666666666,
+        "bound": 0.498596654360548,
+        "G": {
+          "0.01": 0.138671875,
+          "0.05": 0.5475260416666666,
+          "0.1": 0.630859375,
+          "0.2": 0.6666666666666666
+        },
+        "U": {
+          "0.01": 0.3776041666666667,
+          "0.05": 0.6588541666666666,
+          "0.1": 0.7356770833333334,
+          "0.2": 0.8509114583333334
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f8-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f8-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 46660,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 54852,
+          "envelope_reservation_bytes": 54940,
+          "workspace_bytes": 8192,
+          "charged_bytes": 227864,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.6424876694263407,
+        0.6666666666666666,
+        1.0979773774215598
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.0512384750276944,
+        "nrmse": 0.22635917314456197,
+        "exact": 0.012369791666666666,
+        "bound": 0.7878560873362357,
+        "G": {
+          "0.01": 0.138671875,
+          "0.05": 0.5475260416666666,
+          "0.1": 0.630859375,
+          "0.2": 0.6640625
+        },
+        "U": {
+          "0.01": 0.376953125,
+          "0.05": 0.646484375,
+          "0.1": 0.6979166666666666,
+          "0.2": 0.78125
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b256-q4",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q4",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.02666129184413485,
+        "nrmse": 0.16328285877119214,
+        "exact": 0.0006510416666666666,
+        "bound": 0.8411427092718181,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.013671875,
+          "0.1": 0.029947916666666668,
+          "0.2": 0.06640625
+        },
+        "U": {
+          "0.01": 0.022135416666666668,
+          "0.05": 0.248046875,
+          "0.1": 0.5377604166666666,
+          "0.2": 0.8509114583333334
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b256-q4",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q4",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.02666129184413485,
+        "nrmse": 0.16328285877119214,
+        "exact": 0.0006510416666666666,
+        "bound": 0.8411427092718181,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.013671875,
+          "0.1": 0.029947916666666668,
+          "0.2": 0.06640625
+        },
+        "U": {
+          "0.01": 0.022135416666666668,
+          "0.05": 0.248046875,
+          "0.1": 0.5377604166666666,
+          "0.2": 0.8509114583333334
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b256-q4",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q4",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 48244,
+          "charged_bytes": 249372,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.030049821035507657,
+        "nrmse": 0.1733488424411056,
+        "exact": 0.0006510416666666666,
+        "bound": 0.6541807139699071,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.009765625,
+          "0.1": 0.016927083333333332,
+          "0.2": 0.08072916666666667
+        },
+        "U": {
+          "0.01": 0.018229166666666668,
+          "0.05": 0.2584635416666667,
+          "0.1": 0.55078125,
+          "0.2": 0.826171875
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b128-q2",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q2",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 23132,
+          "charged_bytes": 223908,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.034629656162267465,
+        "nrmse": 0.18609045199524107,
+        "exact": 0.0,
+        "bound": 0.6878138368938232,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.009765625,
+          "0.1": 0.01953125,
+          "0.2": 0.07421875
+        },
+        "U": {
+          "0.01": 0.018229166666666668,
+          "0.05": 0.22981770833333334,
+          "0.1": 0.505859375,
+          "0.2": 0.7942708333333334
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 8192,
+          "charged_bytes": 208968,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03828315444842785,
+        "nrmse": 0.1956608152569001,
+        "exact": 0.0006510416666666666,
+        "bound": 0.7182871644101286,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.01171875,
+          "0.1": 0.021484375,
+          "0.2": 0.0703125
+        },
+        "U": {
+          "0.01": 0.020182291666666668,
+          "0.05": 0.20768229166666666,
+          "0.1": 0.4895833333333333,
+          "0.2": 0.7786458333333334
+        }
+      },
+      "objective": "mse"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 8192,
+          "charged_bytes": 208968,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03828315444842785,
+        "nrmse": 0.1956608152569001,
+        "exact": 0.0006510416666666666,
+        "bound": 0.7182871644101286,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.01171875,
+          "0.1": 0.021484375,
+          "0.2": 0.0703125
+        },
+        "U": {
+          "0.01": 0.020182291666666668,
+          "0.05": 0.20768229166666666,
+          "0.1": 0.4895833333333333,
+          "0.2": 0.7786458333333334
+        }
+      },
+      "objective": "g01"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k16",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k16",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52100,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60292,
+          "envelope_reservation_bytes": 60380,
+          "workspace_bytes": 8192,
+          "charged_bytes": 249624,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.47428160484047477,
+        0.6666666666666666,
+        0.8938269094638994
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03108516281797259,
+        "nrmse": 0.17630984930787447,
+        "exact": 0.012369791666666666,
+        "bound": 0.498596654360548,
+        "G": {
+          "0.01": 0.138671875,
+          "0.05": 0.5475260416666666,
+          "0.1": 0.630859375,
+          "0.2": 0.6666666666666666
+        },
+        "U": {
+          "0.01": 0.3776041666666667,
+          "0.05": 0.6588541666666666,
+          "0.1": 0.7356770833333334,
+          "0.2": 0.8509114583333334
+        }
+      },
+      "objective": "frozen_rule"
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f8-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f8-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 46660,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 54852,
+          "envelope_reservation_bytes": 54940,
+          "workspace_bytes": 8192,
+          "charged_bytes": 227864,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.6424876694263407,
+        0.6666666666666666,
+        1.0979773774215598
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.0512384750276944,
+        "nrmse": 0.22635917314456197,
+        "exact": 0.012369791666666666,
+        "bound": 0.7878560873362357,
+        "G": {
+          "0.01": 0.138671875,
+          "0.05": 0.5475260416666666,
+          "0.1": 0.630859375,
+          "0.2": 0.6640625
+        },
+        "U": {
+          "0.01": 0.376953125,
+          "0.05": 0.646484375,
+          "0.1": 0.6979166666666666,
+          "0.2": 0.78125
+        }
+      },
+      "objective": "validation_global"
+    }
+  ],
+  "candidates": [
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f8-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15876,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 24068,
+          "envelope_reservation_bytes": 24156,
+          "workspace_bytes": 8192,
+          "charged_bytes": 104728,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08969617443281201,
+        "nrmse": 0.2994931966692874,
+        "exact": 0.0,
+        "bound": 1.402661001963999,
+        "G": {
+          "0.01": 0.014322916666666666,
+          "0.05": 0.014973958333333334,
+          "0.1": 0.017578125,
+          "0.2": 0.026692708333333332
+        },
+        "U": {
+          "0.01": 0.018880208333333332,
+          "0.05": 0.07747395833333333,
+          "0.1": 0.240234375,
+          "0.2": 0.5377604166666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 22340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 30532,
+          "envelope_reservation_bytes": 30620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 130584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8129158336576466,
+        0.3333333333333333,
+        1.435855881921108
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06234504009050304,
+        "nrmse": 0.24968988842422835,
+        "exact": 0.006510416666666667,
+        "bound": 0.9496024336717039,
+        "G": {
+          "0.01": 0.08333333333333333,
+          "0.05": 0.2884114583333333,
+          "0.1": 0.3333333333333333,
+          "0.2": 0.353515625
+        },
+        "U": {
+          "0.01": 0.20442708333333334,
+          "0.05": 0.376953125,
+          "0.1": 0.498046875,
+          "0.2": 0.6998697916666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f16-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15076,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 23268,
+          "envelope_reservation_bytes": 23356,
+          "workspace_bytes": 8192,
+          "charged_bytes": 101528,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08969617443281201,
+        "nrmse": 0.2994931966692874,
+        "exact": 0.0,
+        "bound": 1.402661001963999,
+        "G": {
+          "0.01": 0.014322916666666666,
+          "0.05": 0.014973958333333334,
+          "0.1": 0.017578125,
+          "0.2": 0.026692708333333332
+        },
+        "U": {
+          "0.01": 0.018880208333333332,
+          "0.05": 0.07747395833333333,
+          "0.1": 0.240234375,
+          "0.2": 0.5377604166666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f16-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 18340,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 26532,
+          "envelope_reservation_bytes": 26620,
+          "workspace_bytes": 8192,
+          "charged_bytes": 114584,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8517080369937632,
+        0.3333333333333333,
+        1.518614437605539
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06318755340299514,
+        "nrmse": 0.2513713462145706,
+        "exact": 0.0006510416666666666,
+        "bound": 0.9737083099473143,
+        "G": {
+          "0.01": 0.018880208333333332,
+          "0.05": 0.109375,
+          "0.1": 0.23111979166666666,
+          "0.2": 0.3190104166666667
+        },
+        "U": {
+          "0.01": 0.07942708333333333,
+          "0.05": 0.328125,
+          "0.1": 0.4772135416666667,
+          "0.2": 0.6953125
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b128-f16-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 21604,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29796,
+          "envelope_reservation_bytes": 29884,
+          "workspace_bytes": 8192,
+          "charged_bytes": 127640,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8517080369937632,
+        0.3333333333333333,
+        1.518614437605539
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06318755340299514,
+        "nrmse": 0.2513713462145706,
+        "exact": 0.0006510416666666666,
+        "bound": 0.9737083099473143,
+        "G": {
+          "0.01": 0.018880208333333332,
+          "0.05": 0.109375,
+          "0.1": 0.23111979166666666,
+          "0.2": 0.3190104166666667
+        },
+        "U": {
+          "0.01": 0.07942708333333333,
+          "0.05": 0.328125,
+          "0.1": 0.4772135416666667,
+          "0.2": 0.6953125
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "sse-b128-q1",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q1",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08969617443281201,
+        "nrmse": 0.2994931966692874,
+        "exact": 0.0,
+        "bound": 1.402661001963999,
+        "G": {
+          "0.01": 0.014322916666666666,
+          "0.05": 0.014973958333333334,
+          "0.1": 0.017578125,
+          "0.2": 0.026692708333333332
+        },
+        "U": {
+          "0.01": 0.018880208333333332,
+          "0.05": 0.07747395833333333,
+          "0.1": 0.240234375,
+          "0.2": 0.5377604166666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "sse-b128-q2",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q2",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 22100,
+          "charged_bytes": 130716,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.030430310688264465,
+        "nrmse": 0.17444285835253565,
+        "exact": 0.0,
+        "bound": 0.7794649365258607,
+        "G": {
+          "0.01": 0.014322916666666666,
+          "0.05": 0.020833333333333332,
+          "0.1": 0.032552083333333336,
+          "0.2": 0.078125
+        },
+        "U": {
+          "0.01": 0.025390625,
+          "0.05": 0.2584635416666667,
+          "0.1": 0.5247395833333334,
+          "0.2": 0.8170572916666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "bound-b128-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08969617443281201,
+        "nrmse": 0.2994931966692874,
+        "exact": 0.0,
+        "bound": 1.402661001963999,
+        "G": {
+          "0.01": 0.014322916666666666,
+          "0.05": 0.014973958333333334,
+          "0.1": 0.017578125,
+          "0.2": 0.026692708333333332
+        },
+        "U": {
+          "0.01": 0.018880208333333332,
+          "0.05": 0.07747395833333333,
+          "0.1": 0.240234375,
+          "0.2": 0.5377604166666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "fixed-b128-q1",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q1",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14276,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22468,
+          "envelope_reservation_bytes": 22556,
+          "workspace_bytes": 8192,
+          "charged_bytes": 98328,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.08969617443281201,
+        "nrmse": 0.2994931966692874,
+        "exact": 0.0,
+        "bound": 1.402661001963999,
+        "G": {
+          "0.01": 0.014322916666666666,
+          "0.05": 0.014973958333333334,
+          "0.1": 0.017578125,
+          "0.2": 0.026692708333333332
+        },
+        "U": {
+          "0.01": 0.018880208333333332,
+          "0.05": 0.07747395833333333,
+          "0.1": 0.240234375,
+          "0.2": 0.5377604166666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 18896,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27088,
+          "envelope_reservation_bytes": 27176,
+          "workspace_bytes": 8192,
+          "charged_bytes": 116808,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03686357019701684,
+        "nrmse": 0.19199888116591282,
+        "exact": 0.0006510416666666666,
+        "bound": 0.7082871142869119,
+        "G": {
+          "0.01": 0.014973958333333334,
+          "0.05": 0.01953125,
+          "0.1": 0.027994791666666668,
+          "0.2": 0.07486979166666667
+        },
+        "U": {
+          "0.01": 0.028645833333333332,
+          "0.05": 0.22265625,
+          "0.1": 0.505859375,
+          "0.2": 0.783203125
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b256-f8-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f8-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 15748,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 23940,
+          "envelope_reservation_bytes": 24028,
+          "workspace_bytes": 8192,
+          "charged_bytes": 104216,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6546914561500856,
+        0.0,
+        2.589348134448931
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.1722683084568418,
+        "nrmse": 0.4150521765517747,
+        "exact": 0.0,
+        "bound": 2.3050769906129402,
+        "G": {
+          "0.01": 0.013020833333333334,
+          "0.05": 0.013020833333333334,
+          "0.1": 0.013020833333333334,
+          "0.2": 0.013020833333333334
+        },
+        "U": {
+          "0.01": 0.013020833333333334,
+          "0.05": 0.022135416666666668,
+          "0.1": 0.091796875,
+          "0.2": 0.318359375
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b256-f16-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 14148,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22340,
+          "envelope_reservation_bytes": 22428,
+          "workspace_bytes": 8192,
+          "charged_bytes": 97816,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6546914561500856,
+        0.0,
+        2.589348134448931
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.1722683084568418,
+        "nrmse": 0.4150521765517747,
+        "exact": 0.0,
+        "bound": 2.3050769906129402,
+        "G": {
+          "0.01": 0.013020833333333334,
+          "0.05": 0.013020833333333334,
+          "0.1": 0.013020833333333334,
+          "0.2": 0.013020833333333334
+        },
+        "U": {
+          "0.01": 0.013020833333333334,
+          "0.05": 0.022135416666666668,
+          "0.1": 0.091796875,
+          "0.2": 0.318359375
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "recent-b256-f16-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 4096,
+          "budget": 131072,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 20612,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 28804,
+          "envelope_reservation_bytes": 28892,
+          "workspace_bytes": 8192,
+          "charged_bytes": 123672,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1886018116524975,
+        0.3333333333333333,
+        1.927144768233136
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.11888412197687699,
+        "nrmse": 0.3447957693061169,
+        "exact": 0.0006510416666666666,
+        "bound": 1.5750541410469374,
+        "G": {
+          "0.01": 0.018229166666666668,
+          "0.05": 0.10807291666666667,
+          "0.1": 0.22721354166666666,
+          "0.2": 0.30859375
+        },
+        "U": {
+          "0.01": 0.07552083333333333,
+          "0.05": 0.2858072916666667,
+          "0.1": 0.3802083333333333,
+          "0.2": 0.5455729166666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "sse-b256-q1",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q1",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14596,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22788,
+          "envelope_reservation_bytes": 22876,
+          "workspace_bytes": 8192,
+          "charged_bytes": 99608,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6546914561500856,
+        0.0,
+        2.589348134448931
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.1722683084568418,
+        "nrmse": 0.4150521765517747,
+        "exact": 0.0,
+        "bound": 2.3050769906129402,
+        "G": {
+          "0.01": 0.013020833333333334,
+          "0.05": 0.013020833333333334,
+          "0.1": 0.013020833333333334,
+          "0.2": 0.013020833333333334
+        },
+        "U": {
+          "0.01": 0.013020833333333334,
+          "0.05": 0.022135416666666668,
+          "0.1": 0.091796875,
+          "0.2": 0.318359375
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "bound-b256-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14596,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22788,
+          "envelope_reservation_bytes": 22876,
+          "workspace_bytes": 8192,
+          "charged_bytes": 99608,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6546914561500856,
+        0.0,
+        2.589348134448931
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.1722683084568418,
+        "nrmse": 0.4150521765517747,
+        "exact": 0.0,
+        "bound": 2.3050769906129402,
+        "G": {
+          "0.01": 0.013020833333333334,
+          "0.05": 0.013020833333333334,
+          "0.1": 0.013020833333333334,
+          "0.2": 0.013020833333333334
+        },
+        "U": {
+          "0.01": 0.013020833333333334,
+          "0.05": 0.022135416666666668,
+          "0.1": 0.091796875,
+          "0.2": 0.318359375
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 131072,
+      "R": 4096,
+      "id": "fixed-b256-q1",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b256-q1",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 4096,
+          "budget": 131072,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 14596,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 22788,
+          "envelope_reservation_bytes": 22876,
+          "workspace_bytes": 8192,
+          "charged_bytes": 99608,
+          "budget_bytes": 131072,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6546914561500856,
+        0.0,
+        2.589348134448931
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.1722683084568418,
+        "nrmse": 0.4150521765517747,
+        "exact": 0.0,
+        "bound": 2.3050769906129402,
+        "G": {
+          "0.01": 0.013020833333333334,
+          "0.05": 0.013020833333333334,
+          "0.1": 0.013020833333333334,
+          "0.2": 0.013020833333333334
+        },
+        "U": {
+          "0.01": 0.013020833333333334,
+          "0.05": 0.022135416666666668,
+          "0.1": 0.091796875,
+          "0.2": 0.318359375
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 26244,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 34436,
+          "envelope_reservation_bytes": 34524,
+          "workspace_bytes": 8192,
+          "charged_bytes": 146200,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.09030976233804737,
+        "nrmse": 0.30051582780160824,
+        "exact": 0.0,
+        "bound": 1.429339406332278,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.007161458333333333,
+          "0.1": 0.008463541666666666,
+          "0.2": 0.016276041666666668
+        },
+        "U": {
+          "0.01": 0.011067708333333334,
+          "0.05": 0.068359375,
+          "0.1": 0.23307291666666666,
+          "0.2": 0.5279947916666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 32708,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 40900,
+          "envelope_reservation_bytes": 40988,
+          "workspace_bytes": 8192,
+          "charged_bytes": 172056,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8129158336576466,
+        0.3333333333333333,
+        1.435855881921108
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06295862799573838,
+        "nrmse": 0.25091558000530967,
+        "exact": 0.006510416666666667,
+        "bound": 0.9762808380399829,
+        "G": {
+          "0.01": 0.076171875,
+          "0.05": 0.2805989583333333,
+          "0.1": 0.32421875,
+          "0.2": 0.3430989583333333
+        },
+        "U": {
+          "0.01": 0.19661458333333334,
+          "0.05": 0.3678385416666667,
+          "0.1": 0.4908854166666667,
+          "0.2": 0.6901041666666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 39172,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 47364,
+          "envelope_reservation_bytes": 47452,
+          "workspace_bytes": 8192,
+          "charged_bytes": 197912,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8129158336576466,
+        0.3333333333333333,
+        1.435855881921108
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.06295862799573838,
+        "nrmse": 0.25091558000530967,
+        "exact": 0.006510416666666667,
+        "bound": 0.9762808380399829,
+        "G": {
+          "0.01": 0.076171875,
+          "0.05": 0.2805989583333333,
+          "0.1": 0.32421875,
+          "0.2": 0.3430989583333333
+        },
+        "U": {
+          "0.01": 0.19661458333333334,
+          "0.05": 0.3678385416666667,
+          "0.1": 0.4908854166666667,
+          "0.2": 0.6901041666666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f8-k16",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f8-k16",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 8,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 52100,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 60292,
+          "envelope_reservation_bytes": 60380,
+          "workspace_bytes": 8192,
+          "charged_bytes": 249624,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.47428160484047477,
+        0.6666666666666666,
+        0.8938269094638994
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03108516281797259,
+        "nrmse": 0.17630984930787447,
+        "exact": 0.012369791666666666,
+        "bound": 0.498596654360548,
+        "G": {
+          "0.01": 0.138671875,
+          "0.05": 0.5475260416666666,
+          "0.1": 0.630859375,
+          "0.2": 0.6666666666666666
+        },
+        "U": {
+          "0.01": 0.3776041666666667,
+          "0.05": 0.6588541666666666,
+          "0.1": 0.7356770833333334,
+          "0.2": 0.8509114583333334
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f16-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 25444,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 33636,
+          "envelope_reservation_bytes": 33724,
+          "workspace_bytes": 8192,
+          "charged_bytes": 143000,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.09030976233804737,
+        "nrmse": 0.30051582780160824,
+        "exact": 0.0,
+        "bound": 1.429339406332278,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.007161458333333333,
+          "0.1": 0.008463541666666666,
+          "0.2": 0.016276041666666668
+        },
+        "U": {
+          "0.01": 0.011067708333333334,
+          "0.05": 0.068359375,
+          "0.1": 0.23307291666666666,
+          "0.2": 0.5279947916666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f16-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 28708,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36900,
+          "envelope_reservation_bytes": 36988,
+          "workspace_bytes": 8192,
+          "charged_bytes": 156056,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8517080369937632,
+        0.3333333333333333,
+        1.518614437605539
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.0638011413082305,
+        "nrmse": 0.2525888786265596,
+        "exact": 0.0006510416666666666,
+        "bound": 1.0003867143155933,
+        "G": {
+          "0.01": 0.01171875,
+          "0.05": 0.1015625,
+          "0.1": 0.22200520833333334,
+          "0.2": 0.30859375
+        },
+        "U": {
+          "0.01": 0.07161458333333333,
+          "0.05": 0.3190104166666667,
+          "0.1": 0.4700520833333333,
+          "0.2": 0.685546875
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f16-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 31972,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 40164,
+          "envelope_reservation_bytes": 40252,
+          "workspace_bytes": 8192,
+          "charged_bytes": 169112,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.8517080369937632,
+        0.3333333333333333,
+        1.518614437605539
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.0638011413082305,
+        "nrmse": 0.2525888786265596,
+        "exact": 0.0006510416666666666,
+        "bound": 1.0003867143155933,
+        "G": {
+          "0.01": 0.01171875,
+          "0.05": 0.1015625,
+          "0.1": 0.22200520833333334,
+          "0.2": 0.30859375
+        },
+        "U": {
+          "0.01": 0.07161458333333333,
+          "0.05": 0.3190104166666667,
+          "0.1": 0.4700520833333333,
+          "0.2": 0.685546875
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b128-f16-k16",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b128-f16-k16",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 128,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 38500,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 46692,
+          "envelope_reservation_bytes": 46780,
+          "workspace_bytes": 8192,
+          "charged_bytes": 195224,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.5524984270921646,
+        0.6666666666666666,
+        1.0600037050190967
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03288426222325296,
+        "nrmse": 0.18134018411989508,
+        "exact": 0.0026041666666666665,
+        "bound": 0.5474465099179989,
+        "G": {
+          "0.01": 0.016927083333333332,
+          "0.05": 0.203125,
+          "0.1": 0.4244791666666667,
+          "0.2": 0.5963541666666666
+        },
+        "U": {
+          "0.01": 0.13736979166666666,
+          "0.05": 0.5592447916666666,
+          "0.1": 0.6966145833333334,
+          "0.2": 0.8430989583333334
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b128-q1",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q1",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 24644,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 32836,
+          "envelope_reservation_bytes": 32924,
+          "workspace_bytes": 8192,
+          "charged_bytes": 139800,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.09030976233804737,
+        "nrmse": 0.30051582780160824,
+        "exact": 0.0,
+        "bound": 1.429339406332278,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.007161458333333333,
+          "0.1": 0.008463541666666666,
+          "0.2": 0.016276041666666668
+        },
+        "U": {
+          "0.01": 0.011067708333333334,
+          "0.05": 0.068359375,
+          "0.1": 0.23307291666666666,
+          "0.2": 0.5279947916666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b128-q2",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b128-q2",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 22100,
+          "charged_bytes": 222876,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03258157890213014,
+        "nrmse": 0.18050368155276722,
+        "exact": 0.0,
+        "bound": 0.7944142743582078,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.013020833333333334,
+          "0.1": 0.026041666666666668,
+          "0.2": 0.07161458333333333
+        },
+        "U": {
+          "0.01": 0.016927083333333332,
+          "0.05": 0.24674479166666666,
+          "0.1": 0.5143229166666666,
+          "0.2": 0.806640625
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b128-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 24644,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 32836,
+          "envelope_reservation_bytes": 32924,
+          "workspace_bytes": 8192,
+          "charged_bytes": 139800,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.09030976233804737,
+        "nrmse": 0.30051582780160824,
+        "exact": 0.0,
+        "bound": 1.429339406332278,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.007161458333333333,
+          "0.1": 0.008463541666666666,
+          "0.2": 0.016276041666666668
+        },
+        "U": {
+          "0.01": 0.011067708333333334,
+          "0.05": 0.068359375,
+          "0.1": 0.23307291666666666,
+          "0.2": 0.5279947916666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b128-q2",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b128-q2",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 23132,
+          "charged_bytes": 223908,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.034629656162267465,
+        "nrmse": 0.18609045199524107,
+        "exact": 0.0,
+        "bound": 0.6878138368938232,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.009765625,
+          "0.1": 0.01953125,
+          "0.2": 0.07421875
+        },
+        "U": {
+          "0.01": 0.018229166666666668,
+          "0.05": 0.22981770833333334,
+          "0.1": 0.505859375,
+          "0.2": 0.7942708333333334
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b128-q1",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q1",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 24644,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 32836,
+          "envelope_reservation_bytes": 32924,
+          "workspace_bytes": 8192,
+          "charged_bytes": 139800,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        0.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.09030976233804737,
+        "nrmse": 0.30051582780160824,
+        "exact": 0.0,
+        "bound": 1.429339406332278,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.007161458333333333,
+          "0.1": 0.008463541666666666,
+          "0.2": 0.016276041666666668
+        },
+        "U": {
+          "0.01": 0.011067708333333334,
+          "0.05": 0.068359375,
+          "0.1": 0.23307291666666666,
+          "0.2": 0.5279947916666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b128-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b128-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 128,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 41936,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50128,
+          "envelope_reservation_bytes": 50216,
+          "workspace_bytes": 8192,
+          "charged_bytes": 208968,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03828315444842785,
+        "nrmse": 0.1956608152569001,
+        "exact": 0.0006510416666666666,
+        "bound": 0.7182871644101286,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.01171875,
+          "0.1": 0.021484375,
+          "0.2": 0.0703125
+        },
+        "U": {
+          "0.01": 0.020182291666666668,
+          "0.05": 0.20768229166666666,
+          "0.1": 0.4895833333333333,
+          "0.2": 0.7786458333333334
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f8-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f8-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 20932,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 29124,
+          "envelope_reservation_bytes": 29212,
+          "workspace_bytes": 8192,
+          "charged_bytes": 124952,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6546914561500856,
+        0.0,
+        2.589348134448931
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.1665034067377824,
+        "nrmse": 0.40804829066474047,
+        "exact": 0.0,
+        "bound": 2.3265284409406948,
+        "G": {
+          "0.01": 0.006510416666666667,
+          "0.05": 0.006510416666666667,
+          "0.1": 0.006510416666666667,
+          "0.2": 0.006510416666666667
+        },
+        "U": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.022786458333333332,
+          "0.1": 0.08984375,
+          "0.2": 0.3274739583333333
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f8-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f8-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 33796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 41988,
+          "envelope_reservation_bytes": 42076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 176408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.149809608316381,
+        0.3333333333333333,
+        1.8443862125487047
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.11227670694532553,
+        "nrmse": 0.33507716643935326,
+        "exact": 0.006510416666666667,
+        "bound": 1.5723997150990805,
+        "G": {
+          "0.01": 0.076171875,
+          "0.05": 0.2805989583333333,
+          "0.1": 0.3229166666666667,
+          "0.2": 0.3365885416666667
+        },
+        "U": {
+          "0.01": 0.19466145833333334,
+          "0.05": 0.3352864583333333,
+          "0.1": 0.3990885416666667,
+          "0.2": 0.5592447916666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f8-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f8-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 8,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 46660,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 54852,
+          "envelope_reservation_bytes": 54940,
+          "workspace_bytes": 8192,
+          "charged_bytes": 227864,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.6424876694263407,
+        0.6666666666666666,
+        1.0979773774215598
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.0512384750276944,
+        "nrmse": 0.22635917314456197,
+        "exact": 0.012369791666666666,
+        "bound": 0.7878560873362357,
+        "G": {
+          "0.01": 0.138671875,
+          "0.05": 0.5475260416666666,
+          "0.1": 0.630859375,
+          "0.2": 0.6640625
+        },
+        "U": {
+          "0.01": 0.376953125,
+          "0.05": 0.646484375,
+          "0.1": 0.6979166666666666,
+          "0.2": 0.78125
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f16-k0",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k0",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 0,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 19332,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27524,
+          "envelope_reservation_bytes": 27612,
+          "workspace_bytes": 8192,
+          "charged_bytes": 118552,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6546914561500856,
+        0.0,
+        2.589348134448931
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.1665034067377824,
+        "nrmse": 0.40804829066474047,
+        "exact": 0.0,
+        "bound": 2.3265284409406948,
+        "G": {
+          "0.01": 0.006510416666666667,
+          "0.05": 0.006510416666666667,
+          "0.1": 0.006510416666666667,
+          "0.2": 0.006510416666666667
+        },
+        "U": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.022786458333333332,
+          "0.1": 0.08984375,
+          "0.2": 0.3274739583333333
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f16-k4",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k4",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 25796,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 33988,
+          "envelope_reservation_bytes": 34076,
+          "workspace_bytes": 8192,
+          "charged_bytes": 144408,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1886018116524975,
+        0.3333333333333333,
+        1.927144768233136
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.11311922025781762,
+        "nrmse": 0.336332009754421,
+        "exact": 0.0006510416666666666,
+        "bound": 1.596505591374692,
+        "G": {
+          "0.01": 0.01171875,
+          "0.05": 0.1015625,
+          "0.1": 0.220703125,
+          "0.2": 0.3020833333333333
+        },
+        "U": {
+          "0.01": 0.06966145833333333,
+          "0.05": 0.2864583333333333,
+          "0.1": 0.3782552083333333,
+          "0.2": 0.5546875
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f16-k8",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k8",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 8,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 32260,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 40452,
+          "envelope_reservation_bytes": 40540,
+          "workspace_bytes": 8192,
+          "charged_bytes": 170264,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7207044916780304,
+        0.6666666666666666,
+        1.2641541729767571
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.053037574432974764,
+        "nrmse": 0.2302988811965048,
+        "exact": 0.0026041666666666665,
+        "bound": 0.8367059428936886,
+        "G": {
+          "0.01": 0.016927083333333332,
+          "0.05": 0.203125,
+          "0.1": 0.4244791666666667,
+          "0.2": 0.59375
+        },
+        "U": {
+          "0.01": 0.13671875,
+          "0.05": 0.546875,
+          "0.1": 0.6588541666666666,
+          "0.2": 0.7734375
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "recent-b256-f16-k16",
+      "variant": "recent",
+      "config": {
+        "id": "recent-b256-f16-k16",
+        "family": "native",
+        "variant": "recent",
+        "options": {
+          "engine": "certified",
+          "base_width": 256,
+          "fine_width": 16,
+          "overlay_capacity": 16,
+          "max_reach": 16384,
+          "budget": 262144,
+          "policy": "recent"
+        },
+        "ledger": {
+          "array_bytes": 45188,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 53380,
+          "envelope_reservation_bytes": 53468,
+          "workspace_bytes": 8192,
+          "charged_bytes": 221976,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7207044916780304,
+        0.6666666666666666,
+        1.2641541729767571
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.053037574432974764,
+        "nrmse": 0.2302988811965048,
+        "exact": 0.0026041666666666665,
+        "bound": 0.8367059428936886,
+        "G": {
+          "0.01": 0.016927083333333332,
+          "0.05": 0.203125,
+          "0.1": 0.4244791666666667,
+          "0.2": 0.59375
+        },
+        "U": {
+          "0.01": 0.13671875,
+          "0.05": 0.546875,
+          "0.1": 0.6588541666666666,
+          "0.2": 0.7734375
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b256-q1",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q1",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 19780,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27972,
+          "envelope_reservation_bytes": 28060,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120344,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6546914561500856,
+        0.0,
+        2.589348134448931
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.1665034067377824,
+        "nrmse": 0.40804829066474047,
+        "exact": 0.0,
+        "bound": 2.3265284409406948,
+        "G": {
+          "0.01": 0.006510416666666667,
+          "0.05": 0.006510416666666667,
+          "0.1": 0.006510416666666667,
+          "0.2": 0.006510416666666667
+        },
+        "U": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.022786458333333332,
+          "0.1": 0.08984375,
+          "0.2": 0.3274739583333333
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b256-q2",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q2",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 28624,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36816,
+          "envelope_reservation_bytes": 36904,
+          "workspace_bytes": 40020,
+          "charged_bytes": 187548,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        1.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.0665707547932099,
+        "nrmse": 0.2580130909541622,
+        "exact": 0.0,
+        "bound": 1.501253019673416,
+        "G": {
+          "0.01": 0.006510416666666667,
+          "0.05": 0.006510416666666667,
+          "0.1": 0.008463541666666666,
+          "0.2": 0.011067708333333334
+        },
+        "U": {
+          "0.01": 0.010416666666666666,
+          "0.05": 0.07552083333333333,
+          "0.1": 0.259765625,
+          "0.2": 0.5983072916666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "sse-b256-q4",
+      "variant": "sse",
+      "config": {
+        "id": "sse-b256-q4",
+        "family": "histogram",
+        "variant": "sse",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "sse",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 46188,
+          "charged_bytes": 247316,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.02666129184413485,
+        "nrmse": 0.16328285877119214,
+        "exact": 0.0006510416666666666,
+        "bound": 0.8411427092718181,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.013671875,
+          "0.1": 0.029947916666666668,
+          "0.2": 0.06640625
+        },
+        "U": {
+          "0.01": 0.022135416666666668,
+          "0.05": 0.248046875,
+          "0.1": 0.5377604166666666,
+          "0.2": 0.8509114583333334
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b256-q1",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q1",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 19780,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27972,
+          "envelope_reservation_bytes": 28060,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120344,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6546914561500856,
+        0.0,
+        2.589348134448931
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.1665034067377824,
+        "nrmse": 0.40804829066474047,
+        "exact": 0.0,
+        "bound": 2.3265284409406948,
+        "G": {
+          "0.01": 0.006510416666666667,
+          "0.05": 0.006510416666666667,
+          "0.1": 0.006510416666666667,
+          "0.2": 0.006510416666666667
+        },
+        "U": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.022786458333333332,
+          "0.1": 0.08984375,
+          "0.2": 0.3274739583333333
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b256-q2",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q2",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 28624,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36816,
+          "envelope_reservation_bytes": 36904,
+          "workspace_bytes": 42076,
+          "charged_bytes": 189604,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        1.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.07691751151285636,
+        "nrmse": 0.27734006539198114,
+        "exact": 0.0,
+        "bound": 1.339361413799387,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.007161458333333333,
+          "0.1": 0.007161458333333333,
+          "0.2": 0.011067708333333334
+        },
+        "U": {
+          "0.01": 0.010416666666666666,
+          "0.05": 0.078125,
+          "0.1": 0.24674479166666666,
+          "0.2": 0.5755208333333334
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "bound-b256-q4",
+      "variant": "bound",
+      "config": {
+        "id": "bound-b256-q4",
+        "family": "histogram",
+        "variant": "bound",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "bound",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 48244,
+          "charged_bytes": 249372,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.030049821035507657,
+        "nrmse": 0.1733488424411056,
+        "exact": 0.0006510416666666666,
+        "bound": 0.6541807139699071,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.009765625,
+          "0.1": 0.016927083333333332,
+          "0.2": 0.08072916666666667
+        },
+        "U": {
+          "0.01": 0.018229166666666668,
+          "0.05": 0.2584635416666667,
+          "0.1": 0.55078125,
+          "0.2": 0.826171875
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b256-q1",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b256-q1",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 1,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 19780,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 27972,
+          "envelope_reservation_bytes": 28060,
+          "workspace_bytes": 8192,
+          "charged_bytes": 120344,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.6546914561500856,
+        0.0,
+        2.589348134448931
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.1665034067377824,
+        "nrmse": 0.40804829066474047,
+        "exact": 0.0,
+        "bound": 2.3265284409406948,
+        "G": {
+          "0.01": 0.006510416666666667,
+          "0.05": 0.006510416666666667,
+          "0.1": 0.006510416666666667,
+          "0.2": 0.006510416666666667
+        },
+        "U": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.022786458333333332,
+          "0.1": 0.08984375,
+          "0.2": 0.3274739583333333
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b256-q2",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b256-q2",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 2,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 28624,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 36816,
+          "envelope_reservation_bytes": 36904,
+          "workspace_bytes": 8192,
+          "charged_bytes": 155720,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        1.1492633952718239,
+        1.0,
+        1.976446474646511
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.09030976233804737,
+        "nrmse": 0.30051582780160824,
+        "exact": 0.0,
+        "bound": 1.429339406332306,
+        "G": {
+          "0.01": 0.007161458333333333,
+          "0.05": 0.007161458333333333,
+          "0.1": 0.008463541666666666,
+          "0.2": 0.016276041666666668
+        },
+        "U": {
+          "0.01": 0.011067708333333334,
+          "0.05": 0.068359375,
+          "0.1": 0.23307291666666666,
+          "0.2": 0.5279947916666666
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "dataset": "household",
+      "entity": 0,
+      "B": 262144,
+      "R": 16384,
+      "id": "fixed-b256-q4",
+      "variant": "fixed",
+      "config": {
+        "id": "fixed-b256-q4",
+        "family": "histogram",
+        "variant": "fixed",
+        "options": {
+          "engine": "histogram",
+          "base_width": 256,
+          "bins": 4,
+          "max_reach": 16384,
+          "budget": 262144,
+          "hist_variant": "fixed",
+          "prior_widths": [
+            16,
+            17,
+            31,
+            32,
+            63,
+            64,
+            127,
+            128
+          ]
+        },
+        "ledger": {
+          "array_bytes": 42024,
+          "metadata_reserve_bytes": 8192,
+          "cache_payload_bytes": 0,
+          "resident_reservation_bytes": 50216,
+          "envelope_reservation_bytes": 50304,
+          "workspace_bytes": 8192,
+          "charged_bytes": 209320,
+          "budget_bytes": 262144,
+          "within_budget": true,
+          "physical_RAM_bound": false
+        }
+      },
+      "features": [
+        1.0,
+        0.7442782424143344,
+        1.0,
+        1.424426226449709
+      ],
+      "metrics": {
+        "n": 1536,
+        "coverage": 1.0,
+        "mse": 0.03828315444842785,
+        "nrmse": 0.1956608152569001,
+        "exact": 0.0006510416666666666,
+        "bound": 0.7182871644101514,
+        "G": {
+          "0.01": 0.0078125,
+          "0.05": 0.01171875,
+          "0.1": 0.021484375,
+          "0.2": 0.0703125
+        },
+        "U": {
+          "0.01": 0.020182291666666668,
+          "0.05": 0.20768229166666666,
+          "0.1": 0.4895833333333333,
+          "0.2": 0.7786458333333334
+        }
+      }
+    }
+  ]
+}

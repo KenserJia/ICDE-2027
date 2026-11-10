@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "scientific_rerun": false,
+  "prior_service_cases": [
+    {
+      "engine": "certified",
+      "cache": 0,
+      "certificate_checks": 5,
+      "full_array_restore": true,
+      "corruption_fallback": true,
+      "charged_bytes": 102488
+    },
+    {
+      "engine": "certified",
+      "cache": 32,
+      "certificate_checks": 5,
+      "full_array_restore": true,
+      "corruption_fallback": true,
+      "charged_bytes": 110680
+    },
+    {
+      "engine": "histogram",
+      "cache": 0,
+      "certificate_checks": 5,
+      "full_array_restore": true,
+      "corruption_fallback": true,
+      "charged_bytes": 87448
+    }
+  ],
+  "current_certificate_cases": [
+    {
+      "family": "recent",
+      "certificate": "span",
+      "queries": 5,
+      "active_wrapped_restore": true,
+      "charge": 102488
+    },
+    {
+      "family": "recent",
+      "certificate": "sum",
+      "queries": 5,
+      "active_wrapped_restore": true,
+      "charge": 102488
+    },
+    {
+      "family": "age",
+      "certificate": "span",
+      "queries": 5,
+      "active_wrapped_restore": true,
+      "charge": 95320
+    },
+    {
+      "family": "age",
+      "certificate": "sum",
+      "queries": 5,
+      "active_wrapped_restore": true,
+      "charge": 95320
+    },
+    {
+      "family": "sse",
+      "certificate": "span",
+      "queries": 5,
+      "active_wrapped_restore": true,
+      "charge": 84252
+    },
+    {
+      "family": "sse",
+      "certificate": "sum",
+      "queries": 5,
+      "active_wrapped_restore": true,
+      "charge": 84252
+    }
+  ],
+  "certificate_checks": 45,
+  "note": "Fast behavior checks; no scientific throughput or long-run claim is inferred"
+}

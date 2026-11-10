@@ -1,0 +1,78 @@
+{
+  "config": {
+    "unit": 1,
+    "dataset": "beijing",
+    "entity": 0,
+    "B": 131072,
+    "R": 4096,
+    "protocol": "random_uniform",
+    "id": "n-b64-f16-k8",
+    "family": "native",
+    "metrics": {
+      "n": 1536,
+      "coverage": 1.0,
+      "mse": 0.03394717324440081,
+      "nrmse": 0.18424758666388638,
+      "exact": 0.0026041666666666665,
+      "bound": 0.5907418629853336,
+      "G": {
+        "0.01": 0.0026041666666666665,
+        "0.05": 0.048828125,
+        "0.1": 0.15625,
+        "0.2": 0.2884114583333333
+      },
+      "U": {
+        "0.01": 0.044270833333333336,
+        "0.05": 0.3776041666666667,
+        "0.1": 0.6315104166666666,
+        "0.2": 0.8411458333333334
+      }
+    },
+    "config": {
+      "id": "n-b64-f16-k8",
+      "family": "native",
+      "options": {
+        "engine": "certified",
+        "base_width": 64,
+        "fine_width": 16,
+        "overlay_capacity": 8,
+        "max_reach": 4096,
+        "budget": 131072,
+        "policy": "recent"
+      },
+      "ledger": {
+        "array_bytes": 21460,
+        "metadata_reserve_bytes": 8192,
+        "cache_payload_bytes": 0,
+        "resident_reservation_bytes": 29652,
+        "envelope_reservation_bytes": 29740,
+        "workspace_bytes": 8192,
+        "charged_bytes": 127064,
+        "budget_bytes": 131072,
+        "within_budget": true,
+        "physical_RAM_bound": false
+      }
+    },
+    "objective": "mse",
+    "objectives": [
+      "mse"
+    ]
+  },
+  "account": {
+    "array_bytes": 21460,
+    "metadata_reserve_bytes": 8192,
+    "cache_payload_bytes": 0,
+    "resident_reservation_bytes": 29652,
+    "envelope_reservation_bytes": 29740,
+    "workspace_bytes": 8192,
+    "charged_bytes": 127064,
+    "budget_bytes": 131072,
+    "within_budget": true,
+    "physical_RAM_bound": false,
+    "snapshot_bytes": 22535,
+    "snapshot_metadata_bytes": 1075,
+    "snapshot_fits": true,
+    "actual_envelope_bytes": 22623
+  },
+  "sha256": "d79feee4666f4005ccb3ce4cb08882bd9b940bf883e5420d3dd5e39712409546"
+}

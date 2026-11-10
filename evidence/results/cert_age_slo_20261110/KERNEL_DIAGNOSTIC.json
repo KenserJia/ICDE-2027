@@ -1,0 +1,182 @@
+[
+  {
+    "method": "recent",
+    "rep": 0,
+    "mode": "span",
+    "queries": 3000,
+    "seconds": 0.08774195902515203,
+    "query_p50_ms": 0.027917,
+    "query_p99_ms": 0.05166740999999999,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "recent",
+    "rep": 0,
+    "mode": "sum",
+    "queries": 3000,
+    "seconds": 0.17688124999403954,
+    "query_p50_ms": 0.059541,
+    "query_p99_ms": 0.08954699999999988,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "recent",
+    "rep": 1,
+    "mode": "sum",
+    "queries": 3000,
+    "seconds": 0.17692662496119738,
+    "query_p50_ms": 0.059979,
+    "query_p99_ms": 0.08945925999999997,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "recent",
+    "rep": 1,
+    "mode": "span",
+    "queries": 3000,
+    "seconds": 0.08750337501987815,
+    "query_p50_ms": 0.027791,
+    "query_p99_ms": 0.05150040999999999,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "recent",
+    "rep": 2,
+    "mode": "span",
+    "queries": 3000,
+    "seconds": 0.08879691699985415,
+    "query_p50_ms": 0.028125,
+    "query_p99_ms": 0.05208440999999999,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "recent",
+    "rep": 2,
+    "mode": "sum",
+    "queries": 3000,
+    "seconds": 0.17648245801683515,
+    "query_p50_ms": 0.0595205,
+    "query_p99_ms": 0.08875291999999993,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "age",
+    "rep": 0,
+    "mode": "span",
+    "queries": 3000,
+    "seconds": 0.08286066597793251,
+    "query_p50_ms": 0.026292,
+    "query_p99_ms": 0.050084829999999976,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "age",
+    "rep": 0,
+    "mode": "sum",
+    "queries": 3000,
+    "seconds": 0.17202720895875245,
+    "query_p50_ms": 0.0580625,
+    "query_p99_ms": 0.08804365999999995,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "age",
+    "rep": 1,
+    "mode": "sum",
+    "queries": 3000,
+    "seconds": 0.17208608391229063,
+    "query_p50_ms": 0.058229500000000003,
+    "query_p99_ms": 0.08804240999999999,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "age",
+    "rep": 1,
+    "mode": "span",
+    "queries": 3000,
+    "seconds": 0.08192079095169902,
+    "query_p50_ms": 0.0260835,
+    "query_p99_ms": 0.04975,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "age",
+    "rep": 2,
+    "mode": "span",
+    "queries": 3000,
+    "seconds": 0.0810276250122115,
+    "query_p50_ms": 0.02575,
+    "query_p99_ms": 0.048833,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "age",
+    "rep": 2,
+    "mode": "sum",
+    "queries": 3000,
+    "seconds": 0.1715937500121072,
+    "query_p50_ms": 0.0581875,
+    "query_p99_ms": 0.08829141999999998,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "hist",
+    "rep": 0,
+    "mode": "span",
+    "queries": 3000,
+    "seconds": 0.057717249961569905,
+    "query_p50_ms": 0.0192295,
+    "query_p99_ms": 0.02854240999999999,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "hist",
+    "rep": 0,
+    "mode": "sum",
+    "queries": 3000,
+    "seconds": 0.18165454105474055,
+    "query_p50_ms": 0.05575,
+    "query_p99_ms": 0.16321841999999975,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "hist",
+    "rep": 1,
+    "mode": "sum",
+    "queries": 3000,
+    "seconds": 0.15156245802063495,
+    "query_p50_ms": 0.055125,
+    "query_p99_ms": 0.067958,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "hist",
+    "rep": 1,
+    "mode": "span",
+    "queries": 3000,
+    "seconds": 0.05853387503884733,
+    "query_p50_ms": 0.019333,
+    "query_p99_ms": 0.028958,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "hist",
+    "rep": 2,
+    "mode": "span",
+    "queries": 3000,
+    "seconds": 0.06047650007531047,
+    "query_p50_ms": 0.019958,
+    "query_p99_ms": 0.03154240999999999,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  },
+  {
+    "method": "hist",
+    "rep": 2,
+    "mode": "sum",
+    "queries": 3000,
+    "seconds": 0.14926358393859118,
+    "query_p50_ms": 0.0545835,
+    "query_p99_ms": 0.06629282999999998,
+    "scope": "separate serial fixed-state validation-data certificate-cost diagnostic; not paced service latency"
+  }
+]

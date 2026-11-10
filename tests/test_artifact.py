@@ -10,8 +10,10 @@ def test_current_paper_registry_and_readonly_input_scope():
    folder=ROOT/c['cwd'];assert folder.is_dir()
    if c['argv'][1]!='-c':assert (folder/c['argv'][1]).is_file()
   for p in r['reference_inputs']:
-   from mtmemory_artifact.io import record
-   e,source=record(p);assert source.exists()
+   from mtmemory_artifact.io import index
+   entries=[e for e in index() if e['runtime_path'].startswith(p)]
+   assert entries, p
+   assert all(e['transport']!='raw-release' and (ROOT/e['stored_path']).is_file() for e in entries)
  assert (ROOT/'LICENSE').read_text().startswith('MIT License')
  assert 'CC BY 4.0' in (ROOT/'data/README.md').read_text()
 

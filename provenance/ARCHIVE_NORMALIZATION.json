@@ -1,7 +1,11 @@
 {
-  "files": 5307,
-  "byte_content_changed": false,
-  "transport": "tar headers normalized to uid/gid0, no names, mtime0; gzip mtime0; scientific member SHA-256 values unchanged",
-  "raw_archive_sha256": "1394742959d55b42a96f63f470512bdeb144dfa8ef1c2cf851e9772ff705e24f",
-  "bytes": 406345548
+  "passed": true,
+  "files": 7131,
+  "uncompressed_bytes": 1281852009,
+  "archive_bytes": 1203803882,
+  "sha256": "7e36caa7c6a573da6a9a4854b08c4dc783e56a293fb4c1ee0cf2f21a480da16a",
+  "every_member_content_verified": true,
+  "scope": "Exact old published binary evidence plus all successful current study binary records; no synthetic replacement or rerun",
+  "transport": "Tar uid/gid0, empty user/group names, mtime0; gzip mtime0. Every scientific binary content hash preserved.",
+  "previous_archive": "history/v0.2.0/ARCHIVE_NORMALIZATION.json"
 }

@@ -16,3 +16,9 @@
 ## Scope of integrity checks
 
 Metadata-only personal path redactions are logged in `provenance/METADATA_REDACTIONS.json`; scientific numerical observations are unchanged. Original core hashes are in `provenance/CORE_SHA256.json`. `COPY_MAP.json` separates original source hashes, transport changes, documented wrapper adaptations and files absent because they are non-scientific administration. `EXCLUDED_NONPRIMARY.json` lists omitted duplicate/administrative/visual files, not omitted final scientific outcomes.
+
+##2026-11-10 extension
+
+The index now includes the three additional study namespaces `w2w3_20261110`, `w1w4_20261110`, and `cert_age_slo_20261110`. Deterministic `.npz` partition inputs in `/cache/` or `/partition_cache/` are source/data members with plain transport; all remaining large binary records are raw-release members. `RAW_MANIFEST.json` now names the20261110 archive. Historical v0.2.0 validation is explicitly archived under `provenance/history/v0.2.0/`; its counts must not be used as validation of this new revision.
+
+`docs/numerical_derivation.tex` is the retained2026-11-09technical note for the earlier joint certificate/checkpoint kernels. Its date and equations are preserved; it is not a current manuscript appendix or an additional current table map. SUM/age extensions are identified by the frozen current core/driver hashes and current manuscript.
