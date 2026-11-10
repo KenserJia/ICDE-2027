@@ -1,35 +1,22 @@
 {
   "passed": true,
+  "version": "0.3.1",
   "date": "2026-11-10",
-  "scope": "Local packaging validation of the current snapshot; recorded-display and raw-array audits are not new performance measurements",
-  "environment": "Python3.14.5 macOS/arm64 with pinned requirements; existing scientific virtual environment, not a new dependency installation",
-  "checks": {
-    "pytest_passed": 35,
-    "relocated_pytest_passed": 35,
-    "current_smoke_certificate_checks": 45,
-    "processed_arrays_exact": 71,
-    "current_tables_reconstructed": 6,
-    "current_figures_regenerated": 2,
-    "portable_framework_out_of_box": 0,
-    "indexed_records": 10544,
-    "raw_members_content_verified": 7131,
-    "independent_zip_extraction": true,
-    "full_raw_install_and_verify": true,
-    "raw_completion_audited_runs": 27,
-    "raw_completion_audited_requests": 8019000,
-    "private_path_or_token_pattern_files": 0,
-    "source_git_ignore_inventory": "all source/data files eligible for Git; all7131installed raw members ignored",
-    "frozen_core_modules": 16,
-    "frozen_protocol_source_checks": 40
-  },
-  "detail_directory": "provenance/validation/",
-  "not_reexecuted": [
-    "Full780-choice new quality matrix",
-    "Paired-load wall-clock performance matrix",
-    "90-minute Household series",
-    "All prior benchmark grids",
-    "Scotty Maven/Java runs",
-    "Linux and other Python-version validation"
+  "checks": [
+    "verify",
+    "tests",
+    "smoke",
+    "tables",
+    "figures",
+    "prepare-data"
   ],
-  "public_availability": "Pending user manual upload; no remote mutation"
+  "pytest_passed": 35,
+  "processed_arrays": 71,
+  "current_tables": 6,
+  "current_figures": 2,
+  "protected_scientific_files": 3570,
+  "scientific_results_changed": false,
+  "performance_remeasured": false,
+  "scope": "Maintenance verification; raw archive content unchanged from v0.3.0",
+  "ast_equivalence": "Function ASTs match before and after moving the execution/integrity functions"
 }

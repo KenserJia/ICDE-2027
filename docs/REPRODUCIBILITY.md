@@ -46,4 +46,4 @@ Installation checks archive SHA-256, exact member inventory, safe relative regul
 
 SUM improves a valid certificate using already stored statistics; the fixed-layout comparison isolates the certificate change. Recent versus age-matched rollup can tie when they retain the same information. Certification rate, completion within20ms, and overall query p99 are reported separately at shared offered loads. The top load violates the p99 threshold in every recorded replicate; it must remain infeasible in rebuilt displays. Age-prior reversals, certificate costs, legacy diagnostics, checkpoint-corruption exceptions and unsupported numerical cases remain in the evidence. These studies do not establish a universal best policy, a hard process RAM cap, a distributed recovery theorem or a production latency guarantee.
 
-`provenance/VALIDATION.json` states exactly what was executed during this packaging revision. Historical validations are retained under `provenance/history/v0.2.0/` with their original date and scope.
+`provenance/VALIDATION.json` states exactly what was executed during this packaging revision. Earlier releases preserve the historical validation reports.

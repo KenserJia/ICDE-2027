@@ -1,10 +1,10 @@
-# MT-Memory: ICDE 2027 reproducibility artifact
+# MT-Memory
 
-This **v0.3.0** package targets the current manuscript, *Bounded State Management for Mutable Facts and Historical Stream Queries with Strict Recovery Bounds*. It includes original code, three public data sources (14 entities), current and prior recorded experiments, and 28 isolated reproduction protocols. `provenance/PAPER.json` identifies the manuscript snapshot by SHA-256. The dated source/data ZIP and complete raw-evidence archive are available from the [v0.3.0 Release](https://github.com/KenserJia/ICDE-2027/releases/tag/v0.3.0).
+Code and experimental records for *Bounded State Management for Mutable Facts and Historical Stream Queries with Strict Recovery Bounds*.
 
-## Quick start
+## Install and check
 
-Use Python 3.12 or newer. Local validation uses Python 3.14.5 on macOS/arm64 with the exact dependency pins in `requirements.txt`.
+Use Python 3.12 or newer. Run these commands from the repository root:
 
 ```sh
 python -m venv .venv
@@ -13,46 +13,55 @@ python -m pip install -e '.[test,figures,sql]'
 python reproduce.py verify
 make test
 python reproduce.py smoke --output runs/smoke
-python reproduce.py prepare-data --output runs/rebuilt-data
 python reproduce.py tables --output runs/tables
 python reproduce.py figures --output runs/figures
-python reproduce.py list
 ```
 
-Run from the extracted repository root. Output destinations must be new. Integrity checks require no network. The smoke run checks certificate containment, active/wrapped restoration, and the recovery gate; it is not a throughput experiment. `tables` reconstructs all six current body tables from per-entity/per-run records and checks their displayed cells. `figures` regenerates the two current figures; font/platform differences may change pixels.
+Output directories must be new. `tables` and `figures` rebuild the six tables and two figures from recorded results. They do not repeat the performance measurements. To rebuild the processed data from the bundled UCI source archives, run `python reproduce.py prepare-data --output runs/data`.
 
-## Contents and complete evidence
+## Run experiments
 
-| Directory | Role |
-| --- | --- |
-| `src/mtmemory_icde/core/` | Bounded history, certificates, service state and checkpoint mechanisms; 16 original modules |
-| `src/mtmemory_artifact/` | Portable runner, data preparation, evidence loading and reconstruction |
-| `repro/` | Frozen scientific experiment drivers, organized by study |
-| `experiments/catalog.json` | 28 protocols with commands, explicit reference inputs and output destinations |
-| `data/raw/`, `data/real/` | Three UCI source archives, processed arrays and source/transform metadata |
-| `evidence/` | Indexed immutable records, protocols, text summaries and deterministic partition inputs |
-| `analysis/recorded/`, `figures/recorded/` | Current paper display sources and explicitly retained older displays |
-| `tests/` | Behavioral and artifact integrity tests |
-| `provenance/`, `docs/`, `licenses/` | Snapshot hashes, validation scope, reuse notices and reproduction instructions |
+`python reproduce.py list` lists 28 experiments. Each has a descriptive identifier and a fixed set of reference inputs. For example:
 
-The source/data package supports verification, preprocessing, current tables/figures and new quality runs without the large binary archive. Complete checkpoints, per-request arrays and raw binary traces are a separate Release asset: **`mt-memory-raw-evidence-20261110.tar.gz`**. It contains 7,131 files, listed with sizes and hashes in `evidence/RAW_MANIFEST.json`.
+```sh
+python reproduce.py run sum-age-quality --output runs/quality
+python reproduce.py run paired-load --output runs/load
+```
+
+See [the experiment map](docs/EXPERIMENTS.md) for the correspondence between experiments and paper claims, and [the reproduction guide](docs/REPRODUCIBILITY.md) for dependencies, runtimes and measurement scope.
+
+## Download the evidence
+
+The [v0.3.1 release](https://github.com/KenserJia/ICDE-2027/releases/tag/v0.3.1) provides the source/data ZIP. Complete binary evidence is the unchanged [raw archive from v0.3.0](https://github.com/KenserJia/ICDE-2027/releases/download/v0.3.0/mt-memory-raw-evidence-20261110.tar.gz). Use both for full inspection. The source ZIP alone contains the data and records needed for the quick checks and display reconstruction.
 
 ```sh
 python reproduce.py install-raw --archive ../mt-memory-raw-evidence-20261110.tar.gz
 python reproduce.py verify --full
-python reproduce.py audit-raw --output runs/raw-completion-audit
+python reproduce.py audit-raw --output runs/request-audit
 ```
 
-Source/data ZIP and raw-evidence TAR.GZ are complementary parts of the complete artifact. Do not substitute the old dated archive for the current manifest. No login, personal webpage, tracking callback or API key is needed for the bundled evidence.
+The raw archive contains 7,131 files. Its checksum and member inventory are in `evidence/RAW_MANIFEST.json`. The per-request audit recomputes certification, completion within 20 ms and scheduled query p99 across 27 runs and 8,019,000 requests.
 
-## Current controls and scope
+## Repository layout
 
-The package retains same-statistic SPAN/SUM controls, the lightweight age-matched rollup, and quality selection separated from load/p99 feasibility. New records include 780 frozen quality choices, 228 fixed-layout controls, 78 matched-age cases, and 27 paired SUM service runs. These are controlled local workloads. The high-load infeasible points, age-matched ties, workload reversals and measured certificate costs remain available; the repository does not infer a production SLO or uniform method dominance.
+| Location | Contents |
+| --- | --- |
+| `src/mtmemory_icde/core/` | Scientific implementation |
+| `src/mtmemory_artifact/` | Command line, isolated execution, integrity checks, data preparation and analysis |
+| `experiments/catalog.json` | Experiment identifiers, commands and reference inputs |
+| `repro/` | Original experiment drivers, retained at their recorded paths |
+| `data/` | Three UCI source archives, processed arrays and attribution |
+| `evidence/` | Results index and compact records |
+| `analysis/recorded/`, `figures/recorded/` | Table and figure sources |
+| `tests/` | Service and artifact tests |
+| `provenance/` | Source hashes, environment and validation records |
 
-Current quality and timing claims are distinguished in [the experiment map](docs/EXPERIMENTS.md). Detailed commands, dependencies, resource scope and hardware-sensitive results are in [REPRODUCIBILITY](docs/REPRODUCIBILITY.md). Prior display generators remain for historical traceability and are not relabeled as the current paper.
+The original driver paths are retained because the experiment protocols record their hashes and some drivers import one another. Use the named experiments instead of invoking those files directly. Each run receives a separate workspace.
 
-## Reuse and upload
+The records include same-statistic certificate controls, matched-age ties, workload reversals and infeasible high-load points. They remain part of the evidence.
 
-Original project software/documentation is **MIT**. UCI data and data-derived records are **CC BY 4.0**; the bundled unmodified Scotty source is **Apache 2.0**. Preserve `LICENSE`, `THIRD_PARTY_NOTICES.md`, `LICENSES.json`, dataset citations and vendor notices. The MIT software license does not replace third-party terms.
+## Licenses and attribution
 
-See [publication details](PUBLICATION.md), the [ICDE supplemental-material audit](docs/ICDE_SUPPLEMENTAL_CHECKLIST.md), and [中文说明](README_zh.md). The preparation and manual-upload documents preserve the provenance of the local package. No artifact DOI has been assigned.
+Original software and documentation are MIT-licensed. UCI data and derived records use CC BY 4.0; the bundled Scotty source retains Apache 2.0. See [data attribution](data/README.md), `LICENSE`, `LICENSES.json` and `THIRD_PARTY_NOTICES.md`.
+
+AI assistance is described in [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md). Release changes are listed in [CHANGELOG.md](CHANGELOG.md). [中文快速说明](README_zh.md).
